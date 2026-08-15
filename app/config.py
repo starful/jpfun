@@ -16,7 +16,6 @@ SITE_CONFIG = {
     "maps_api_key":  (
         os.getenv("MAPS_API_KEY")
         or os.getenv("JPFUN_GOOGLE_MAPS_API_KEY")
-        or os.getenv("OKSKI_GOOGLE_MAPS_API_KEY")
         or ""
     ),
     "maps_id":       os.getenv("MAPS_ID", ""),
@@ -63,6 +62,6 @@ SITE_CONFIG = {
     "footer_tagline":  "Japan leisure trip planning — ski, scuba, surf & camp on one map.",
     "footer_year":     "2026",
 
-    "instagram_url":   "https://www.instagram.com/okjapan777/",
-    "instagram_handle": "okjapan777",
+    "instagram_url":   "",
+    "instagram_handle": "",
 }

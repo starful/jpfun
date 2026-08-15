@@ -7,9 +7,75 @@ Shonan Kugenuma Beach,쇼난 구게누마 비치,shonan_kugenuma,surf,35.32,139.
 Hebara Beach (Isumi),헤바라 비치 (이스미),chiba_hebara,surf,35.254,140.404,"Hebara, Isumi, Chiba, Japan","Consistent, Intermediate, Pacific",,kanto
 Sunayama Beach area (Miyako),스나야마 비치 (미야코),okinawa_sunayama,surf,24.805,125.281,"Hirara, Miyakojima, Okinawa, Japan","Island, Scenic, Winter swell",,okinawa
 Oarai Surf Area,오아라이 서프 에리어,ibaraki_oaraibaraki,surf,36.313,140.592,"Oarai, Ibaraki, Japan","Point / Beach, Intermediate",,kanto
+Chigasaki Southern Beach,지가사키 서던 비치,shonan_chigasaki,surf,35.314,139.405,"Chigasaki, Kanagawa, Japan","Beach break, Beginner+, Culture",,kanto
+Tsujido Beach,츠지도 비치,shonan_tsujido,surf,35.317,139.447,"Tsujido, Fujisawa, Kanagawa, Japan","Beach, Crowds, Rentals",,kanto
+Kujukuri Beach Surf Zone,구주쿠리 비치 서프존,chiba_kujukuri,surf,35.533,140.45,"Kujukuri, Chiba, Japan","Long beach, Beach break, Wind",,kanto
+Nakoso / Iwaki Surf Coast,나코소·이와키 서프 코스트,fukushima_nakoso,surf,36.85,140.79,"Iwaki, Fukushima, Japan","Pacific, Intermediate, Local",,tohoku
+Shizuoka Iso / Suruga Coast,시즈오카 이소·스루가 코스트,shizuoka_iso,surf,34.975,138.45,"Shizuoka City coast, Shizuoka, Japan","Beach / Reef, Typhoon swell",,chubu
+Kochi Irisaki / Pacific Shikoku,고치 이리사키·시코쿠 태평양,kochi_irisaki,surf,33.47,133.57,"Kochi, Kochi Prefecture, Japan","Powerful swell, Intermediate+, Scenic",,shikoku
+Yomitan / Zakimi Coast,요미탄·자키미 코스트,okinawa_yomitan,surf,26.4,127.74,"Yomitan, Okinawa, Japan","Reef, Winter north swell, Main island",,okinawa
+Ishigaki Surf Coast,이시가키 서프 코스트,okinawa_ishigaki_surf,surf,24.34,124.16,"Ishigaki, Okinawa, Japan","Island, Reef / Beach, Remote vibe",,okinawa
 Kerama Islands Dive Area,케라마 제도 다이빙,okinawa_kerama,dive,26.2,127.35,"Kerama Islands, Okinawa, Japan","Clear water, Day boat, All levels",,okinawa
 Izu Oshima Dive Spots,이즈 오시마 다이빙,izu_oshima,dive,34.737,139.4,"Oshima, Tokyo, Japan","Volcanic rock, Weekend, Schools",,chubu
 Ishigaki Manta Scramble Area,이시가키 만타 스크램블,okinawa_ishigaki_manta,dive,24.336,124.156,"Ishigaki, Okinawa, Japan","Manta, Boat, Intermediate+",,okinawa
+Onna Blue Cave Dive Area,온나 블루케이브 다이빙,okinawa_blue_cave,dive,26.497,127.853,"Onna, Okinawa, Japan","Cave light, Snorkel+scuba, Beginner+",,okinawa
+Miyako Island Dive Sites,미야코지마 다이빙,okinawa_miyako_dive,dive,24.805,125.281,"Miyakojima, Okinawa, Japan","Drop-offs, Caves, Clear water",,okinawa
+Yonaguni Dive Area,요나구니 다이빙,okinawa_yonaguni,dive,24.468,123.004,"Yonaguni, Okinawa, Japan","Hammerheads, Advanced, Remote",,okinawa
+Ito / Izu East Coast Dive,이토·이즈 동해안 다이빙,izu_ito,dive,34.965,139.102,"Ito, Shizuoka, Japan","Shore / Boat, Schools, Weekend",,chubu
+Shimoda Dive Area,시모다 다이빙,izu_shimoda,dive,34.679,138.945,"Shimoda, Shizuoka, Japan","Reef, Current, Intermediate",,chubu
+Ohsezaki Dive Point,오세자키 다이빙,shizuoka_ohsezaki,dive,35.041,138.788,"Numazu / Ohsezaki, Shizuoka, Japan","Muck / macro, Shore, Night dive",,chubu
+Yakushima Dive Coast,야쿠시마 다이빙 코스트,kagoshima_yakushima,dive,30.335,130.512,"Yakushima, Kagoshima, Japan","Island, Nature, Intermediate+",,kyushu
+Amami Oshima Dive Area,아마미오시마 다이빙,kagoshima_amami,dive,28.38,129.5,"Amami, Kagoshima, Japan","Coral, Whale sharks (season), Remote",,kyushu
+Minna Island / Motobu Dive,민나섬·모토부 다이빙,okinawa_minna,dive,26.65,127.82,"Motobu / Minna, Okinawa, Japan","Day trip, Clear water, Beginner+",,okinawa
 Lake Motosu Camp Area,모토스코 캠프 에리어,fuji_motosu_camp,camp,35.462,138.687,"Lake Motosu, Fujikawaguchiko, Yamanashi, Japan","Fuji view, Car camp, Lakeside",,chubu
 Hakuba Alpine Camp Bases,하쿠바 알파인 캠프,hakuba_camp,camp,36.698,137.862,"Hakuba, Nagano, Japan","Mountain, Summer, Glamping",,nagano
 Shimanami Kaido Camp Stops,시마나미 해도 캠프 스톱,shimanami_camp,camp,34.27,133.05,"Onomichi–Imabari route, Japan","Cycle camp, Island hops, Sea view",,chugoku
+Lake Yamanaka Camp Area,야마나카코 캠프 에리어,fuji_yamanakako_camp,camp,35.418,138.876,"Yamanakako, Yamanashi, Japan","Fuji view, Family, Lakeside",,chubu
+Lake Kawaguchi Camp Area,가와구치코 캠프 에리어,fuji_kawaguchiko_camp,camp,35.508,138.755,"Fujikawaguchiko, Yamanashi, Japan","Transit, Fuji view, Glamping",,chubu
+Tateshina Highland Camp,다테시나 고원 캠프,nagano_tateshina_camp,camp,36.1,138.3,"Tateshina, Nagano, Japan","Highland, Forest, Cool summer",,nagano
+Karuizawa / Asama Camp Bases,가루이자와·아사마 캠프,nagano_karuizawa_camp,camp,36.348,138.597,"Karuizawa, Nagano, Japan","Resort town, Easy access, Family",,nagano
+Furano Camp Area,후라노 캠프 에리어,hokkaido_furano_camp,camp,43.342,142.383,"Furano, Hokkaido, Japan","Lavender season, Open sky, Car camp",,hokkaido
+Lake Toya Camp Area,도야코 캠프 에리어,hokkaido_toya_camp,camp,42.58,140.82,"Toyako, Hokkaido, Japan","Caldera lake, Onsen nearby, Scenic",,hokkaido
+Hakone / Ashinoko Camp Area,하코네·아시노코 캠프,kanto_hakone_camp,camp,35.233,139.037,"Hakone, Kanagawa, Japan","Tokyo weekend, Lake, Onsen",,kanto
+Norikura Highland Camp,노리쿠라 고원 캠프,chubu_norikura_camp,camp,36.12,137.58,"Norikura Highland, Gifu / Nagano border, Japan","Alpine road, Cool, Scenic",,chubu
+Setouchi Island Camp Stops,세토우치 섬 캠프 스톱,chugoku_setouchi_camp,camp,34.3,133.2,"Seto Inland Sea islands, Hiroshima area, Japan","Island, Mild climate, Art islands nearby",,chugoku
+Hakuba Cortina,하쿠바 코르티나,ski_pending_01,ski,36.758,137.872,"Hakuba Cortina, Japan",pending queue,,nagano
+Nozawa Onsen Ski Resort,노자와온천 스키장,ski_pending_02,ski,36.922,138.446,"Nozawa Onsen Ski Resort, Japan",pending queue,,nagano
+Myoko Suginohara,묘코 스기노하라,ski_pending_03,ski,36.875,138.191,"Myoko Suginohara, Japan",pending queue,,niigata
+Naeba Ski Resort,나에바 스키장,ski_pending_04,ski,36.792,138.782,"Naeba Ski Resort, Japan",pending queue,,niigata
+Kandatsu Kogen,칸다츠 고원,ski_pending_05,ski,36.898,138.812,"Kandatsu Kogen, Japan",pending queue,,niigata
+Ishiuchi Maruyama,이시우치 마루야마,ski_pending_06,ski,36.968,138.828,"Ishiuchi Maruyama, Japan",pending queue,,niigata
+Asahidake Ropeway Ski,아사히다케 로프웨이,ski_pending_07,ski,43.664,142.854,"Asahidake Ropeway Ski, Japan",pending queue,,hokkaido
+Sahoro Resort,사호로 리조트,ski_pending_08,ski,43.168,142.778,"Sahoro Resort, Japan",pending queue,,hokkaido
+Kamui Ski Links,카무이 스키링스,ski_pending_09,ski,43.686,142.358,"Kamui Ski Links, Japan",pending queue,,hokkaido
+Tashiro Kagura Mitsumata,타시로·카구라,ski_pending_10,ski,36.912,139.032,"Tashiro Kagura Mitsumata, Japan",pending queue,,niigata
+Chigasaki Southern Beach,치가사키 서던비치,surf_pending_01,surf,35.318,139.404,"Chigasaki Southern Beach, Japan",pending queue,,kanto
+Katase Nishihama,카타세 니시하마,surf_pending_02,surf,35.304,139.482,"Katase Nishihama, Japan",pending queue,,kanto
+Torami Beach,토라미 비치,surf_pending_03,surf,35.332,140.386,"Torami Beach, Japan",pending queue,,kanto
+Ichinomiya Taito,이치노미야 타이토,surf_pending_04,surf,35.372,140.386,"Ichinomiya Taito, Japan",pending queue,,kanto
+Shikama Beach,시카마 비치,surf_pending_05,surf,34.712,137.292,"Shikama Beach, Japan",pending queue,,chubu
+Irinosaki,이리노사키,surf_pending_06,surf,34.628,138.892,"Irinosaki, Japan",pending queue,,chubu
+Tahara Atsumi Surf,타하라 아츠미,surf_pending_07,surf,34.642,137.172,"Tahara Atsumi Surf, Japan",pending queue,,chubu
+Shimoda Shirahama Surf,시모다 시라하마 서프,surf_pending_08,surf,34.692,138.972,"Shimoda Shirahama Surf, Japan",pending queue,,chubu
+Amami Naze Surf,아마미 나제 서프,surf_pending_09,surf,28.378,129.494,"Amami Naze Surf, Japan",pending queue,,kyushu
+Tanegashima Surf,타네가시마 서프,surf_pending_10,surf,30.612,130.992,"Tanegashima Surf, Japan",pending queue,,kyushu
+Tokashiki Kerama Dive,토카시키 케라마,dive_pending_01,dive,26.192,127.362,"Tokashiki Kerama Dive, Japan",pending queue,,okinawa
+Aka Island Dive,아카지마 다이브,dive_pending_02,dive,26.192,127.282,"Aka Island Dive, Japan",pending queue,,okinawa
+Kumejima Dive,쿠메지마 다이브,dive_pending_03,dive,26.342,126.802,"Kumejima Dive, Japan",pending queue,,okinawa
+Iriomote Dive,이리오모테 다이브,dive_pending_04,dive,24.342,123.862,"Iriomote Dive, Japan",pending queue,,okinawa
+Hachijo Island Dive,하치죠지마,dive_pending_05,dive,33.112,139.792,"Hachijo Island Dive, Japan",pending queue,,kanto
+Osezaki Night Dive Spot,오세자키 나이트,dive_pending_06,dive,35.028,138.788,"Osezaki Night Dive Spot, Japan",pending queue,,chubu
+Atami Dive Point,아타미 다이브,dive_pending_07,dive,35.094,139.072,"Atami Dive Point, Japan",pending queue,,chubu
+Amami Kakeroma Dive,아마미 카케로마,dive_pending_08,dive,28.122,129.242,"Amami Kakeroma Dive, Japan",pending queue,,kyushu
+Yakushima Dive,야쿠시마 다이브,dive_pending_09,dive,30.342,130.512,"Yakushima Dive, Japan",pending queue,,kyushu
+Sado Island Dive,사도지마 다이브,dive_pending_10,dive,38.022,138.372,"Sado Island Dive, Japan",pending queue,,chubu
+Lake Motosu Camp,모토스코 캠프,camp_pending_01,camp,35.468,138.592,"Lake Motosu Camp, Japan",pending queue,,chubu
+Lake Shoji Camp,쇼지코 캠프,camp_pending_02,camp,35.492,138.612,"Lake Shoji Camp, Japan",pending queue,,chubu
+Nasu Highlands Camp,나스 고원 캠프,camp_pending_03,camp,37.122,139.972,"Nasu Highlands Camp, Japan",pending queue,,kanto
+Manza Campground,만자 캠핑장,camp_pending_04,camp,36.642,138.522,"Manza Campground, Japan",pending queue,,kanto
+Tateshina Lake Camp,타테시나 호수 캠프,camp_pending_05,camp,36.102,138.302,"Tateshina Lake Camp, Japan",pending queue,,chubu
+Lake Towada Camp,도와다코 캠프,camp_pending_06,camp,40.432,140.882,"Lake Towada Camp, Japan",pending queue,,tohoku
+Biei Camp Base,비에이 캠프,camp_pending_07,camp,43.592,142.472,"Biei Camp Base, Japan",pending queue,,hokkaido
+Shiretoko Camp,시레토코 캠프,camp_pending_08,camp,44.072,145.112,"Shiretoko Camp, Japan",pending queue,,hokkaido
+Aso Grassland Camp,아소 초원 캠프,camp_pending_09,camp,32.884,131.104,"Aso Grassland Camp, Japan",pending queue,,kyushu
+Izu Plateau Camp,이즈 고원 캠프,camp_pending_10,camp,34.872,138.942,"Izu Plateau Camp, Japan",pending queue,,chubu

@@ -5,9 +5,9 @@ lat: 34.737
 lng: 139.4
 activity: "dive"
 categories: ["Dive"]
-thumbnail: "/static/images/default.jpg"
+thumbnail: "/static/images/izu_oshima.jpg"
 address: "일본 도쿄도 오시마정"
-date: "2026-08-12"
+date: "2026-08-15"
 website: ""
 summary: "화산암 리프의 도쿄 도서 다이빙. 페리와 로컬 샵 접근."
 image_prompt: ""

@@ -1,5 +1,5 @@
 """
-Shared ski resort + nearby POI catalog helpers for OKSki (EN/KO only).
+Shared ski resort + nearby POI catalog helpers for JPFun (EN/KO only).
 """
 from __future__ import annotations
 
@@ -669,13 +669,15 @@ def resort_article(lang: str, resort: dict[str, Any]) -> str:
             if lang == "en"
             else f"{name} — 일본 스키 여행을 위한 리프트·숙소·접근 정보."
         )
-        body = longform[lang]
+        body = longform[lang].replace("OKSki", "JPFun")
+        summary = summary.replace("OKSki", "JPFun")
         return f"""---
 lang: {lang}
 title: "{name}"
 lat: {resort["lat"]}
 lng: {resort["lng"]}
 categories: ["Ski"]
+activity: "ski"
 thumbnail: "/static/images/{rid}.jpg"
 address: "{address}"
 date: "{today}"
@@ -698,7 +700,7 @@ region: "{resort["region"]}"
 
 {name} is one of Japan's most searched ski destinations ({features}). Use this page to plan lift access, lodging, and day-one logistics.
 
-OKSki lists resorts on the map with curated **Stay** and **Food** pins nearby — not generic Google POIs.
+JPFun lists resorts on the map with curated **Stay** and **Food** pins nearby — not generic Google POIs.
 
 ## Resort highlights
 
@@ -722,7 +724,7 @@ OKSki lists resorts on the map with curated **Stay** and **Food** pins nearby �
 
 {name}은(는) 한국인 일본 스키 여행자가 자주 찾는 코스입니다 ({features}). 리프트, 숙소, 당일 이동을 여기서 정리하세요.
 
-OKSki 지도에는 스키장 근처 **숙소(Stay)**·**맛집(Food)** 핀을 따로 표시합니다.
+JPFun 지도에는 스키장 근처 **숙소(Stay)**·**맛집(Food)** 핀을 따로 표시합니다.
 
 ## 리조트 특징
 
@@ -750,6 +752,7 @@ title: "{name}"
 lat: {resort["lat"]}
 lng: {resort["lng"]}
 categories: ["Ski"]
+activity: "ski"
 thumbnail: "/static/images/{rid}.jpg"
 address: "{address}"
 date: "{today}"

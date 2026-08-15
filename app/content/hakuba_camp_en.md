@@ -5,9 +5,9 @@ lat: 36.698
 lng: 137.862
 activity: "camp"
 categories: ["Camp"]
-thumbnail: "/static/images/default.jpg"
+thumbnail: "/static/images/hakuba_camp.jpg"
 address: "Hakuba, Nagano, Japan"
-date: "2026-08-12"
+date: "2026-08-15"
 website: ""
 summary: "Summer alpine camping and glamping near Hakuba trails — winter ski town flips to outdoor base."
 image_prompt: ""

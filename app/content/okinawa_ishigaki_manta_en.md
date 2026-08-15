@@ -5,9 +5,9 @@ lat: 24.336
 lng: 124.156
 activity: "dive"
 categories: ["Dive"]
-thumbnail: "/static/images/default.jpg"
+thumbnail: "/static/images/okinawa_ishigaki_manta.jpg"
 address: "Ishigaki, Okinawa, Japan"
-date: "2026-08-12"
+date: "2026-08-15"
 website: ""
 summary: "Famous manta cleaning-station dives off Ishigaki — book boats early in peak season."
 image_prompt: ""

@@ -5,9 +5,9 @@ lat: 35.462
 lng: 138.687
 activity: "camp"
 categories: ["Camp"]
-thumbnail: "/static/images/default.jpg"
+thumbnail: "/static/images/fuji_motosu_camp.jpg"
 address: "일본 야마나시현 후지카와구치코 모토스코"
-date: "2026-08-12"
+date: "2026-08-15"
 website: ""
 summary: "후지산 호수 캠핑 클래식. 모토스코 역광 뷰와 차박 사이트."
 image_prompt: ""

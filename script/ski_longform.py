@@ -12,7 +12,7 @@ LONGFORM: dict[str, dict[str, str]] = {
 
 Niseko Grand Hirafu is the busiest base in **Niseko United** — four linked areas on Mt. Niseko Annupuri. Hirafu village packs restaurants, bars, and walkable lodging, which is why it tops search lists for Korean and international skiers chasing Hokkaido powder.
 
-OKSki maps the resort with curated **Stay** and **Food** pins nearby so you can plan après-ski without scrolling random map results.
+JPFun maps the resort with curated **Stay** and **Food** pins nearby so you can plan après-ski without scrolling random map results.
 
 ## Slopes & lifts
 
@@ -39,7 +39,7 @@ OKSki maps the resort with curated **Stay** and **Food** pins nearby so you can 
 - **Onsen:** Several public baths and hotel spas in Kutchan and Hirafu — ideal after a cold day on the hill.
 - **Dining:** Ramen, izakaya, and cafés cluster along Hirafu-zaka; peak dinner hours are 18:00–20:00.
 
-## OKSki tips
+## JPFun tips
 
 - Compare **single-area vs. Niseko United** lift products before you arrive.
 - Use the map **Stay** pins for lodges within shuttle range of the gondola.
@@ -49,7 +49,7 @@ OKSki maps the resort with curated **Stay** and **Food** pins nearby so you can 
 
 니세코 그란히라후는 **니세코 유나이트(Niseko United)** 4개 리조트 중 가장 활기찬 베이스입니다. 히라후 마을에는 숙소·식당·바가 밀집해 있어, 홋카이도 파우더를 노리는 한국·해외 스키어가 가장 많이 찾는 지역입니다.
 
-OKSki 지도에는 스키장 근처 **숙소(Stay)**·**맛집(Food)** 핀을 따로 표시해, 슬로프 후 일정을 빠르게 짤 수 있습니다.
+JPFun 지도에는 스키장 근처 **숙소(Stay)**·**맛집(Food)** 핀을 따로 표시해, 슬로프 후 일정을 빠르게 짤 수 있습니다.
 
 ## 슬로프·리프트
 
@@ -76,7 +76,7 @@ OKSki 지도에는 스키장 근처 **숙소(Stay)**·**맛집(Food)** 핀을 �
 - **온천:** 굿찬·히라후에 노천탕·호텔 스파가 있어 하루 종료 후 회복에 좋습니다.
 - **식사:** 히라후자카 일대에 라멘·이자카야가 몰려 있으며, 저녁 18~20시가 가장 붐빕니다.
 
-## OKSki 팁
+## JPFun 팁
 
 - **단일 리조트권 vs 유나이트권** 가격·사용 범위를 출발 전 비교하세요.
 - 지도 **Stay** 핀으로 곤돌라 셔틀 범위 숙소를 먼저 좁혀 보세요.
@@ -90,7 +90,7 @@ OKSki 지도에는 스키장 근처 **숙소(Stay)**·**맛집(Food)** 핀을 �
 
 Niseko Hanazono sits on the northeast flank of Mt. Niseko Annupuri and is known for modern lifts, a strong **family** focus, and the **Burton**-branded terrain park. It feels slightly calmer than central Hirafu while still linking into the wider Niseko United network.
 
-Use OKSki **Stay** and **Food** pins to find lodging and meals without relying on generic map clutter.
+Use JPFun **Stay** and **Food** pins to find lodging and meals without relying on generic map clutter.
 
 ## Slopes & lifts
 
@@ -117,7 +117,7 @@ Use OKSki **Stay** and **Food** pins to find lodging and meals without relying o
 - **Food:** Base cafés and hotel restaurants; for variety, shuttle to Hirafu for dinner.
 - **Gear:** Rental and tuning at base — compare sizes online during busy weeks.
 
-## OKSki tips
+## JPFun tips
 
 - If your group splits between park riders and beginners, Hanazono is an efficient home base.
 - Check **Niseko United** pass inclusions — Hanazono is fully part of the network.
@@ -127,7 +127,7 @@ Use OKSki **Stay** and **Food** pins to find lodging and meals without relying o
 
 니세코 하나조노는 니세코 앗누리산 북동쪽에 위치하며, 최신 리프트·**패밀리** 코스·**버튼(Burton)** 파크로 알려져 있습니다. 히라후 중심가보다 한산한 편이면서도 **니세코 유나이트** 네트워크와 연결됩니다.
 
-OKSki **Stay**·**Food** 핀으로 숙소와 식사를 미리 좁혀 두면 일정이 수월합니다.
+JPFun **Stay**·**Food** 핀으로 숙소와 식사를 미리 좁혀 두면 일정이 수월합니다.
 
 ## 슬로프·리프트
 
@@ -154,7 +154,7 @@ OKSki **Stay**·**Food** 핀으로 숙소와 식사를 미리 좁혀 두면 일�
 - **식사:** 베이스 카페·호텔 레스토랑; 저녁은 히라후로 나가면 선택지가 넓어집니다.
 - **렌탈:** 베이스에서 보드·스키 대여 가능 — 인기 사이즈는 온라인 사전 예약을 권장합니다.
 
-## OKSki 팁
+## JPFun 팁
 
 - 파크파와 초보자가 함께라면 하나조노를 거점으로 잡기 좋습니다.
 - **유나이트권**에 하나조노가 포함되는지 시즌별로 다시 확인하세요.
@@ -168,7 +168,7 @@ OKSki **Stay**·**Food** 핀으로 숙소와 식사를 미리 좁혀 두면 일�
 
 Niseko Annupuri is the **west gateway** to Niseko United and feels more local than Hirafu — smaller village scale, Japanese diners, and onsen inns. Skiers who want powder without Hirafu nightlife noise often base here.
 
-OKSki highlights nearby **Stay** (onsen lodges) and **Food** spots on the map for easy trip planning.
+JPFun highlights nearby **Stay** (onsen lodges) and **Food** spots on the map for easy trip planning.
 
 ## Slopes & lifts
 
@@ -195,7 +195,7 @@ OKSki highlights nearby **Stay** (onsen lodges) and **Food** spots on the map fo
 - **Dining:** Local soba, curry, and izakaya; fewer international chains than Hirafu.
 - **Nightlife:** Quiet; shuttle to Hirafu if you want bars.
 
-## OKSki tips
+## JPFun tips
 
 - Pair Annupuri skiing with **Kutchan or Niseko onsen** on a travel day.
 - Buy **Niseko United** if you plan to explore Hirafu or Hanazono more than once.
@@ -205,7 +205,7 @@ OKSki highlights nearby **Stay** (onsen lodges) and **Food** spots on the map fo
 
 니세코 아누푸리는 **니세코 유나이트 서쪽** 관문으로, 히라후보다 로컬 감성이 강합니다. 작은 마을 규모, 일본식 식당, 온천 여관이 많아 난바보다 조용한 숙박을 원하는 스키어에게 인기입니다.
 
-OKSki 지도의 **Stay**·**Food** 핀으로 온천 숙소와 식사처를 빠르게 찾을 수 있습니다.
+JPFun 지도의 **Stay**·**Food** 핀으로 온천 숙소와 식사처를 빠르게 찾을 수 있습니다.
 
 ## 슬로프·리프트
 
@@ -232,7 +232,7 @@ OKSki 지도의 **Stay**·**Food** 핀으로 온천 숙소와 식사처를 빠�
 - **식사:** 소바·카레·이자카야 중심; 히라후만큼 국제 체인은 적습니다.
 - **야간:** 조용함 — 바를 원하면 히라후 셔틀을 이용하세요.
 
-## OKSki 팁
+## JPFun 팁
 
 - 스키와 **굿찬·니세코 온천**을 같은 날에 묶는 일정이 잘 맞습니다.
 - 히라후·하나조노를 여러 번 갈 계획이면 **유나이트권**이 유리합니다.
@@ -247,7 +247,7 @@ OKSki 지도의 **Stay**·**Food** 핀으로 온천 숙소와 식사처를 빠�
 
 Hakuba Happo-one hosted alpine events at the **1998 Nagano Winter Olympics** and remains the flagship resort of the **Hakuba Valley**. With roughly 1,070 m of vertical and long groomed runs, it is a top pick for skiers who want big-mountain skiing within reach of Tokyo — and a frequent add-on for Korean travelers combining Tokyo and snow.
 
-OKSki maps Happo-one with **Stay** and **Food** pins around Hakuba village for post-ski planning.
+JPFun maps Happo-one with **Stay** and **Food** pins around Hakuba village for post-ski planning.
 
 ## Slopes & lifts
 
@@ -274,7 +274,7 @@ OKSki maps Happo-one with **Stay** and **Food** pins around Hakuba village for p
 - **Onsen:** Echoland and Wadano areas have foot-baths and ryokan — short taxi from Happo base.
 - **Food:** Tonkatsu, ramen, and craft beer pubs; reserve popular restaurants on Saturday nights.
 
-## OKSki tips
+## JPFun tips
 
 - Buy **Valley-wide pass** if you plan to sample Goryu or 47 for park riding.
 - Book **Shinkansen + bus** tickets together in peak season.
@@ -284,7 +284,7 @@ OKSki maps Happo-one with **Stay** and **Food** pins around Hakuba village for p
 
 하쿠바 해포는 **1998 나가노 동계올림픽** 알파인 경기장이었으며, **하쿠바 밸리(Hakuba Valley)** 의 대표 리조트입니다. 낙차 약 1,070m와 긴 슬로프로, 도쿄에서 당일·1박2일로 오기 좋은 대형 스키장입니다. 한국에서 도쿄+스키를 묶는 일정에도 자주 등장합니다.
 
-OKSki는 해포 주변 **Stay**·**Food** 핀으로 하쿠바 마을 숙소·식사를 한눈에 볼 수 있습니다.
+JPFun는 해포 주변 **Stay**·**Food** 핀으로 하쿠바 마을 숙소·식사를 한눈에 볼 수 있습니다.
 
 ## 슬로프·리프트
 
@@ -311,7 +311,7 @@ OKSki는 해포 주변 **Stay**·**Food** 핀으로 하쿠바 마을 숙소·식
 - **온천:** 에코랜드·와다노에 족욕·료칸 — 해포 베이스에서 택시로 이동.
 - **식사:** 돈카츠·라멘·맥주 펍; 토요일 저녁 인기 식당은 예약을 권장합니다.
 
-## OKSki 팁
+## JPFun 팁
 
 - 고류·47 파크를 갈 계획이면 **밸리 통합권**을 비교하세요.
 - 성수기 **신칸센+버스**는 한 번에 예약하면 매진을 피하기 쉽습니다.
@@ -325,7 +325,7 @@ OKSki는 해포 주변 **Stay**·**Food** 핀으로 하쿠바 마을 숙소·식
 
 Rusutsu Resort is a large **Hokkaido** ski area east of Niseko, popular with families and groups who want on-mountain hotels, amusement-park facilities in summer, and reliable powder without Hirafu crowds.
 
-OKSki maps Rusutsu with **Stay** and **Food** pins around the base villages so you can plan lodging and meals in one view.
+JPFun maps Rusutsu with **Stay** and **Food** pins around the base villages so you can plan lodging and meals in one view.
 
 ## Slopes & lifts
 
@@ -352,7 +352,7 @@ OKSki maps Rusutsu with **Stay** and **Food** pins around the base villages so y
 - **Onsen:** In-resort baths and nearby rural hot springs after skiing.
 - **Dining:** Hotel buffets, curry, and ramen; fewer standalone bars than Hirafu — quieter evenings.
 
-## OKSki tips
+## JPFun tips
 
 - Compare **single-mountain vs. full-area** lift products if you only ski 1–2 days.
 - Pair Rusutsu with **Niseko** in one Hokkaido week if you want two powder zones.
@@ -362,7 +362,7 @@ OKSki maps Rusutsu with **Stay** and **Food** pins around the base villages so y
 
 루스츠 리조트는 니세코 동쪽 **홋카이도** 대형 스키장으로, 온산 호텔·패밀리 시설·히라후보다 한산한 파우더를 원하는 가족·단체 여행에 인기입니다.
 
-OKSki 지도의 **Stay**·**Food** 핀으로 베이스 마을 숙소와 식사를 한 번에 계획할 수 있습니다.
+JPFun 지도의 **Stay**·**Food** 핀으로 베이스 마을 숙소와 식사를 한 번에 계획할 수 있습니다.
 
 ## 슬로프·리프트
 
@@ -389,7 +389,7 @@ OKSki 지도의 **Stay**·**Food** 핀으로 베이스 마을 숙소와 식사�
 - **온천:** 리조트 내외 온천으로 하루를 마무리하기 좋습니다.
 - **식사:** 호텔 뷔페·카레·라멘 중심; 히라후만큼 난바는 없고 저녁이 조용한 편입니다.
 
-## OKSki 팁
+## JPFun 팁
 
 - 1~2일만 스키할 경우 **구역별 리프트권**과 전구역권을 비교하세요.
 - **니세코+루스츠**를 한 주에 묶으면 홋카이도 파우더를 두 번 즐길 수 있습니다.
@@ -404,7 +404,7 @@ OKSki 지도의 **Stay**·**Food** 핀으로 베이스 마을 숙소와 식사�
 
 Furano Ski Resort sits in **central Hokkaido** — famous for lavender fields in summer and dry, light snow in winter. Linked with the Prince Hotel base, it attracts skiers who want scenic runs and a smaller-town feel than Sapporo suburbs.
 
-OKSki shows Furano on the map with **Stay** and **Food** pins for Furano town and Kitanomine base.
+JPFun shows Furano on the map with **Stay** and **Food** pins for Furano town and Kitanomine base.
 
 ## Slopes & lifts
 
@@ -431,7 +431,7 @@ OKSki shows Furano on the map with **Stay** and **Food** pins for Furano town an
 - **Furano town:** Cafés, curry shops, and local hotels a short drive from lifts.
 - **Side trips:** Biei blue pond and farm roads are popular rest-day drives (winter road conditions vary).
 
-## OKSki tips
+## JPFun tips
 
 - If hotels at Kitanomine are full, use **Stay** pins in Furano town and drive 10–15 minutes.
 - Combine skiing with a **non-ski day** in Biei when weather is whiteout.
@@ -441,7 +441,7 @@ OKSki shows Furano on the map with **Stay** and **Food** pins for Furano town an
 
 후라노 스키장은 **홋카이도 내륙**에 있으며, 여름 라벤더·겨울 건조한 분체누로 유명합니다. 프린스 호텔 베이스와 연계되어 삿포로 근교보다 한적한 마을 스키를 원하는 이들에게 인기입니다.
 
-OKSki는 후라노·기타노미네 베이스 주변 **Stay**·**Food** 핀을 지도에 표시합니다.
+JPFun는 후라노·기타노미네 베이스 주변 **Stay**·**Food** 핀을 지도에 표시합니다.
 
 ## 슬로프·리프트
 
@@ -468,7 +468,7 @@ OKSki는 후라노·기타노미네 베이스 주변 **Stay**·**Food** 핀을 �
 - **후라노 시내:** 리프트에서 차로 10분 내 카페·카레·로컬 호텔.
 - **근교:** 비에이·팜로드는 휴스키 데이에 인기(겨울 도로·폐쇄 구간 확인).
 
-## OKSki 팁
+## JPFun 팁
 
 - 기타노미네 숙소가 매진이면 **Stay** 핀으로 시내 숙박 후 차량 이동을 검토하세요.
 - 백날에는 **비에이 드라이브**로 스키를 쉬어 가는 일정이 잘 맞습니다.
@@ -483,7 +483,7 @@ OKSki는 후라노·기타노미네 베이스 주변 **Stay**·**Food** 핀을 �
 
 Hakuba Goryu (part of **Hakuba Valley**) centers on **Escal Plaza** — a modern base with restaurants, rentals, and easy access to Kamishiro area lodging. It is a favorite for families and tree-run fans who want a calmer vibe than Happo-one on busy weekends.
 
-OKSki maps **Stay** and **Food** options around Goryu and nearby Hakuba stations.
+JPFun maps **Stay** and **Food** options around Goryu and nearby Hakuba stations.
 
 ## Slopes & lifts
 
@@ -510,7 +510,7 @@ OKSki maps **Stay** and **Food** options around Goryu and nearby Hakuba stations
 - **Food:** Plaza restaurants, ramen, and izakaya; Echoland nightlife is a short bus ride.
 - **Gear:** Full rental at Escal — size reservations help on peak Saturdays.
 
-## OKSki tips
+## JPFun tips
 
 - Tree skiing requires **awareness of boundaries** — ask patrol about daily openings.
 - If Happo-one is crowded, Goryu often feels more relaxed on the same snow cycle.
@@ -520,7 +520,7 @@ OKSki maps **Stay** and **Food** options around Goryu and nearby Hakuba stations
 
 하쿠바 고류는 **하쿠바 밸리**의 한 축으로, **에스칼 플라자(Escal Plaza)** 베이스가 중심입니다. 렌탈·식당이 한곳에 모여 있어 가족·트리런 이용객이 주말 해포보다 여유롭게 찾는 경우가 많습니다.
 
-OKSki **Stay**·**Food** 핀으로 고류·하쿠바 역 주변 숙소를 비교할 수 있습니다. 단기 체류라도 역 근처 숙박은 셔틀 시간을 줄여 줍니다.
+JPFun **Stay**·**Food** 핀으로 고류·하쿠바 역 주변 숙소를 비교할 수 있습니다. 단기 체류라도 역 근처 숙박은 셔틀 시간을 줄여 줍니다.
 
 ## 슬로프·리프트
 
@@ -547,7 +547,7 @@ OKSki **Stay**·**Food** 핀으로 고류·하쿠바 역 주변 숙소를 비교
 - **식사:** 플라자 내 식당·라멘; 에코랜드 난바는 버스로 이동.
 - **렌탈:** 에스칼에서 일괄 대여 — 토요일 성수기는 사이즈 예약 권장.
 
-## OKSki 팁
+## JPFun 팁
 
 - 트리 스키는 **경계·당일 개방 구역**을 패트롤에 확인하세요.
 - 해포가 붐빌 때 고류가 같은 눈 사이클에서 한산한 편입니다.
@@ -563,7 +563,7 @@ OKSki **Stay**·**Food** 핀으로 고류·하쿠바 역 주변 숙소를 비교
 
 **Hakuba 47 Winter Sports Park** is the freestyle hub of **Hakuba Valley** — terrain parks, jumps, and halfpipe events draw riders from across Asia. It connects with Goryu via the **Hakuba Universal** lift link on many days, so you can park-ride in the morning and cruise Goryu trees in the afternoon.
 
-OKSki highlights **Stay** and **Food** near 47 base and Kamishiro for group trips.
+JPFun highlights **Stay** and **Food** near 47 base and Kamishiro for group trips.
 
 ## Slopes & lifts
 
@@ -590,7 +590,7 @@ OKSki highlights **Stay** and **Food** near 47 base and Kamishiro for group trip
 - **Food:** Base cafés and burger spots; Hakuba beer after park sessions.
 - **Rentals:** Park-specific boards and helmets available for rent.
 
-## OKSki tips
+## JPFun tips
 
 - Start with **small features** if you are new to park riding — progression parks are marked.
 - Buy **Valley or 47+Goryu** pass if you split time between park and trees.
@@ -600,7 +600,7 @@ OKSki highlights **Stay** and **Food** near 47 base and Kamishiro for group trip
 
 **하쿠바 47 윈터 스포츠 파크**는 **하쿠바 밸리**의 프리스타일 중심지입니다. 테린파크·점프·하프파이프로 아시아 라이더가 모이며, **유니버설** 연결로 고류 트리와 오전·오후 분할 스키가 가능합니다.
 
-OKSki **Stay**·**Food** 핀으로 47·가미시로 숙소·식사를 빠르게 고를 수 있습니다. 프리스타일 캠프 시즌에는 숙소가 빨리 찹니다.
+JPFun **Stay**·**Food** 핀으로 47·가미시로 숙소·식사를 빠르게 고를 수 있습니다. 프리스타일 캠프 시즌에는 숙소가 빨리 찹니다.
 
 ## 슬로프·리프트
 
@@ -627,7 +627,7 @@ OKSki **Stay**·**Food** 핀으로 47·가미시로 숙소·식사를 빠르게 
 - **식사:** 베이스 카페·버거; 파크 후 하쿠바 맥주 펍.
 - **렌탈:** 파크용 보드·헬멧 대여 가능.
 
-## OKSki 팁
+## JPFun 팁
 
 - 파크 초보라면 **프로그레션 라인**부터 시작하세요.
 - 파크와 트리를 나눠 탄다면 **47+고류·밸리권**을 비교하세요.
@@ -644,7 +644,7 @@ OKSki **Stay**·**Food** 핀으로 47·가미시로 숙소·식사를 빠르게 
 
 Nozawa Onsen combines **600-year-old hot-spring culture** with a full-scale ski mountain — narrow stone streets, free public baths (soto-yu), and ryokan stays define the experience. Korean and Taiwanese skiers often choose it for authentic Japan atmosphere plus reliable snow.
 
-OKSki maps **Stay** (ryokan) and **Food** (soba, onsen eggs) in the village at the foot of the slopes.
+JPFun maps **Stay** (ryokan) and **Food** (soba, onsen eggs) in the village at the foot of the slopes.
 
 ## Slopes & lifts
 
@@ -671,7 +671,7 @@ OKSki maps **Stay** (ryokan) and **Food** (soba, onsen eggs) in the village at t
 - **Soto-yu:** Thirteen public baths; pick up a village bath map at tourist info.
 - **Food:** Nozawana pickles, onsen tamago, and hearth soba — try Ogama cooking eggs in spring water.
 
-## OKSki tips
+## JPFun tips
 
 - Reserve **ryokan with private bath** if you have tattoo concerns.
 - Ski morning, **onsen afternoon** — classic two-session day.
@@ -681,7 +681,7 @@ OKSki maps **Stay** (ryokan) and **Food** (soba, onsen eggs) in the village at t
 
 노자와 온센은 **600년 역사의 온천 마을**과 대형 스키장이 한곳에 있습니다. 돌길·공동 온천(外湯)·료칸 숙박이 여행의 중심이며, 한국·대만 스키어에게 ‘일본 감성+눈’ 조합으로 인기입니다.
 
-OKSki는 마을 기슭 **Stay**(료칸)·**Food**(소바·온천달걀) 핀을 지도에 표시합니다. 료칸 조식·석식 시간은 체크인 때 확인하세요.
+JPFun는 마을 기슭 **Stay**(료칸)·**Food**(소바·온천달걀) 핀을 지도에 표시합니다. 료칸 조식·석식 시간은 체크인 때 확인하세요.
 
 ## 슬로프·리프트
 
@@ -708,7 +708,7 @@ OKSki는 마을 기슭 **Stay**(료칸)·**Food**(소바·온천달걀) 핀을 �
 - **外湯:** 13곳 공동탕 — 관광안내소에서 지도 수령.
 - **먹거리:** 노자와나·온천달걀·화로 소바 — 오가마 족욕·달걀 삶기 체험.
 
-## OKSki 팁
+## JPFun 팁
 
 - 타투가 있으면 **사설탕 료칸**을 먼저 검색하세요.
 - 오전 스키·오후 온천 **2타임 일정**이 가장 잘 맞습니다.
@@ -725,7 +725,7 @@ OKSki는 마을 기슭 **Stay**(료칸)·**Food**(소바·온천달걀) 핀을 �
 
 Gala Yuzawa is the classic **Tokyo day-trip ski hill** — the gondola leaves from **Gala Yuzawa Station** on the Joetsu Shinkansen, so you can ski without renting a car. Beginners and short-stay visitors from Korea often pair it with 1–2 nights in Tokyo or Yuzawa town.
 
-OKSki maps **Stay** and **Food** in Yuzawa for overnight extensions beyond a single ski day.
+JPFun maps **Stay** and **Food** in Yuzawa for overnight extensions beyond a single ski day.
 
 ## Slopes & lifts
 
@@ -752,7 +752,7 @@ OKSki maps **Stay** and **Food** in Yuzawa for overnight extensions beyond a sin
 - **Food:** Station building cafeterias and slope-side restaurants.
 - **Gear:** Rent on-site — travel light from Tokyo hotels.
 
-## OKSki tips
+## JPFun tips
 
 - Buy **Shinkansen + lift** packages in peak season when offered.
 - If Gala is rainy, **Kagura or Naeba** are nearby alternatives on the same trip.
@@ -762,7 +762,7 @@ OKSki maps **Stay** and **Food** in Yuzawa for overnight extensions beyond a sin
 
 갈라 유자와는 **도쿄 당일 스키**의 대표 코스입니다. **上越新幹線 갈라 유자와 역**에서 곤돌라가 바로 올라가 렌터카 없이 스키가 가능합니다. 한국에서 도쿄 1~2박과 묶는 초보·단기 여행에 자주 쓰입니다.
 
-OKSki **Stay**·**Food** 핀은 하루 이상 묵을 때 유자와 시내 숙박·식사에 유용합니다. 도쿄 왕복 당일 스키는 짐을 최소화하는 것이 좋습니다.
+JPFun **Stay**·**Food** 핀은 하루 이상 묵을 때 유자와 시내 숙박·식사에 유용합니다. 도쿄 왕복 당일 스키는 짐을 최소화하는 것이 좋습니다.
 
 ## 슬로프·리프트
 
@@ -789,7 +789,7 @@ OKSki **Stay**·**Food** 핀은 하루 이상 묵을 때 유자와 시내 숙박
 - **식사:** 역사·슬로프 레스토랑.
 - **렌탈:** 현장 대여 — 도쿄 호텔에서 가볍게 이동.
 
-## OKSki 팁
+## JPFun 팁
 
 - 성수기 **신칸센+리프트** 패키지가 있으면 함께 구매하세요.
 - 비 오면 **카구라·나에바** 등 인근 리조트 대안을 검토하세요.
@@ -805,7 +805,7 @@ OKSki **Stay**·**Food** 핀은 하루 이상 묵을 때 유자와 시내 숙박
 
 Naeba Ski Resort anchors the **Yuzawa highland** with Prince Hotel lodging, long cruisers, and the famous **Fuji Rock** festival site in summer. Families and groups from Tokyo and Korea use it for 2–3 night ski trips with onsen and shopping at Echigo-Yuzawa Station.
 
-OKSki shows Naeba with **Stay** and **Food** pins across the Prince base and Yuzawa town.
+JPFun shows Naeba with **Stay** and **Food** pins across the Prince base and Yuzawa town.
 
 ## Slopes & lifts
 
@@ -832,7 +832,7 @@ OKSki shows Naeba with **Stay** and **Food** pins across the Prince base and Yuz
 - **Yuzawa town:** Cheaper hotels and izakaya near the station for rail-focused trips.
 - **Onsen:** Doroyu and other baths a short drive — classic après combo.
 
-## OKSki tips
+## JPFun tips
 
 - Compare **Naeba-only vs. Kagura linked** tickets if you want more terrain.
 - Station-area **Stay** saves money; Prince saves time on the snow.
@@ -842,7 +842,7 @@ OKSki shows Naeba with **Stay** and **Food** pins across the Prince base and Yuz
 
 나에바 스키장은 **유자와 고원**의 중심으로, 프린스 호텔·긴 크루저·여름 **후지 록** 장소로 알려져 있습니다. 도쿄·한국에서 2~3박 스키+온천을 묶는 패밀리·단체 여행에 자주 등장합니다.
 
-OKSki는 프린스 베이스·유자와 시내 **Stay**·**Food** 핀을 함께 보여 줍니다. 역 주변은 식당·편의점이 많아 첫날 밤에 유리합니다.
+JPFun는 프린스 베이스·유자와 시내 **Stay**·**Food** 핀을 함께 보여 줍니다. 역 주변은 식당·편의점이 많아 첫날 밤에 유리합니다.
 
 ## 슬로프·리프트
 
@@ -869,7 +869,7 @@ OKSki는 프린스 베이스·유자와 시내 **Stay**·**Food** 핀을 함께 
 - **유자와 시내:** 역 근처 가성비 호텔·이자카야.
 - **온천:** 도로유 등 근교 온천 — 스키 후 half-day 코스.
 
-## OKSki 팁
+## JPFun 팁
 
 - 지형을 넓히려면 **나에바+카구라** 연합권을 비교하세요.
 - 역 근처 **Stay**는 비용, 프린스는 슬로프 시간을 살립니다.
@@ -886,7 +886,7 @@ OKSki는 프린스 베이스·유자와 시내 **Stay**·**Food** 핀을 함께 
 
 Myoko Suginohara is known for **one of Japan's longest continuous ski runs** and deep **Niigata powder** on Mt. Myoko. Less hectic than Tokyo-adjacent Gala or Naeba, it suits skiers who want long cruisers, family slopes, and easy access from Nagano or Niigata airports.
 
-OKSki maps **Stay** and **Food** around Suginohara base and Akakura onsen town.
+JPFun maps **Stay** and **Food** around Suginohara base and Akakura onsen town.
 
 ## Slopes & lifts
 
@@ -913,7 +913,7 @@ OKSki maps **Stay** and **Food** around Suginohara base and Akakura onsen town.
 - **Akakura:** Traditional onsen street 15–20 minutes away — popular evening trip.
 - **Food:** Local ramen, mountain curry, and hotel dinners.
 
-## OKSki tips
+## JPFun tips
 
 - Save energy for the **full-length descent** — it is longer than it looks on the map.
 - Combine with **Akakura onsen** on a rest or half-day.
@@ -923,7 +923,7 @@ OKSki maps **Stay** and **Food** around Suginohara base and Akakura onsen town.
 
 묘코 스기노하라는 **일본에서 가장 긴 연속 코스** 중 하나와 **묘코의 니가타 파우더**로 유명합니다. 갈라·나에바보다 한산해 긴 크루저·패밀리 스키·나가노·니가타 공항 접근을 원하는 이들에게 맞습니다.
 
-OKSki는 스기노하라 베이스·아카쿠라 온천가 **Stay**·**Food** 핀을 지도에 표시합니다. 렌터카가 있으면 온천가 저녁 식사 선택지가 넓어집니다.
+JPFun는 스기노하라 베이스·아카쿠라 온천가 **Stay**·**Food** 핀을 지도에 표시합니다. 렌터카가 있으면 온천가 저녁 식사 선택지가 넓어집니다.
 
 ## 슬로프·리프트
 
@@ -950,7 +950,7 @@ OKSki는 스기노하라 베이스·아카쿠라 온천가 **Stay**·**Food** �
 - **아카쿠라:** 온천 거리 15~20분 — 저녁 온천 코스로 인기.
 - **식사:** 라멘·산 카레·호텔 디너.
 
-## OKSki 팁
+## JPFun 팁
 
 - **풀코스 하산**은 지도보다 길게 느껴지니 체력 분배하세요.
 - 휴식일에 **아카쿠라 온천**과 묶기 좋습니다.

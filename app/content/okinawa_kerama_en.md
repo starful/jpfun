@@ -5,9 +5,9 @@ lat: 26.2
 lng: 127.35
 activity: "dive"
 categories: ["Dive"]
-thumbnail: "/static/images/default.jpg"
+thumbnail: "/static/images/okinawa_kerama.jpg"
 address: "Kerama Islands, Okinawa, Japan"
-date: "2026-08-12"
+date: "2026-08-15"
 website: ""
 summary: "World-class visibility day-boat diving from Naha / Zamami — turtles and soft coral gardens."
 image_prompt: ""

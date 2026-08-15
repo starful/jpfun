@@ -5,9 +5,9 @@ lat: 34.27
 lng: 133.05
 activity: "camp"
 categories: ["Camp"]
-thumbnail: "/static/images/default.jpg"
+thumbnail: "/static/images/shimanami_camp.jpg"
 address: "Onomichi–Imabari route, Japan"
-date: "2026-08-12"
+date: "2026-08-15"
 website: ""
 summary: "Island-hop camping along Japan’s famous cycle route — sea views and bike-friendly sites."
 image_prompt: ""

@@ -77,6 +77,7 @@ def _inject_family_sites():
 # ==========================================
 BASE_DIR    = app.root_path
 STATIC_DIR  = os.path.join(BASE_DIR, 'static')
+IMAGES_DIR  = os.path.join(STATIC_DIR, 'images')
 DATA_FILE   = os.path.join(STATIC_DIR, 'json', 'items_data.json')
 NEARBY_FILE = os.path.join(STATIC_DIR, 'json', 'nearby_pois.json')
 CONTENT_DIR = os.path.join(BASE_DIR, 'content')
@@ -84,10 +85,170 @@ GUIDE_DIR   = os.path.join(CONTENT_DIR, 'guides')
 
 GUIDE_IMAGES = SITE_CONFIG['guide_images']
 
+# Hub art used when an activity pool is thin.
+_HUB_GUIDE_IMAGES = {
+    "ski": "/static/images/hub/ski.jpg",
+    "dive": "/static/images/hub/dive.jpg",
+    "surf": "/static/images/hub/surf.jpg",
+    "camp": "/static/images/hub/camp.jpg",
+}
+_GUIDE_ACTIVITY_KEYS = ("ski", "dive", "surf", "camp")
+
+
+def _is_usable_static_image(filename: str) -> bool:
+    name = (filename or "").strip().lstrip("/")
+    if name.startswith("static/images/"):
+        name = name[len("static/images/") :]
+    if not name or name in ("default.jpg", "default.png", "logo.png", "og_image.png"):
+        return False
+    if name.startswith("hub/"):
+        path = os.path.join(IMAGES_DIR, name)
+    else:
+        path = os.path.join(IMAGES_DIR, os.path.basename(name))
+    try:
+        return os.path.isfile(path) and os.path.getsize(path) > 5000
+    except OSError:
+        return False
+
+
+def _static_image_url(filename: str) -> str:
+    name = (filename or "").strip().lstrip("/")
+    if name.startswith("static/images/"):
+        return "/" + name
+    if name.startswith("hub/"):
+        return f"/static/images/{name}"
+    return f"/static/images/{os.path.basename(name)}"
+
+
+def _build_guide_image_pools() -> dict[str, list[str]]:
+    """Local ski/dive/surf/camp photos for guide cards (no remote Unsplash)."""
+    pools: dict[str, list[str]] = {k: [] for k in _GUIDE_ACTIVITY_KEYS}
+    seen: dict[str, set[str]] = {k: set() for k in _GUIDE_ACTIVITY_KEYS}
+
+    def _add(act: str, url: str) -> None:
+        if act not in pools or not url or url in seen[act]:
+            return
+        fname = url.split("/")[-1] if "/hub/" not in url else "hub/" + url.split("/")[-1]
+        if "/hub/" in url:
+            check = "hub/" + url.split("/")[-1]
+        else:
+            check = url.split("/")[-1]
+        if not _is_usable_static_image(check):
+            return
+        pools[act].append(url)
+        seen[act].add(url)
+
+    # Item thumbnails from built JSON (preferred variety).
+    try:
+        if os.path.exists(DATA_FILE):
+            with open(DATA_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            for item in data.get(SITE_CONFIG["data_key"], []) or []:
+                if item.get("lang") and item.get("lang") != "en":
+                    continue
+                act = str(item.get("activity") or "").strip().lower()
+                if act == "scuba":
+                    act = "dive"
+                if act not in pools:
+                    continue
+                thumb = str(item.get("thumbnail") or "").strip()
+                item_id = str(item.get("id") or "")
+                base = item_id
+                for suf in ("_en", "_ko"):
+                    if base.endswith(suf):
+                        base = base[: -len(suf)]
+                        break
+                # Prefer real local file even when JSON still points at default.jpg
+                local_name = f"{base}.jpg"
+                if _is_usable_static_image(local_name):
+                    _add(act, _static_image_url(local_name))
+                elif thumb.startswith("/static/images/") and not thumb.endswith("default.jpg"):
+                    _add(act, thumb)
+    except Exception:
+        pass
+
+    # Hub fallbacks always available.
+    for act, hub in _HUB_GUIDE_IMAGES.items():
+        _add(act, hub)
+
+    # Ensure non-empty pools.
+    default = "/static/images/default.jpg"
+    for act in _GUIDE_ACTIVITY_KEYS:
+        if not pools[act]:
+            pools[act] = [hub for hub in [_HUB_GUIDE_IMAGES.get(act), default] if hub]
+    return pools
+
+
+def _infer_guide_thumb_activities(base_id: str, activity: str, title: str, summary: str) -> list[str]:
+    """Which activity image pools a guide card should draw from."""
+    text = f"{base_id} {activity} {title} {summary}".lower()
+    hits: list[str] = []
+    rules = (
+        ("ski", ("ski", "powder", "hakuba", "niseko", "yuzawa", "snow")),
+        ("dive", ("dive", "scuba", "manta", "kerama", "ishigaki", "okinawa")),
+        ("surf", ("surf", "shonan", "chiba", "wave", "swell")),
+        ("camp", ("camp", "fuji", "motosu", "shimanami", "glamping", "tent")),
+    )
+    for key, needles in rules:
+        if any(n in text for n in needles):
+            hits.append(key)
+    act = (activity or "").strip().lower()
+    if act in _GUIDE_ACTIVITY_KEYS and act not in hits:
+        hits.insert(0, act)
+    if act in ("scuba",) and "dive" not in hits:
+        hits.insert(0, "dive")
+    # Leisure / generic hub guides: rotate across all activities.
+    if not hits or act in ("leisure", "route", ""):
+        if not hits:
+            return list(_GUIDE_ACTIVITY_KEYS)
+        # Keep specific hits but allow multi-activity leisure pages to mix.
+        if act == "leisure":
+            for key in _GUIDE_ACTIVITY_KEYS:
+                if key not in hits:
+                    hits.append(key)
+    return hits or list(_GUIDE_ACTIVITY_KEYS)
+
+
+def _pick_guide_thumbnail(
+    base_id: str,
+    activities: list[str],
+    pools: dict[str, list[str]],
+    *,
+    avoid: str | None = None,
+) -> str:
+    """Stable pseudo-random pick from activity pools (changes only when pool/id changes)."""
+    acts = [a for a in activities if pools.get(a)] or list(_GUIDE_ACTIVITY_KEYS)
+    # For multi-activity (leisure) guides, pick an activity first so ski photos
+    # don't drown out dive/surf/camp when pools are unequal in size.
+    if len(acts) > 1:
+        act = acts[int(hashlib.md5(f"{base_id}:act".encode()).hexdigest(), 16) % len(acts)]
+        pool = list(pools.get(act) or [])
+        if not pool:
+            pool = [u for a in acts for u in (pools.get(a) or [])]
+    else:
+        pool = list(pools.get(acts[0]) or [])
+        if not pool:
+            pool = [u for a in _GUIDE_ACTIVITY_KEYS for u in (pools.get(a) or [])]
+
+    # de-dupe preserve order
+    seen: set[str] = set()
+    uniq: list[str] = []
+    for url in pool:
+        if url not in seen:
+            seen.add(url)
+            uniq.append(url)
+    if not uniq:
+        return GUIDE_IMAGES[0] if GUIDE_IMAGES else "/static/images/default.jpg"
+    if avoid and len(uniq) > 1:
+        uniq = [u for u in uniq if u != avoid] or uniq
+    idx = int(hashlib.md5(base_id.encode()).hexdigest(), 16) % len(uniq)
+    return uniq[idx]
+
 
 def get_mapped_image(base_id):
-    idx = int(hashlib.md5(base_id.encode()).hexdigest(), 16) % len(GUIDE_IMAGES)
-    return GUIDE_IMAGES[idx]
+    pools = _build_guide_image_pools()
+    acts = _infer_guide_thumb_activities(base_id, "", base_id, "")
+    return _pick_guide_thumbnail(base_id, acts, pools)
 
 
 def _gcs_image_url(filename):
@@ -552,24 +713,30 @@ def load_guides():
         key=lambda x: x['date'],
         reverse=True,
     )
-    last_idx = -1
+    pools = _build_guide_image_pools()
+    last_img = None
     id_to_img = {}
     for g in ref:
         if g['base_id'] in id_to_img:
             continue
-        idx = int(hashlib.md5(g['base_id'].encode()).hexdigest(), 16) % len(GUIDE_IMAGES)
-        if idx == last_idx:
-            idx = (idx + 1) % len(GUIDE_IMAGES)
-        id_to_img[g['base_id']] = GUIDE_IMAGES[idx]
-        last_idx = idx
+        acts = _infer_guide_thumb_activities(
+            g['base_id'], g.get('activity') or '', g.get('title') or '', g.get('summary') or ''
+        )
+        picked = _pick_guide_thumbnail(g['base_id'], acts, pools, avoid=last_img)
+        id_to_img[g['base_id']] = picked
+        last_img = picked
 
+    fallback = (
+        _HUB_GUIDE_IMAGES.get("ski")
+        or (GUIDE_IMAGES[0] if GUIDE_IMAGES else "/static/images/default.jpg")
+    )
     new_guides = {lang: [] for lang in SUPPORTED_LANGS}
     for g in all_raw:
         new_guides.setdefault(g['lang'], []).append({
             'id': g['full_id'],
             'title': g['title'],
             'summary': g['summary'],
-            'thumbnail': id_to_img.get(g['base_id'], GUIDE_IMAGES[0]),
+            'thumbnail': id_to_img.get(g['base_id'], fallback),
             'published': g['date'],
             'activity': g.get('activity') or '',
             'emoji': g.get('emoji') or '',

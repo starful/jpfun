@@ -5,9 +5,9 @@ lat: 26.2
 lng: 127.35
 activity: "dive"
 categories: ["Dive"]
-thumbnail: "/static/images/default.jpg"
+thumbnail: "/static/images/okinawa_kerama.jpg"
 address: "일본 오키나와현 케라마 제도"
-date: "2026-08-12"
+date: "2026-08-15"
 website: ""
 summary: "나하·자마미 출발 데이보트 다이빙. 투명도와 바다거북으로 유명."
 image_prompt: ""

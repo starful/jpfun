@@ -5,9 +5,9 @@ lat: 35.254
 lng: 140.404
 activity: "surf"
 categories: ["Surf"]
-thumbnail: "/static/images/default.jpg"
+thumbnail: "/static/images/chiba_hebara.jpg"
 address: "일본 치바현 이스미시 헤바라"
-date: "2026-08-12"
+date: "2026-08-15"
 website: ""
 summary: "도쿄 주말러가 많이 찾는 치바 태평양 스팟. 스웰이 비교적 꾸준함."
 image_prompt: ""

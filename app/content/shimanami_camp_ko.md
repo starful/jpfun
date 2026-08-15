@@ -5,9 +5,9 @@ lat: 34.27
 lng: 133.05
 activity: "camp"
 categories: ["Camp"]
-thumbnail: "/static/images/default.jpg"
+thumbnail: "/static/images/shimanami_camp.jpg"
 address: "일본 오노미치–이마바리 시마나미 루트"
-date: "2026-08-12"
+date: "2026-08-15"
 website: ""
 summary: "시마나미 사이클 루트의 섬 캠핑. 바다 뷰와 자전거 친화 사이트."
 image_prompt: ""

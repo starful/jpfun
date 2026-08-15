@@ -5,9 +5,9 @@ lat: 24.805
 lng: 125.281
 activity: "surf"
 categories: ["Surf"]
-thumbnail: "/static/images/default.jpg"
+thumbnail: "/static/images/okinawa_sunayama.jpg"
 address: "Hirara, Miyakojima, Okinawa, Japan"
-date: "2026-08-12"
+date: "2026-08-15"
 website: ""
 summary: "Miyako island surfing near iconic sand-hill beach — winter north swell season."
 image_prompt: ""

@@ -5,9 +5,9 @@ lat: 34.737
 lng: 139.4
 activity: "dive"
 categories: ["Dive"]
-thumbnail: "/static/images/default.jpg"
+thumbnail: "/static/images/izu_oshima.jpg"
 address: "Oshima, Tokyo, Japan"
-date: "2026-08-12"
+date: "2026-08-15"
 website: ""
 summary: "Tokyo island diving with volcanic rock reefs — ferry access and local dive shops."
 image_prompt: ""

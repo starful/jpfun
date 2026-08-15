@@ -5,9 +5,9 @@ lat: 24.336
 lng: 124.156
 activity: "dive"
 categories: ["Dive"]
-thumbnail: "/static/images/default.jpg"
+thumbnail: "/static/images/okinawa_ishigaki_manta.jpg"
 address: "일본 오키나와현 이시가키시"
-date: "2026-08-12"
+date: "2026-08-15"
 website: ""
 summary: "이시가키 만타 클리닝 스테이션. 성수기에는 보트 예약을 서두르세요."
 image_prompt: ""

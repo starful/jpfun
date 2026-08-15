@@ -5,9 +5,9 @@ lat: 35.254
 lng: 140.404
 activity: "surf"
 categories: ["Surf"]
-thumbnail: "/static/images/default.jpg"
+thumbnail: "/static/images/chiba_hebara.jpg"
 address: "Hebara, Isumi, Chiba, Japan"
-date: "2026-08-12"
+date: "2026-08-15"
 website: ""
 summary: "Pacific-facing Chiba break popular with Tokyo weekenders — consistent swell windows."
 image_prompt: ""

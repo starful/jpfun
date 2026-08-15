@@ -1,20 +1,27 @@
-"""
-KR Care guide generator — Korea medical-trip guides (EN / JA).
-
-Usage:
-  python script/guide_generator.py --force --langs en,ja
-  python script/guide_generator.py --limit 4 --force
-"""
-from __future__ import annotations
-
-import argparse
-import concurrent.futures
-import csv
 import os
-import re
+import csv
+import sys
+import concurrent.futures
 from datetime import datetime
-
 from dotenv import load_dotenv
+
+from topic_queue_csv import resolve as resolve_queue_csv
+from content_guards import (
+    duplicate_guide_reason,
+    locale_pair_status,
+    sibling_exists,
+    strip_code_fences,
+    validate_generated_markdown,
+)
+
+
+def _emit_pipeline_result(**kwargs):
+    try:
+        from generation_result import emit_generation_result
+
+        emit_generation_result(**kwargs)
+    except ImportError:
+        pass
 
 load_dotenv()
 
@@ -28,142 +35,192 @@ def _claude_md(prompt: str) -> str:
     from site_llm import generate_md_text
     return generate_md_text(prompt)
 
-# GEMINI_API_KEY no longer required for MD (Claude CLI)
-
+DEFAULT_GUIDE_CSV = "script/csv/guides.csv"
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.dirname(SCRIPT_DIR)
-GUIDE_DIR = os.path.join(BASE_DIR, "app", "content", "guides")
-
-LANG_LABEL = {
-    "en": "English",
-    "ja": "Japanese",
-    "zh": "Simplified Chinese",
-    "zh_tw": "Traditional Chinese",
-    "ko": "Korean",
-}
+OUTPUT_DIR = os.path.join(BASE_DIR, "app", "content", "guides")
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
-def clean_ai_response(text: str) -> str:
-    text = text.strip()
-    text = re.sub(r"^```[a-z]*\n", "", text)
-    text = re.sub(r"\n```$", "", text)
-    text = re.sub(r"^(##\s*)?yaml\n", "", text, flags=re.IGNORECASE)
-    if "---" in text and not text.startswith("---"):
-        text = "---" + text.split("---", 1)[1]
-    return text.strip()
+def _guides_csv_path() -> str:
+    return resolve_queue_csv("guides", DEFAULT_GUIDE_CSV)
 
 
-def generate_guide(guide_id: str, topic: str, lang: str, keywords: str) -> None:
-    pass  # Claude CLI auth checked in _claude_md
+def generate_guide(row, lang):
+    base_id = (row.get('id') or '').strip()
+    if not base_id:
+        return "❌ 에러: id 없음"
 
+    dup = duplicate_guide_reason(base_id, OUTPUT_DIR)
+    if dup:
+        return f"⏭️ 스킵(중복주제): {base_id}_{lang} — {dup}"
 
-    print(f"🚀 [Guide AI] Generating {lang}: {topic}...")
+    topic = row.get(f'topic_{lang}') or ''
+    keywords = row.get('keywords') or ''
+    filename = f"{base_id}_{lang}.md"
+    filepath = os.path.join(OUTPUT_DIR, filename)
+    filling_sibling = sibling_exists(OUTPUT_DIR, base_id, lang)
+    length_hint = (
+        "at least 6,500 characters — filling a missing locale; match sibling depth"
+        if filling_sibling
+        else "at least 5,000 characters"
+    )
 
-    lang_name = LANG_LABEL.get(lang, lang)
+    # 본문 생성 프롬프트
     prompt = f"""
-You are a practical editor for KR Care (krcare.net), a map-first medical-trip site for Korea.
-Write a high-quality, SEO-friendly guide for international visitors planning clinic / hospital trips to Korea.
+    Write an exhaustive, professional SEO leisure travel guide for JPFun about '{topic}' in Japan (ski / scuba dive / surf / camp when relevant).
+    Target Language: {lang}
+    Keywords to include: {keywords}
+    Length: {length_hint}.
+    Write ONLY in {"Korean" if lang == "ko" else "English"}; do not mix languages.
 
-[Topic]
-- Subject: {topic}
-- Output language: {lang_name} ONLY (lang code: {lang})
-- SEO keywords: {keywords}
+    Structure:
+    1. Deep introduction.
+    2. Historical context or cultural significance.
+    3. Practical 'How-to' or 'Where-to' tips.
+    4. Expert recommendations.
+    5. Conclusion.
 
-[Output format — STRICT]
----
-lang: {lang}
-title: "Catchy SEO title in {lang_name}"
-date: "{datetime.now().strftime('%Y-%m-%d')}"
-summary: "Two compelling sentences on ONE line."
----
+    Use '##' for main sections (at least 4 sections). Never use H1 ('#').
+    Invent UNIQUE ## titles for THIS topic — do not reuse interchangeable
+    templates like "Who This Guide Is For", "Final Checklist", or identical
+    section lists copied across articles.
 
-[Article requirements]
-1. Start after the frontmatter with a short hook (no greeting fluff).
-2. Use H2 / H3 headings, bold key terms, bullet lists where useful.
-3. Cover concrete steps: booking, language/interpreter, deposits, recovery stay, what to ask the clinic, and red flags.
-4. Mention that KR Care map clinics come from official KTO medical-tourism listings; always verify details with the clinic.
-5. End with a CTA to use the KR Care map / clinic list.
-6. Minimum ~3,500 characters of real content (not placeholder bullets).
-7. Do NOT invent specific clinic prices, doctor names, or unverifiable medical claims.
-8. Do NOT use markdown code fences. Start directly with '---'.
-"""
+    Output format:
+    ---
+    lang: {lang}
+    title: "Catchy SEO Title about {topic}"
+    summary: "Engaging 2-line summary"
+    date: "{datetime.now().strftime('%Y-%m-%d')}"
+    ---
+    (Body content in Markdown)
+    """
 
     try:
+        print(f"📡 API 호출 시작: {filename}")
         response_text = _claude_md(prompt)
-        final_text = clean_ai_response(response_text or "")
-        if len(final_text) < 800:
-            print(f"⚠️  Short output for {guide_id}_{lang} ({len(final_text)} chars) — keeping anyway")
-        os.makedirs(GUIDE_DIR, exist_ok=True)
-        filename = f"{guide_id}_{lang}.md"
-        path = os.path.join(GUIDE_DIR, filename)
-        with open(path, "w", encoding="utf-8") as f:
-            f.write(final_text)
-        print(f"✅ [Done] {filename} ({len(final_text)} chars)")
+        content = strip_code_fences(response_text or "")
+        ok, errors = validate_generated_markdown(
+            content,
+            kind="guide",
+            lang=lang,
+            sibling_exists=filling_sibling,
+        )
+        if not ok:
+            return f"⛔ 품질미달·저장안함: {filename} — {', '.join(errors)}"
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write(content)
+        return f"✅ 성공: {filename}"
     except Exception as e:
-        print(f"❌ [Failed] {guide_id} ({lang}): {e}")
+        return f"❌ 에러: {filename} - {str(e)}"
+
+def _activity_limits_from_env():
+    """Per-activity caps from okadmin (ski / surf / dive=scuba / camp)."""
+    caps = {
+        "ski": int(os.environ.get("SKI_GUIDE_LIMIT") or 0),
+        "surf": int(os.environ.get("SURF_GUIDE_LIMIT") or 0),
+        "dive": int(os.environ.get("DIVE_GUIDE_LIMIT") or 0),
+        "camp": int(os.environ.get("CAMP_GUIDE_LIMIT") or 0),
+    }
+    if any(caps.values()):
+        return caps
+    return None
 
 
-def topic_for_lang(row: dict, lang: str) -> str:
-    if lang == "ja":
-        return (row.get("topic_ja") or row.get("topic_en") or "").strip()
-    if lang == "ko":
-        return (row.get("topic_ko") or row.get("topic_en") or "").strip()
-    if lang in ("zh", "zh_tw"):
-        return (row.get(f"topic_{lang}") or row.get("topic_en") or "").strip()
-    return (row.get("topic_en") or "").strip()
+def _infer_activity(row: dict) -> str:
+    raw = (row.get("activity") or "").strip().lower()
+    if raw == "scuba":
+        return "dive"
+    if raw in ("ski", "dive", "camp", "surf"):
+        return raw
+    blob = " ".join(str(row.get(k) or "") for k in ("id", "topic_en", "topic_ko", "keywords")).lower()
+    if any(k in blob for k in ("scuba", "dive", "다이빙", "스쿠버")):
+        return "dive"
+    if any(k in blob for k in ("surf", "서핑", "쇼난")):
+        return "surf"
+    if any(k in blob for k in ("ski", "powder", "스키")):
+        return "ski"
+    if any(k in blob for k in ("camp", "glamping", "캠핑")):
+        return "camp"
+    return ""
 
 
-def run_guide_generator(
-    *,
-    limit: int = 4,
-    langs: list[str] | None = None,
-    force: bool = False,
-) -> None:
-    csv_path = os.path.join(SCRIPT_DIR, "csv", "guides.csv")
+def run_batch(limit=3):
+    """Generate brand-new guide topics only (en+ko as a set). Half pairs are skipped."""
+    tasks_to_run = []
+    pairs_queued = 0
+    half_skipped = 0
+    activity_caps = _activity_limits_from_env()
+    activity_used = {"ski": 0, "dive": 0, "camp": 0, "surf": 0, "": 0}
+
+    csv_path = _guides_csv_path()
     if not os.path.exists(csv_path):
-        print(f"❌ CSV not found: {csv_path}")
+        print(f"❌ CSV 파일을 찾을 수 없습니다: {csv_path}")
         return
 
-    langs = langs or ["en", "ja"]
-    tasks = []
-    guides_touched = 0
-
-    with open(csv_path, mode="r", encoding="utf-8-sig") as f:
+    with open(csv_path, 'r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
         for row in reader:
-            guide_id = row["id"].strip()
-            keywords = row.get("keywords", "").strip()
-            needs = False
-            for lang in langs:
-                path = os.path.join(GUIDE_DIR, f"{guide_id}_{lang}.md")
-                if force or not os.path.exists(path):
-                    topic = topic_for_lang(row, lang)
-                    if topic:
-                        tasks.append((guide_id, topic, lang, keywords))
-                        needs = True
-            if needs:
-                guides_touched += 1
-            if guides_touched >= limit:
+            if not activity_caps and limit > 0 and pairs_queued >= limit:
                 break
+            gid = (row.get('id') or '').strip()
+            if not gid:
+                continue
+            act = _infer_activity(row)
+            if activity_caps is not None:
+                if act not in activity_caps or activity_caps[act] <= 0:
+                    continue
+                if activity_used.get(act, 0) >= activity_caps[act]:
+                    continue
+            dup = duplicate_guide_reason(gid, OUTPUT_DIR)
+            if dup:
+                print(f"⏭️ 큐에서 제외(중복주제): {gid} — {dup}")
+                continue
+            status = locale_pair_status(OUTPUT_DIR, gid)
+            if status == "complete":
+                continue
+            if status == "half":
+                half_skipped += 1
+                continue
+            for lang in ['en', 'ko']:
+                tasks_to_run.append((row, lang))
+            pairs_queued += 1
+            activity_used[act] = activity_used.get(act, 0) + 1
 
-    if not tasks:
-        print("✨ No guides to generate.")
+    if half_skipped:
+        print(f"⏭️  반쪽(en/ko 한쪽만) 가이드 {half_skipped}건 — 신규 페어 우선으로 스킵")
+
+    if not tasks_to_run:
+        print("💡 새로 생성할 가이드 페어가 없습니다.")
+        _emit_pipeline_result(step="guides", topics=0, generated=0, skipped=half_skipped)
         return
 
-    print(f"🔔 Generating {len(tasks)} guide file(s) (force={force})...")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as ex:
-        list(ex.map(lambda p: generate_guide(*p), tasks))
+    if activity_caps:
+        print(f"🎯 활동별 한도: ski={activity_caps['ski']} dive={activity_caps['dive']} camp={activity_caps['camp']}")
+    print(f"🚀 {pairs_queued}페어 · {len(tasks_to_run)}파일 가이드 생성 시작...")
 
-
-def main() -> None:
-    ap = argparse.ArgumentParser(description="Generate KR Care guides")
-    ap.add_argument("--limit", type=int, default=4, help="Max guide topics")
-    ap.add_argument("--langs", default="en,ja", help="Comma langs, e.g. en,ja")
-    ap.add_argument("--force", action="store_true", help="Overwrite existing files")
-    args = ap.parse_args()
-    langs = [x.strip() for x in args.langs.split(",") if x.strip()]
-    run_guide_generator(limit=args.limit, langs=langs, force=args.force)
-
+    workers = max(1, min(len(tasks_to_run), 5))
+    ok = 0
+    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
+        futures = [executor.submit(generate_guide, t[0], t[1]) for t in tasks_to_run]
+        for future in concurrent.futures.as_completed(futures):
+            result = future.result()
+            print(result)
+            if result and result.startswith("✅"):
+                ok += 1
+    _emit_pipeline_result(
+        step="guides",
+        topics=pairs_queued,
+        generated=ok,
+        failed=len(tasks_to_run) - ok,
+        skipped=half_skipped,
+    )
 
 if __name__ == "__main__":
-    main()
+    env_limit = os.environ.get("GUIDE_LIMIT")
+    arg_limit = sys.argv[1] if len(sys.argv) > 1 else None
+    try:
+        run_limit = int(arg_limit or env_limit or 3)
+    except ValueError:
+        run_limit = 3
+    run_batch(limit=run_limit)

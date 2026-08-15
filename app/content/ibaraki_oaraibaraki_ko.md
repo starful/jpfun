@@ -5,9 +5,9 @@ lat: 36.313
 lng: 140.592
 activity: "surf"
 categories: ["Surf"]
-thumbnail: "/static/images/default.jpg"
+thumbnail: "/static/images/ibaraki_oaraibaraki.jpg"
 address: "일본 이바라키현 오아라이정"
-date: "2026-08-12"
+date: "2026-08-15"
 website: ""
 summary: "도쿄 북쪽 이바라키 해안 서핑. 하버·비치 옵션이 다양."
 image_prompt: ""

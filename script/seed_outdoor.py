@@ -18,6 +18,9 @@ def write_items(*, force: bool = False) -> int:
     content_dir.mkdir(parents=True, exist_ok=True)
     written = 0
     for seed in OUTDOOR_SEEDS:
+        # Full ski longform lives in ski_catalog / seed_resorts — never overwrite from outdoor stubs.
+        if seed.get("activity") == "ski":
+            continue
         sid = seed["id"]
         for lang in LANGS:
             path = content_dir / f"{sid}_{lang}.md"

@@ -5,9 +5,9 @@ lat: 24.805
 lng: 125.281
 activity: "surf"
 categories: ["Surf"]
-thumbnail: "/static/images/default.jpg"
+thumbnail: "/static/images/okinawa_sunayama.jpg"
 address: "일본 오키나와현 미야코지마 히라라"
-date: "2026-08-12"
+date: "2026-08-15"
 website: ""
 summary: "미야코 모래언덕 비치 인근 서핑. 겨울 북쪽 스웰 시즌이 핵심."
 image_prompt: ""

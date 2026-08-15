@@ -1,13 +1,41 @@
-id,topic_en,topic_ja,topic_zh,topic_zh_tw,keywords
-guide_medical_prep,"Korea Medical Trip Prep Checklist","韓国メディカルツーリズム準備チェックリスト","赴韩医疗旅游准备清单","赴韓醫療旅遊準備清單","korea medical trip prep visa documents recovery timeline checklist"
-guide_gangnam_clinics,"How to Choose a Gangnam Clinic","江南クリニックの選び方","江南诊所怎么选","江南診所怎麼選","gangnam clinic consultation language deposit review red flags"
-guide_busan_medical,"Busan Medical Trip Area Guide","釜山メディカルエリアガイド","釜山医疗旅游区域指南","釜山醫療旅遊區域指南","busan clinic haeundae seomyeon stay transit"
-guide_recovery_stay,"Recovery Stay Near Clinics in Korea","クリニック近くの回復滞在ガイド","韩国诊所附近的恢复住宿指南","韓國診所附近的恢復住宿指南","korea clinic hotel recovery quiet neighborhood walking distance"
-guide_medical_visa_stay,"Korea Medical Visit Visa & Stay Timing","韓国医療ツーリズムのビザと滞在日数","赴韩就医签证与停留天数","赴韓就醫簽證與停留天數","korea medical visa stay duration departure after procedure short stay"
-guide_gangnam_access,"Getting to Gangnam Clinics by Transit","江南クリニックへの公共交通アクセス","地铁怎么去江南诊所","地鐵怎麼去江南診所","gangnam station sinnonhyeon subway taxi walking clinic transit"
-guide_consultation_questions,"Questions to Ask Before Booking a Clinic in Korea","韓国クリニック予約前に聞くべき質問","赴韩诊所预约前必问问题","赴韓診所預約前必問問題","clinic consultation questions language deposit interpreter recovery plan"
-guide_deposit_refund,"Clinic Deposits, Cancellations & Refunds in Korea","韓国クリニックの予約金・キャンセル・返金","韩国诊所定金取消与退款注意","韓國診所訂金取消與退款注意","korea clinic deposit cancellation refund policy booking caution"
-guide_aftercare_flight,"Flying Home After Surgery in Korea: Aftercare Timeline","韓国手術後の帰国タイミングとアフターケア","赴韩手术后何时可以飞回家","赴韓手術後何時可以飛回家","korea surgery aftercare flight clearance stitches swelling cabin pressure"
-guide_medical_interpreter,"Medical Interpreters & Language Support in Korea Clinics","韓国クリニックの医療通訳・言語サポート","韩国诊所医疗口译与语言支持","韓國診所醫療口譯與語言支持","korea clinic interpreter coordinator english japanese chinese medical translation"
-guide_pharmacy_meds,"Pharmacies & Post-Procedure Medications in Korea","韓国の薬局と術後薬の受け取り方","韩国药店与术后用药指南","韓國藥局與術後用藥指南","korea pharmacy prescription antibiotics painkillers otc recovery meds"
-guide_seoul_vs_busan_medical,"Seoul vs Busan for a Medical Trip","ソウルと釜山のメディカルツーリズム比較","首尔 vs 釜山医疗旅游怎么选","首爾 vs 釜山醫療旅遊怎麼選","seoul busan medical trip clinic density recovery stay transit cost comparison"
+id,topic_en,topic_ko,keywords,activity
+guide_ski_pass_comparison,"Japan ski pass types: day, multi-resort, and season basics",일본 스키 패스 종류: 1일·연동·시즌,japan ski pass day ticket multi resort,ski
+guide_ski_rental_vs_own,Renting ski gear in Japan vs bringing your own,일본 스키 장비 렌탈 vs 가져가기,ski rental japan packing boots,ski
+guide_tokyo_day_ski,Tokyo day-trip skiing: GALA Yuzawa and near Shinkansen options,도쿄 당일 스키: 가라유자와·신칸센 코스,tokyo day trip ski gala yuzawa shinkansen,ski
+guide_hakuba_valley_base,Choosing a Hakuba Valley base for a ski week,하쿠바 밸리 스키 주간 베이스 고르기,hakuba valley ski base happo goryu,ski
+guide_niseko_powder_week,"First powder week in Niseko: lifts, buses, and village tips",니세코 첫 파우더 위크: 리프트·버스·마을,niseko powder week hirafu transport,ski
+guide_ski_onsen_combo,Ski + onsen day planning without wasting lift hours,"스키+온천 일정, 리프트 시간 안 버리는 법",ski onsen combo japan day plan,ski
+guide_beginner_ski_japan,Beginner ski resorts in Japan with English support,영어 지원 되는 일본 초보 스키장,beginner ski japan english lessons,ski
+guide_ski_baggage_flights,Flying with ski bags to Japan: airlines and fees,스키백 항공 반입: 항공사·요금,ski bag flight japan airline fees,ski
+guide_night_skiing_japan,Night skiing in Japan: where it works and how to plan,일본 야간 스키: 가능한 곳과 계획법,night skiing japan floodlight,ski
+guide_family_ski_japan,Family ski trips in Japan: kids parks and easy runs,가족 스키 여행: 키즈파크·쉬운 코스,family ski japan kids park,ski
+guide_shonan_surf_basics,Shonan surfing basics for Tokyo weekenders,도쿄 주말 쇼난 서핑 기초,shonan surf tokyo weekend beginner,surf
+guide_chiba_surf_season,Chiba Pacific surf seasons and swell windows,치바 태평양 서프 시즌·스웰,chiba surf season swell kujukuri hebara,surf
+guide_okinawa_surf_winter,Winter surfing in Okinawa: north swell and reef tips,오키나와 겨울 서핑: 북쪽 스웰·리프,okinawa winter surf north swell reef,surf
+guide_surf_school_japan,Choosing a surf school in Japan (EN/KO friendly),일본 서프 스쿨 고르기,surf school japan english korean,surf
+guide_surfboard_rental_japan,Surfboard and wetsuit rental along Japanese coasts,일본 해안 보드·슈트 렌탈,surfboard rental wetsuit japan,surf
+guide_ibaraki_oarai_surf,Oarai / Ibaraki surf day trips from Tokyo,도쿄에서 오아라이·이바라키 서프 당일,oarai ibaraki surf day trip,surf
+guide_kochi_pacific_surf,Kochi / Shikoku Pacific surfing for intermediates,고치·시코쿠 중급 서핑,kochi shikoku surf intermediate,surf
+guide_surf_typhoon_safety,Typhoon swell surfing in Japan: safety checklist,태풍 스웰 서핑 안전 체크리스트,typhoon swell surf japan safety,surf
+guide_miyako_surf_scenic,Miyako scenic surf and when to skip crowded peaks,미야코 풍경 서핑·혼잡 피하기,miyako surf scenic crowd,surf
+guide_surf_camping_combo,Surf + camp weekends on the Kanto coast,간토 해안 서프+캠프 주말,kanto surf camp weekend,surf
+guide_scuba_cert_japan,Getting a scuba certification in Japan (OWD basics),일본에서 스쿠버 자격(OWD) 따는 법,scuba certification OWD Japan dive school,dive
+guide_kerama_day_boat,Kerama Islands day-boat diving from Naha / Zamami,나하·자마미 출발 케라마 데이보트 다이빙,kerama day boat zamami naha scuba,dive
+guide_blue_cave_onna,Onna Blue Cave: scuba vs snorkel and booking tips,온나 블루케이브 스쿠버·스노클 예약 팁,onna blue cave scuba snorkel okinawa,dive
+guide_yonaguni_hammerhead,Yonaguni hammerhead season: advanced scuba planning,요나구니 귀상어 시즌 어드밴스드 스쿠버 계획,yonaguni hammerhead winter scuba advanced,dive
+guide_miyako_dropoff,Miyako Island drop-offs and underwater caves for scuba,미야코지마 드롭오프·수중 케이브 스쿠버,miyako dropoff cave scuba okinawa,dive
+guide_ohsezaki_muck,"Ohsezaki muck diving: macro, shore entries, night dives",오세자키 머크 다이빙·쇼어·나이트,ohsezaki muck macro shore night dive izu,dive
+guide_scuba_seasons_okinawa,Best months for scuba in Okinawa (water temp & visibility),오키나와 스쿠버 베스트 시즌(수온·시야),okinawa scuba season water temperature visibility,dive
+guide_ishigaki_vs_miyako_dive,Ishigaki vs Miyako for a scuba holiday,스쿠버 여행 이시가키 vs 미야코 비교,ishigaki miyako scuba compare manta caves,dive
+guide_shimoda_dive_weekend,Tokyo weekend scuba trip to Shimoda (Izu),도쿄 주말 시모다(이즈) 스쿠버 여행,shimoda izu weekend scuba tokyo,dive
+guide_dive_gear_rental_japan,Scuba gear rental vs packing your own for Japan trips,일본 스쿠버 장비 렌탈 vs 가져가기,scuba gear rental japan packing bcd regulator,dive
+guide_fuji_camp_booking,Booking Fuji Five Lakes campgrounds (peak season tips),후지 오호 캠핑장 예약(성수기 팁),fuji campground booking kawaguchiko motosu,camp
+guide_car_camp_japan_rules,Car camping rules and etiquette in Japan,일본 차박·오토캠프 규칙과 매너,japan car camp autocamp rules etiquette,camp
+guide_hakuba_summer_camp,Summer camping and glamping bases in Hakuba,하쿠바 여름 캠프·글램핑 베이스,hakuba summer camp glamping,camp
+guide_hokkaido_camp_season,"Hokkaido camping seasons: Furano, Toya, and shoulder months",홋카이도 캠핑 시즌: 후라노·도야·어깨철,hokkaido camp furano toya season,camp
+guide_shimanami_cycle_camp,Cycle-camping the Shimanami Kaido: sites and ferry tips,시마나미 사이클 캠핑: 사이트·페리 팁,shimanami cycle camp ferry sites,camp
+guide_camp_gear_rental_japan,Camping gear rental in Japan for first-timers,초보용 일본 캠핑 장비 렌탈,japan camp gear rental tent sleeping bag,camp
+guide_karuizawa_camp_weekend,Karuizawa weekend camping near Tokyo,도쿄 근교 가루이자와 주말 캠핑,karuizawa camp weekend tokyo,camp
+guide_camp_bear_safety,Bear-aware camping in Japan mountains,일본 산지 캠핑 곰 주의 가이드,japan camp bear safety mountains,camp
+guide_winter_camp_japan,Winter camping in Japan: sites that stay open,일본 겨울 캠핑: 연중·동계 사이트,winter camp japan open sites,camp
+guide_glamping_vs_tent,Glamping vs tent camping for first Japan trips,일본 첫 캠핑: 글램핑 vs 텐트,glamping vs tent japan first trip,camp

@@ -1,34 +1,53 @@
 ---
 lang: en
 title: "Hakuba Happo-one"
-lat: 36.702
-lng: 137.862
-activity: "ski"
+lat: 36.698
+lng: 137.837
 categories: ["Ski"]
-thumbnail: "/static/images/default.jpg"
+activity: "ski"
+thumbnail: "/static/images/hakuba_happo_one.jpg"
 address: "Happo, Hakuba, Nagano, Japan"
-date: "2026-08-12"
+date: "2026-08-15"
 website: "https://www.happo-one.jp/"
-summary: "Olympic-scale vertical in Hakuba Valley with strong Tokyo access and après options."
+summary: "Hakuba Happo-one — Olympic-scale vertical, Hakuba Valley access, and Tokyo-friendly trip planning."
 image_prompt: ""
 region: "nagano"
 ---
 
 ## Overview
 
-**Hakuba Happo-one** — Olympic-scale vertical in Hakuba Valley with strong Tokyo access and après options.
+Hakuba Happo-one hosted alpine events at the **1998 Nagano Winter Olympics** and remains the flagship resort of the **Hakuba Valley**. With roughly 1,070 m of vertical and long groomed runs, it is a top pick for skiers who want big-mountain skiing within reach of Tokyo — and a frequent add-on for Korean travelers combining Tokyo and snow.
 
-Browse it on the JPFun map alongside other leisure spots in the same region.
+JPFun maps Happo-one with **Stay** and **Food** pins around Hakuba village for post-ski planning.
 
-## Highlights
+## Slopes & lifts
 
-- Activity: Ski resort
-- Region key: nagano
-- Features: Olympic, Vertical, Village
+- **Scale:** One of Japan's largest single-resort vertical drops — multiple peaks and long descent routes.
+- **Levels:** Beginner zones near the base; advanced terrain higher up, including Olympic-course heritage areas (check seasonal opening).
+- **Hakuba Valley ticket:** Multi-resort passes link Happo-one, Goryu, 47, and others — worthwhile if you stay 3+ days.
+- **Crowds:** Weekends from Tokyo spike traffic; weekday skiing is noticeably calmer.
 
-## Trip tips
+## Season & snow
 
-- Check season, weather, and tides (surf/dive) before you go.
-- Book rentals, schools, and boats early in peak months.
-- Nearby lodging: map Stay pins or Rakuten / Klook from the detail page.
+- **Typical season:** Late November – early May (lift-dependent).
+- **Snow quality:** Nagano powder after cold fronts; spring corn snow in March–April on sunny aspects.
+- **Safety:** Mountain weather changes fast — carry layers and check lift closures at the base board.
+
+## Getting there
+
+- **From Tokyo:** JR Hokuriku Shinkansen to Nagano or Toyama area, then bus or train to Hakuba (~4–5 h door-to-door depending on routing).
+- **Overnight bus:** Budget option from Shinjuku to Hakuba — saves a hotel night if you can sleep on the bus.
+- **From Seoul:** Fly to Narita/Haneda, stay in Tokyo or go direct to Nagano by train; winter luggage forwarding to Hakuba hotels is common.
+
+## Stay & village
+
+- **Hakuba Happo village:** Hotels, pensions, and rental shops walking distance from lifts.
+- **Onsen:** Echoland and Wadano areas have foot-baths and ryokan — short taxi from Happo base.
+- **Food:** Tonkatsu, ramen, and craft beer pubs; reserve popular restaurants on Saturday nights.
+
+## JPFun tips
+
+- Buy **Valley-wide pass** if you plan to sample Goryu or 47 for park riding.
+- Book **Shinkansen + bus** tickets together in peak season.
+- Use map **Stay** pins in Echoland/Wadano if Happo base hotels are sold out.
 

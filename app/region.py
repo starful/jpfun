@@ -17,6 +17,9 @@ REGION_RULES: list[tuple[str, re.Pattern[str]]] = [
             re.I,
         ),
     ),
+    ("gifu", re.compile(r"Gifu|기후|岐阜", re.I)),
+    ("gunma", re.compile(r"Gunma|군마|群馬", re.I)),
+    ("tochigi", re.compile(r"Tochigi|도치기|栃木", re.I)),
     (
         "kanto",
         re.compile(
@@ -27,7 +30,7 @@ REGION_RULES: list[tuple[str, re.Pattern[str]]] = [
     (
         "chubu",
         re.compile(
-            r"Chubu|Yamanashi|Shizuoka|Gifu|중부|야마나시|시즈오카|기후|中部|山梨|静岡|岐阜|Motosu|Fujikawaguchiko|Oshima",
+            r"Chubu|Yamanashi|Shizuoka|중부|야마나시|시즈오카|中部|山梨|静岡|Motosu|Fujikawaguchiko|Oshima",
             re.I,
         ),
     ),
@@ -45,9 +48,6 @@ REGION_RULES: list[tuple[str, re.Pattern[str]]] = [
             re.I,
         ),
     ),
-    ("gifu", re.compile(r"Gifu|기후|岐阜", re.I)),
-    ("gunma", re.compile(r"Gunma|군마|群馬", re.I)),
-    ("tochigi", re.compile(r"Tochigi|도치기|栃木", re.I)),
 ]
 
 

@@ -5,9 +5,9 @@ lat: 36.313
 lng: 140.592
 activity: "surf"
 categories: ["Surf"]
-thumbnail: "/static/images/default.jpg"
+thumbnail: "/static/images/ibaraki_oaraibaraki.jpg"
 address: "Oarai, Ibaraki, Japan"
-date: "2026-08-12"
+date: "2026-08-15"
 website: ""
 summary: "Ibaraki coast surf with harbor and beach options — popular north of Tokyo."
 image_prompt: ""

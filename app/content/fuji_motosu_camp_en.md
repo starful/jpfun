@@ -5,9 +5,9 @@ lat: 35.462
 lng: 138.687
 activity: "camp"
 categories: ["Camp"]
-thumbnail: "/static/images/default.jpg"
+thumbnail: "/static/images/fuji_motosu_camp.jpg"
 address: "Lake Motosu, Fujikawaguchiko, Yamanashi, Japan"
-date: "2026-08-12"
+date: "2026-08-15"
 website: ""
 summary: "Fuji lakeside camping classic — car-camp sites and iconic Motosu reflections."
 image_prompt: ""

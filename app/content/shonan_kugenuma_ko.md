@@ -5,9 +5,9 @@ lat: 35.32
 lng: 139.486
 activity: "surf"
 categories: ["Surf"]
-thumbnail: "/static/images/default.jpg"
+thumbnail: "/static/images/shonan_kugenuma.jpg"
 address: "일본 가나가와현 후지사와시 구게누마"
-date: "2026-08-12"
+date: "2026-08-15"
 website: ""
 summary: "도쿄 근교 쇼난 대표 비치. 스쿨·렌탈과 전철 접근이 편함."
 image_prompt: ""

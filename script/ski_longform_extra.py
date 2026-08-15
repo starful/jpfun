@@ -17,7 +17,7 @@ def _render(name: str, hook: str, slopes: list[str], season: list[str], access: 
 
 {hook}
 
-OKSki maps nearby **Stay** and **Food** pins so you can plan lodging and meals without random map scrolling.
+JPFun maps nearby **Stay** and **Food** pins so you can plan lodging and meals without random map scrolling.
 
 ## Slopes & lifts
 
@@ -35,7 +35,7 @@ OKSki maps nearby **Stay** and **Food** pins so you can plan lodging and meals w
 
 {_bullets(stay)}
 
-## OKSki tips
+## JPFun tips
 
 {_bullets(tips)}
 """
@@ -43,7 +43,7 @@ OKSki maps nearby **Stay** and **Food** pins so you can plan lodging and meals w
 
 {hook}
 
-OKSki 지도에는 근처 **숙소(Stay)**·**맛집(Food)** 핀을 표시해 슬로프 후 일정을 빠르게 짤 수 있습니다.
+JPFun 지도에는 근처 **숙소(Stay)**·**맛집(Food)** 핀을 표시해 슬로프 후 일정을 빠르게 짤 수 있습니다.
 
 ## 슬로프·리프트
 
@@ -61,7 +61,7 @@ OKSki 지도에는 근처 **숙소(Stay)**·**맛집(Food)** 핀을 표시해 �
 
 {_bullets(stay)}
 
-## OKSki 팁
+## JPFun 팁
 
 {_bullets(tips)}
 """
@@ -147,7 +147,7 @@ _FACTS: dict[str, dict[str, Any]] = {
         ],
         tips_en=[
             "Compare Village-only tickets vs full United passes before arrival.",
-            "Use OKSki Stay pins within shuttle range of the Village gondola.",
+            "Use JPFun Stay pins within shuttle range of the Village gondola.",
             "On whiteout days, book onsen time at Village or nearby Annupuri baths.",
         ],
         tips_ko=[
@@ -266,12 +266,12 @@ _FACTS: dict[str, dict[str, Any]] = {
             "식사는 리조트 중심이라 피크 시간 예약을 권장합니다.",
         ],
         tips_en=[
-            "Use OKSki for nearby Stay if hotels are full; shuttles may still reach the slopes.",
+            "Use JPFun for nearby Stay if hotels are full; shuttles may still reach the slopes.",
             "Split days: ski morning + Unkai or Ice Village afternoon.",
             "Wind / fog can cancel terrace visits — watch morning forecasts.",
         ],
         tips_ko=[
-            "호텔이 만실이면 OKSki Stay로 셔틀권 숙소를 찾으세요.",
+            "호텔이 만실이면 JPFun Stay로 셔틀권 숙소를 찾으세요.",
             "오전 스키 + 오후 운해/아이스빌리지 분할 일정이 무난합니다.",
             "안개·강풍 시 테라스가 운휴될 수 있습니다.",
         ],
@@ -388,7 +388,7 @@ _FACTS: dict[str, dict[str, Any]] = {
         tips_en=[
             "Use Teine for arrival / departure buffer days around CTS flights.",
             "Combine with Sapporo Beer Museum or soup curry nights downtown.",
-            "OKSki Stay pins in Sapporo make multi-resort city bases easy.",
+            "JPFun Stay pins in Sapporo make multi-resort city bases easy.",
         ],
         tips_ko=[
             "CTS 출입국 완충일에 테이네를 넣기 좋습니다.",
@@ -928,7 +928,7 @@ _FACTS: dict[str, dict[str, Any]] = {
         tips_en=[
             "Pair skiing morning + Karuizawa espresso walk afternoon.",
             "Not a substitute for Niseko powder goals — set expectations.",
-            "Use OKSki Stay if Prince is sold out — walkability varies.",
+            "Use JPFun Stay if Prince is sold out — walkability varies.",
         ],
         tips_ko=[
             "오전 스키 + 오후 가루이자와 산책이 좋은 조합입니다.",
@@ -1347,7 +1347,7 @@ _FACTS: dict[str, dict[str, Any]] = {
         ],
         tips_en=[
             "Reserve a weather window morning for the juhyo ride.",
-            "Pair OKSki Stay pins walking distance to public baths.",
+            "Pair JPFun Stay pins walking distance to public baths.",
             "Bring a buff — sulfur steam + cold wind is harsh on skin.",
         ],
         tips_ko=[
@@ -1648,7 +1648,7 @@ _FACTS: dict[str, dict[str, Any]] = {
         tips_en=[
             "Let advanced riders roam Takasu while kids take Dynaland lessons.",
             "Meet at a known plaza before last lifts.",
-            "OKSki Stay pins help if mountain hotels are full.",
+            "JPFun Stay pins help if mountain hotels are full.",
         ],
         tips_ko=[
             "상급은 다카스, 아이는 다이나랜드 강습으로 분할하세요.",
