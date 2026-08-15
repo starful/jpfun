@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ site.site_name }} — {{ site.tagline }}</title>
+    <meta name="description" content="{{ site.tagline }} Pick ski, scuba, surf, or camp — then read guides and filter by region.">
+    <link rel="canonical" href="{{ canonical }}" />
+    <link rel="alternate" hreflang="en" href="{{ site.site_url }}/" />
+    <link rel="alternate" hreflang="ko" href="{{ site.site_url }}/?lang=ko" />
+    <link rel="alternate" hreflang="x-default" href="{{ site.site_url }}/" />
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ site.site_name }} — {{ site.tagline }}">
+    <meta property="og:description" content="Japan leisure map — ski, scuba, surf & camp.">
+    <meta property="og:url" content="{{ canonical }}">
+    <meta property="og:image" content="{{ site.site_url }}/static/images/logo.png">
+    <meta property="og:site_name" content="{{ site.site_name }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ site.site_name }} — {{ site.tagline }}">
+    <meta name="twitter:description" content="Japan leisure map — ski, scuba, surf & camp.">
+    <meta name="twitter:image" content="{{ site.site_url }}/static/images/logo.png">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_id }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ site.ga_id }}');
+    </script>
+    {% include 'partials/travelpayouts_drive.html' %}
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="{{ site.accent_color }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/hub-lp.css">
+</head>
+<body class="hub-page">
+    {% include 'header.html' %}
+
+    <main class="lp">
+        {# 1) Hero slideshow #}
+        <section class="lp-hero" aria-label="JPFun" data-hero-slider>
+            <div class="lp-hero-media" aria-hidden="true">
+                {% for card in hero_slides %}
+                <img
+                    src="{{ card.image }}"
+                    alt=""
+                    class="lp-hero-img {% if loop.first %}is-active{% endif %}"
+                    width="2000"
+                    height="1200"
+                    {% if not loop.first %}loading="lazy"{% endif %}
+                    data-slide-index="{{ loop.index0 }}"
+                >
+                {% endfor %}
+                <div class="lp-hero-wash"></div>
+            </div>
+            <div class="lp-hero-inner">
+                <p class="lp-brand">JPFun</p>
+                <h1 class="lp-hero-title">
+                    {% if lang == 'ko' %}
+                    일본 레저,<br>먼저 고르고 지역으로.
+                    {% else %}
+                    Japan leisure.<br>Pick it, then the place.
+                    {% endif %}
+                </h1>
+                <p class="lp-hero-lead">
+                    {% if lang == 'ko' %}
+                    스키 · 스쿠버 · 서핑 · 캠핑 지도와, 결정을 돕는 가이드.
+                    {% else %}
+                    Maps for ski, scuba, surf &amp; camp — plus guides that help you decide.
+                    {% endif %}
+                </p>
+                <div class="lp-hero-actions">
+                    <a class="lp-btn lp-btn-primary" href="#activities">
+                        {% if lang == 'ko' %}레저 고르기{% else %}Choose leisure{% endif %}
+                    </a>
+                    <a class="lp-btn lp-btn-ghost" href="#guides">
+                        {% if lang == 'ko' %}가이드 읽기{% else %}Read guides{% endif %}
+                    </a>
+                </div>
+                <p class="lp-season">{{ season.line }}</p>
+            </div>
+
+            <div class="lp-hero-controls">
+                <button type="button" class="lp-hero-nav lp-hero-prev" data-hero-prev aria-label="{% if lang == 'ko' %}이전 사진{% else %}Previous slide{% endif %}">
+                    <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+                </button>
+                <div class="lp-hero-dots" role="tablist" aria-label="{% if lang == 'ko' %}히어로 슬라이드{% else %}Hero slides{% endif %}">
+                    {% for card in hero_slides %}
+                    <button type="button"
+                            class="lp-hero-dot {% if loop.first %}is-active{% endif %}"
+                            data-hero-dot="{{ loop.index0 }}"
+                            aria-label="{{ card.label }}"
+                            aria-selected="{% if loop.first %}true{% else %}false{% endif %}"></button>
+                    {% endfor %}
+                </div>
+                <button type="button" class="lp-hero-nav lp-hero-next" data-hero-next aria-label="{% if lang == 'ko' %}다음 사진{% else %}Next slide{% endif %}">
+                    <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+                </button>
+            </div>
+        </section>
+
+        {# 2) Activities #}
+        <section id="activities" class="lp-section lp-activities" aria-label="Activities">
+            <div class="lp-section-head">
+                <h2>
+                    {% if lang == 'ko' %}어떤 레저인가요?{% else %}What are you here for?{% endif %}
+                </h2>
+                <p>
+                    {% if lang == 'ko' %}
+                    스키·스쿠버·서핑·캠핑은 지도로, 골프·온천은 바로 이어집니다.
+                    {% else %}
+                    Ski, scuba, surf &amp; camp open maps here — golf &amp; onsen continue the trip.
+                    {% endif %}
+                </p>
+            </div>
+            <div class="lp-activity-grid">
+                {% for card in activity_cards %}
+                <a class="lp-activity"
+                   href="{{ card.href }}"
+                   {% if card.external %}target="_blank" rel="noopener noreferrer"{% endif %}
+                   style="--tone: {{ card.tone }}; --img: url('{{ card.image }}')">
+                    <span class="lp-activity-bg" aria-hidden="true"></span>
+                    <span class="lp-activity-copy">
+                        <span class="lp-activity-label">{{ card.emoji }} {{ card.label }}</span>
+                        <span class="lp-activity-desc">{{ card.desc }}</span>
+                        <span class="lp-activity-cta">
+                            {% if card.external %}
+                              {% if lang == 'ko' %}바로가기{% else %}Open{% endif %}
+                            {% else %}
+                              {% if lang == 'ko' %}지도 보기{% else %}Open map{% endif %}
+                            {% endif %}
+                            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                        </span>
+                    </span>
+                </a>
+                {% endfor %}
+            </div>
+        </section>
+
+        {# 3) Guides — hub / JPFun shared guides #}
+        {% if hub_guides %}
+        <section id="guides" class="lp-section lp-guides" aria-label="JPFun guides">
+            <div class="lp-section-head">
+                <h2>{% if lang == 'ko' %}JPFun 가이드{% else %}JPFun guides{% endif %}</h2>
+                <p>
+                    {% if lang == 'ko' %}
+                    시즌과 여행 짜기. 스키·스쿠버 상세는 각 맵 안에 있습니다.
+                    {% else %}
+                    Seasons and trip planning. Activity-specific guides live on each map.
+                    {% endif %}
+                </p>
+            </div>
+            <div class="lp-guide-grid">
+                {% for guide in hub_guides[:6] %}
+                <a href="/guide/{{ guide.id }}" class="lp-guide">
+                    <img src="{{ guide.thumbnail }}" alt="" class="lp-guide-thumb" loading="lazy">
+                    <span class="lp-guide-body">
+                        <span class="lp-guide-tag">JPFun</span>
+                        <strong class="lp-guide-title">{{ guide.title }}</strong>
+                        <span class="lp-guide-summary">{{ guide.summary }}</span>
+                    </span>
+                </a>
+                {% endfor %}
+            </div>
+            <div class="lp-guide-more">
+                <a href="/guide{% if lang != 'en' %}?lang={{ lang }}{% endif %}" class="lp-btn lp-btn-text">
+                    {% if lang == 'ko' %}가이드 전체{% else %}All guides{% endif %}
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </a>
+            </div>
+        </section>
+        {% endif %}
+
+        {# 4) Recommended routes #}
+        {% if route_guides %}
+        <section class="lp-section lp-shortcuts" aria-label="Recommended routes">
+            <div class="lp-section-head">
+                <h2>
+                    {% if lang == 'ko' %}추천 루트{% else %}Recommended routes{% endif %}
+                </h2>
+                <p>
+                    {% if lang == 'ko' %}
+                    며칠짜리 코스 초안 — 읽고 지도에서 핀하세요.
+                    {% else %}
+                    Short trip outlines — read the guide, then pin the map.
+                    {% endif %}
+                </p>
+            </div>
+            <ul class="lp-shortcut-list">
+                {% for g in route_guides[:12] %}
+                <li>
+                    <a class="lp-shortcut" href="/guide/{{ g.id }}">
+                        <span class="lp-shortcut-emoji" aria-hidden="true">{{ g.emoji or '🗺️' }}</span>
+                        <span class="lp-shortcut-text">
+                            <strong>{{ g.title }}</strong>
+                            <span>{{ g.summary }}</span>
+                        </span>
+                        <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+
+        {% if site.instagram_url %}
+        <section class="lp-section lp-instagram" aria-label="Instagram">
+            <div class="lp-section-head">
+                <h2>{% if lang == 'ko' %}사진으로 보기{% else %}See it in photos{% endif %}</h2>
+                <p>
+                    {% if lang == 'ko' %}
+                    일본 레저 현장 사진은 Instagram @{{ site.instagram_handle }}
+                    {% else %}
+                    Japan leisure moments on Instagram @{{ site.instagram_handle }}
+                    {% endif %}
+                </p>
+            </div>
+            <a class="lp-ig-cta"
+               href="{{ site.instagram_url }}"
+               target="_blank"
+               rel="noopener noreferrer"
+               data-track="instagram_click"
+               data-track-label="hub">
+                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                <span>
+                    {% if lang == 'ko' %}@{{ site.instagram_handle }} 보기{% else %}Follow @{{ site.instagram_handle }}{% endif %}
+                </span>
+                <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+            </a>
+        </section>
+        {% endif %}
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p><strong>{{ site.site_name }}</strong><br>{{ site.footer_tagline }}</p>
+                <div class="footer-links">
+                    {% if site.instagram_url %}
+                    <a href="{{ site.instagram_url }}"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       data-track="instagram_click"
+                       data-track-label="footer">Instagram</a> |
+                    {% endif %}
+                    <a href="/about.html">About & Contact</a> |
+                    <a href="/privacy.html">Privacy Policy</a>
+                </div>
+                <p class="copyright">&copy; {{ site.footer_year }} {{ site.site_name }}. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="/static/js/hub-hero.js" defer></script>
+</body>
+</html>

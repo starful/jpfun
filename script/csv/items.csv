@@ -1,0 +1,15 @@
+Name,Name_KO,Id,Activity,Lat,Lng,Address,Features,Website,Region
+Niseko Grand Hirafu,니세코 그란히라후,niseko_grand_hirafu,ski,42.857,140.706,"Hirafu, Kutchan, Hokkaido, Japan","Powder, Resort, Beginner",https://www.grand-hirafu.jp/,hokkaido
+Hakuba Happo-one,하쿠바 햇포원,hakuba_happo_one,ski,36.702,137.862,"Happo, Hakuba, Nagano, Japan","Olympic, Vertical, Village",https://www.happo-one.jp/,nagano
+GALA Yuzawa Snow Resort,가라 유자와,gala_yuzawa,ski,36.948,138.803,"Yuzawa, Niigata, Japan","Shinkansen, Day trip, Beginner",https://gala.co.jp/,niigata
+Nozawa Onsen Ski Resort,노자와온천 스키장,nozawa_onsen,ski,36.922,138.441,"Nozawaonsen, Nagano, Japan","Village, Onsen, Powder",https://www.nozawaski.com/,nagano
+Shonan Kugenuma Beach,쇼난 구게누마 비치,shonan_kugenuma,surf,35.32,139.486,"Kugenuma, Fujisawa, Kanagawa, Japan","Beginner, Train access, Schools",,kanto
+Hebara Beach (Isumi),헤바라 비치 (이스미),chiba_hebara,surf,35.254,140.404,"Hebara, Isumi, Chiba, Japan","Consistent, Intermediate, Pacific",,kanto
+Sunayama Beach area (Miyako),스나야마 비치 (미야코),okinawa_sunayama,surf,24.805,125.281,"Hirara, Miyakojima, Okinawa, Japan","Island, Scenic, Winter swell",,okinawa
+Oarai Surf Area,오아라이 서프 에리어,ibaraki_oaraibaraki,surf,36.313,140.592,"Oarai, Ibaraki, Japan","Point / Beach, Intermediate",,kanto
+Kerama Islands Dive Area,케라마 제도 다이빙,okinawa_kerama,dive,26.2,127.35,"Kerama Islands, Okinawa, Japan","Clear water, Day boat, All levels",,okinawa
+Izu Oshima Dive Spots,이즈 오시마 다이빙,izu_oshima,dive,34.737,139.4,"Oshima, Tokyo, Japan","Volcanic rock, Weekend, Schools",,chubu
+Ishigaki Manta Scramble Area,이시가키 만타 스크램블,okinawa_ishigaki_manta,dive,24.336,124.156,"Ishigaki, Okinawa, Japan","Manta, Boat, Intermediate+",,okinawa
+Lake Motosu Camp Area,모토스코 캠프 에리어,fuji_motosu_camp,camp,35.462,138.687,"Lake Motosu, Fujikawaguchiko, Yamanashi, Japan","Fuji view, Car camp, Lakeside",,chubu
+Hakuba Alpine Camp Bases,하쿠바 알파인 캠프,hakuba_camp,camp,36.698,137.862,"Hakuba, Nagano, Japan","Mountain, Summer, Glamping",,nagano
+Shimanami Kaido Camp Stops,시마나미 해도 캠프 스톱,shimanami_camp,camp,34.27,133.05,"Onomichi–Imabari route, Japan","Cycle camp, Island hops, Sea view",,chugoku

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>{{ page_title }} | {{ site.site_name }}</title>
+    <meta name="description" content="{{ page_description }}">
+    <link rel="canonical" href="{{ canonical }}" />
+    <link rel="alternate" hreflang="en" href="{{ hreflang_en }}" />
+    <link rel="alternate" hreflang="ko" href="{{ hreflang_ko }}" />
+    <link rel="alternate" hreflang="x-default" href="{{ hreflang_en }}" />
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ page_title }} | {{ site.site_name }}">
+    <meta property="og:description" content="{{ page_description }}">
+    <meta property="og:url" content="{{ canonical }}">
+    <meta property="og:image" content="{{ site.site_url }}/static/images/logo.png">
+    <meta property="og:site_name" content="{{ site.site_name }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page_title }} | {{ site.site_name }}">
+    <meta name="twitter:description" content="{{ page_description }}">
+    <meta name="twitter:image" content="{{ site.site_url }}/static/images/logo.png">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_id }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ site.ga_id }}');
+    </script>
+    {% include 'partials/travelpayouts_drive.html' %}
+
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="{{ site.accent_color }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/hub-lp.css">
+</head>
+<body class="activity-page" data-activity="{{ activity }}">
+    {% include 'header.html' %}
+
+    <main>
+        <section class="map-section">
+            <div id="map"
+                 data-map-id="{{ site.maps_id }}"
+                 data-activity="{{ activity }}"
+                 data-region="{{ region }}"></div>
+            <aside class="map-legend" aria-label="Map legend">
+                <div class="map-legend-title">{{ activity_meta.emoji }} {{ activity_label }} map</div>
+                <ul class="map-legend-list">
+                    <li>
+                        <span class="map-legend-swatch map-legend-swatch--clinic" aria-hidden="true"></span>
+                        {{ activity_label }} spots
+                    </li>
+                </ul>
+                <p class="map-legend-note">
+                    {% if lang == 'ko' %}
+                    위에서 지역을 고르면 지도와 목록이 함께 좁혀집니다.
+                    {% else %}
+                    Use the region filters above to narrow the map and list.
+                    {% endif %}
+                </p>
+            </aside>
+        </section>
+
+        <div class="content-wrapper">
+            <article class="intro-box">
+                <p class="activity-crumb">
+                    <a href="/{% if lang != 'en' %}?lang={{ lang }}{% endif %}">{{ site.site_name }}</a>
+                    · {{ activity_label }}
+                    {% if region != 'all' %}· {{ region_label }}{% endif %}
+                </p>
+                <h2>{{ activity_meta.emoji }} {{ page_heading }}</h2>
+                <p>{{ page_description }}</p>
+            </article>
+
+            <section id="list-section">
+                <h2 class="list-title">{{ activity_meta.emoji }}
+                    {% if lang == 'ko' %}스팟 목록{% else %}Spot list{% endif %}
+                </h2>
+                <div id="item-list" class="onsen-grid">
+                    {% for item in initial_items %}
+                    <div class="onsen-card">
+                        <a href="{{ item.link }}">
+                            <img src="{{ item.thumbnail }}" class="card-thumb" alt="{{ item.title }}" loading="lazy">
+                        </a>
+                        <div class="card-content">
+                            <h3 class="card-title"><a href="{{ item.link }}">{{ item.title }}</a></h3>
+                            <p class="card-summary">{{ item.summary }}</p>
+                            <div class="card-meta">
+                                <span>📍 {{ item.address or '' }}</span>
+                                <span>📅 {{ item.published or item.date or '' }}</span>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </section>
+
+            {% if activity_guides %}
+            <section class="activity-guides" aria-label="{{ activity_label }} guides">
+                <h2 class="list-title">📖
+                    {% if lang == 'ko' %}{{ activity_label }} 가이드{% else %}{{ activity_label }} guides{% endif %}
+                </h2>
+                <p class="directory-lead">
+                    {% if lang == 'ko' %}
+                    이 활동에만 해당하는 가이드입니다. 전반 안내는 홈의 JPFun 가이드를 보세요.
+                    {% else %}
+                    Guides for this activity only. Broader JPFun guides live on the home page.
+                    {% endif %}
+                </p>
+                <div class="lp-guide-grid activity-guides-grid">
+                    {% for guide in activity_guides[:6] %}
+                    <a href="/guide/{{ guide.id }}" class="lp-guide">
+                        <img src="{{ guide.thumbnail }}" alt="" class="lp-guide-thumb" loading="lazy">
+                        <span class="lp-guide-body">
+                            <span class="lp-guide-tag">{{ activity_label }}</span>
+                            <strong class="lp-guide-title">{{ guide.title }}</strong>
+                            <span class="lp-guide-summary">{{ guide.summary }}</span>
+                        </span>
+                    </a>
+                    {% endfor %}
+                </div>
+            </section>
+            {% endif %}
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-status">
+                <div class="status-badge">
+                    {{ activity_meta.emoji }} <span id="total-items">{{ initial_items|length }}</span> Items
+                </div>
+                <div class="status-badge">
+                    📅 Updated: <span id="last-updated-date">{{ last_updated }}</span>
+                </div>
+            </div>
+            <div class="footer-content">
+                <p><strong>{{ site.site_name }} Project</strong><br>{{ site.footer_tagline }}</p>
+                <div class="footer-links">
+                    {% if site.instagram_url %}
+                    <a href="{{ site.instagram_url }}"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       data-track="instagram_click"
+                       data-track-label="footer">Instagram</a> |
+                    {% endif %}
+                    <a href="/about.html">About & Contact</a> |
+                    <a href="/privacy.html">Privacy Policy</a>
+                </div>
+                <p class="copyright">&copy; {{ site.footer_year }} {{ site.site_name }}. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({"key": "{{ site.maps_api_key }}", "v": "beta", "language": "{{ maps_lang|default('en') }}", "region": "JP"});
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "{{ page_title }}",
+      "itemListElement": [
+        {% for item in initial_items %}
+        {
+          "@type": "ListItem",
+          "position": {{ loop.index }},
+          "url": "{{ site.site_url }}{{ item.link }}",
+          "name": "{{ item.title }}"
+        }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
+    </script>
+    <script type="module" src="/static/js/main.js"></script>
+</body>
+</html>

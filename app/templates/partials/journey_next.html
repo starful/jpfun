@@ -1,0 +1,32 @@
+{# Trip next-steps — same visual language as Popular routes; no "other site" framing. #}
+{% if journey_links %}
+<section class="lp-section lp-journey" aria-label="{% if lang == 'ko' %}이어서 보기{% else %}Continue the trip{% endif %}">
+    <div class="lp-section-head">
+        <h2>{% if lang == 'ko' %}이어서 보기{% else %}Continue the trip{% endif %}</h2>
+        <p>
+            {% if lang == 'ko' %}
+            같은 여행 동선에서 자연스럽게 이어지는 다음 스텝입니다.
+            {% else %}
+            Natural next steps on the same trip — stay in the flow.
+            {% endif %}
+        </p>
+    </div>
+    <ul class="lp-shortcut-list">
+        {% for link in journey_links %}
+        <li>
+            <a class="lp-shortcut"
+               href="{{ link.href }}"
+               data-track="journey_next"
+               data-track-label="{{ link.label }}">
+                <span class="lp-shortcut-emoji" aria-hidden="true">{{ link.emoji }}</span>
+                <span class="lp-shortcut-text">
+                    <strong>{{ link.label }}</strong>
+                    <span>{{ link.blurb }}</span>
+                </span>
+                <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+{% endif %}

@@ -1,0 +1,20 @@
+.env
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/
+tmp/
+app/static/images/*.jpg
+app/static/images/*.jpeg
+app/static/images/*.png
+!app/static/images/logo.png
+!app/static/images/favicon.ico
+!app/static/images/default.jpg
+!app/static/images/default.png
+!app/static/images/favicon-32x32.png
+!app/static/images/favicon-48x48.png
+!app/static/images/apple-touch-icon.png
+
+# macOS Finder custom folder icon (Icon + CR; Icon? matches one trailing char)
+Icon?

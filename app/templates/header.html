@@ -1,0 +1,72 @@
+<header>
+    <div class="container">
+        <div class="header-top">
+            <div class="header-left">
+                {% set lang_q = ('?lang=' ~ lang) if lang and lang != 'en' else '' %}
+                <a href="/guide{{ lang_q }}" class="header-nav-link">📖 Guides</a>
+                {% if activity is defined and activity %}
+                <a href="/{{ activity }}{{ lang_q }}" class="header-nav-link">{{ activity_label or 'Map' }}</a>
+                {% else %}
+                <a href="/{% if lang and lang != 'en' %}?lang={{ lang }}{% endif %}" class="header-nav-link">🎉 JPFun</a>
+                {% endif %}
+            </div>
+
+            <h1>
+                <a href="/{% if lang and lang != 'en' %}?lang={{ lang }}{% endif %}">
+                    <img src="/static/images/logo.png" alt="{{ site.site_name }}" class="logo-img">
+                </a>
+            </h1>
+
+            <div class="lang-selector">
+                {% if site.instagram_url %}
+                <a href="{{ site.instagram_url }}"
+                   class="header-ig"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="Instagram @{{ site.instagram_handle }}"
+                   data-track="instagram_click"
+                   data-track-label="header">
+                    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="currentColor">
+                        <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm11 1.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/>
+                    </svg>
+                </a>
+                {% endif %}
+                {% if post and post.id %}
+                    {% if base_id is not defined %}
+                        {% set base_id = post.id.rsplit('_', 1)[0] %}
+                    {% endif %}
+                    {% set prefix = '/guide/' if request.path.startswith('/guide/') else '/item/' %}
+                    <a href="{{ prefix }}{{ base_id }}_en"
+                       class="lang-btn {% if post.lang == 'en' %}active{% endif %}">EN</a>
+                    <a href="{{ prefix }}{{ base_id }}_ko"
+                       class="lang-btn {% if post.lang == 'ko' %}active{% endif %}">KO</a>
+                {% else %}
+                    {% set active_lang = lang if lang is defined else 'en' %}
+                    <a href="{{ lang_switch_url('en') }}" class="lang-btn {% if active_lang == 'en' %}active{% endif %}">EN</a>
+                    <a href="{{ lang_switch_url('ko') }}" class="lang-btn {% if active_lang == 'ko' %}active{% endif %}">KO</a>
+                {% endif %}
+            </div>
+        </div>
+
+        {% if activity is defined and activity and region_buttons is defined %}
+        <nav class="activity-switch" aria-label="Activities">
+            {% for card in hub_nav %}
+            <a class="activity-switch-link {% if card.slug == activity %}active{% endif %}"
+               href="{{ card.href }}">{{ card.emoji }} {{ card.label }}</a>
+            {% endfor %}
+        </nav>
+        <div class="region-filters" data-group="region">
+            <div class="theme-filter-buttons" data-level="region" role="toolbar" aria-label="Region">
+                {% for btn in region_buttons %}
+                <button type="button"
+                        class="theme-button {% if btn.key == region %}active{% endif %}"
+                        data-region="{{ btn.key }}">
+                    {{ btn.label }}
+                    <span class="count-badge" id="{{ btn.count_id }}">0</span>
+                </button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</header>
