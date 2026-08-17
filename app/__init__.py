@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, render_template, abort, redirect, request, Response, send_from_directory
 from flask_compress import Compress
-import json, os, frontmatter, markdown, re, glob, hashlib, copy, urllib.parse, urllib.request, io
+import json, os, frontmatter, markdown, re, glob, hashlib, copy, random, urllib.parse, urllib.request, io
 from datetime import datetime
 from urllib.parse import quote
 
@@ -209,19 +209,38 @@ def _infer_guide_thumb_activities(base_id: str, activity: str, title: str, summa
     return hits or list(_GUIDE_ACTIVITY_KEYS)
 
 
+_CACHED_GUIDE_IMAGE_POOLS: dict[str, list[str]] | None = None
+
+
+def _guide_image_pools() -> dict[str, list[str]]:
+    global _CACHED_GUIDE_IMAGE_POOLS
+    if _CACHED_GUIDE_IMAGE_POOLS is None:
+        _CACHED_GUIDE_IMAGE_POOLS = _build_guide_image_pools()
+    return _CACHED_GUIDE_IMAGE_POOLS
+
+
+def _invalidate_guide_image_pools() -> None:
+    global _CACHED_GUIDE_IMAGE_POOLS
+    _CACHED_GUIDE_IMAGE_POOLS = None
+
+
 def _pick_guide_thumbnail(
     base_id: str,
     activities: list[str],
     pools: dict[str, list[str]],
     *,
     avoid: str | None = None,
+    stable: bool = True,
 ) -> str:
-    """Stable pseudo-random pick from activity pools (changes only when pool/id changes)."""
+    """Pick from activity pools. stable=True is hash-based (OG); False is per-request random."""
     acts = [a for a in activities if pools.get(a)] or list(_GUIDE_ACTIVITY_KEYS)
     # For multi-activity (leisure) guides, pick an activity first so ski photos
     # don't drown out dive/surf/camp when pools are unequal in size.
     if len(acts) > 1:
-        act = acts[int(hashlib.md5(f"{base_id}:act".encode()).hexdigest(), 16) % len(acts)]
+        if stable:
+            act = acts[int(hashlib.md5(f"{base_id}:act".encode()).hexdigest(), 16) % len(acts)]
+        else:
+            act = random.choice(acts)
         pool = list(pools.get(act) or [])
         if not pool:
             pool = [u for a in acts for u in (pools.get(a) or [])]
@@ -241,14 +260,40 @@ def _pick_guide_thumbnail(
         return GUIDE_IMAGES[0] if GUIDE_IMAGES else "/static/images/default.jpg"
     if avoid and len(uniq) > 1:
         uniq = [u for u in uniq if u != avoid] or uniq
-    idx = int(hashlib.md5(base_id.encode()).hexdigest(), 16) % len(uniq)
-    return uniq[idx]
+    if stable:
+        idx = int(hashlib.md5(base_id.encode()).hexdigest(), 16) % len(uniq)
+        return uniq[idx]
+    return random.choice(uniq)
+
+
+def _with_random_thumbnails(guides: list) -> list:
+    """Copy guide rows and assign a fresh random thumbnail for this request."""
+    pools = _guide_image_pools()
+    last_img = None
+    out = []
+    for g in guides:
+        row = dict(g)
+        gid = str(row.get("id") or "")
+        base_id, _ = _split_lang_id(gid)
+        acts = _infer_guide_thumb_activities(
+            base_id,
+            row.get("activity") or "",
+            row.get("title") or "",
+            row.get("summary") or "",
+        )
+        picked = _pick_guide_thumbnail(
+            base_id, acts, pools, avoid=last_img, stable=False
+        )
+        row["thumbnail"] = picked
+        last_img = picked
+        out.append(row)
+    return out
 
 
 def get_mapped_image(base_id):
-    pools = _build_guide_image_pools()
+    pools = _guide_image_pools()
     acts = _infer_guide_thumb_activities(base_id, "", base_id, "")
-    return _pick_guide_thumbnail(base_id, acts, pools)
+    return _pick_guide_thumbnail(base_id, acts, pools, stable=True)
 
 
 def _gcs_image_url(filename):
@@ -592,10 +637,14 @@ CACHED_GUIDES = {lang: [] for lang in ('en', 'ko')}
 def _guides_for(lang: str, activity: str | None = None) -> list:
     """Filter cached guides. activity='leisure'|'route' for hub; 'ski'|'dive'|... for maps."""
     rows = CACHED_GUIDES.get(lang) or CACHED_GUIDES.get('en') or []
-    if not activity:
-        return list(rows)
-    key = activity.strip().lower()
-    return [g for g in rows if (g.get('activity') or '') == key]
+    if activity:
+        key = activity.strip().lower()
+        rows = [g for g in rows if (g.get('activity') or '') == key]
+    else:
+        rows = list(rows)
+    return _with_random_thumbnails(rows)
+
+
 CACHED_NEARBY = {"anchor": {}, "pois": [], "last_updated": ""}
 
 
@@ -610,6 +659,7 @@ def load_items():
             except ImportError:
                 from region import enrich_items_with_regions
             enrich_items_with_regions(CACHED_DATA.get(SITE_CONFIG['data_key'], []))
+            _invalidate_guide_image_pools()
             print(f"✅ Data loaded: {len(CACHED_DATA.get(SITE_CONFIG['data_key'], []))} items")
         except Exception as e:
             print(f"❌ Data load error: {e}")
@@ -679,6 +729,7 @@ def _nearby_for_lang(lang: str) -> list[dict]:
 
 def load_guides():
     global CACHED_GUIDES
+    _invalidate_guide_image_pools()
     if not os.path.exists(GUIDE_DIR):
         return
 
@@ -713,7 +764,7 @@ def load_guides():
         key=lambda x: x['date'],
         reverse=True,
     )
-    pools = _build_guide_image_pools()
+    pools = _guide_image_pools()
     last_img = None
     id_to_img = {}
     for g in ref:
@@ -722,7 +773,7 @@ def load_guides():
         acts = _infer_guide_thumb_activities(
             g['base_id'], g.get('activity') or '', g.get('title') or '', g.get('summary') or ''
         )
-        picked = _pick_guide_thumbnail(g['base_id'], acts, pools, avoid=last_img)
+        picked = _pick_guide_thumbnail(g['base_id'], acts, pools, avoid=last_img, stable=True)
         id_to_img[g['base_id']] = picked
         last_img = picked
 
@@ -1078,7 +1129,7 @@ def guide_list():
     if lang not in SUPPORTED_LANGS:
         lang = 'en'
     stats = _get_footer_stats(lang)
-    guide_rows = CACHED_GUIDES.get(lang) or CACHED_GUIDES.get('en') or []
+    guide_rows = _guides_for(lang)
     canonical = f"{SITE_CONFIG['site_url']}/guide" if lang == 'en' else f"{SITE_CONFIG['site_url']}/guide?lang={lang}"
     return render_template(
         'guide_list.html',
@@ -1194,7 +1245,17 @@ def guide_detail(guide_id):
     title   = str(post.get('title') or guide_id)
     lang    = str(post.get('lang', 'en'))
     base_id, _ = _split_lang_id(guide_id)
-    image   = get_mapped_image(base_id)
+    image   = _pick_guide_thumbnail(
+        base_id,
+        _infer_guide_thumb_activities(
+            base_id,
+            str(post.get('activity') or ''),
+            title,
+            str(post.get('summary') or ''),
+        ),
+        _guide_image_pools(),
+        stable=False,
+    )
     stats   = _get_footer_stats(lang)
     alt_en = f"{SITE_CONFIG['site_url']}/guide/{base_id}_en"
     alt_ja = f"{SITE_CONFIG['site_url']}/guide/{base_id}_ja"
