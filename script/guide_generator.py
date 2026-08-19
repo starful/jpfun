@@ -196,7 +196,11 @@ def run_batch(limit=3):
         return
 
     if activity_caps:
-        print(f"🎯 활동별 한도: ski={activity_caps['ski']} dive={activity_caps['dive']} camp={activity_caps['camp']}")
+        print(
+            "🎯 활동별 한도: "
+            f"ski={activity_caps['ski']} surf={activity_caps['surf']} "
+            f"dive={activity_caps['dive']} camp={activity_caps['camp']}"
+        )
     print(f"🚀 {pairs_queued}페어 · {len(tasks_to_run)}파일 가이드 생성 시작...")
 
     workers = max(1, min(len(tasks_to_run), 5))
