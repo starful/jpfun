@@ -1,5 +1,6 @@
 ---
 lang: en
+activity: camp
 title: "Booking Fuji Five Lakes Campgrounds: Peak Season Tips for Kawaguchiko, Motosu & Beyond"
 summary: "Securing a campsite near Mount Fuji in July and August takes strategy, not luck. Here's how to lock in a spot at Kawaguchiko, Motosu, and the other Fuji Five Lakes before the peak season rush shuts you out."
 date: "2026-08-19"

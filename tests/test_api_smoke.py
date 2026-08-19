@@ -86,6 +86,18 @@ class ApiSmokeTest(unittest.TestCase):
         self.assertNotIn("https://klook.tpo.mx/ED7IfKaq", body)
         self.assertNotIn("hb.afl.rakuten.co.jp/hgc/", body)
 
+    def test_surf_page_lists_shonan_basics_guide(self):
+        response = self.client.get("/surf")
+        self.assertEqual(response.status_code, 200)
+        body = response.get_data(as_text=True)
+        self.assertIn("Shonan Surfing Basics", body)
+        self.assertIn("guide_shonan_surf_basics_en", body)
+
+    def test_ski_page_lists_pass_comparison_guide(self):
+        response = self.client.get("/ski")
+        self.assertEqual(response.status_code, 200)
+        self.assertIn("Japan Ski Pass Types Explained", response.get_data(as_text=True))
+
 
 if __name__ == "__main__":
     unittest.main()

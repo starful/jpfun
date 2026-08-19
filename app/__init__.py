@@ -179,6 +179,32 @@ def _build_guide_image_pools() -> dict[str, list[str]]:
     return pools
 
 
+def _normalize_guide_activity(explicit: str, base_id: str, title: str, summary: str) -> str:
+    """Map YAML activity, or infer ski/surf/dive/camp from id/title when YAML omitted."""
+    act = (explicit or "").strip().lower()
+    if act == "scuba":
+        act = "dive"
+    if act in ("ski", "surf", "dive", "camp", "leisure", "route"):
+        return act
+    blob = f"{base_id} {title} {summary}".lower()
+    scored: list[str] = []
+    if any(k in blob for k in ("scuba", "dive", "다이빙", "스쿠버", "manta")):
+        scored.append("dive")
+    if any(k in blob for k in ("surf", "서핑", "쇼난", "shonan", "swell")):
+        scored.append("surf")
+    if any(k in blob for k in ("ski", "powder", "스키", "niseko", "hakuba")):
+        scored.append("ski")
+    if any(k in blob for k in ("camp", "glamping", "캠핑", "campground")):
+        scored.append("camp")
+    if len(scored) == 1:
+        return scored[0]
+    bid = (base_id or "").lower()
+    for key in ("surf", "ski", "dive", "camp"):
+        if key in bid and key in scored:
+            return key
+    return scored[0] if scored else ""
+
+
 def _infer_guide_thumb_activities(base_id: str, activity: str, title: str, summary: str) -> list[str]:
     """Which activity image pools a guide card should draw from."""
     text = f"{base_id} {activity} {title} {summary}".lower()
@@ -752,7 +778,12 @@ def load_guides():
                 'title': str(post.get('title', 'Guide')),
                 'summary': str(post.get('summary', '')),
                 'date': str(post.get('date', '2026-01-01')),
-                'activity': str(post.get('activity', '')).strip().lower(),
+                'activity': _normalize_guide_activity(
+                    str(post.get('activity', '')),
+                    base_id,
+                    str(post.get('title', '')),
+                    str(post.get('summary', '')),
+                ),
                 'emoji': str(post.get('emoji', '')).strip(),
             })
         except Exception:

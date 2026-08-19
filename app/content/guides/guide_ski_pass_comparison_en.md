@@ -1,5 +1,6 @@
 ---
 lang: en
+activity: ski
 title: "Japan Ski Pass Types Explained: Day Tickets, Multi-Resort Passes, and Season Basics"
 summary: "From single-day lift tickets to season-long passes covering dozens of resorts, Japan's ski pass system rewards a little homework. Here's how to pick the right one for your trip."
 date: "2026-08-19"

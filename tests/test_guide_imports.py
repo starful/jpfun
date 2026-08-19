@@ -35,3 +35,47 @@ def test_guide_generator_imports():
     path = gen._guides_csv_path()
     assert path
     assert Path(path).name == "guides.csv"
+
+
+def test_fill_half_queues_only_missing_lang(tmp_path, monkeypatch):
+    gen = _load("guide_generator")
+    out = tmp_path / "guides"
+    out.mkdir()
+    (out / "guide_ski_pass_comparison_en.md").write_text("en", encoding="utf-8")
+    csv_path = tmp_path / "guides.csv"
+    csv_path.write_text(
+        "id,topic_en,topic_ko,keywords,activity\n"
+        "guide_ski_pass_comparison,Ski pass,스키패스,ski pass,ski\n",
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(gen, "OUTPUT_DIR", str(out))
+    monkeypatch.setattr(gen, "_guides_csv_path", lambda: str(csv_path))
+    monkeypatch.setenv("FILL_HALF", "1")
+    queued: list[str] = []
+
+    def fake_generate(row, lang):
+        queued.append(lang)
+        return f"✅ 성공: {lang}"
+
+    monkeypatch.setattr(gen, "generate_guide", fake_generate)
+    gen.run_batch(limit=10)
+    assert queued == ["ko"]
+
+
+def test_ensure_activity_frontmatter_inserts_after_lang():
+    gen = _load("guide_generator")
+    raw = """---
+lang: en
+title: "Hello"
+summary: "s"
+date: "2026-08-19"
+---
+
+Body
+"""
+    out = gen._ensure_activity_frontmatter(raw, "surf")
+    assert "activity: surf\n" in out
+    assert out.index("activity:") < out.index("title:")
+    again = gen._ensure_activity_frontmatter(out, "ski")
+    assert again.count("activity:") == 1
+    assert "activity: surf" in again

@@ -1,5 +1,6 @@
 ---
 lang: en
+activity: dive
 title: "Your First Breath Underwater: A Complete Guide to Scuba Certification in Japan (OWD Basics)"
 summary: "From Okinawa's coral reefs to Izu's volcanic walls, here's everything you need to know about earning your Open Water Diver certification in Japan. Learn what to expect, where to train, and how to choose the right dive school."
 date: "2026-08-19"

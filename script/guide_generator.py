@@ -1,6 +1,7 @@
 import os
 import csv
 import sys
+import re
 import concurrent.futures
 from datetime import datetime
 from dotenv import load_dotenv
@@ -57,6 +58,7 @@ def generate_guide(row, lang):
 
     topic = row.get(f'topic_{lang}') or ''
     keywords = row.get('keywords') or ''
+    activity = _infer_activity(row)
     filename = f"{base_id}_{lang}.md"
     filepath = os.path.join(OUTPUT_DIR, filename)
     filling_sibling = sibling_exists(OUTPUT_DIR, base_id, lang)
@@ -65,6 +67,7 @@ def generate_guide(row, lang):
         if filling_sibling
         else "at least 5,000 characters"
     )
+    activity_yaml = f"\n    activity: {activity}" if activity else ""
 
     # 본문 생성 프롬프트
     prompt = f"""
@@ -88,7 +91,7 @@ def generate_guide(row, lang):
 
     Output format:
     ---
-    lang: {lang}
+    lang: {lang}{activity_yaml}
     title: "Catchy SEO Title about {topic}"
     summary: "Engaging 2-line summary"
     date: "{datetime.now().strftime('%Y-%m-%d')}"
@@ -108,6 +111,7 @@ def generate_guide(row, lang):
         )
         if not ok:
             return f"⛔ 품질미달·저장안함: {filename} — {', '.join(errors)}"
+        content = _ensure_activity_frontmatter(content, activity)
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(content)
         return f"✅ 성공: {filename}"
@@ -125,6 +129,21 @@ def _activity_limits_from_env():
     if any(caps.values()):
         return caps
     return None
+
+
+def _ensure_activity_frontmatter(content: str, activity: str) -> str:
+    """Hub /surf /ski /dive /camp filter on YAML activity; never rely on the model."""
+    if not activity:
+        return content
+    if re.search(r"(?m)^activity:\s*\S+", content):
+        return content
+    patched, n = re.subn(
+        r"(?m)^(lang:\s*\S+\s*\n)",
+        rf"\1activity: {activity}\n",
+        content,
+        count=1,
+    )
+    return patched if n else content
 
 
 def _infer_activity(row: dict) -> str:
@@ -145,12 +164,25 @@ def _infer_activity(row: dict) -> str:
     return ""
 
 
+def _want_fill_half() -> bool:
+    return os.environ.get("FILL_HALF", "").strip().lower() in ("1", "true", "yes")
+
+
+def _missing_langs(base_id: str) -> list[str]:
+    missing = []
+    for lang in ("en", "ko"):
+        if not os.path.isfile(os.path.join(OUTPUT_DIR, f"{base_id}_{lang}.md")):
+            missing.append(lang)
+    return missing
+
+
 def run_batch(limit=3):
-    """Generate brand-new guide topics only (en+ko as a set). Half pairs are skipped."""
+    """New topics: en+ko as a set (half pairs skipped). FILL_HALF=1: missing locale only."""
     tasks_to_run = []
     pairs_queued = 0
     half_skipped = 0
-    activity_caps = _activity_limits_from_env()
+    fill_half = _want_fill_half()
+    activity_caps = None if fill_half else _activity_limits_from_env()
     activity_used = {"ski": 0, "dive": 0, "camp": 0, "surf": 0, "": 0}
 
     csv_path = _guides_csv_path()
@@ -179,6 +211,13 @@ def run_batch(limit=3):
             status = locale_pair_status(OUTPUT_DIR, gid)
             if status == "complete":
                 continue
+            if fill_half:
+                if status != "half":
+                    continue
+                for lang in _missing_langs(gid):
+                    tasks_to_run.append((row, lang))
+                pairs_queued += 1
+                continue
             if status == "half":
                 half_skipped += 1
                 continue
@@ -187,11 +226,14 @@ def run_batch(limit=3):
             pairs_queued += 1
             activity_used[act] = activity_used.get(act, 0) + 1
 
-    if half_skipped:
+    if fill_half:
+        print(f"ℹ️  반쪽 채우기: {pairs_queued}주제 · {len(tasks_to_run)}파일")
+    elif half_skipped:
         print(f"⏭️  반쪽(en/ko 한쪽만) 가이드 {half_skipped}건 — 신규 페어 우선으로 스킵")
 
     if not tasks_to_run:
-        print("💡 새로 생성할 가이드 페어가 없습니다.")
+        msg = "💡 채울 반쪽 가이드가 없습니다." if fill_half else "💡 새로 생성할 가이드 페어가 없습니다."
+        print(msg)
         _emit_pipeline_result(step="guides", topics=0, generated=0, skipped=half_skipped)
         return
 

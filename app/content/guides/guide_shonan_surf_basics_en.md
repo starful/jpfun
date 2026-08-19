@@ -1,5 +1,6 @@
 ---
 lang: en
+activity: surf
 title: "Shonan Surfing Basics: A Tokyo Weekender's First-Wave Guide"
 summary: "Everything a Tokyo-based beginner needs to catch their first Shonan wave, from train timetables to rental shops and tide etiquette. Plan a full weekend of surf, sun, and shirasu-don without missing the last train home."
 date: "2026-08-19"
