@@ -1,10 +1,18 @@
 ---
 lang: en
 activity: ski
-title: "Japan Ski Trip Checklist: Lift Passes, Rentals, Insurance & Money"
-date: "2026-07-30"
-summary: "A practical first-trip checklist for skiing in Japan — what to book before you fly, what to pack, and how to handle lift tickets, gear rental, insurance, and cash."
+title: 'Japan Ski Trip Checklist: Lift Passes, Rentals & Insurance - JPFun Guide'
+date: '2026-07-30'
+summary: A practical first-trip checklist for skiing in Japan — what to book before
+  you fly, what to pack, and how to handle lift tickets, gear rental, insurance, and
+  cash.
+description: 'Free checklist for first-time Japan ski trips: lift passes, gear rental,
+  insurance, and packing sorted before you fly to Niseko or Hakuba.'
+seo_title: 'Japan Ski Trip Checklist: Lift Passes, Rentals & Insurance - JPFun Guide'
+seo_description: 'Free checklist for first-time Japan ski trips: lift passes, gear
+  rental, insurance, and packing sorted before you fly to Niseko or Hakuba.'
 ---
+**New to skiing in Japan?** This checklist is built for exactly that — the small logistics (passes, rental, insurance, cash) that trip up first-timers most. Work through it in order and you'll land in Niseko or Hakuba ready to ride, not scrambling.
 
 Your first Japan ski trip goes smoother when the boring logistics are done before you land. Use this checklist for **Hokkaido (Niseko, Rusutsu, Furano)** or **Honshu (Hakuba, Nozawa, Yuzawa)** — the details change by resort, but the sequence is the same.
 

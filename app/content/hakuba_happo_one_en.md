@@ -1,18 +1,26 @@
 ---
 lang: en
-title: "Hakuba Happo-one"
+title: 'Hakuba Happo-one Ski Guide: Slopes, Access & Where to Stay - JPFun'
 lat: 36.698
 lng: 137.837
-categories: ["Ski"]
-activity: "ski"
-thumbnail: "/static/images/hakuba_happo_one.jpg"
-address: "Happo, Hakuba, Nagano, Japan"
-date: "2026-08-15"
-website: "https://www.happo-one.jp/"
-summary: "Hakuba Happo-one — Olympic-scale vertical, Hakuba Valley access, and Tokyo-friendly trip planning."
-image_prompt: ""
-region: "nagano"
+categories:
+- Ski
+activity: ski
+thumbnail: /static/images/hakuba_happo_one.jpg
+address: Happo, Hakuba, Nagano, Japan
+date: '2026-08-15'
+website: https://www.happo-one.jp/
+summary: 'Hakuba Happo-one guide: Olympic-scale slopes, Hakuba Valley lift passes,
+  Tokyo access options, and where to stay near the village.'
+image_prompt: ''
+region: nagano
+description: 'Plan your Hakuba Happo-one trip: 1,070m Olympic-era slopes, Tokyo access
+  times, lift pass options, and where to stay near the lifts.'
+seo_title: 'Hakuba Happo-one Ski Guide: Slopes, Access & Where to Stay'
+seo_description: 'Plan your Hakuba Happo-one trip: 1,070m Olympic-era slopes, Tokyo
+  access times, lift pass options, and where to stay near the lifts.'
 ---
+Planning a Hakuba Happo-one trip? Here's what matters most: the vertical, how to get there from Tokyo, and where to stay once the lifts close — a quick-scan overview before the full details below.
 
 ## Overview
 
