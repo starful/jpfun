@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026.08.22",
+  "last_updated": "2026.08.24",
   "total_count": 168,
   "items": [
     {
@@ -365,7 +365,7 @@
     {
       "id": "hakuba_happo_one_en",
       "lang": "en",
-      "title": "Hakuba Happo-one",
+      "title": "Hakuba Happo-one Ski Guide: Slopes, Access & Where to Stay - JPFun",
       "lat": 36.698,
       "lng": 137.837,
       "activity": "ski",
@@ -375,7 +375,7 @@
       "thumbnail": "/static/images/hakuba_happo_one.jpg",
       "address": "Happo, Hakuba, Nagano, Japan",
       "published": "2026-08-15",
-      "summary": "Hakuba Happo-one — Olympic-scale vertical, Hakuba Valley access, and Tokyo-friendly trip planning.",
+      "summary": "Hakuba Happo-one guide: Olympic-scale slopes, Hakuba Valley lift passes, Tokyo access options, and where to stay near the village.",
       "website": "https://www.happo-one.jp/",
       "tel": "",
       "region": "nagano",
