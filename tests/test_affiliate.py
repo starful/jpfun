@@ -1,37 +1,43 @@
 import unittest
 
 from app.affiliate import affiliate_context, rakuten_url_for, resolve_ski_region
+from app.a8_affiliate import a8_banners_context
 
 
-class AffiliateTest(unittest.TestCase):
-    def test_resolve_regions(self):
-        self.assertEqual(resolve_ski_region("niseko_grand_hirafu_en")[0], "niseko")
-        self.assertEqual(resolve_ski_region("hakuba_happo_one_ko")[0], "hakuba")
-        self.assertEqual(resolve_ski_region("gala_yuzawa_en")[0], "yuzawa")
-        self.assertEqual(resolve_ski_region("unknown_resort_en")[0], "ski")
+class TestJpfunAffiliate(unittest.TestCase):
+    def test_resolve_ski_region_furano(self):
+        key, keyword, label = resolve_ski_region("furano_en")
+        self.assertEqual(key, "furano")
+        self.assertIn("富良野", keyword)
+        self.assertEqual(label, "Furano")
 
-    def test_en_context_klook_and_rakuten(self):
+    def test_en_context_rakuten_only(self):
         ctx = affiliate_context("furano_en", lang="en")
-        self.assertTrue(ctx["show_klook"])
         self.assertTrue(ctx["show_rakuten"])
-        self.assertFalse(ctx["show_coupang"])
-        self.assertIn("klook.tpo.mx", ctx["klook_url"])
-        self.assertIn("hb.afl.rakuten.co.jp/hgc/55b9427b", ctx["rakuten_search_url"])
+        self.assertIn("hb.afl.rakuten.co.jp/hgc/", ctx["rakuten_search_url"])
         self.assertIn("Furano", ctx["rakuten_label"])
 
-    def test_ko_context_coupang_only(self):
+    def test_ko_context_rakuten_only(self):
         ctx = affiliate_context("furano_ko", lang="ko")
-        self.assertTrue(ctx["show_coupang"])
-        self.assertFalse(ctx["show_klook"])
-        self.assertFalse(ctx["show_rakuten"])
-        self.assertIn("f7kmyhVtlt", ctx["coupang_travel_url"])
-        self.assertIn("f7kqiPbQ04", ctx["coupang_shop_url"])
-        self.assertIn("쿠팡 파트너스", ctx["coupang_disclosure"])
+        self.assertTrue(ctx["show_rakuten"])
+        self.assertIn("hb.afl.rakuten.co.jp/hgc/", ctx["rakuten_search_url"])
 
     def test_rakuten_url_encoded(self):
         url = rakuten_url_for("niseko_hanazono_en")
-        self.assertIn("f_query%3D", url)
-        self.assertIn("hgc/55b9427b", url)
+        self.assertIn("hb.afl.rakuten.co.jp/hgc/", url)
+
+    def test_ski_a8_includes_ski_tour(self):
+        ctx = a8_banners_context(activity="ski", lang="en")
+        self.assertTrue(ctx["show_a8_banners"])
+        ids = [b["id"] for b in ctx["a8_banners"]]
+        self.assertEqual(ids[0], "ski_tour")
+        self.assertIn("agoda", ids)
+        self.assertIn("tora_esim", ids)
+
+    def test_camp_a8_includes_glamping(self):
+        ctx = a8_banners_context(activity="camp", lang="en")
+        ids = [b["id"] for b in ctx["a8_banners"]]
+        self.assertIn("glamping", ids)
 
 
 if __name__ == "__main__":

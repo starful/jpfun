@@ -1335,9 +1335,12 @@ def item_detail(item_id):
     )
     try:
         from .affiliate import affiliate_context
+        from .a8_affiliate import a8_banners_context
     except ImportError:
         from affiliate import affiliate_context
+        from a8_affiliate import a8_banners_context
     aff = affiliate_context(item_id, lang=lang)
+    a8 = a8_banners_context(activity=str(post.get("activity") or ""), lang=lang)
     return render_template(
         'detail.html',
         post=post,
@@ -1349,6 +1352,7 @@ def item_detail(item_id):
         **share_ctx,
         **stats,
         **aff,
+        **a8,
     )
 
 

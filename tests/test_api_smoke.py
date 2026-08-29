@@ -56,7 +56,7 @@ class ApiSmokeTest(unittest.TestCase):
         self.assertEqual(detail.status_code, 200)
         self.assertIn(b"reaction-panel", detail.data)
 
-    def test_item_detail_shows_klook_cta(self):
+    def test_item_detail_shows_a8_and_rakuten(self):
         items_resp = self.client.get("/api/items?lang=en")
         payload = items_resp.get_json()
         items = payload.get("items") or []
@@ -65,13 +65,14 @@ class ApiSmokeTest(unittest.TestCase):
         detail = self.client.get(f"/item/{item_id}")
         self.assertEqual(detail.status_code, 200)
         body = detail.get_data(as_text=True)
-        self.assertIn("https://klook.tpo.mx/ED7IfKaq", body)
+        self.assertIn("px.a8.net/svt/ejp", body)
+        self.assertIn("a8-banners", body)
         self.assertIn("booking-box", body)
         self.assertIn("hb.afl.rakuten.co.jp/hgc/", body)
         self.assertNotIn("link.coupang.com", body)
-        self.assertNotIn("Agoda", body)
+        self.assertNotIn("klook.tpo.mx", body)
 
-    def test_item_detail_ko_shows_coupang_not_klook(self):
+    def test_item_detail_ko_shows_rakuten_and_a8(self):
         items_resp = self.client.get("/api/items?lang=ko")
         payload = items_resp.get_json()
         items = payload.get("items") or []
@@ -80,11 +81,11 @@ class ApiSmokeTest(unittest.TestCase):
         detail = self.client.get(f"/item/{item_id}")
         self.assertEqual(detail.status_code, 200)
         body = detail.get_data(as_text=True)
-        self.assertIn("https://link.coupang.com/a/f7kmyhVtlt", body)
-        self.assertIn("https://link.coupang.com/a/f7kqiPbQ04", body)
-        self.assertIn("쿠팡 파트너스", body)
-        self.assertNotIn("https://klook.tpo.mx/ED7IfKaq", body)
-        self.assertNotIn("hb.afl.rakuten.co.jp/hgc/", body)
+        self.assertIn("hb.afl.rakuten.co.jp/hgc/", body)
+        self.assertIn("px.a8.net/svt/ejp", body)
+        self.assertNotIn("link.coupang.com", body)
+        self.assertNotIn("klook.tpo.mx", body)
+        self.assertNotIn("쿠팡 파트너스", body)
 
     def test_surf_page_lists_shonan_basics_guide(self):
         response = self.client.get("/surf")

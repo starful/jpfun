@@ -18,7 +18,6 @@
     gtag('js', new Date());
     gtag('config', '{{ site.ga_id }}');
     </script>
-    {% include 'partials/travelpayouts_drive.html' %}
 
     <!-- SEO -->
     <title>{{ post.title }} - {{ site.site_name }}</title>
@@ -362,41 +361,11 @@
         </div>
         {% endif %}
 
-        {% if show_coupang or show_klook or show_rakuten %}
+        {% if show_rakuten %}
         <div class="booking-box">
             <h3>🏨 {{ booking_title }}</h3>
             <p>{{ booking_desc }}</p>
             <div class="booking-actions">
-                {% if show_coupang and coupang_travel_url %}
-                <a href="{{ coupang_travel_url }}"
-                   target="_blank"
-                   rel="noopener noreferrer nofollow sponsored"
-                   class="booking-btn booking-btn--coupang"
-                   data-track="affiliate_coupang"
-                   data-track-label="coupang_travel">
-                    {{ coupang_travel_label }}
-                </a>
-                {% endif %}
-                {% if show_coupang and coupang_shop_url %}
-                <a href="{{ coupang_shop_url }}"
-                   target="_blank"
-                   rel="noopener noreferrer nofollow sponsored"
-                   class="booking-btn booking-btn--coupang-shop"
-                   data-track="affiliate_coupang"
-                   data-track-label="coupang_shop">
-                    {{ coupang_shop_label }}
-                </a>
-                {% endif %}
-                {% if show_klook and klook_url %}
-                <a href="{{ klook_url }}"
-                   target="_blank"
-                   rel="noopener noreferrer nofollow sponsored"
-                   class="booking-btn"
-                   data-track="affiliate_klook"
-                   data-track-label="klook">
-                    {{ klook_label }}
-                </a>
-                {% endif %}
                 {% if show_rakuten and rakuten_search_url %}
                 <a href="{{ rakuten_search_url }}"
                    target="_blank"
@@ -408,10 +377,8 @@
                 </a>
                 {% endif %}
             </div>
-            {% if coupang_disclosure %}
-            <p class="booking-disclosure">{{ coupang_disclosure }}</p>
-            {% endif %}
         </div>
+        {% include 'partials/a8_banners.html' %}
         {% endif %}
 
         {% include 'partials/share_bar.html' %}

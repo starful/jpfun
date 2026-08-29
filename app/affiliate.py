@@ -1,4 +1,4 @@
-"""Affiliate CTAs for JPFun detail pages (KO: Coupang, EN: Klook + Rakuten Travel)."""
+"""Affiliate CTAs for JPFun detail pages (Rakuten Travel + A8 banners)."""
 
 from __future__ import annotations
 
@@ -10,11 +10,6 @@ from .config import SITE_CONFIG
 
 _RAKUTEN_UT = "eyJwYWdlIjoidXJsIiwidHlwZSI6InRleHQiLCJjb2wiOjF9"
 
-COUPANG_DISCLOSURE_KO = (
-    "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."
-)
-
-# Prefer more specific prefixes first (needle matched inside slug).
 _REGION_RULES: tuple[tuple[str, str, str, str], ...] = (
     ("niseko", "niseko", "ニセコ ホテル", "Niseko"),
     ("hakuba", "hakuba", "白馬 ホテル", "Hakuba"),
@@ -79,7 +74,6 @@ def _strip_lang_suffix(slug: str) -> str:
 
 
 def resolve_ski_region(slug: str) -> tuple[str, str, str]:
-    """Return (region_key, jp_keyword, en_label)."""
     base = _strip_lang_suffix(slug)
     for key, needle, keyword, label_en in _REGION_RULES:
         if needle in base:
@@ -88,7 +82,6 @@ def resolve_ski_region(slug: str) -> tuple[str, str, str]:
 
 
 def _travel_search_raw(keyword: str) -> str:
-    # Partner tool uses Shift_JIS f_query (same as Rakuten link share).
     q = quote(keyword.encode("shift_jis", errors="replace"), safe="")
     return (
         "https://kw.travel.rakuten.co.jp/keyword/Search.do?"
@@ -116,51 +109,31 @@ def affiliate_context(slug: str, *, lang: str = "en") -> dict[str, Any]:
     """Template vars for detail-page booking CTAs."""
     is_ko = (lang or "en").lower() == "ko"
     _key, _keyword, region_label_en = resolve_ski_region(slug)
-    klook_url = str(SITE_CONFIG.get("klook_url") or "").strip()
-    coupang_travel = str(SITE_CONFIG.get("coupang_travel_url") or "").strip()
-    coupang_shop = str(SITE_CONFIG.get("coupang_shop_url") or "").strip()
+    rakuten_url = rakuten_url_for(slug)
 
     if is_ko:
         return {
             "aff_lang": "ko",
-            "show_coupang": bool(coupang_travel or coupang_shop),
-            "coupang_travel_url": coupang_travel,
-            "coupang_shop_url": coupang_shop,
-            "coupang_disclosure": COUPANG_DISCLOSURE_KO if (coupang_travel or coupang_shop) else "",
-            "show_klook": False,
-            "klook_url": "",
-            "show_rakuten": False,
-            "rakuten_search_url": "",
+            "show_rakuten": True,
+            "rakuten_search_url": rakuten_url,
             "region_label": region_label_en,
             "booking_title": "숙소·여행 준비는 외부 사이트에서",
             "booking_desc": (
-                "이 페이지는 스키장 안내입니다. 쿠팡트래블에서 숙소·여행을, "
-                "쿠팡에서 스키·여행용품을 찾을 수 있습니다."
+                "이 페이지는 레저 스팟 안내입니다. 라쿠텐 트래블에서 "
+                f"{region_label_en} 주변 숙소·패키지를 검색할 수 있습니다."
             ),
-            "coupang_travel_label": "쿠팡트래블에서 숙소·여행 보기 →",
-            "coupang_shop_label": "쿠팡에서 스키·여행용품 보기 →",
-            "klook_label": "",
-            "rakuten_label": "",
+            "rakuten_label": f"라쿠텐에서 {region_label_en} 숙소 검색 →",
         }
 
     return {
         "aff_lang": "en",
-        "show_coupang": False,
-        "coupang_travel_url": "",
-        "coupang_shop_url": "",
-        "coupang_disclosure": "",
-        "show_klook": bool(klook_url),
-        "klook_url": klook_url,
         "show_rakuten": True,
-        "rakuten_search_url": rakuten_url_for(slug),
+        "rakuten_search_url": rakuten_url,
         "region_label": region_label_en,
         "booking_title": f"Stay & trip prep near {region_label_en}",
         "booking_desc": (
-            "This page is a resort guide. Buttons open Klook or Rakuten Travel "
-            f"to search stays and packages around {region_label_en}."
+            "This page is a resort guide. Search stays on Rakuten Travel "
+            f"or use the partner banners below for {region_label_en}."
         ),
-        "coupang_travel_label": "",
-        "coupang_shop_label": "",
-        "klook_label": "Find stays & transfers on Klook →",
         "rakuten_label": f"Search {region_label_en} hotels on Rakuten Travel →",
     }

@@ -54,9 +54,6 @@ SITE_CONFIG = {
         "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=800&auto=format&fit=crop",
     ],
 
-    "klook_url": "https://klook.tpo.mx/ED7IfKaq",
-    "coupang_travel_url": "https://link.coupang.com/a/f7kmyhVtlt",
-    "coupang_shop_url": "https://link.coupang.com/a/f7kqiPbQ04",
     "rakuten_travel_hgc": "55b9427b.a63c2df8.55b9427c.3a0d270c",
 
     "footer_tagline":  "Japan leisure trip planning — ski, scuba, surf & camp on one map.",
