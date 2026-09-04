@@ -1,10 +1,19 @@
 ---
 lang: en
 activity: leisure
-title: "Japan Leisure Trip Planner: Ski, Scuba, Surf, Camp — Plus Food & Onsen"
-date: "2026-08-12"
-summary: "How to build a Japan leisure trip — pick an activity season, map regions on JPFun, then add ramen, onsen, or golf without over-planning."
+title: 'Japan Leisure Trip Planner: Ski, Scuba, Surf &amp; Camp Itinerary Guide -
+  JPFun'
+date: '2026-08-12'
+summary: How to plan a Japan leisure trip by season — ski, scuba, surf, or camp —
+  then add ramen, onsen, or golf days using JPFun's regional maps.
+description: 'Plan a Japan leisure trip by season: ski, scuba, surf, or camp, plus
+  easy add-ons like ramen, onsen, and golf. A simple JPFun itinerary sequence.'
+seo_title: 'Japan Leisure Trip Planner: Ski, Scuba, Surf &amp; Camp Itinerary Guide
+  - JPFun'
+seo_description: 'Plan a Japan leisure trip by season: ski, scuba, surf, or camp,
+  plus easy add-ons like ramen, onsen, and golf. A simple JPFun itinerary sequence.'
 ---
+
 
 Japan rewards trips that mix **one main leisure focus** with easy side days. Use JPFun to choose **ski, scuba, surf, or camp**, filter by region, then bolt on bowls, baths, or a round of golf when the weather flips.
 
@@ -38,3 +47,11 @@ You do not need a second “project.” Treat these as next pins on the same iti
 4. Leave one flexible day for food, onsen, or golf.
 
 That is enough structure for a first Japan leisure trip without a binder full of tabs.
+
+## Quick Planning Checklist
+
+- **First Japan leisure trip?** Pick one activity — ski, scuba, surf, or camp — and build add-on days around it instead of stacking multiple focuses.
+- **Been before?** Pair a new region with a familiar add-on, like scuba in Okinawa plus a ramen crawl.
+- **Short on time?** Match the season first on JPFun; it narrows the map fast and keeps travel light.
+
+This sequence works for a long weekend or a two-week loop — the steps don't change, only the number of stops.
