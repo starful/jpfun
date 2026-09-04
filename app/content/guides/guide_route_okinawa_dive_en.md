@@ -1,11 +1,18 @@
 ---
 lang: en
 activity: route
-emoji: "🤿"
-title: "Okinawa Dive Weekend: Boat Day + Easy Island Buffer"
-date: "2026-08-12"
-summary: "A two-to-three-day Kerama or Ishigaki-style scuba route — book the boat first, then build the rest of the weekend around water clarity."
+emoji: 🤿
+title: 'Okinawa Scuba Diving Weekend: Boat-First Dive Route - JPFun Guide'
+date: '2026-08-12'
+summary: 'A boat-first Okinawa scuba diving weekend: lock the Kerama or Ishigaki dive
+  day, then build lodging and buffer days around it.'
+description: 'Okinawa scuba diving weekend guide: book the boat first, then plan lodging
+  around Kerama or Ishigaki water clarity — a certified diver''s 2–3 day route.'
+seo_title: 'Okinawa Scuba Diving Weekend: Boat-First Dive Route - JPFun Guide'
+seo_description: 'Okinawa scuba diving weekend guide: book the boat first, then plan
+  lodging around Kerama or Ishigaki water clarity — a certified diver''s 2–3 day route.'
 ---
+
 
 Scuba weekends in Okinawa fail when lodging comes before the **boat booking**. Reverse it: lock the dive day, then place the hotel.
 
@@ -38,3 +45,9 @@ Start on the JPFun **Scuba · Okinawa** map and shortlist shops that match your 
 ## Who this route is for
 
 Certified divers who want **one excellent water day** more than a packed sightseeing checklist. Add Tokyo surf or Fuji camp on a different weekend — do not glue them onto this flight.
+
+## Quick planning notes
+
+- First Okinawa dive trip? Ask your shop whether Kerama (calmer, closer to Naha) or Ishigaki (Yaeyama currents, manta season) fits your comfort level before booking.
+- Traveling with a non-diving partner? Pair this route with a separate Naha or Ishigaki sightseeing day instead of squeezing them onto the boat schedule.
+- Solo certified divers can usually join a shop's mixed-group boat without chartering a private trip — just ask when you book.

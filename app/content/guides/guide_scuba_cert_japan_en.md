@@ -1,10 +1,19 @@
 ---
 lang: en
 activity: dive
-title: "Your First Breath Underwater: A Complete Guide to Scuba Certification in Japan (OWD Basics)"
-summary: "From Okinawa's coral reefs to Izu's volcanic walls, here's everything you need to know about earning your Open Water Diver certification in Japan. Learn what to expect, where to train, and how to choose the right dive school."
-date: "2026-08-19"
+title: 'Scuba Certification in Japan: Open Water Diver (OWD) Guide for Okinawa & Izu
+  - JPFun Guide'
+summary: From Okinawa's coral reefs to Izu's volcanic walls, here's everything you
+  need to know about earning your Open Water Diver certification in Japan — plus who
+  the course suits and quick tips before you book.
+date: '2026-08-19'
+description: 'Get your Open Water Diver certification in Japan: English-speaking dive
+  schools in Okinawa and Izu, what to expect, and how to choose a course.'
+seo_title: 'Scuba Certification in Japan: OWD Guide (Okinawa & Izu) - JPFun Guide'
+seo_description: Earn your Open Water Diver certification in Japan. English-friendly
+  dive schools in Okinawa and Izu, course basics, and how to pick the right one.
 ---
+
 
 ## Why Japan Is an Unexpectedly Brilliant Place to Learn to Dive
 
@@ -54,3 +63,12 @@ Instructors and experienced divers consistently offer a few pieces of advice to 
 Getting a scuba certification in Japan offers something rare: a rigorous, safety-first training environment layered onto some of the most varied underwater landscapes in the Pacific, all wrapped inside a country that also happens to be one of the world's great destinations for skiing, surfing, and camping. Whether you choose the coral-fringed waters of Okinawa's Kerama Islands or the volcanic drop-offs a short train ride from Tokyo in Izu, your OWD course will be shaped by decades of diving culture that traces back to the ama pearl divers of centuries past and forward to today's internationally certified dive schools.
 
 Take the time to choose a school that fits your language needs and pace, finish your academic work before you land, and treat your four open water dives not just as a certification requirement but as your genuine introduction to Japan's underwater world. Once you surface with your card in hand, you'll have access to dive sites across the entire country — and a new lens through which to see every future trip to Japan's coastlines.
+
+## Who This Course Suits (and Quick Tips)
+
+This OWD course works well for complete beginners, families traveling together, and skiers or surfers already exploring Japan's outdoors who want to add a dive certification to the same trip. You don't need prior diving experience, though basic swimming comfort helps.
+
+- Book an English-speaking instructor in advance, especially outside Okinawa and Izu
+- Bring your own mask if you have one; rental gear is common but personal fit helps
+- Allow a buffer day or two, since sea conditions can shift training schedules
+- Confirm the certification agency (PADI, NAUI, SSI) matches what you plan to use later
