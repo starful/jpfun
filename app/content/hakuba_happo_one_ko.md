@@ -1,4 +1,6 @@
 ---
+youtube_id: gbh5roqiciU
+
 lang: ko
 title: "하쿠바 해포"
 lat: 36.698
