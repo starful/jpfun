@@ -1,4 +1,6 @@
 ---
+youtube_id: 1ksmiy6EsDo
+
 lang: en
 title: "Niseko Hanazono"
 lat: 42.897

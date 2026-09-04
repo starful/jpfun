@@ -1,4 +1,6 @@
 ---
+youtube_id: lRZRiC52JJQ
+
 lang: ko
 title: "나에바 스키장"
 lat: 36.871

@@ -1,4 +1,6 @@
 ---
+youtube_id: gbh5roqiciU
+
 lang: en
 title: 'Hakuba Happo-one Ski Guide: Slopes, Access & Where to Stay - JPFun'
 lat: 36.698

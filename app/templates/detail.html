@@ -215,6 +215,28 @@
 
         <img src="{{ post.thumbnail }}" alt="{{ post.title }} in {{ post.address }}" class="detail-img">
 
+        {% if post.youtube_id %}
+        <details class="detail-youtube" open>
+            <summary>{% if lang == 'ko' %}유튜브에서 보기{% elif lang == 'ja' %}YouTubeで見る{% elif lang in ('zh', 'zh_tw') %}在 YouTube 观看{% else %}Watch on YouTube{% endif %}</summary>
+            <div class="detail-youtube__frame">
+                <iframe
+                    src="https://www.youtube-nocookie.com/embed/{{ post.youtube_id }}"
+                    title="{% if lang == 'ko' %}{{ post.title }} 소개 영상{% else %}{{ post.title }} on YouTube{% endif %}"
+                    loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen></iframe>
+            </div>
+            <p class="detail-youtube__link">
+                <a href="https://www.youtube.com/watch?v={{ post.youtube_id }}"
+                   target="_blank"
+                   rel="noopener noreferrer nofollow">
+                    {% if lang == 'ko' %}YouTube에서 열기 ↗{% elif lang == 'ja' %}YouTubeで開く ↗{% else %}Open on YouTube ↗{% endif %}
+                </a>
+            </p>
+        </details>
+        {% endif %}
+
         {% if content %}
         <div class="detail-content detail-content-card">
             {{ content | safe }}

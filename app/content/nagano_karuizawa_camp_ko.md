@@ -1,4 +1,6 @@
 ---
+youtube_id: rPyFPs4Y81U
+
 lang: ko
 title: "가루이자와·아사마 캠프"
 lat: 36.348
