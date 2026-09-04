@@ -59,7 +59,10 @@
             {% for item in resorts %}
             <div class="onsen-card">
                 <a href="{{ item.link }}">
+                    <div class="card-visual">
                     <img src="{{ item.thumbnail }}" class="card-thumb" alt="{{ item.title }}" loading="lazy">
+                    {% if item.youtube_id %}<span class="card-play" aria-hidden="true">▶</span>{% endif %}
+                    </div>
                 </a>
                 <div class="card-content">
                     <h3 class="card-title"><a href="{{ item.link }}">{{ item.title }}</a></h3>

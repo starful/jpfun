@@ -684,9 +684,30 @@ def load_items():
                 from .region import enrich_items_with_regions
             except ImportError:
                 from region import enrich_items_with_regions
-            enrich_items_with_regions(CACHED_DATA.get(SITE_CONFIG['data_key'], []))
+            items = CACHED_DATA.get(SITE_CONFIG['data_key'], [])
+            enrich_items_with_regions(items)
+            yt_re = re.compile(r"^youtube_id:\s*['\"]?([A-Za-z0-9_-]{6,64})['\"]?\s*$", re.M)
+            yt_ids = {}
+            try:
+                for name in os.listdir(CONTENT_DIR):
+                    if not name.endswith(".md"):
+                        continue
+                    path = os.path.join(CONTENT_DIR, name)
+                    try:
+                        with open(path, encoding="utf-8") as fh:
+                            head = fh.read(1200)
+                    except OSError:
+                        continue
+                    match = yt_re.search(head)
+                    if match:
+                        yt_ids[name[:-3]] = match.group(1)
+            except OSError:
+                pass
+            for row in items:
+                rid = str(row.get("id") or "")
+                row["youtube_id"] = yt_ids.get(rid) or str(row.get("youtube_id") or "").strip()
             _invalidate_guide_image_pools()
-            print(f"✅ Data loaded: {len(CACHED_DATA.get(SITE_CONFIG['data_key'], []))} items")
+            print(f"✅ Data loaded: {len(items)} items")
         except Exception as e:
             print(f"❌ Data load error: {e}")
 

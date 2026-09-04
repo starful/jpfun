@@ -107,8 +107,11 @@ function renderList(data) {
     container.innerHTML = data.map(item => `
         <div class="onsen-card" data-resort-id="${item.id || ''}">
             <a href="${item.link}">
-                <img src="${item.thumbnail}" class="card-thumb" alt="${item.title}" loading="lazy"
-                     onerror="this.src='/static/images/default.jpg'">
+                <div class="card-visual">
+                    <img src="${item.thumbnail}" class="card-thumb" alt="${item.title}" loading="lazy"
+                         onerror="this.src='/static/images/default.jpg'">
+                    ${item.youtube_id ? '<span class="card-play" aria-hidden="true">▶</span>' : ''}
+                </div>
             </a>
             <div class="card-content">
                 <h3 class="card-title"><a href="${item.link}">${emoji} ${item.title}</a></h3>

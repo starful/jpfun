@@ -526,6 +526,16 @@ header {
 .card-thumb {
     width: 100%; height: 200px; object-fit: cover; display: block;
 }
+.card-visual { position: relative; }
+.card-play {
+    position: absolute; right: 10px; bottom: 10px; z-index: 2;
+    width: 36px; height: 36px; border-radius: 50%;
+    background: rgba(0,0,0,.72); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px; line-height: 1; padding-left: 2px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.28);
+    pointer-events: none;
+}
 .card-content { padding: 18px; flex: 1; display: flex; flex-direction: column; }
 .card-title { font-size: 1.1rem; font-weight: 800; margin: 0 0 8px; color: var(--primary-color); }
 .card-summary { font-size: 0.88rem; color: var(--text-gray); line-height: 1.5; flex: 1; margin: 0 0 12px; }
@@ -643,6 +653,17 @@ header {
     font-size: 0.85em;
 }
 .detail-youtube[open] summary::before { content: "▼ "; }
+.detail-youtube--hero {
+    margin: 0 0 24px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    box-shadow: none;
+}
+.detail-youtube--hero .detail-youtube__frame {
+    max-width: none;
+    margin: 10px 0 8px;
+}
 .detail-youtube__frame {
     position: relative;
     width: 100%;

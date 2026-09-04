@@ -213,10 +213,8 @@
             </dl>
         </section>
 
-        <img src="{{ post.thumbnail }}" alt="{{ post.title }} in {{ post.address }}" class="detail-img">
-
         {% if post.youtube_id %}
-        <details class="detail-youtube" open>
+        <details class="detail-youtube detail-youtube--hero" open>
             <summary>{% if lang == 'ko' %}유튜브에서 보기{% elif lang == 'ja' %}YouTubeで見る{% elif lang in ('zh', 'zh_tw') %}在 YouTube 观看{% else %}Watch on YouTube{% endif %}</summary>
             <div class="detail-youtube__frame">
                 <iframe
@@ -235,6 +233,8 @@
                 </a>
             </p>
         </details>
+        {% else %}
+        <img src="{{ post.thumbnail }}" alt="{{ post.title }} in {{ post.address }}" class="detail-img">
         {% endif %}
 
         {% if content %}
