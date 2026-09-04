@@ -1,4 +1,6 @@
 ---
+youtube_id: sOMFH7XhfN0
+
 lang: en
 title: "Hakuba Iwatake Mountain Resort"
 lat: 36.712

@@ -1,4 +1,6 @@
 ---
+youtube_id: sOMFH7XhfN0
+
 lang: ko
 title: "하쿠바 이와타케"
 lat: 36.712

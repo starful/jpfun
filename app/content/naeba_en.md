@@ -1,4 +1,6 @@
 ---
+youtube_id: lRZRiC52JJQ
+
 lang: en
 title: "Naeba Ski Resort"
 lat: 36.871

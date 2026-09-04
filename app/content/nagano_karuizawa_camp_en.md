@@ -1,4 +1,6 @@
 ---
+youtube_id: rPyFPs4Y81U
+
 lang: en
 title: "Karuizawa / Asama Camp Bases"
 lat: 36.348
