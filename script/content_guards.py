@@ -73,8 +73,14 @@ def duplicate_guide_reason(base_id: str, guide_dir: str | Path) -> str | None:
     return f"alias_blocked:{canonical}"
 
 
-def min_chars_for(*, kind: str, sibling_exists: bool) -> int:
+def min_chars_for(*, kind: str, sibling_exists: bool, lang: str = "en") -> int:
     if sibling_exists:
+        # Hangul packs more meaning per character than English. Live KO
+        # sibling fills that already passed editorial review sit around
+        # 4,000–4,700 chars; 5,500 KO is longer than those pages and is
+        # why okadmin FILL_HALF kept rejecting Korean output.
+        if str(lang).lower() == "ko":
+            return GUIDE_MIN_CHARS
         return SIBLING_FILL_MIN_CHARS
     return ITEM_MIN_CHARS if kind == "item" else GUIDE_MIN_CHARS
 
@@ -89,7 +95,7 @@ def validate_generated_markdown(
     """Quality gate before writing. Same topic OK; thin/wrong-lang output is not."""
     errors: list[str] = []
     meta, body = parse_frontmatter_body(raw)
-    min_chars = min_chars_for(kind=kind, sibling_exists=sibling_exists)
+    min_chars = min_chars_for(kind=kind, sibling_exists=sibling_exists, lang=lang)
 
     if not meta:
         errors.append("missing_frontmatter")

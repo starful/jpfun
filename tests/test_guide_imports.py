@@ -62,6 +62,12 @@ def test_fill_half_queues_only_missing_lang(tmp_path, monkeypatch):
     assert queued == ["ko"]
 
 
+def test_ko_sibling_fill_uses_guide_min_not_english_bar():
+    guards = _load("content_guards")
+    assert guards.min_chars_for(kind="guide", sibling_exists=True, lang="ko") == guards.GUIDE_MIN_CHARS
+    assert guards.min_chars_for(kind="guide", sibling_exists=True, lang="en") == guards.SIBLING_FILL_MIN_CHARS
+
+
 def test_ensure_activity_frontmatter_inserts_after_lang():
     gen = _load("guide_generator")
     raw = """---
