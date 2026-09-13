@@ -62,11 +62,12 @@ def generate_guide(row, lang):
     filename = f"{base_id}_{lang}.md"
     filepath = os.path.join(OUTPUT_DIR, filename)
     filling_sibling = sibling_exists(OUTPUT_DIR, base_id, lang)
-    length_hint = (
-        "at least 6,500 characters — filling a missing locale; match sibling depth"
-        if filling_sibling
-        else "at least 5,000 characters"
-    )
+    if filling_sibling and lang == "ko":
+        length_hint = "at least 4,500 Korean characters — filling a missing locale; match sibling depth"
+    elif filling_sibling:
+        length_hint = "at least 6,500 characters — filling a missing locale; match sibling depth"
+    else:
+        length_hint = "at least 5,000 characters"
     activity_yaml = f"\n    activity: {activity}" if activity else ""
 
     # 본문 생성 프롬프트

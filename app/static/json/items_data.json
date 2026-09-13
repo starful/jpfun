@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026.09.04",
+  "last_updated": "2026.09.13",
   "total_count": 168,
   "items": [
     {
@@ -13,6 +13,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/tomamu.jpg",
+      "youtube_id": "",
       "address": "Shimukappu, Hokkaido, Japan",
       "published": "2026-08-15",
       "summary": "Hoshino Resorts Tomamu — Unkai terrace views, Ice Village, and all-ages ski packages.",
@@ -33,6 +34,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/nagano_tateshina_camp.jpg",
+      "youtube_id": "",
       "address": "Tateshina, Nagano, Japan",
       "published": "2026-08-15",
       "summary": "Nagano highland forest camping — cool summers and classic Japanese auto-camp parks.",
@@ -53,6 +55,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/takasu_snow_park.jpg",
+      "youtube_id": "",
       "address": "Takasu, Gujo, Gifu, Japan",
       "published": "2026-08-15",
       "summary": "Takasu Snow Park — Gujo powder linked with Dynaland, long vertical days.",
@@ -73,6 +76,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/ibaraki_oaraibaraki.jpg",
+      "youtube_id": "",
       "address": "일본 이바라키현 오아라이정",
       "published": "2026-08-15",
       "summary": "도쿄 북쪽 이바라키 해안 서핑. 하버·비치 옵션이 다양.",
@@ -93,6 +97,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/kusatsu_kokusai.jpg",
+      "youtube_id": "",
       "address": "Kusatsu, Gunma, Japan",
       "published": "2026-08-15",
       "summary": "Kusatsu Onsen Ski Area — sulfur town skiing above Japan's famous yubatake.",
@@ -113,6 +118,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/shizuoka_ohsezaki.jpg",
+      "youtube_id": "",
       "address": "Numazu / Ohsezaki, Shizuoka, Japan",
       "published": "2026-08-15",
       "summary": "Famous Izu muck and macro site — shore diving with rich critter life and night dives.",
@@ -133,6 +139,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/nozawa_onsen.jpg",
+      "youtube_id": "",
       "address": "일본 나가노현 노자와온센",
       "published": "2026-08-15",
       "summary": "노자와 온센 — 온천 마을·료칸 숙박, 나가노 파우더 가이드.",
@@ -153,6 +160,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/okinawa_yonaguni.jpg",
+      "youtube_id": "",
       "address": "Yonaguni, Okinawa, Japan",
       "published": "2026-08-15",
       "summary": "Remote Yaeyama diving — winter hammerhead season and legendary underwater formations.",
@@ -173,6 +181,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/fuji_yamanakako_camp.jpg",
+      "youtube_id": "",
       "address": "Yamanakako, Yamanashi, Japan",
       "published": "2026-08-15",
       "summary": "Largest Fuji Five Lakes camping hub — family sites and wide Motosu-side alternatives.",
@@ -193,6 +202,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/shonan_kugenuma.jpg",
+      "youtube_id": "",
       "address": "일본 가나가와현 후지사와시 구게누마",
       "published": "2026-08-15",
       "summary": "도쿄 근교 쇼난 대표 비치. 스쿨·렌탈과 전철 접근이 편함.",
@@ -213,6 +223,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/hakuba_iwatake.jpg",
+      "youtube_id": "sOMFH7XhfN0",
       "address": "일본 나가노현 하쿠바촌 호쿠조",
       "published": "2026-08-15",
       "summary": "하쿠바 이와타케 — 양지·곤돌라 전망·패밀리 지형 가이드.",
@@ -233,6 +244,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/niseko_grand_hirafu.jpg",
+      "youtube_id": "",
       "address": "Hirafu, Kutchan, Hokkaido, Japan",
       "published": "2026-08-15",
       "summary": "Niseko Grand Hirafu — powder slopes, Hirafu village stays, and lift-pass tips for Japan ski trips.",
@@ -253,6 +265,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/mt_jeans_nasu.jpg",
+      "youtube_id": "",
       "address": "Nasu, Tochigi, Japan",
       "published": "2026-08-15",
       "summary": "Mt. Jeans Nasu — friendly Nasu family skiing with easy Kanto access.",
@@ -273,6 +286,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/kagoshima_amami.jpg",
+      "youtube_id": "",
       "address": "일본 가고시마현 아마미시",
       "published": "2026-08-15",
       "summary": "규슈·오키나와 사이 아마미 산호 다이빙. 한산한 리프와 시즌 메가파우나.",
@@ -293,6 +307,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/okinawa_minna.jpg",
+      "youtube_id": "",
       "address": "일본 오키나와현 모토부·민나섬",
       "published": "2026-08-15",
       "summary": "모토부에서 민나섬 방면 데이트립 다이빙. 투명도와 동선이 편함.",
@@ -313,6 +328,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/gala_yuzawa.jpg",
+      "youtube_id": "",
       "address": "Yuzawa, Niigata, Japan",
       "published": "2026-08-15",
       "summary": "Gala Yuzawa — station-linked skiing from Tokyo, ideal for beginners and day trips.",
@@ -333,6 +349,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/sapporo_teine.jpg",
+      "youtube_id": "",
       "address": "Teine, Sapporo, Hokkaido, Japan",
       "published": "2026-08-15",
       "summary": "Sapporo Teine — city-side skiing, Olympic heritage, and easy Sapporo day trips.",
@@ -353,6 +370,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/chubu_norikura_camp.jpg",
+      "youtube_id": "",
       "address": "Norikura Highland, Gifu / Nagano border, Japan",
       "published": "2026-08-15",
       "summary": "High-elevation camping near the Norikura skyline road — cool nights and alpine scenery.",
@@ -373,6 +391,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/hakuba_happo_one.jpg",
+      "youtube_id": "gbh5roqiciU",
       "address": "Happo, Hakuba, Nagano, Japan",
       "published": "2026-08-15",
       "summary": "Hakuba Happo-one guide: Olympic-scale slopes, Hakuba Valley lift passes, Tokyo access options, and where to stay near the village.",
@@ -393,6 +412,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/kagura.jpg",
+      "youtube_id": "",
       "address": "Yuzawa, Niigata, Japan",
       "published": "2026-08-15",
       "summary": "Kagura Ski Resort — huge Niigata vertical linked toward Naeba and Mitsumata.",
@@ -413,6 +433,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/izu_shimoda.jpg",
+      "youtube_id": "",
       "address": "Shimoda, Shizuoka, Japan",
       "published": "2026-08-15",
       "summary": "Southern Izu diving around Shimoda — reefs, currents, and strong local shop scene.",
@@ -433,6 +454,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/tangram_ski_circus.jpg",
+      "youtube_id": "",
       "address": "일본 나가노현 시나노정",
       "published": "2026-08-15",
       "summary": "타하람 스키 서커스 — 마다라오 인근 파크·호텔 베이스 가이드.",
@@ -453,6 +475,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/fukushima_nakoso.jpg",
+      "youtube_id": "",
       "address": "Iwaki, Fukushima, Japan",
       "published": "2026-08-15",
       "summary": "Fukushima Pacific coast surfing around Iwaki / Nakoso — less crowded than Shonan.",
@@ -473,6 +496,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/okinawa_miyako_dive.jpg",
+      "youtube_id": "",
       "address": "일본 오키나와현 미야코지마",
       "published": "2026-08-15",
       "summary": "미야코 드롭오프·수중 케이브. 투명도와 포토 월이 강점.",
@@ -493,6 +517,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/okinawa_sunayama.jpg",
+      "youtube_id": "",
       "address": "Hirara, Miyakojima, Okinawa, Japan",
       "published": "2026-08-15",
       "summary": "Miyako island surfing near iconic sand-hill beach — winter north swell season.",
@@ -513,6 +538,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/okinawa_yomitan.jpg",
+      "youtube_id": "",
       "address": "일본 오키나와현 요미탄촌",
       "published": "2026-08-15",
       "summary": "오키나와 본섬 서쪽 서핑. 요미탄 일대 겨울 북쪽 스웰·리프.",
@@ -533,6 +559,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/tsugaike_kogen.jpg",
+      "youtube_id": "",
       "address": "일본 나가노현 오타리촌 츠가이케",
       "published": "2026-08-15",
       "summary": "츠가이케 고원 — 초급 대목장·고산 곤돌라·북하쿠바 접근 가이드.",
@@ -553,6 +580,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/furano.jpg",
+      "youtube_id": "",
       "address": "일본 홋카이도 후라노",
       "published": "2026-08-15",
       "summary": "후라노 스키장 — 홋카이도 내륙 뷰, 프린스 호텔·파우더 가이드.",
@@ -573,6 +601,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/minakami_hotaka.jpg",
+      "youtube_id": "",
       "address": "일본 군마현 미나카미",
       "published": "2026-08-15",
       "summary": "미나카미 호타카 — 도쿄 접근형 군마 스키·계곡 숙소.",
@@ -593,6 +622,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/okinawa_blue_cave.jpg",
+      "youtube_id": "",
       "address": "Onna, Okinawa, Japan",
       "published": "2026-08-15",
       "summary": "Onna’s famous blue-cave entries — short boat or shore options with strong tourist demand.",
@@ -613,6 +643,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/shonan_tsujido.jpg",
+      "youtube_id": "",
       "address": "Tsujido, Fujisawa, Kanagawa, Japan",
       "published": "2026-08-15",
       "summary": "Busy Shonan beach break between Kugenuma and Chigasaki — rentals and summer crowds.",
@@ -633,6 +664,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/niseko_hanazono.jpg",
+      "youtube_id": "1ksmiy6EsDo",
       "address": "Hanazono, Kutchan, Hokkaido, Japan",
       "published": "2026-08-15",
       "summary": "Niseko Hanazono — family terrain, Burton park, and quieter base-area stays near Niseko United.",
@@ -653,6 +685,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/appi_kogen.jpg",
+      "youtube_id": "",
       "address": "일본 이와테현 하치만타이 앗피 고원",
       "published": "2026-08-15",
       "summary": "앗피 고원 — 이와테 고산 리조트·긴 시즌·풀서비스 호텔.",
@@ -673,6 +706,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/nagano_karuizawa_camp.jpg",
+      "youtube_id": "rPyFPs4Y81U",
       "address": "Karuizawa, Nagano, Japan",
       "published": "2026-08-15",
       "summary": "Camp near Karuizawa resort town — Shinkansen access and forest sites under Mt. Asama.",
@@ -693,6 +727,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/hakuba_camp.jpg",
+      "youtube_id": "",
       "address": "일본 나가노현 하쿠바촌",
       "published": "2026-08-15",
       "summary": "하쿠바 트레일 근처 여름 알파인 캠프·글램핑. 겨울 스키 타운이 야외 베이스로.",
@@ -713,6 +748,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/kanto_hakone_camp.jpg",
+      "youtube_id": "",
       "address": "Hakone, Kanagawa, Japan",
       "published": "2026-08-15",
       "summary": "Tokyo-weekend camping near Hakone and Lake Ashi — pair with onsen and ropeways.",
@@ -733,6 +769,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/chugoku_setouchi_camp.jpg",
+      "youtube_id": "",
       "address": "일본 히로시마 일대 세토내해 섬",
       "published": "2026-08-15",
       "summary": "온화한 세토내해 섬 캠핑. 아트 섬·페리 루트와 이어짐.",
@@ -753,6 +790,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/manza_onsen.jpg",
+      "youtube_id": "",
       "address": "일본 군마현 쓰마고이 만자",
       "published": "2026-08-15",
       "summary": "만자 온센 — 군마 고산·프린스 숙소·강설 가이드.",
@@ -773,6 +811,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/maiko_snow_resort.jpg",
+      "youtube_id": "",
       "address": "Minamiuonuma, Niigata, Japan",
       "published": "2026-08-15",
       "summary": "Maiko Snow Resort — soft powder, tree skiing, and Niigata free-ride reputation.",
@@ -793,6 +832,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/okinawa_ishigaki_surf.jpg",
+      "youtube_id": "",
       "address": "Ishigaki, Okinawa, Japan",
       "published": "2026-08-15",
       "summary": "Yaeyama island surfing on Ishigaki — combine with dive days when swell and wind align.",
@@ -813,6 +853,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/karuizawa_prince.jpg",
+      "youtube_id": "",
       "address": "Karuizawa, Nagano, Japan",
       "published": "2026-08-15",
       "summary": "Karuizawa Prince Hotel Ski Resort — easy Tokyo weekend skiing and resort hotel base.",
@@ -833,6 +874,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/kagoshima_yakushima.jpg",
+      "youtube_id": "",
       "address": "일본 가고시마현 야쿠시마",
       "published": "2026-08-15",
       "summary": "세계유산 숲 아래 야쿠시마 다이빙. 육상·해상 일정을 함께 짜기 좋음.",
@@ -853,6 +895,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/izu_oshima.jpg",
+      "youtube_id": "",
       "address": "Oshima, Tokyo, Japan",
       "published": "2026-08-15",
       "summary": "Tokyo island diving with volcanic rock reefs — ferry access and local dive shops.",
@@ -873,6 +916,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/hunter_mountain_shiobara.jpg",
+      "youtube_id": "",
       "address": "일본 도치기현 나스시오바라 시오바라",
       "published": "2026-08-15",
       "summary": "헌터마운틴 시오바라 — 도치기 대형 리조트·파크·패밀리.",
@@ -893,6 +937,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/hirayu_onsen.jpg",
+      "youtube_id": "",
       "address": "Hirayu, Takayama, Gifu, Japan",
       "published": "2026-08-15",
       "summary": "Hirayu Onsen Ski Area — tiny Okuhida hill with big onsen village energy.",
@@ -913,6 +958,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/naeba.jpg",
+      "youtube_id": "lRZRiC52JJQ",
       "address": "Yuzawa, Niigata, Japan",
       "published": "2026-08-15",
       "summary": "Naeba Ski Resort — Prince hotels, Fuji Rock summer fame, and Yuzawa family skiing.",
@@ -933,6 +979,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/dynaland.jpg",
+      "youtube_id": "",
       "address": "일본 기후현 구조시 다이나랜드",
       "published": "2026-08-15",
       "summary": "다이나랜드 — 다카스 연결 구조의 패밀리·완만 지형.",
@@ -953,6 +1000,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/shimanami_camp.jpg",
+      "youtube_id": "",
       "address": "일본 오노미치–이마바리 시마나미 루트",
       "published": "2026-08-15",
       "summary": "시마나미 사이클 루트의 섬 캠핑. 바다 뷰와 자전거 친화 사이트.",
@@ -973,6 +1021,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/hakuba_47.jpg",
+      "youtube_id": "",
       "address": "Kamishiro, Hakuba, Nagano, Japan",
       "published": "2026-08-15",
       "summary": "Hakuba 47 — terrain parks, halfpipes, and freestyle skiing in Hakuba Valley.",
@@ -993,6 +1042,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/fuji_kawaguchiko_camp.jpg",
+      "youtube_id": "",
       "address": "Fujikawaguchiko, Yamanashi, Japan",
       "published": "2026-08-15",
       "summary": "Kawaguchiko camping with bus/train access and Fuji views — glamping and car-camp mix.",
@@ -1013,6 +1063,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/joetsu_kokusai.jpg",
+      "youtube_id": "",
       "address": "일본 니가타현 미나미우오누마",
       "published": "2026-08-15",
       "summary": "조에쓰 국제 — 니가타 광역 지형·연휴 인기 리조트 가이드.",
@@ -1033,6 +1084,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/geto_kogen.jpg",
+      "youtube_id": "",
       "address": "Geto, Kitakami, Iwate, Japan",
       "published": "2026-08-15",
       "summary": "Geto Kogen — quiet Iwate powder trees and low-key mountain lodging.",
@@ -1053,6 +1105,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/madarao_kogen.jpg",
+      "youtube_id": "",
       "address": "일본 나가노현 이야마시",
       "published": "2026-08-15",
       "summary": "마다라오 고원 — 나가노·묘코 사이 소프트 파우더·프리라이드 가이드.",
@@ -1073,6 +1126,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/kochi_irisaki.jpg",
+      "youtube_id": "",
       "address": "일본 고치현 고치시",
       "published": "2026-08-15",
       "summary": "시코쿠 태평양 서핑. 이리사키 등 고치 해안의 힘있는 스웰.",
@@ -1093,6 +1147,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/okinawa_ishigaki_manta.jpg",
+      "youtube_id": "",
       "address": "일본 오키나와현 이시가키시",
       "published": "2026-08-15",
       "summary": "이시가키 만타 클리닝 스테이션. 성수기에는 보트 예약을 서두르세요.",
@@ -1113,6 +1168,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/okinawa_kerama.jpg",
+      "youtube_id": "",
       "address": "일본 오키나와현 케라마 제도",
       "published": "2026-08-15",
       "summary": "나하·자마미 출발 데이보트 다이빙. 투명도와 바다거북으로 유명.",
@@ -1133,6 +1189,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/kirifuri_kogen.jpg",
+      "youtube_id": "",
       "address": "Nikko, Tochigi, Japan",
       "published": "2026-08-15",
       "summary": "Kirifuri Kogen — scenic Nikko highland skiing for compact family days.",
@@ -1153,6 +1210,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/yuzawa_kogen.jpg",
+      "youtube_id": "",
       "address": "일본 니가타현 유자와정",
       "published": "2026-08-15",
       "summary": "유자와 고원 — 시내 위 로프웨이·콤팩트 슬로프·온천 베이스.",
@@ -1173,6 +1231,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/zao_onsen.jpg",
+      "youtube_id": "",
       "address": "일본 야마가타현 자오 온센",
       "published": "2026-08-15",
       "summary": "자오 온센 — 주효(수수께끼 나무)·광역 슬로프·온천마을 가이드.",
@@ -1193,6 +1252,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/kawaba.jpg",
+      "youtube_id": "",
       "address": "일본 군마현 카와바",
       "published": "2026-08-15",
       "summary": "카와바 — 도쿄 데이 워리어에게 인기인 군마 파우더 트리.",
@@ -1213,6 +1273,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/izu_ito.jpg",
+      "youtube_id": "",
       "address": "Ito, Shizuoka, Japan",
       "published": "2026-08-15",
       "summary": "Izu east-coast diving from Ito — shops, shore entries, and Tokyo weekend access.",
@@ -1233,6 +1294,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/sahoro.jpg",
+      "youtube_id": "",
       "address": "Shintoku, Hokkaido, Japan",
       "published": "2026-08-15",
       "summary": "Sahoro Resort — Tokachi powder, quieter slopes, and onsen hotel base.",
@@ -1253,6 +1315,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/niseko_village.jpg",
+      "youtube_id": "",
       "address": "Higashiyama, Niseko, Hokkaido, Japan",
       "published": "2026-08-15",
       "summary": "Niseko Village — quieter United base, Hilton stays, and gondola access to Annupuri powder.",
@@ -1273,6 +1336,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/hakuba_cortina.jpg",
+      "youtube_id": "",
       "address": "일본 나가노현 오타리촌",
       "published": "2026-08-15",
       "summary": "하쿠바 코르티나 — 파우더 트리·북하쿠바 한산 지대 가이드.",
@@ -1293,6 +1357,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/shizuoka_iso.jpg",
+      "youtube_id": "",
       "address": "Shizuoka City coast, Shizuoka, Japan",
       "published": "2026-08-15",
       "summary": "Suruga Bay coast surfing with Shizuoka access — typhoon swell and local reef options.",
@@ -1313,6 +1378,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/shonan_chigasaki.jpg",
+      "youtube_id": "",
       "address": "일본 가나가와현 지가사키시",
       "published": "2026-08-15",
       "summary": "쇼난 서프 문화의 중심 지가사키. 레슨과 JR 접근이 편함.",
@@ -1333,6 +1399,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/chiba_hebara.jpg",
+      "youtube_id": "",
       "address": "Hebara, Isumi, Chiba, Japan",
       "published": "2026-08-15",
       "summary": "Pacific-facing Chiba break popular with Tokyo weekenders — consistent swell windows.",
@@ -1353,6 +1420,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/ipponsugi.jpg",
+      "youtube_id": "",
       "address": "Yuzawa, Niigata, Japan",
       "published": "2026-08-15",
       "summary": "Ipponsugi Ski Resort — compact Yuzawa town hill for quick laps and beginners.",
@@ -1373,6 +1441,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/washigatake.jpg",
+      "youtube_id": "",
       "address": "Gujo, Gifu, Japan",
       "published": "2026-08-15",
       "summary": "Washigatake Ski Resort — Gujo local hill with night skiing and family day trips.",
@@ -1393,6 +1462,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/sapporo_kokusai.jpg",
+      "youtube_id": "",
       "address": "일본 홋카이도 삿포로시 조잔케이",
       "published": "2026-08-15",
       "summary": "삿포로 국제 — 삿포로 근교 파우더·트리런·데이 스키 가이드.",
@@ -1413,6 +1483,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/chiba_kujukuri.jpg",
+      "youtube_id": "",
       "address": "Kujukuri, Chiba, Japan",
       "published": "2026-08-15",
       "summary": "Long Pacific sand beach east of Tokyo — multiple peaks along the Kujukuri coast.",
@@ -1433,6 +1504,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/fuji_motosu_camp.jpg",
+      "youtube_id": "",
       "address": "Lake Motosu, Fujikawaguchiko, Yamanashi, Japan",
       "published": "2026-08-15",
       "summary": "Fuji lakeside camping classic — car-camp sites and iconic Motosu reflections.",
@@ -1453,6 +1525,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/hokkaido_toya_camp.jpg",
+      "youtube_id": "",
       "address": "Toyako, Hokkaido, Japan",
       "published": "2026-08-15",
       "summary": "Caldera-lake camping with nearby onsen towns — strong shoulder-season scenery.",
@@ -1473,6 +1546,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/asahidake.jpg",
+      "youtube_id": "",
       "address": "일본 홋카이도 히가시카와정 아사히다케",
       "published": "2026-08-15",
       "summary": "아사히다케 — 다이세쓰잔 백컨트리형 지형·온천 마을 가이드.",
@@ -1493,6 +1567,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/kiroro.jpg",
+      "youtube_id": "",
       "address": "일본 홋카이도 아카이가와촌",
       "published": "2026-08-15",
       "summary": "킬로로 — 오타루 인근 다설, 긴 코스·패밀리 호텔 가이드.",
@@ -1513,6 +1588,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/shiga_kogen.jpg",
+      "youtube_id": "",
       "address": "Yamanouchi, Nagano, Japan",
       "published": "2026-08-15",
       "summary": "Shiga Kogen — Japan's largest linked ski area, altitude snow, and multi-day terrain cards.",
@@ -1533,6 +1609,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/myoko_suginohara.jpg",
+      "youtube_id": "",
       "address": "Myoko, Niigata, Japan",
       "published": "2026-08-15",
       "summary": "Myoko Suginohara — one of Japan's longest runs, deep Niigata powder, and family-friendly base.",
@@ -1553,6 +1630,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/niseko_annupuri.jpg",
+      "youtube_id": "",
       "address": "Annupuri, Niseko, Hokkaido, Japan",
       "published": "2026-08-15",
       "summary": "Niseko Annupuri — local Japanese vibe, onsen towns, and linked Niseko United skiing.",
@@ -1573,6 +1651,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/nasu_onsen_family.jpg",
+      "youtube_id": "",
       "address": "일본 도치기현 나스 온센",
       "published": "2026-08-15",
       "summary": "나스 온센 패밀리 — 온천마을 초보 전용에 가까운 작은 스키장.",
@@ -1593,6 +1672,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/alts_bandai.jpg",
+      "youtube_id": "",
       "address": "Bandai, Yama, Fukushima, Japan",
       "published": "2026-08-15",
       "summary": "Alts Bandai — big Fukushima family terrain near Bandai-Azuma landscape.",
@@ -1613,6 +1693,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/hokkaido_furano_camp.jpg",
+      "youtube_id": "",
       "address": "일본 홋카이도 후라노시",
       "published": "2026-08-15",
       "summary": "후라노 일대 홋카이도 중부 캠핑. 여름 라벤더와 탁 트인 사이트.",
@@ -1633,6 +1714,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/rusutsu.jpg",
+      "youtube_id": "",
       "address": "Rusutsu, Abuta, Hokkaido, Japan",
       "published": "2026-08-15",
       "summary": "Rusutsu Resort — Hokkaido family skiing, amusement-park base, and powder beyond Niseko.",
@@ -1653,6 +1735,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/iwappara.jpg",
+      "youtube_id": "",
       "address": "Yuzawa, Niigata, Japan",
       "published": "2026-08-15",
       "summary": "Iwappara Ski Resort — sunny Yuzawa hill for families and easy Shinkansen day trips.",
@@ -1673,6 +1756,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/hakuba_goryu.jpg",
+      "youtube_id": "",
       "address": "일본 나가노현 하쿠바촌 고류",
       "published": "2026-08-15",
       "summary": "하쿠바 고류 — 에스칼 플라자, 패밀리·트리런, 밸리권 가이드.",
@@ -1693,6 +1777,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/kawaba.jpg",
+      "youtube_id": "",
       "address": "Kawaba, Tone, Gunma, Japan",
       "published": "2026-08-15",
       "summary": "Kawaba Ski Resort — Gunma powder trees popular with Tokyo day warriors.",
@@ -1713,6 +1798,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/zao_onsen.jpg",
+      "youtube_id": "",
       "address": "Zao Onsen, Yamagata, Japan",
       "published": "2026-08-15",
       "summary": "Zao Onsen Ski Resort — juhyo frost monsters, vast linked terrain, and legendary onsen town.",
@@ -1733,6 +1819,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/yuzawa_kogen.jpg",
+      "youtube_id": "",
       "address": "Yuzawa, Niigata, Japan",
       "published": "2026-08-15",
       "summary": "Yuzawa Kogen — ropeway above town, compact slopes, and onsen-base convenience.",
@@ -1753,6 +1840,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/kirifuri_kogen.jpg",
+      "youtube_id": "",
       "address": "일본 도치기현 닛코 키리후리",
       "published": "2026-08-15",
       "summary": "키리후리 고원 — 닛코 고원의 경관형 콤팩트 패밀리 스키.",
@@ -1773,6 +1861,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/okinawa_kerama.jpg",
+      "youtube_id": "",
       "address": "Kerama Islands, Okinawa, Japan",
       "published": "2026-08-15",
       "summary": "World-class visibility day-boat diving from Naha / Zamami — turtles and soft coral gardens.",
@@ -1793,6 +1882,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/okinawa_ishigaki_manta.jpg",
+      "youtube_id": "",
       "address": "Ishigaki, Okinawa, Japan",
       "published": "2026-08-15",
       "summary": "Famous manta cleaning-station dives off Ishigaki — book boats early in peak season.",
@@ -1813,6 +1903,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/kochi_irisaki.jpg",
+      "youtube_id": "",
       "address": "Kochi, Kochi Prefecture, Japan",
       "published": "2026-08-15",
       "summary": "Shikoku Pacific surfing with strong swell windows — Irisaki and nearby Kochi coast peaks.",
@@ -1833,6 +1924,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/madarao_kogen.jpg",
+      "youtube_id": "",
       "address": "Iiyama, Nagano, Japan",
       "published": "2026-08-15",
       "summary": "Madarao Kogen — soft powder trees between Nagano and Myoko, freeride friendly.",
@@ -1853,6 +1945,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/geto_kogen.jpg",
+      "youtube_id": "",
       "address": "일본 이와테현 기타카미 게토",
       "published": "2026-08-15",
       "summary": "게토 고원 — 이와테의 한산한 파우더 트리·로지 숙박.",
@@ -1873,6 +1966,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/joetsu_kokusai.jpg",
+      "youtube_id": "",
       "address": "Minamiuonuma, Niigata, Japan",
       "published": "2026-08-15",
       "summary": "Joetsu Kokusai — sprawling Niigata terrain for intermediates and busy holiday weeks.",
@@ -1893,6 +1987,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/fuji_kawaguchiko_camp.jpg",
+      "youtube_id": "",
       "address": "일본 야마나시현 후지카와구치코마치",
       "published": "2026-08-15",
       "summary": "버스·전철 접근이 쉬운 가와구치코 캠핑. 글램핑·차박 믹스.",
@@ -1913,6 +2008,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/hakuba_47.jpg",
+      "youtube_id": "",
       "address": "일본 나가노현 하쿠바촌 47",
       "published": "2026-08-15",
       "summary": "하쿠바 47 — 테린파크·프리스타일, 밸리 파우더 가이드.",
@@ -1933,6 +2029,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/shimanami_camp.jpg",
+      "youtube_id": "",
       "address": "Onomichi–Imabari route, Japan",
       "published": "2026-08-15",
       "summary": "Island-hop camping along Japan’s famous cycle route — sea views and bike-friendly sites.",
@@ -1953,6 +2050,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/dynaland.jpg",
+      "youtube_id": "",
       "address": "Takasu, Gujo, Gifu, Japan",
       "published": "2026-08-15",
       "summary": "Dynaland — family Gujo skiing linked to Takasu with gentler terrain.",
@@ -1973,6 +2071,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/naeba.jpg",
+      "youtube_id": "lRZRiC52JJQ",
       "address": "일본 니가타현 유자와 나에바",
       "published": "2026-08-15",
       "summary": "나에바 스키장 — 프린스 호텔, 유자와 패밀리·축제 가이드.",
@@ -1993,6 +2092,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/hirayu_onsen.jpg",
+      "youtube_id": "",
       "address": "일본 기후현 다카야마 히라유",
       "published": "2026-08-15",
       "summary": "히라유 온센 — 작은 오쿠히다 스키장과 큰 온천마을.",
@@ -2013,6 +2113,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/hunter_mountain_shiobara.jpg",
+      "youtube_id": "",
       "address": "Shiobara, Nasushiobara, Tochigi, Japan",
       "published": "2026-08-15",
       "summary": "Hunter Mountain Shiobara — big Tochigi resort with parks and family terrain.",
@@ -2033,6 +2134,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/izu_oshima.jpg",
+      "youtube_id": "",
       "address": "일본 도쿄도 오시마정",
       "published": "2026-08-15",
       "summary": "화산암 리프의 도쿄 도서 다이빙. 페리와 로컬 샵 접근.",
@@ -2053,6 +2155,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/kagoshima_yakushima.jpg",
+      "youtube_id": "",
       "address": "Yakushima, Kagoshima, Japan",
       "published": "2026-08-15",
       "summary": "Kyushu island diving under Yakushima’s world-heritage forests — combine land and sea days.",
@@ -2073,6 +2176,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/karuizawa_prince.jpg",
+      "youtube_id": "",
       "address": "일본 나가노현 가루이자와",
       "published": "2026-08-15",
       "summary": "가루이자와 프린스 — 도쿄 주말 스키·리조트 호텔 가이드.",
@@ -2093,6 +2197,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/okinawa_ishigaki_surf.jpg",
+      "youtube_id": "",
       "address": "일본 오키나와현 이시가키시",
       "published": "2026-08-15",
       "summary": "야에야마 이시가키 서핑. 스웰·바람이 맞으면 다이빙과 조합하기 좋음.",
@@ -2113,6 +2218,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/maiko_snow_resort.jpg",
+      "youtube_id": "",
       "address": "일본 니가타현 미나미우오누마 마이코",
       "published": "2026-08-15",
       "summary": "마이코 — 소프트 파우더·트리 스키·니가타 프리라이드 명성.",
@@ -2133,6 +2239,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/manza_onsen.jpg",
+      "youtube_id": "",
       "address": "Manza, Tsumagoi, Gunma, Japan",
       "published": "2026-08-15",
       "summary": "Manza Onsen Ski Resort — high Gunma elevation, Prince lodging, and storm snow.",
@@ -2153,6 +2260,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/chugoku_setouchi_camp.jpg",
+      "youtube_id": "",
       "address": "Seto Inland Sea islands, Hiroshima area, Japan",
       "published": "2026-08-15",
       "summary": "Mild Seto Inland Sea camping — island hops near art islands and ferry routes.",
@@ -2173,6 +2281,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/hakuba_goryu.jpg",
+      "youtube_id": "",
       "address": "Kamishiro, Hakuba, Nagano, Japan",
       "published": "2026-08-15",
       "summary": "Hakuba Goryu — Escal Plaza base, family tree runs, and Hakuba Valley lift links.",
@@ -2193,6 +2302,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/iwappara.jpg",
+      "youtube_id": "",
       "address": "일본 니가타현 유자와정 이와파라",
       "published": "2026-08-15",
       "summary": "이와파라 — 유자와 패밀리·신칸센 당일권 가이드.",
@@ -2213,6 +2323,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/rusutsu.jpg",
+      "youtube_id": "",
       "address": "일본 홋카이도 아부타군 루스츠",
       "published": "2026-08-15",
       "summary": "루스츠 리조트 — 홋카이도 패밀리 스키, 파우더·숙소·접근 가이드.",
@@ -2233,6 +2344,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/alts_bandai.jpg",
+      "youtube_id": "",
       "address": "일본 후쿠시마현 반다이",
       "published": "2026-08-15",
       "summary": "알츠 반다이 — 반다이·아즈마 경관의 대형 패밀리 스키장.",
@@ -2253,6 +2365,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/hokkaido_furano_camp.jpg",
+      "youtube_id": "",
       "address": "Furano, Hokkaido, Japan",
       "published": "2026-08-15",
       "summary": "Central Hokkaido camping around Furano — summer lavender season and wide-sky sites.",
@@ -2273,6 +2386,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/nasu_onsen_family.jpg",
+      "youtube_id": "",
       "address": "Nasu, Tochigi, Japan",
       "published": "2026-08-15",
       "summary": "Nasu Onsen Family Ski Area — tiny onsen-town hill for absolute beginners.",
@@ -2293,6 +2407,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/niseko_annupuri.jpg",
+      "youtube_id": "",
       "address": "일본 홋카이도 니세코정 아누푸리",
       "published": "2026-08-15",
       "summary": "니세코 아누푸리 — 로컬 분위기, 온천·유나이트 스키 가이드.",
@@ -2313,6 +2428,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/myoko_suginohara.jpg",
+      "youtube_id": "",
       "address": "일본 니가타현 묘코 시 스기노하라",
       "published": "2026-08-15",
       "summary": "묘코 스기노하라 — 장거리 코스, 니가타 파우더·패밀리 가이드.",
@@ -2333,6 +2449,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/shiga_kogen.jpg",
+      "youtube_id": "",
       "address": "일본 나가노현 야마노우치정",
       "published": "2026-08-15",
       "summary": "시가 고원 — 일본 최대급 연결 스키장·고도 적설 가이드.",
@@ -2353,6 +2470,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/kiroro.jpg",
+      "youtube_id": "",
       "address": "Akaigawa, Hokkaido, Japan",
       "published": "2026-08-15",
       "summary": "Kiroro Resort — high snowfall near Otaru, long runs, and family hotel packages.",
@@ -2373,6 +2491,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/asahidake.jpg",
+      "youtube_id": "",
       "address": "Higashikawa, Hokkaido, Japan",
       "published": "2026-08-15",
       "summary": "Asahidake Ropeway Ski Area — backcountry-leaning Daisetsuzan terrain and onsen village.",
@@ -2393,6 +2512,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/hokkaido_toya_camp.jpg",
+      "youtube_id": "",
       "address": "일본 홋카이도 도야코정",
       "published": "2026-08-15",
       "summary": "칼데라 호수 캠핑과 인근 온천. 어깨 시즌 풍경이 특히 좋음.",
@@ -2413,6 +2533,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/fuji_motosu_camp.jpg",
+      "youtube_id": "",
       "address": "일본 야마나시현 후지카와구치코 모토스코",
       "published": "2026-08-15",
       "summary": "후지산 호수 캠핑 클래식. 모토스코 역광 뷰와 차박 사이트.",
@@ -2433,6 +2554,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/chiba_kujukuri.jpg",
+      "youtube_id": "",
       "address": "일본 치바현 구주쿠리정",
       "published": "2026-08-15",
       "summary": "도쿄 동쪽 긴 모래사장. 구주쿠리 해안을 따라 피크가 이어짐.",
@@ -2453,6 +2575,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/sapporo_kokusai.jpg",
+      "youtube_id": "",
       "address": "Jozankei, Sapporo, Hokkaido, Japan",
       "published": "2026-08-15",
       "summary": "Sapporo Kokusai — powder bowl near Sapporo, tree skiing, and accessible day lifts.",
@@ -2473,6 +2596,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/washigatake.jpg",
+      "youtube_id": "",
       "address": "일본 기후현 구조시 와시가타케",
       "published": "2026-08-15",
       "summary": "와시가타케 — 구조 로컬·야간 스키·패밀리 당일 코스.",
@@ -2493,6 +2617,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/ipponsugi.jpg",
+      "youtube_id": "",
       "address": "일본 니가타현 유자와정 잇폰스기",
       "published": "2026-08-15",
       "summary": "잇폰스기 — 유자와 시내권 콤팩트·초급 친화 스키장.",
@@ -2513,6 +2638,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/chiba_hebara.jpg",
+      "youtube_id": "",
       "address": "일본 치바현 이스미시 헤바라",
       "published": "2026-08-15",
       "summary": "도쿄 주말러가 많이 찾는 치바 태평양 스팟. 스웰이 비교적 꾸준함.",
@@ -2533,6 +2659,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/shonan_chigasaki.jpg",
+      "youtube_id": "",
       "address": "Chigasaki, Kanagawa, Japan",
       "published": "2026-08-15",
       "summary": "Shonan’s cultural surf town — Southern Beach vibe, lessons, and JR access from Tokyo.",
@@ -2553,6 +2680,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/shizuoka_iso.jpg",
+      "youtube_id": "",
       "address": "일본 시즈오카현 시즈오카시 해안",
       "published": "2026-08-15",
       "summary": "스루가만 해안 서핑. 태풍 스웰과 로컬 리프 옵션.",
@@ -2573,6 +2701,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/hakuba_cortina.jpg",
+      "youtube_id": "",
       "address": "Otari, Nagano, Japan",
       "published": "2026-08-15",
       "summary": "Hakuba Cortina — powder trees, quieter Hakuba north, and lodge-style stays.",
@@ -2593,6 +2722,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/niseko_village.jpg",
+      "youtube_id": "",
       "address": "일본 홋카이도 니세코정 히가시야마",
       "published": "2026-08-15",
       "summary": "니세코 빌리지 — 조용한 유나이트 베이스, 힐튼·곤돌라 접근 가이드.",
@@ -2613,6 +2743,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/sahoro.jpg",
+      "youtube_id": "",
       "address": "일본 홋카이도 신토쿠정",
       "published": "2026-08-15",
       "summary": "사호로 — 도카치 파우더·한산한 슬로프·온천 호텔 가이드.",
@@ -2633,6 +2764,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/izu_ito.jpg",
+      "youtube_id": "",
       "address": "일본 시즈오카현 이토시",
       "published": "2026-08-15",
       "summary": "이토 출발 이즈 동해안 다이빙. 샵·쇼어와 도쿄 주말 접근.",
@@ -2653,6 +2785,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/hakuba_iwatake.jpg",
+      "youtube_id": "sOMFH7XhfN0",
       "address": "Hokujo, Hakuba, Nagano, Japan",
       "published": "2026-08-15",
       "summary": "Hakuba Iwatake — sunny faces, gondola views, and family terrain near Hakuba village.",
@@ -2673,6 +2806,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/shonan_kugenuma.jpg",
+      "youtube_id": "",
       "address": "Kugenuma, Fujisawa, Kanagawa, Japan",
       "published": "2026-08-15",
       "summary": "Classic Shonan beach break near Tokyo — schools, rentals, and easy Odakyu access.",
@@ -2693,6 +2827,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/fuji_yamanakako_camp.jpg",
+      "youtube_id": "",
       "address": "일본 야마나시현 야마나카코촌",
       "published": "2026-08-15",
       "summary": "후지 오호 중 가장 큰 캠프 허브. 패밀리 사이트와 넓은 호숫가.",
@@ -2713,6 +2848,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/okinawa_yonaguni.jpg",
+      "youtube_id": "",
       "address": "일본 오키나와현 요나구니정",
       "published": "2026-08-15",
       "summary": "야에야마 최서단 다이빙. 겨울 귀상어 시즌과 수중 지형으로 유명.",
@@ -2733,6 +2869,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/nozawa_onsen.jpg",
+      "youtube_id": "",
       "address": "Nozawaonsen, Nagano, Japan",
       "published": "2026-08-15",
       "summary": "Nozawa Onsen — historic hot-spring village, traditional lodging, and Nagano powder.",
@@ -2753,6 +2890,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/shizuoka_ohsezaki.jpg",
+      "youtube_id": "",
       "address": "일본 시즈오카현 누마즈·오세자키",
       "published": "2026-08-15",
       "summary": "이즈 대표 머크·매크로 포인트. 쇼어와 나이트 다이빙이 유명.",
@@ -2773,6 +2911,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/kusatsu_kokusai.jpg",
+      "youtube_id": "",
       "address": "일본 군마현 구사쓰",
       "published": "2026-08-15",
       "summary": "구사쓰 온센 — 유바타케 위 유황 온천마을의 스키.",
@@ -2793,6 +2932,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/ibaraki_oaraibaraki.jpg",
+      "youtube_id": "",
       "address": "Oarai, Ibaraki, Japan",
       "published": "2026-08-15",
       "summary": "Ibaraki coast surf with harbor and beach options — popular north of Tokyo.",
@@ -2813,6 +2953,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/takasu_snow_park.jpg",
+      "youtube_id": "",
       "address": "일본 기후현 구조시 다카스",
       "published": "2026-08-15",
       "summary": "다카스 스노우파크 — 구조 파우더·다이나랜드 연결·긴 낙차.",
@@ -2833,6 +2974,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/nagano_tateshina_camp.jpg",
+      "youtube_id": "",
       "address": "일본 나가노현 다테시나",
       "published": "2026-08-15",
       "summary": "나가노 고원 숲 캠핑. 시원한 여름과 클래식 오토캠프.",
@@ -2853,6 +2995,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/tomamu.jpg",
+      "youtube_id": "",
       "address": "일본 홋카이도 시무캅푸촌 토마무",
       "published": "2026-08-15",
       "summary": "토마무 — 운해 테라스·아이스빌리지·패밀리 패키지 가이드.",
@@ -2873,6 +3016,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/kanto_hakone_camp.jpg",
+      "youtube_id": "",
       "address": "일본 가나가와현 하코네정",
       "published": "2026-08-15",
       "summary": "도쿄 주말 하코네·아시노코 캠핑. 온천·로프웨이와 조합.",
@@ -2893,6 +3037,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/hakuba_camp.jpg",
+      "youtube_id": "",
       "address": "Hakuba, Nagano, Japan",
       "published": "2026-08-15",
       "summary": "Summer alpine camping and glamping near Hakuba trails — winter ski town flips to outdoor base.",
@@ -2913,6 +3058,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/nagano_karuizawa_camp.jpg",
+      "youtube_id": "rPyFPs4Y81U",
       "address": "일본 나가노현 가루이자와정",
       "published": "2026-08-15",
       "summary": "가루이자와 리조트 타운 근처 캠프. 신칸센과 아사마산 아래 숲 사이트.",
@@ -2933,6 +3079,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/appi_kogen.jpg",
+      "youtube_id": "",
       "address": "Appi Kogen, Hachimantai, Iwate, Japan",
       "published": "2026-08-15",
       "summary": "Appi Kogen — high-elevation Iwate resort, long season vibe, and full-service hotels.",
@@ -2953,6 +3100,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/niseko_hanazono.jpg",
+      "youtube_id": "1ksmiy6EsDo",
       "address": "일본 홋카이도 굿찬정 하나조노",
       "published": "2026-08-15",
       "summary": "니세코 하나조노 — 패밀리 코스, 버튼 파크, 유나이트권과 숙소 팁.",
@@ -2973,6 +3121,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/shonan_tsujido.jpg",
+      "youtube_id": "",
       "address": "일본 가나가와현 후지사와시 츠지도",
       "published": "2026-08-15",
       "summary": "구게누마·지가사키 사이 쇼난 비치. 렌탈과 여름 인파가 많음.",
@@ -2993,6 +3142,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/okinawa_blue_cave.jpg",
+      "youtube_id": "",
       "address": "일본 오키나와현 온나촌",
       "published": "2026-08-15",
       "summary": "온나촌 블루케이브. 숏보트·쇼어 옵션과 관광 수요가 많음.",
@@ -3013,6 +3163,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/minakami_hotaka.jpg",
+      "youtube_id": "",
       "address": "Minakami, Tone, Gunma, Japan",
       "published": "2026-08-15",
       "summary": "Minakami Hotaka — Tokyo-access Gunma skiing with river-valley lodging options.",
@@ -3033,6 +3184,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/furano.jpg",
+      "youtube_id": "",
       "address": "Furano, Hokkaido, Japan",
       "published": "2026-08-15",
       "summary": "Furano Ski Resort — central Hokkaido scenery, Prince hotels, and dry powder away from the coast.",
@@ -3053,6 +3205,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/tsugaike_kogen.jpg",
+      "youtube_id": "",
       "address": "Otari, Nagano, Japan",
       "published": "2026-08-15",
       "summary": "Tsugaike Kogen — huge beginner pasture, gondola to alpine views, Hakuba north access.",
@@ -3073,6 +3226,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/okinawa_yomitan.jpg",
+      "youtube_id": "",
       "address": "Yomitan, Okinawa, Japan",
       "published": "2026-08-15",
       "summary": "Okinawa main-island west coast surf — winter north swell and reef setups near Yomitan.",
@@ -3093,6 +3247,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/okinawa_sunayama.jpg",
+      "youtube_id": "",
       "address": "일본 오키나와현 미야코지마 히라라",
       "published": "2026-08-15",
       "summary": "미야코 모래언덕 비치 인근 서핑. 겨울 북쪽 스웰 시즌이 핵심.",
@@ -3113,6 +3268,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/okinawa_miyako_dive.jpg",
+      "youtube_id": "",
       "address": "Miyakojima, Okinawa, Japan",
       "published": "2026-08-15",
       "summary": "Miyako drop-offs and underwater caves — clear water and photogenic walls.",
@@ -3133,6 +3289,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/fukushima_nakoso.jpg",
+      "youtube_id": "",
       "address": "일본 후쿠시마현 이와키시",
       "published": "2026-08-15",
       "summary": "이와키·나코소 일대 후쿠시마 태평양 서핑. 쇼난보다 한산한 편.",
@@ -3153,6 +3310,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/tangram_ski_circus.jpg",
+      "youtube_id": "",
       "address": "Shinano, Nagano, Japan",
       "published": "2026-08-15",
       "summary": "Tangram Ski Circus — funky terrain park energy near Madarao with hotel base.",
@@ -3173,6 +3331,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/izu_shimoda.jpg",
+      "youtube_id": "",
       "address": "일본 시즈오카현 시모다시",
       "published": "2026-08-15",
       "summary": "시모다 일대 남이즈 다이빙. 리프·조류와 로컬 샵이 탄탄함.",
@@ -3193,6 +3352,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/kagura.jpg",
+      "youtube_id": "",
       "address": "일본 니가타현 유자와정 카구라",
       "published": "2026-08-15",
       "summary": "카구라 — 나에바·미츠마타 연결의 니가타 대형 낙차 가이드.",
@@ -3213,6 +3373,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/hakuba_happo_one.jpg",
+      "youtube_id": "gbh5roqiciU",
       "address": "일본 나가노현 하쿠바촌 해포",
       "published": "2026-08-15",
       "summary": "하쿠바 해포 — 올림픽 규모 낙차, 밸리권·도쿄·서울 접근 가이드.",
@@ -3233,6 +3394,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/chubu_norikura_camp.jpg",
+      "youtube_id": "",
       "address": "일본 기후·나가노 노리쿠라 고원",
       "published": "2026-08-15",
       "summary": "노리쿠라 스카이라인 근처 고지 캠핑. 선선한 밤과 알파인 풍경.",
@@ -3253,6 +3415,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/sapporo_teine.jpg",
+      "youtube_id": "",
       "address": "일본 홋카이도 삿포로시 데이네",
       "published": "2026-08-15",
       "summary": "삿포로 테이네 — 시내권 스키·올림픽 유산·당일 코스 가이드.",
@@ -3273,6 +3436,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/gala_yuzawa.jpg",
+      "youtube_id": "",
       "address": "일본 니가타현 유자와",
       "published": "2026-08-15",
       "summary": "갈라 유자와 — 역 직결 스키, 도쿄 당일·초보자 가이드.",
@@ -3293,6 +3457,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/okinawa_minna.jpg",
+      "youtube_id": "",
       "address": "Motobu / Minna, Okinawa, Japan",
       "published": "2026-08-15",
       "summary": "Northern Okinawa day-trip diving from Motobu toward Minna — clear water and easy logistics.",
@@ -3313,6 +3478,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/kagoshima_amami.jpg",
+      "youtube_id": "",
       "address": "Amami, Kagoshima, Japan",
       "published": "2026-08-15",
       "summary": "Amami coral diving between Kyushu and Okinawa — quieter reefs and seasonal megafauna.",
@@ -3333,6 +3499,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/mt_jeans_nasu.jpg",
+      "youtube_id": "",
       "address": "일본 도치기현 나스",
       "published": "2026-08-15",
       "summary": "마운트진스 나스 — 접근성 좋은 나스 패밀리 스키.",
@@ -3353,6 +3520,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/niseko_grand_hirafu.jpg",
+      "youtube_id": "",
       "address": "일본 홋카이도 굿찬정 히라후",
       "published": "2026-08-15",
       "summary": "니세코 그란히라후 — 파우더 슬로프, 히라후 숙소, 리프트권·접근 정보.",
