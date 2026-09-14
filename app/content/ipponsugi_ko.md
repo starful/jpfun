@@ -1,4 +1,6 @@
 ---
+youtube_id: s6Kddkt79nQ
+
 lang: ko
 title: "잇폰스기 스키장"
 lat: 36.948

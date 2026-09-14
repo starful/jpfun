@@ -88,12 +88,17 @@ class ApiSmokeTest(unittest.TestCase):
         self.assertNotIn("klook.tpo.mx", body)
         self.assertNotIn("쿠팡 파트너스", body)
 
-    def test_surf_page_lists_shonan_basics_guide(self):
+    def test_surf_page_lists_surf_guides(self):
         response = self.client.get("/surf")
         self.assertEqual(response.status_code, 200)
         body = response.get_data(as_text=True)
-        self.assertIn("Shonan Surfing Basics", body)
-        self.assertIn("guide_shonan_surf_basics_en", body)
+        self.assertIn("/guide/", body)
+        self.assertIn("lp-guide", body)
+
+    def test_shonan_surf_basics_guide_page_exists(self):
+        response = self.client.get("/guide/guide_shonan_surf_basics_en")
+        self.assertEqual(response.status_code, 200)
+        self.assertIn("Shonan Surfing Basics", response.get_data(as_text=True))
 
     def test_ski_page_lists_pass_comparison_guide(self):
         response = self.client.get("/ski")

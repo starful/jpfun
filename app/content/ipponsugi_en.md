@@ -1,4 +1,6 @@
 ---
+youtube_id: s6Kddkt79nQ
+
 lang: en
 title: "Ipponsugi Ski Resort"
 lat: 36.948

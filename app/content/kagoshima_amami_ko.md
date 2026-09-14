@@ -1,4 +1,6 @@
 ---
+youtube_id: TO3n4vjKcX8
+
 lang: ko
 title: "아마미오시마 다이빙"
 lat: 28.38

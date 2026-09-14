@@ -1,4 +1,6 @@
 ---
+youtube_id: 2NlcvJuMOk8
+
 lang: ko
 title: "알츠 반다이"
 lat: 37.627

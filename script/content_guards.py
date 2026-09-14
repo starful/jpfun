@@ -14,11 +14,31 @@ GUIDE_DUPLICATE_OF: dict[str, str] = {}
 
 ITEM_MIN_CHARS = 4500
 GUIDE_MIN_CHARS = 4000
-# Sibling locale fill (one lang already live) uses a higher bar.
+# Hangul packs more meaning per character. Live KO spots sit ~300–1,100 chars;
+# Claude KO drafts that cover season/access/tips land ~2,500–3,300. Character
+# quota is a stub floor — visitor themes are the real gate.
+KO_MIN_CHARS = 2200
+# Sibling locale fill (one lang already live) uses a higher bar for English.
 SIBLING_FILL_MIN_CHARS = 5500
 
 HANGUL_RE = re.compile(r"[\uac00-\ud7a3]")
 FM_SPLIT = re.compile(r"^---\s*\n(.*?)\n---\s*\n(.*)$", re.S)
+
+# Body-text themes (unique ## titles are required, so match content not headings).
+THEME_NEEDLES: dict[str, dict[str, tuple[str, ...]]] = {
+    "season": {
+        "en": ("season", "winter", "summer", "autumn", "fall", "spring", "swell", "powder", "snow"),
+        "ko": ("시즌", "계절", "적설", "수온", "파우더", "스웰", "겨울", "여름", "가을", "봄"),
+    },
+    "access": {
+        "en": ("airport", "train", "shinkansen", "shuttle", "drive", "station", "rental car", "access"),
+        "ko": ("접근", "오는 길", "공항", "신칸센", "렌터카", "셔틀", "기차", "열차", "버스"),
+    },
+    "tips": {
+        "en": ("tip", "book", "rental", "etiquette", "lodging", "onsen", "gear", "reserv"),
+        "ko": ("팁", "주의", "예약", "렌탈", "에티켓", "숙소", "온천", "장비", "강습"),
+    },
+}
 
 
 def base_slug(stem: str) -> str:
@@ -74,15 +94,50 @@ def duplicate_guide_reason(base_id: str, guide_dir: str | Path) -> str | None:
 
 
 def min_chars_for(*, kind: str, sibling_exists: bool, lang: str = "en") -> int:
+    if str(lang).lower() == "ko":
+        return KO_MIN_CHARS
     if sibling_exists:
-        # Hangul packs more meaning per character than English. Live KO
-        # sibling fills that already passed editorial review sit around
-        # 4,000–4,700 chars; 5,500 KO is longer than those pages and is
-        # why okadmin FILL_HALF kept rejecting Korean output.
-        if str(lang).lower() == "ko":
-            return GUIDE_MIN_CHARS
         return SIBLING_FILL_MIN_CHARS
     return ITEM_MIN_CHARS if kind == "item" else GUIDE_MIN_CHARS
+
+
+def _body_haystack(body: str, lang: str) -> str:
+    return body.lower() if str(lang).lower() == "en" else body
+
+
+def theme_gaps(body: str, *, lang: str) -> list[str]:
+    """Return missing visitor themes. Match body text, not H2 titles."""
+    hay = _body_haystack(body, lang)
+    lang_key = "ko" if str(lang).lower() == "ko" else "en"
+    missing: list[str] = []
+    for theme, by_lang in THEME_NEEDLES.items():
+        needles = by_lang[lang_key]
+        if not any(n in hay for n in needles):
+            missing.append(f"missing_theme:{theme}")
+    return missing
+
+
+def quality_prompt_block(*, lang: str) -> str:
+    """Shared generation rules: themes over English-length character quotas."""
+    if str(lang).lower() == "ko":
+        return """[HARD RULES]
+- Write ONLY in Korean. Proper nouns in Latin script are OK; do not mix sentences.
+- At least 4 unique ## sections. Never use H1 (#).
+- Cover ALL of these themes (invent unique ## titles; do not copy Overview / Getting there / Tips):
+  1. Who this is for and what makes THIS place or topic distinct
+  2. Conditions — slopes, swell, dive sites, camp layout, or the how-to for a guide
+  3. Season AND access — when to go, plus airport / train / car / time from a real hub
+  4. Practical tips — booking, gear, etiquette, stay or food
+- Do not target an English-style character count. A Korean visitor page is complete when those themes have concrete facts, not padding."""
+    return """[HARD RULES]
+- Write ONLY in English.
+- At least 4 unique ## sections. Never use H1 (#).
+- Cover ALL of these themes with unique ## titles:
+  1. Who this is for and what makes THIS place or topic distinct
+  2. Conditions — slopes, swell, dive sites, camp layout, or the how-to for a guide
+  3. Season AND access — when to go, plus airport / train / car / time from a real hub
+  4. Practical tips — booking, gear, etiquette, stay or food
+- Invent unique ## titles; do not reuse Overview / Getting there / Tips across articles."""
 
 
 def validate_generated_markdown(
@@ -122,6 +177,8 @@ def validate_generated_markdown(
     heading_count = len(re.findall(r"^##\s+\S", body, re.M))
     if heading_count < 3:
         errors.append(f"too_few_sections:{heading_count}")
+
+    errors.extend(theme_gaps(body, lang=lang))
 
     return (len(errors) == 0), errors
 

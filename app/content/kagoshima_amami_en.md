@@ -1,4 +1,6 @@
 ---
+youtube_id: TO3n4vjKcX8
+
 lang: en
 title: "Amami Oshima Dive Area"
 lat: 28.38
