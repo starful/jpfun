@@ -1,4 +1,6 @@
 ---
+youtube_id: 2NlcvJuMOk8
+
 lang: en
 title: "Alts Bandai"
 lat: 37.627

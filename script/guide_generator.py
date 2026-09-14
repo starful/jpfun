@@ -10,6 +10,7 @@ from topic_queue_csv import resolve as resolve_queue_csv
 from content_guards import (
     duplicate_guide_reason,
     locale_pair_status,
+    quality_prompt_block,
     sibling_exists,
     strip_code_fences,
     validate_generated_markdown,
@@ -36,9 +37,9 @@ def _claude_md(prompt: str) -> str:
     from site_llm import generate_md_text
     return generate_md_text(prompt)
 
-DEFAULT_GUIDE_CSV = "script/csv/guides.csv"
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.dirname(SCRIPT_DIR)
+DEFAULT_GUIDE_CSV = os.path.join(SCRIPT_DIR, "csv", "guides.csv")
 OUTPUT_DIR = os.path.join(BASE_DIR, "app", "content", "guides")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -62,33 +63,23 @@ def generate_guide(row, lang):
     filename = f"{base_id}_{lang}.md"
     filepath = os.path.join(OUTPUT_DIR, filename)
     filling_sibling = sibling_exists(OUTPUT_DIR, base_id, lang)
-    if filling_sibling and lang == "ko":
-        length_hint = "at least 4,500 Korean characters — filling a missing locale; match sibling depth"
-    elif filling_sibling:
-        length_hint = "at least 6,500 characters — filling a missing locale; match sibling depth"
-    else:
-        length_hint = "at least 5,000 characters"
+    length_line = ""
+    if lang != "ko":
+        if filling_sibling:
+            length_line = "Length: at least 6,500 characters — filling a missing locale; match sibling depth.\n"
+        else:
+            length_line = "Length: at least 5,000 characters.\n"
     activity_yaml = f"\n    activity: {activity}" if activity else ""
+    rules = quality_prompt_block(lang=lang)
 
-    # 본문 생성 프롬프트
     prompt = f"""
-    Write an exhaustive, professional SEO leisure travel guide for JPFun about '{topic}' in Japan (ski / scuba dive / surf / camp when relevant).
+    Write a practical SEO leisure travel guide for JPFun about '{topic}' in Japan (ski / scuba dive / surf / camp when relevant).
     Target Language: {lang}
     Keywords to include: {keywords}
-    Length: {length_hint}.
-    Write ONLY in {"Korean" if lang == "ko" else "English"}; do not mix languages.
+    {length_line}{rules}
 
-    Structure:
-    1. Deep introduction.
-    2. Historical context or cultural significance.
-    3. Practical 'How-to' or 'Where-to' tips.
-    4. Expert recommendations.
-    5. Conclusion.
-
-    Use '##' for main sections (at least 4 sections). Never use H1 ('#').
-    Invent UNIQUE ## titles for THIS topic — do not reuse interchangeable
-    templates like "Who This Guide Is For", "Final Checklist", or identical
-    section lists copied across articles.
+    Also include historical or cultural context when it helps a visitor decide.
+    If keywords are sparse, still write concrete logistics (hub city, season window, what to book).
 
     Output format:
     ---
