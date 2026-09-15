@@ -171,12 +171,15 @@ def generate_item(row: dict, lang: str) -> str:
     filename = f"{safe_name}_{lang}.md"
     filepath = os.path.join(CONTENT_DIR, filename)
     filling_sibling = sibling_exists(CONTENT_DIR, safe_name, lang)
-    length_line = ""
-    if lang != "ko":
-        if filling_sibling:
-            length_line = "Length: at least 6,500 characters — filling a missing locale; match sibling depth.\n"
-        else:
-            length_line = "Length: at least 5,000 characters.\n"
+    if lang == "ko":
+        length_line = (
+            "Length: at least 2,500 characters in the Markdown body "
+            "(exclude YAML). Prefer 2,800+ with concrete visitor logistics.\n"
+        )
+    elif filling_sibling:
+        length_line = "Length: at least 6,500 characters — filling a missing locale; match sibling depth.\n"
+    else:
+        length_line = "Length: at least 5,000 characters.\n"
     rules = quality_prompt_block(lang=lang)
 
     prompt = f"""
@@ -212,24 +215,41 @@ def generate_item(row: dict, lang: str) -> str:
 
     try:
         print(f"📡 API 호출 시작: {filename}")
-        response_text = _claude_md(prompt)
-        content = strip_code_fences(response_text or "")
-        content = _patch_item_frontmatter(
-            content,
-            activity=activity,
-            lat=lat or "0",
-            lng=lng or "0",
-            address=address,
-            website=website,
-            region=region,
-            safe_name=safe_name,
-        )
-        ok, errors = validate_generated_markdown(
-            content,
-            kind="item",
-            lang=lang,
-            sibling_exists=filling_sibling,
-        )
+        content = None
+        errors: list[str] = []
+        ok = False
+        for attempt in range(2):
+            call_prompt = prompt
+            if attempt == 1:
+                call_prompt = (
+                    prompt
+                    + "\n\nRETRY: Previous draft was too short. Expand every ## section "
+                    "with concrete numbers, place names, booking steps, and season windows "
+                    "until the body is at least 2,500 characters.\n"
+                )
+                print(f"🔁 짧은 초안 재작성: {filename}")
+            response_text = _claude_md(call_prompt)
+            content = strip_code_fences(response_text or "")
+            content = _patch_item_frontmatter(
+                content,
+                activity=activity,
+                lat=lat or "0",
+                lng=lng or "0",
+                address=address,
+                website=website,
+                region=region,
+                safe_name=safe_name,
+            )
+            ok, errors = validate_generated_markdown(
+                content,
+                kind="item",
+                lang=lang,
+                sibling_exists=filling_sibling,
+            )
+            if ok:
+                break
+            if not any(e.startswith("too_short:") for e in errors):
+                break
         if not ok:
             return f"⛔ 품질미달·저장안함: {filename} — {', '.join(errors)}"
         with open(filepath, "w", encoding="utf-8") as f:
@@ -237,7 +257,6 @@ def generate_item(row: dict, lang: str) -> str:
         return f"✅ 성공: {filename}"
     except Exception as e:
         return f"❌ 에러: {filename} - {str(e)}"
-
 
 def _missing_langs(item_id: str) -> list[str]:
     missing = []

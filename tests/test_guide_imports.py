@@ -62,19 +62,19 @@ def test_fill_half_queues_only_missing_lang(tmp_path, monkeypatch):
     assert queued == ["ko"]
 
 
-def test_ko_min_chars_is_stub_floor_not_english_quota():
+def test_ko_min_chars_is_2500():
     guards = _load("content_guards")
-    assert guards.KO_MIN_CHARS == 2200
-    assert guards.min_chars_for(kind="guide", sibling_exists=False, lang="ko") == 2200
-    assert guards.min_chars_for(kind="guide", sibling_exists=True, lang="ko") == 2200
-    assert guards.min_chars_for(kind="item", sibling_exists=False, lang="ko") == 2200
+    assert guards.KO_MIN_CHARS == 2500
+    assert guards.min_chars_for(kind="guide", sibling_exists=False, lang="ko") == 2500
+    assert guards.min_chars_for(kind="guide", sibling_exists=True, lang="ko") == 2500
+    assert guards.min_chars_for(kind="item", sibling_exists=False, lang="ko") == 2500
     assert guards.min_chars_for(kind="guide", sibling_exists=False, lang="en") == guards.GUIDE_MIN_CHARS
     assert guards.min_chars_for(kind="item", sibling_exists=False, lang="en") == guards.ITEM_MIN_CHARS
     assert guards.min_chars_for(kind="guide", sibling_exists=True, lang="en") == guards.SIBLING_FILL_MIN_CHARS
 
 
 def _ko_item_md(*, include_access: bool = True) -> str:
-    pad = "하쿠바 코르티나는 나가노 북부의 파우더 산으로, 트리런을 찾는 스키어가 모인다. " * 25
+    pad = "하쿠바 코르티나는 나가노 북부의 파우더 산으로, 트리런을 찾는 스키어가 모인다. " * 28
     access = "신치토세가 아니라 나가노에서 렌터카로 접근하는 경우가 많다." if include_access else "마을 분위기가 조용하다."
     return f"""---
 lang: ko
@@ -102,7 +102,7 @@ summary: "파우더와 트리런"
 """
 
 
-def test_ko_item_passes_when_themes_present_even_under_old_3500():
+def test_ko_item_passes_at_2500_floor():
     guards = _load("content_guards")
     raw = _ko_item_md(include_access=True)
     ok, errors = guards.validate_generated_markdown(
@@ -110,7 +110,7 @@ def test_ko_item_passes_when_themes_present_even_under_old_3500():
     )
     assert ok, errors
     _, body = guards.parse_frontmatter_body(raw)
-    assert 2200 <= len(body) < 3500
+    assert len(body) >= 2500
 
 
 def test_ko_item_fails_without_access_theme():

@@ -14,10 +14,8 @@ GUIDE_DUPLICATE_OF: dict[str, str] = {}
 
 ITEM_MIN_CHARS = 4500
 GUIDE_MIN_CHARS = 4000
-# Hangul packs more meaning per character. Live KO spots sit ~300–1,100 chars;
-# Claude KO drafts that cover season/access/tips land ~2,500–3,300. Character
-# quota is a stub floor — visitor themes are the real gate.
-KO_MIN_CHARS = 2200
+# Korean body floor. Generators must ask for ≥2,500 chars (prompt), not omit length.
+KO_MIN_CHARS = 2500
 # Sibling locale fill (one lang already live) uses a higher bar for English.
 SIBLING_FILL_MIN_CHARS = 5500
 
@@ -118,17 +116,17 @@ def theme_gaps(body: str, *, lang: str) -> list[str]:
 
 
 def quality_prompt_block(*, lang: str) -> str:
-    """Shared generation rules: themes over English-length character quotas."""
+    """Shared generation rules: themes plus an explicit length floor for KO."""
     if str(lang).lower() == "ko":
         return """[HARD RULES]
 - Write ONLY in Korean. Proper nouns in Latin script are OK; do not mix sentences.
+- Body must be at least 2,500 Korean characters (exclude YAML frontmatter). Expand with concrete logistics, not filler adjectives.
 - At least 4 unique ## sections. Never use H1 (#).
 - Cover ALL of these themes (invent unique ## titles; do not copy Overview / Getting there / Tips):
   1. Who this is for and what makes THIS place or topic distinct
   2. Conditions — slopes, swell, dive sites, camp layout, or the how-to for a guide
   3. Season AND access — when to go, plus airport / train / car / time from a real hub
-  4. Practical tips — booking, gear, etiquette, stay or food
-- Do not target an English-style character count. A Korean visitor page is complete when those themes have concrete facts, not padding."""
+  4. Practical tips — booking, gear, etiquette, stay or food"""
     return """[HARD RULES]
 - Write ONLY in English.
 - At least 4 unique ## sections. Never use H1 (#).
@@ -138,7 +136,6 @@ def quality_prompt_block(*, lang: str) -> str:
   3. Season AND access — when to go, plus airport / train / car / time from a real hub
   4. Practical tips — booking, gear, etiquette, stay or food
 - Invent unique ## titles; do not reuse Overview / Getting there / Tips across articles."""
-
 
 def validate_generated_markdown(
     raw: str,

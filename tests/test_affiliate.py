@@ -26,6 +26,34 @@ class TestJpfunAffiliate(unittest.TestCase):
         url = rakuten_url_for("niseko_hanazono_en")
         self.assertIn("hb.afl.rakuten.co.jp/hgc/", url)
 
+    def test_ishigaki_is_not_shiga(self):
+        key, keyword, label = resolve_ski_region("okinawa_ishigaki_surf_en")
+        self.assertEqual(key, "ishigaki")
+        self.assertIn("石垣", keyword)
+        self.assertNotIn("志賀", keyword)
+        self.assertEqual(label, "Ishigaki")
+
+    def test_surf_without_place_uses_region_not_ski(self):
+        from app.affiliate import resolve_travel_region
+
+        key, keyword, label = resolve_travel_region(
+            "surf_pending_03_en", activity="surf", region="kanto"
+        )
+        self.assertEqual(key, "kanto")
+        self.assertIn("関東", keyword)
+        self.assertNotIn("スキー", keyword)
+        self.assertEqual(label, "Kanto")
+
+    def test_ski_pending_maps_resort(self):
+        from app.affiliate import resolve_travel_region
+
+        key, keyword, label = resolve_travel_region(
+            "ski_pending_01_en", activity="ski", region="nagano"
+        )
+        self.assertEqual(key, "hakuba")
+        self.assertIn("白馬", keyword)
+        self.assertEqual(label, "Hakuba")
+
     def test_ski_a8_includes_ski_tour(self):
         ctx = a8_banners_context(activity="ski", lang="en")
         self.assertTrue(ctx["show_a8_banners"])
