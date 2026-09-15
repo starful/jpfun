@@ -1,20 +1,24 @@
 ---
 youtube_id: lRZRiC52JJQ
-
 lang: ko
-title: "나에바 스키장"
+title: 나에바 스키장 가이드 - 니가타 유자와 프린스 호텔 스키 | JPFun
 lat: 36.871
 lng: 138.755
-categories: ["Ski"]
-activity: "ski"
-thumbnail: "/static/images/naeba.jpg"
-address: "일본 니가타현 유자와 나에바"
-date: "2026-08-15"
-website: "https://www.princehotels.co.jp/ski/naeba/"
-summary: "나에바 스키장 — 프린스 호텔, 유자와 패밀리·축제 가이드."
-image_prompt: ""
-region: "niigata"
+categories:
+- Ski
+activity: ski
+thumbnail: /static/images/naeba.jpg
+address: 일본 니가타현 유자와 나에바
+date: '2026-08-15'
+website: https://www.princehotels.co.jp/ski/naeba/
+summary: 니가타 유자와 나에바 스키장의 슬로프, 오는 길, 시즌 정보를 정리한 실전 가이드입니다.
+image_prompt: ''
+region: niigata
+description: 나에바 스키장 가이드 — 유자와 프린스 호텔, 슬로프·리프트, 오는 길과 시즌 적설 정보를 한 번에 확인하세요.
+seo_title: 나에바 스키장 가이드 - 니가타 유자와 프린스 호텔 스키 | JPFun
+seo_description: 니가타 유자와 나에바 스키장 완전 가이드. 프린스 호텔, 슬로프·리프트, 오는 길, 시즌 적설 정보를 확인하세요.
 ---
+
 
 ## 개요
 
@@ -56,3 +60,11 @@ JPFun는 프린스 베이스·유자와 시내 **Stay**·**Food** 핀을 함께 
 - 프린스 숙박 시 **조식 시간**을 스키 시작 전에 맞춰 두세요.
 - **카구라 연결** 운행일은 시즌마다 다릅니다.
 
+## 나에바, 이런 분께 추천
+
+- **초보~중급 가족 스키어:** 완만한 슬로프와 학습장이 갖춰져 있어 처음 스키를 배우는 아이 동반 가족에게 적합합니다.
+- **온천+스키 결합 여행:** 프린스 나에바 스키인 숙박과 근교 온천을 묶어 짧은 일정에도 동선을 효율적으로 짤 수 있습니다.
+- **카구라 연계 라이더:** 넓은 지형을 원한다면 나에바+카구라 연합권 운행 여부를 사전에 확인하세요.
+- **역 근처 가성비 여행:** 에치고유자와 역 주변 숙소·짐 보관을 활용하면 당일 스키 일정도 가능합니다.
+
+일정을 확정하기 전 시즌별 운행 정보와 리프트 상황은 공식 공지로 다시 확인하시길 권장합니다.

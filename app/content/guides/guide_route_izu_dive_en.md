@@ -1,11 +1,18 @@
 ---
 lang: en
 activity: route
-emoji: "🤿"
-title: "Izu Scuba Route: Shore & Short Boat Days from Tokyo"
-date: "2026-08-12"
-summary: "A Honshu dive weekend — Izu shore or short boat, less flight stress than Okinawa, still book the operator first."
+emoji: 🤿
+title: 'Izu Scuba Diving from Tokyo: Shore &amp; Boat Weekend Route'
+date: '2026-08-12'
+summary: A Tokyo-friendly Izu dive weekend — shore or short boat, easy logistics,
+  book your operator first.
+description: 'Tokyo weekend scuba trip to Izu: shore dives, short boat rides, low
+  travel stress, and when to pick Okinawa instead. Book your operator first.'
+seo_title: 'Izu Scuba Diving from Tokyo: Shore &amp; Boat Weekend Route'
+seo_description: 'Tokyo weekend scuba trip to Izu: shore dives, short boat rides,
+  low travel stress, and when to pick Okinawa instead. Book your operator first.'
 ---
+
 
 **Izu / Chubu** diving suits Tokyo-based schedules: overnight bus or train, dive, return.
 
@@ -29,3 +36,12 @@ Open JPFun **Scuba · Izu / Chubu**, shortlist shops that match your cert and la
 ## Route rule
 
 Izu is **not** a substitute for Kerama visibility dreams — pick Okinawa when water clarity is the whole point.
+
+## Who This Suits
+
+Best for certified divers based in Tokyo who want a low-hassle weekend: short travel, shore or short-boat sites, no flight stress. Good for stacking bottom time between bigger trips, or testing gear before a longer Okinawa run.
+
+**Quick tips**
+- Check tide and surge reports before shore entries — conditions shift fast on exposed coastlines.
+- Pack a spare mask strap and O-ring kit; small parts are easy to forget on a quick weekend trip.
+- Confirm your shop's minimum group size — some Izu operators need a few bookings before the boat runs.

@@ -1360,7 +1360,13 @@ def item_detail(item_id):
     except ImportError:
         from affiliate import affiliate_context
         from a8_affiliate import a8_banners_context
-    aff = affiliate_context(item_id, lang=lang)
+    aff = affiliate_context(
+        item_id,
+        lang=lang,
+        activity=str(post.get("activity") or ""),
+        region=str(post.get("region") or ""),
+        address=str(post.get("address") or ""),
+    )
     a8 = a8_banners_context(activity=str(post.get("activity") or ""), lang=lang)
     return render_template(
         'detail.html',

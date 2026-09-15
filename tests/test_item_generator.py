@@ -113,18 +113,19 @@ def test_item_activity_caps_skip_other_activities(tmp_path, monkeypatch):
     assert queued == ["spot_b_en", "spot_b_ko"]
 
 
-def test_ko_item_min_chars_is_stub_floor():
+def test_ko_item_min_chars_is_2500():
     guards = _load("content_guards")
-    assert guards.min_chars_for(kind="item", sibling_exists=False, lang="ko") == 2200
-    assert guards.min_chars_for(kind="item", sibling_exists=True, lang="ko") == 2200
+    assert guards.KO_MIN_CHARS == 2500
+    assert guards.min_chars_for(kind="item", sibling_exists=False, lang="ko") == 2500
+    assert guards.min_chars_for(kind="item", sibling_exists=True, lang="ko") == 2500
     assert guards.min_chars_for(kind="item", sibling_exists=False, lang="en") == 4500
 
 
-def test_item_prompt_drops_korean_character_quota():
+def test_item_prompt_requires_korean_length():
     gen = _load("item_generator")
     block = gen.quality_prompt_block(lang="ko")
-    assert "character count" in block.lower() or "Character" in block
-    assert "4,000" not in block
+    assert "2,500" in block
+    assert "Do not target an English-style character count" not in block
 
 
 def test_saved_pending_ko_items_pass_theme_gate():

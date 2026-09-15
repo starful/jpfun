@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import os
+import re
 from typing import Any
 from urllib.parse import quote
 
@@ -53,6 +54,52 @@ _REGION_RULES: tuple[tuple[str, str, str, str], ...] = (
     ("nasu_onsen", "nasu_onsen", "那須温泉 宿", "Nasu Onsen"),
 )
 
+_SLUG_OVERRIDES: dict[str, tuple[str, str, str]] = {
+    "ski_pending_01": ("hakuba", "白馬 ホテル", "Hakuba"),
+    "ski_pending_02": ("nozawa", "野沢温泉 宿", "Nozawa Onsen"),
+    "ski_pending_03": ("myoko", "妙高 ホテル", "Myoko"),
+}
+
+_PLACE_RULES: tuple[tuple[str, str, str, str], ...] = (
+    ("ishigaki", "ishigaki", "石垣 ホテル", "Ishigaki"),
+    ("miyako", "miyako", "宮古島 ホテル", "Miyako"),
+    ("yonaguni", "yonaguni", "与那国 ホテル", "Yonaguni"),
+    ("shonan", "shonan", "湘南 ホテル", "Shonan"),
+    ("chigasaki", "chigasaki", "茅ヶ崎 ホテル", "Chigasaki"),
+    ("shimoda", "shimoda", "下田 ホテル", "Shimoda"),
+    ("yamanakako", "yamanakako", "山中湖 ホテル", "Yamanakako"),
+    ("ohsezaki", "ohsezaki", "大瀬崎 ホテル", "Ohsezaki"),
+    ("tokashiki", "tokashiki", "渡嘉敷 ホテル", "Tokashiki"),
+    ("kumejima", "kumejima", "久米島 ホテル", "Kumejima"),
+    ("amami", "amami", "奄美 ホテル", "Amami"),
+    ("tateshina", "tateshina", "蓼科 ホテル", "Tateshina"),
+    ("norikura", "norikura", "乗鞍 ホテル", "Norikura"),
+    ("oarai", "oarai", "大洗 ホテル", "Oarai"),
+)
+
+_REGION_FALLBACK: dict[str, tuple[str, str]] = {
+    "nagano": ("長野 ホテル", "Nagano"),
+    "hokkaido": ("北海道 ホテル", "Hokkaido"),
+    "okinawa": ("沖縄 ホテル", "Okinawa"),
+    "kanto": ("関東 ホテル", "Kanto"),
+    "chubu": ("中部 ホテル", "Chubu"),
+    "niigata": ("新潟 ホテル", "Niigata"),
+    "tohoku": ("東北 ホテル", "Tohoku"),
+    "gifu": ("岐阜 ホテル", "Gifu"),
+    "gunma": ("群馬 ホテル", "Gunma"),
+    "tochigi": ("栃木 ホテル", "Tochigi"),
+    "kyushu": ("九州 ホテル", "Kyushu"),
+    "chugoku": ("中国地方 ホテル", "Chugoku"),
+    "shikoku": ("四国 ホテル", "Shikoku"),
+}
+
+_ACTIVITY_FALLBACK: dict[str, tuple[str, str]] = {
+    "surf": ("サーフ ホテル", "surf"),
+    "dive": ("ダイビング ホテル", "dive"),
+    "camp": ("キャンプ ホテル", "camp"),
+    "ski": ("スキー場", "Japan ski"),
+}
+
 _FALLBACK_KEYWORD = "スキー場"
 _FALLBACK_LABEL_EN = "Japan ski"
 
@@ -73,12 +120,56 @@ def _strip_lang_suffix(slug: str) -> str:
     return base
 
 
+def _token_in(blob: str, needle: str) -> bool:
+    """Match slug/address tokens so ishigaki does not become Shiga."""
+    n = (needle or "").lower().replace("-", "_")
+    text = (blob or "").lower().replace("-", "_").replace(" ", "_")
+    if not n:
+        return False
+    if "_" in n:
+        return n in text
+    return re.search(rf"(^|_){re.escape(n)}(_|$)", text) is not None
+
+
 def resolve_ski_region(slug: str) -> tuple[str, str, str]:
+    return resolve_travel_region(slug)
+
+
+def resolve_travel_region(
+    slug: str,
+    *,
+    activity: str = "",
+    region: str = "",
+    address: str = "",
+) -> tuple[str, str, str]:
     base = _strip_lang_suffix(slug)
+    act = (activity or "").strip().lower()
+    loc = f"{base} {(address or '').lower()}"
+
+    if base in _SLUG_OVERRIDES:
+        return _SLUG_OVERRIDES[base]
+
     for key, needle, keyword, label_en in _REGION_RULES:
-        if needle in base:
+        if _token_in(base, needle):
             return key, keyword, label_en
-    return "ski", _FALLBACK_KEYWORD, _FALLBACK_LABEL_EN
+
+    for key, needle, keyword, label_en in _PLACE_RULES:
+        if _token_in(loc, needle):
+            return key, keyword, label_en
+
+    reg = (region or "").strip().lower()
+    if reg in _REGION_FALLBACK:
+        keyword, label_en = _REGION_FALLBACK[reg]
+        return reg, keyword, label_en
+
+    if act in _ACTIVITY_FALLBACK:
+        keyword, label_en = _ACTIVITY_FALLBACK[act]
+        return act, keyword, label_en
+
+    if act == "ski" or not act:
+        return "ski", _FALLBACK_KEYWORD, _FALLBACK_LABEL_EN
+    keyword, label_en = _ACTIVITY_FALLBACK.get(act, ("ホテル", "Japan"))
+    return act or "trip", keyword, label_en
 
 
 def _travel_search_raw(keyword: str) -> str:
@@ -100,16 +191,35 @@ def _affiliate_wrap(destination_url: str) -> str:
     )
 
 
-def rakuten_url_for(slug: str) -> str:
-    _key, keyword, _label = resolve_ski_region(slug)
+def rakuten_url_for(
+    slug: str,
+    *,
+    activity: str = "",
+    region: str = "",
+    address: str = "",
+) -> str:
+    _key, keyword, _label = resolve_travel_region(
+        slug, activity=activity, region=region, address=address
+    )
     return _affiliate_wrap(_travel_search_raw(keyword))
 
 
-def affiliate_context(slug: str, *, lang: str = "en") -> dict[str, Any]:
+def affiliate_context(
+    slug: str,
+    *,
+    lang: str = "en",
+    activity: str = "",
+    region: str = "",
+    address: str = "",
+) -> dict[str, Any]:
     """Template vars for detail-page booking CTAs."""
     is_ko = (lang or "en").lower() == "ko"
-    _key, _keyword, region_label_en = resolve_ski_region(slug)
-    rakuten_url = rakuten_url_for(slug)
+    _key, _keyword, region_label_en = resolve_travel_region(
+        slug, activity=activity, region=region, address=address
+    )
+    rakuten_url = rakuten_url_for(
+        slug, activity=activity, region=region, address=address
+    )
 
     if is_ko:
         return {
