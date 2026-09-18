@@ -66,6 +66,10 @@ class TestJpfunAffiliate(unittest.TestCase):
         ctx = a8_banners_context(activity="camp", lang="en")
         ids = [b["id"] for b in ctx["a8_banners"]]
         self.assertIn("glamping", ids)
+        self.assertIn("hinata_rental", ids)
+        hinata = next(b for b in ctx["a8_banners"] if b["id"] == "hinata_rental")
+        self.assertIn("4BCE3P+1C87V6+4U5Q+5YJRM", hinata["click_url"])
+        self.assertIn("hinata", hinata["label"].lower())
 
 
 if __name__ == "__main__":

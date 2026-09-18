@@ -54,6 +54,18 @@ _BANNERS: dict[str, dict[str, str]] = {
         "alt_en": "Glamping booking — affiliate",
         "alt_ko": "글램핑 예약 — 제휴",
     },
+    "hinata_rental": {
+        "id": "hinata_rental",
+        "click_url": "https://px.a8.net/svt/ejp?a8mat=4BCE3P+1C87V6+4U5Q+5YJRM",
+        "image_url": "",
+        "pixel_url": "https://www10.a8.net/0.gif?a8mat=4BCE3P+1C87V6+4U5Q+5YJRM",
+        "label_en": "hinata rental — camp gear",
+        "label_ko": "hinata렌탈 — 캠핑 용품",
+        "desc_en": "Rent camping gear for pick-up at the campsite.",
+        "desc_ko": "캠핑장에서 받는 캠핑 용품 렌탈.",
+        "alt_en": "hinata rental — affiliate",
+        "alt_ko": "hinata렌탈 — 제휴",
+    },
 }
 
 
@@ -92,7 +104,7 @@ def a8_banners_context(*, activity: str = "", lang: str = "en") -> dict[str, Any
     if act == "ski":
         keys.insert(0, "ski_tour")
     elif act == "camp":
-        keys.append("glamping")
+        keys.extend(["glamping", "hinata_rental"])
 
     banners = [_copy(k, lang=lang) for k in keys]
     is_ko = (lang or "en").lower() == "ko"
