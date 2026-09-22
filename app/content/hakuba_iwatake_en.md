@@ -1,20 +1,27 @@
 ---
 youtube_id: sOMFH7XhfN0
-
 lang: en
-title: "Hakuba Iwatake Mountain Resort"
+title: Hakuba Iwatake Ski Resort Guide 2026 | JPFun
 lat: 36.712
 lng: 137.861
-categories: ["Ski"]
-activity: "ski"
-thumbnail: "/static/images/hakuba_iwatake.jpg"
-address: "Hokujo, Hakuba, Nagano, Japan"
-date: "2026-08-15"
-website: "https://www.iwatake-mountain-resort.com/"
-summary: "Hakuba Iwatake — sunny faces, gondola views, and family terrain near Hakuba village."
-image_prompt: ""
-region: "nagano"
+categories:
+- Ski
+activity: ski
+thumbnail: /static/images/hakuba_iwatake.jpg
+address: Hokujo, Hakuba, Nagano, Japan
+date: '2026-08-15'
+website: https://www.iwatake-mountain-resort.com/
+summary: A gondola-served, sunny-face Hakuba resort with wide family groomers, intermediate
+  cruisers, and mapped Stay and Food picks nearby.
+image_prompt: ''
+region: nagano
+description: 'Plan your Hakuba Iwatake ski day: family-friendly slopes, gondola views,
+  lift tips, and nearby stays — all mapped by JPFun.'
+seo_title: Hakuba Iwatake Ski Resort Guide 2026 | JPFun
+seo_description: 'Plan your Hakuba Iwatake ski day: family-friendly slopes, gondola
+  views, lift tips, and nearby stays — all mapped by JPFun.'
 ---
+**Planning a Hakuba Iwatake day?** This gondola-served face pairs wide family groomers with valley views toward the Northern Alps — a mellow, sunny alternative to Happo's steeps. JPFun maps nearby Stay and Food picks so you can plan the rest of the day too.
 
 ## Overview
 

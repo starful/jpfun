@@ -1,10 +1,17 @@
 ---
 lang: en
 activity: ski
-title: "Japan Ski Pass Types Explained: Day Tickets, Multi-Resort Passes, and Season Basics"
-summary: "From single-day lift tickets to season-long passes covering dozens of resorts, Japan's ski pass system rewards a little homework. Here's how to pick the right one for your trip."
-date: "2026-08-19"
+title: 'Japan Ski Pass Guide: Which Lift Ticket Actually Fits Your Trip?'
+summary: A quick breakdown of Japan's day, multi-resort, and season ski passes — and
+  how to choose the right one for your trip.
+date: '2026-08-19'
+description: Confused by Japan's ski pass options? Compare day tickets, multi-resort
+  passes, and season passes to pick the right one for your trip.
+seo_title: 'Japan Ski Pass Guide: Day Tickets, Multi-Resort & Season Passes - JPFun'
+seo_description: Confused by Japan's ski pass options? Compare day tickets, multi-resort
+  passes, and season passes to pick the right one for your trip.
 ---
+**Not sure which Japan ski pass actually saves you money?** Before you book lift access, it helps to know the difference between a simple day ticket, a multi-resort pass linking several mountains, and a season pass built for long stays — picking the wrong one can mean paying for access you'll never use, or missing a multi-resort deal that would have covered your whole itinerary.
 
 ## Why Japan's Lift Ticket System Confuses First-Time Visitors
 
