@@ -1,20 +1,27 @@
 ---
 youtube_id: 1ksmiy6EsDo
-
 lang: en
-title: "Niseko Hanazono"
+title: 'Niseko Hanazono Ski Guide: Family Terrain, Burton Park & Access'
 lat: 42.897
 lng: 140.715
-categories: ["Ski"]
-activity: "ski"
-thumbnail: "/static/images/niseko_hanazono.jpg"
-address: "Hanazono, Kutchan, Hokkaido, Japan"
-date: "2026-08-15"
-website: "https://www.niseko.ne.jp/"
-summary: "Niseko Hanazono — family terrain, Burton park, and quieter base-area stays near Niseko United."
-image_prompt: ""
-region: "hokkaido"
+categories:
+- Ski
+activity: ski
+thumbnail: /static/images/niseko_hanazono.jpg
+address: Hanazono, Kutchan, Hokkaido, Japan
+date: '2026-08-15'
+website: https://www.niseko.ne.jp/
+summary: A practical guide to Niseko Hanazono covering family terrain, the Burton
+  park, lift access into Niseko United, and quieter base-area stays.
+image_prompt: ''
+region: hokkaido
+description: 'Niseko Hanazono guide: family-friendly groomers, the Burton terrain
+  park, lift access into Niseko United, and quieter base-area stays.'
+seo_title: 'Niseko Hanazono Ski Guide: Family Terrain, Burton Park & Access | JPFun'
+seo_description: 'Plan your Niseko Hanazono trip: family terrain, Burton park, lift
+  access, getting there from CTS, and quieter stays near Niseko United.'
 ---
+
 
 ## Overview
 
@@ -53,3 +60,11 @@ Use JPFun **Stay** and **Food** pins to find lodging and meals without relying o
 - Check **Niseko United** pass inclusions — Hanazono is fully part of the network.
 - Use map **Food** pins for après spots on your return route from the hill.
 
+## Who Hanazono Suits
+
+- **Families with mixed skill levels:** groomed cruisers plus a dedicated park mean beginners and park riders can split up and regroup easily.
+- **Groups wanting fewer crowds:** the base area runs quieter than central Hirafu, especially on weekdays.
+- **Riders who still want nightlife:** shuttles to Hirafu keep dining and bars a short ride away without giving up a calmer base.
+- **First-time Niseko visitors:** English-friendly ski school and straightforward CTS access make trip planning simpler.
+
+If your group is torn between a lively base and a mellower one, Hanazono is the compromise — quieter by day, still connected by night.

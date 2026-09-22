@@ -1,10 +1,17 @@
 ---
 lang: en
 activity: camp
-title: "Lake Motosu & Fuji Car-Camp: Booking, Views & Wind"
-date: "2026-08-12"
-summary: "How to camp the Motosu lakeside — site types, Fuji reflection timing, wind and crowd reality, and what to pack for a first car-camp."
+title: 'Lake Motosu Camping Guide: Fuji Reflections, Wind & Pack List'
+date: '2026-08-12'
+summary: How to camp the Motosu lakeside — site types, Fuji reflection timing, wind
+  and crowd reality, and what to pack for a first car-camp.
+description: Camp Lake Motosu for postcard Fuji reflections—site picks, wind and weather
+  reality, plus a first-timer pack list from JPFun.
+seo_title: 'Lake Motosu Camping Guide: Fuji Reflections & Wind Tips'
+seo_description: Camp Lake Motosu for postcard Fuji reflections—site picks, wind and
+  weather reality, plus a first-timer pack list from JPFun.
 ---
+**Planning a Lake Motosu camp trip?** Here's the real rundown on catching the Fuji reflection at dawn, handling afternoon lake winds, and picking auto vs. walk-in sites — plus a no-nonsense pack list for your first car-camp night.
 
 **Lake Motosu** is the postcard Fuji camp: reflection photos at dawn, car-camp convenience, and easy day trips around the Fuji Five Lakes. It is popular for a reason — book early and plan for wind.
 
