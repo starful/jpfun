@@ -8,9 +8,10 @@ from typing import Any
 _BANNERS: dict[str, dict[str, str]] = {
     "agoda": {
         "id": "agoda",
-        "click_url": "https://px.a8.net/svt/ejp?a8mat=4BAH9J+13APSI+4X1W+5ZMCH",
-        "image_url": "https://www24.a8.net/svt/bgt?aid=260829415066&wid=005&eno=01&mid=s00000022946001006000&mc=1",
-        "pixel_url": "https://www10.a8.net/0.gif?a8mat=4BAH9J+13APSI+4X1W+5ZMCH",
+        # Agoda Partners (CID) — filled in _copy
+        "click_url": "",
+        "image_url": "",
+        "pixel_url": "",
         "label_en": "Agoda — hotels in Japan",
         "label_ko": "Agoda — 일본 숙소 예약",
         "desc_en": "Search stays near this spot on Agoda.",
@@ -82,12 +83,31 @@ def _copy(banner_id: str, *, lang: str) -> dict[str, str]:
     src = _BANNERS[banner_id]
     is_ko = (lang or "en").lower() == "ko"
     suffix = "ko" if is_ko else "en"
-    env_key = banner_id.upper()
+    key = banner_id.upper()
+    if banner_id == "agoda":
+        try:
+            from agoda_partners import url_for_location
+        except ImportError:
+            from .agoda_partners import url_for_location
+        click = url_for_location(
+            lang=lang,
+            country="jp",
+            default_city=5085,
+        )
+        return {
+            "id": src["id"],
+            "click_url": click,
+            "image_url": "",
+            "pixel_url": "",
+            "label": src[f"label_{suffix}"],
+            "desc": src[f"desc_{suffix}"],
+            "alt": src[f"alt_{suffix}"],
+        }
     return {
         "id": src["id"],
-        "click_url": os.getenv(f"A8_{env_key}_CLICK_URL", src["click_url"]),
-        "image_url": os.getenv(f"A8_{env_key}_BANNER_URL", src["image_url"]),
-        "pixel_url": os.getenv(f"A8_{env_key}_PIXEL_URL", src["pixel_url"]),
+        "click_url": os.getenv(f"A8_{key}_CLICK_URL", src["click_url"]),
+        "image_url": os.getenv(f"A8_{key}_BANNER_URL", src["image_url"]),
+        "pixel_url": os.getenv(f"A8_{key}_PIXEL_URL", src["pixel_url"]),
         "label": src[f"label_{suffix}"],
         "desc": src[f"desc_{suffix}"],
         "alt": src[f"alt_{suffix}"],
