@@ -1367,7 +1367,12 @@ def item_detail(item_id):
         region=str(post.get("region") or ""),
         address=str(post.get("address") or ""),
     )
-    a8 = a8_banners_context(activity=str(post.get("activity") or ""), lang=lang)
+    a8 = a8_banners_context(
+        activity=str(post.get("activity") or ""),
+        lang=lang,
+        lat=post.get("lat"),
+        lng=post.get("lng"),
+    )
     return render_template(
         'detail.html',
         post=post,

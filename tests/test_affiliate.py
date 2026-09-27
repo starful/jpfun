@@ -60,13 +60,14 @@ class TestJpfunAffiliate(unittest.TestCase):
         ids = [b["id"] for b in ctx["a8_banners"]]
         self.assertEqual(ids[0], "ski_tour")
         self.assertIn("agoda", ids)
-        self.assertIn("tora_esim", ids)
+        self.assertNotIn("tora_esim", ids)
 
-    def test_camp_a8_includes_glamping(self):
+    def test_camp_a8_includes_hinata_not_glamping(self):
         ctx = a8_banners_context(activity="camp", lang="en")
         ids = [b["id"] for b in ctx["a8_banners"]]
-        self.assertIn("glamping", ids)
+        self.assertNotIn("glamping", ids)
         self.assertIn("hinata_rental", ids)
+        self.assertIn("agoda", ids)
         hinata = next(b for b in ctx["a8_banners"] if b["id"] == "hinata_rental")
         self.assertIn("4BCE3P+1C87V6+4U5Q+5YJRM", hinata["click_url"])
         self.assertIn("hinata", hinata["label"].lower())
