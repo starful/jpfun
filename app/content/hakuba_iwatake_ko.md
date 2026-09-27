@@ -1,20 +1,24 @@
 ---
 youtube_id: sOMFH7XhfN0
-
 lang: ko
-title: "하쿠바 이와타케"
+title: 하쿠바 이와타케 곤돌라 스키장 완벽 가이드 - JPFun
 lat: 36.712
 lng: 137.861
-categories: ["Ski"]
-activity: "ski"
-thumbnail: "/static/images/hakuba_iwatake.jpg"
-address: "일본 나가노현 하쿠바촌 호쿠조"
-date: "2026-08-15"
-website: "https://www.iwatake-mountain-resort.com/"
-summary: "하쿠바 이와타케 — 양지·곤돌라 전망·패밀리 지형 가이드."
-image_prompt: ""
-region: "nagano"
+categories:
+- Ski
+activity: ski
+thumbnail: /static/images/hakuba_iwatake.jpg
+address: 일본 나가노현 하쿠바촌 호쿠조
+date: '2026-08-15'
+website: https://www.iwatake-mountain-resort.com/
+summary: 하쿠바 이와타케 — 양지·곤돌라 전망·패밀리 지형 가이드.
+image_prompt: ''
+region: nagano
+description: 하쿠바 이와타케 양지 슬로프·곤돌라 전망·패밀리 코스 정보. 시즌, 오는 길, 숙소까지 한 번에 확인하세요.
+seo_title: 하쿠바 이와타케 곤돌라 스키장 가이드 - JPFun
+seo_description: 하쿠바 이와타케 양지 슬로프·곤돌라 전망·패밀리 코스 정보. 시즌, 오는 길, 숙소까지 한 번에 확인하세요.
 ---
+
 
 ## 개요
 
@@ -53,3 +57,11 @@ JPFun 지도에는 근처 **숙소(Stay)**·**맛집(Food)** 핀을 표시해 �
 - 양지 반사광이 세니 선크림을 챙기세요.
 - 이와타케가 포함된 밸리 공통권을 비교하세요.
 
+## 이런 분께 추천
+
+- 급경사보다 **양지바른 정비면**에서 편하게 타고 싶은 초중급자·가족 단위 여행자
+- 곤돌라에서 보는 **북알프스 전망**을 즐기고 싶은 분
+- 해포에서 강하게 탄 다음 날, 부담 없는 **회복 라이딩**을 원하는 분
+- 하쿠바 밸리 내 여러 리조트를 오가며 일정을 짜는 렌터카 여행자
+
+이와타케는 오전 하드팩 컨디션이 좋은 편이니, 슬로프 상태를 아침 시간대에 우선 확인하는 것을 추천합니다.
