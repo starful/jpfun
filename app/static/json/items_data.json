@@ -1,7 +1,28 @@
 {
   "last_updated": "2026.09.27",
-  "total_count": 319,
+  "total_count": 358,
   "items": [
+    {
+      "id": "nobeoka_beach_ko",
+      "lang": "ko",
+      "title": "노베오카 해변 서핑 가이드 — 미야자키 리프 브레이크에서 타는 태평양 스웰",
+      "lat": 32.58,
+      "lng": 131.65,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/nobeoka_beach.jpg",
+      "youtube_id": "",
+      "address": "Nobeoka, Miyazaki, Japan",
+      "published": "2026-09-27",
+      "summary": "규슈 동해안 노베오카 해변은 리프 브레이크와 태평양 스웰이 만나는 중급자용 서핑 포인트다. 파도 읽는 법부터 계절별 접근 방법까지 실전 정보를 정리했다.",
+      "website": "",
+      "tel": "",
+      "region": "miyazaki",
+      "source_image": "",
+      "link": "/item/nobeoka_beach_ko"
+    },
     {
       "id": "daisetsuzan_forest_camp_en",
       "lang": "en",
@@ -22,6 +43,111 @@
       "region": "hokkaido",
       "source_image": "",
       "link": "/item/daisetsuzan_forest_camp_en"
+    },
+    {
+      "id": "zamami_coral_garden_en",
+      "lang": "en",
+      "title": "Zamami Coral Garden: The Kerama Islands' Best Day-Boat Reef Dive",
+      "lat": 26.18,
+      "lng": 127.33,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/zamami_coral_garden.jpg",
+      "youtube_id": "",
+      "address": "Okinawa (Kerama Islands), Japan",
+      "published": "2026-09-27",
+      "summary": "Zamami Coral Garden delivers some of Japan's healthiest hard coral cover and reliable 20m+ visibility, just a short day-boat ride from Naha. It's the Kerama Islands dive every diver should log at least once.",
+      "website": "",
+      "tel": "",
+      "region": "okinawa",
+      "source_image": "",
+      "link": "/item/zamami_coral_garden_en"
+    },
+    {
+      "id": "hateruma_blue_water_ko",
+      "lang": "ko",
+      "title": "하테루마 섬 블루 워터 다이빙: 일본 최남단 유인도의 투명 바다 완전 가이드",
+      "lat": 24.054,
+      "lng": 123.867,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/hateruma_blue_water.jpg",
+      "youtube_id": "",
+      "address": "Okinawa, Japan",
+      "published": "2026-09-27",
+      "summary": "일본 최남단 유인도 하테루마에서 만나는 압도적인 투명도의 블루 워터. 강한 조류와 대형 회유어를 기대하는 어드밴스드 다이버에게 추천하는 코스입니다.",
+      "website": "",
+      "tel": "",
+      "region": "okinawa",
+      "source_image": "",
+      "link": "/item/hateruma_blue_water_ko"
+    },
+    {
+      "id": "iwami_beach_ko",
+      "lang": "ko",
+      "title": "이와미 해변 서핑 가이드 – 시마네 마스다의 조용한 비치브레이크",
+      "lat": 34.75,
+      "lng": 131.62,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/iwami_beach.jpg",
+      "youtube_id": "",
+      "address": "Masuda, Shimane, Japan",
+      "published": "2026-09-27",
+      "summary": "산인 해안 특유의 한적함을 간직한 이와미 해변은 붐비지 않는 비치브레이크를 찾는 서퍼에게 최적의 장소다. 마스다 시내에서 가깝고 접근이 쉬워 초보자부터 로컬 서퍼까지 두루 즐기기 좋다.",
+      "website": "",
+      "tel": "",
+      "region": "shimane",
+      "source_image": "",
+      "link": "/item/iwami_beach_ko"
+    },
+    {
+      "id": "izu_aoshima_wreck_en",
+      "lang": "en",
+      "title": "Izu Aoshima Wreck Site: Tokyo's Offshore Wreck Diving Frontier",
+      "lat": 34.538,
+      "lng": 139.265,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/izu_aoshima_wreck.jpg",
+      "youtube_id": "",
+      "address": "Tokyo (Izu Islands), Japan",
+      "published": "2026-09-27",
+      "summary": "A sunken cargo hull off Aoshima now hosts schooling fusiliers and yellowtail in clear Kuroshio water. Advanced divers get a rare wreck-and-reef combo just a boat ride from central Tokyo.",
+      "website": "",
+      "tel": "",
+      "region": "izu",
+      "source_image": "",
+      "link": "/item/izu_aoshima_wreck_en"
+    },
+    {
+      "id": "itoshima_beach_ko",
+      "lang": "ko",
+      "title": "이토시마 해변 서핑 가이드 - 후쿠오카 초보자를 위한 비치 브레이크",
+      "lat": 33.92,
+      "lng": 130.17,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/itoshima_beach.jpg",
+      "youtube_id": "",
+      "address": "Itoshima, Fukuoka, Japan",
+      "published": "2026-09-27",
+      "summary": "후쿠오카 시내에서 한 시간이면 닿는 이토시마 해변은 완만한 비치 브레이크와 시메노우미 반도의 절경이 어우러진 초보 서퍼의 성지다. 파도가 순하고 접근이 쉬워 처음 보드를 잡는 사람도 부담 없이 바다에 들어갈 수 있다.",
+      "website": "",
+      "tel": "",
+      "region": "fukuoka",
+      "source_image": "",
+      "link": "/item/itoshima_beach_ko"
     },
     {
       "id": "seifa_utaki_rock_dive_en",
@@ -66,6 +192,90 @@
       "link": "/item/iriomote_barasu_sandspit_en"
     },
     {
+      "id": "shikine_island_reef_en",
+      "lang": "en",
+      "title": "Shikine Island Reef Dive: Clear-Water Coral Diving in the Izu Islands",
+      "lat": 34.3272,
+      "lng": 139.2131,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/shikine_island_reef.jpg",
+      "youtube_id": "",
+      "address": "Tokyo (Izu Islands), Japan",
+      "published": "2026-09-27",
+      "summary": "Shikine Island delivers some of the clearest coral-reef diving in the Tokyo region, with sheltered coves for beginners and current-swept points for advanced divers. A short hop from the mainland puts subtropical visibility within reach of a weekend trip.",
+      "website": "",
+      "tel": "",
+      "region": "izu",
+      "source_image": "",
+      "link": "/item/shikine_island_reef_en"
+    },
+    {
+      "id": "tokunoshima_drift_dive_ko",
+      "lang": "ko",
+      "title": "토쿠노시마 드리프트 다이빙 완벽 가이드 — 흑조 난류 위 회유어 떼를 만나는 법",
+      "lat": 27.813,
+      "lng": 129.238,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/tokunoshima_drift_dive.jpg",
+      "youtube_id": "",
+      "address": "Kagoshima, Japan",
+      "published": "2026-09-27",
+      "summary": "가고시마현 토쿠노시마는 쿠로시오 난류가 만드는 강한 조류 위에서 대형 회유어와 마주치는 드리프트 다이빙의 성지다. 초보자에게는 부담스럽지만 중급 이상 다이버라면 반드시 로그북에 남겨야 할 포인트다.",
+      "website": "",
+      "tel": "",
+      "region": "kyushu",
+      "source_image": "",
+      "link": "/item/tokunoshima_drift_dive_ko"
+    },
+    {
+      "id": "kawazu_underwater_canyon_en",
+      "lang": "en",
+      "title": "Kawazu Underwater Canyon: Izu's Deep-Water Dive Site Guide",
+      "lat": 34.78,
+      "lng": 138.6,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/kawazu_underwater_canyon.jpg",
+      "youtube_id": "",
+      "address": "Shizuoka Prefecture, Kawazu",
+      "published": "2026-09-27",
+      "summary": "A dramatic volcanic canyon off Kawazu's coast where walls drop into deep blue water thick with schooling fish. Built for certified divers who want topography, not just reef.",
+      "website": "",
+      "tel": "",
+      "region": "izu",
+      "source_image": "",
+      "link": "/item/kawazu_underwater_canyon_en"
+    },
+    {
+      "id": "tone_valley_campground_ko",
+      "lang": "ko",
+      "title": "군마 톤 계곡 캠프장, 강변 오토캠핑과 트레킹을 한 번에",
+      "lat": 36.5,
+      "lng": 139.0,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/tone_valley_campground.jpg",
+      "youtube_id": "",
+      "address": "Gunma, Japan",
+      "published": "2026-09-27",
+      "summary": "톤강이 흐르는 협곡 사이, 차를 세우고 텐트를 치는 것만으로 완성되는 캠핑장. 아침에는 계곡물 소리, 낮에는 능선 트레킹까지 즐길 수 있는 군마의 숨은 야영지다.",
+      "website": "",
+      "tel": "",
+      "region": "gunma",
+      "source_image": "",
+      "link": "/item/tone_valley_campground_ko"
+    },
+    {
       "id": "weiss_yotei_ko",
       "lang": "ko",
       "title": "바이스 요테이 스키장 완벽 가이드: 홋카이도 파우더와 요테이산 뷰",
@@ -106,6 +316,69 @@
       "region": "hokkaido",
       "source_image": "",
       "link": "/item/teine_olympia_en"
+    },
+    {
+      "id": "kuchinoerabu_volcanic_dive_ko",
+      "lang": "ko",
+      "title": "쿠치노에라부 섬 화산 다이빙: 가고시마 활화산 해저 지형 탐험 가이드",
+      "lat": 32.137,
+      "lng": 130.277,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/kuchinoerabu_volcanic_dive.jpg",
+      "youtube_id": "",
+      "address": "Kagoshima, Japan",
+      "published": "2026-09-27",
+      "summary": "활화산이 만든 해저 지형과 온천수가 솟아오르는 지열 다이빙 포인트, 쿠치노에라부 섬에서만 볼 수 있는 독특한 수중 풍경을 만난다.",
+      "website": "",
+      "tel": "",
+      "region": "kyushu",
+      "source_image": "",
+      "link": "/item/kuchinoerabu_volcanic_dive_ko"
+    },
+    {
+      "id": "matsuzaki_twin_boulders_ko",
+      "lang": "ko",
+      "title": "마츠자키 쌍둥이 바위 다이빙: 이즈 반도 온대 해역의 숨은 록 포인트",
+      "lat": 34.72,
+      "lng": 138.56,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/matsuzaki_twin_boulders.jpg",
+      "youtube_id": "",
+      "address": "Shizuoka Prefecture, Matsuzaki",
+      "published": "2026-09-27",
+      "summary": "시즈오카현 마츠자키에 솟아 있는 쌍둥이 바위 주변 다이빙 포인트를 소개합니다. 온대 해역 특유의 암초 지형과 회유어 떼를 만날 수 있는 이즈 반도의 숨은 명소입니다.",
+      "website": "",
+      "tel": "",
+      "region": "izu",
+      "source_image": "",
+      "link": "/item/matsuzaki_twin_boulders_ko"
+    },
+    {
+      "id": "akiya_beach_en",
+      "lang": "en",
+      "title": "Akiya Beach: Onomichi's Sheltered Setouchi Bay Break for Mellow Surf Sessions",
+      "lat": 34.38,
+      "lng": 133.12,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/akiya_beach.jpg",
+      "youtube_id": "",
+      "address": "Onomichi, Hiroshima, Japan",
+      "published": "2026-09-27",
+      "summary": "A gentle bay break tucked into the Seto Inland Sea, Akiya Beach trades big swell for consistency, calm water, and easy access from Onomichi's old port town.",
+      "website": "",
+      "tel": "",
+      "region": "hiroshima",
+      "source_image": "",
+      "link": "/item/akiya_beach_en"
     },
     {
       "id": "hamajima_beach_en",
@@ -150,6 +423,27 @@
       "link": "/item/hatsushima_deep_wall_ko"
     },
     {
+      "id": "aso_akagi_glamping_ko",
+      "lang": "ko",
+      "title": "아소 아카기 글램핑 리조트: 칼데라 초원 위 프리미엄 캠핑 완벽 가이드",
+      "lat": 32.95,
+      "lng": 131.1,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/aso_akagi_glamping.jpg",
+      "youtube_id": "",
+      "address": "Kumamoto, Japan",
+      "published": "2026-09-27",
+      "summary": "세계 최대급 칼데라 지형 위에 자리한 아소 아카기 글램핑 리조트, 초원과 화산이 만드는 파노라마를 텐트 없이 즐긴다.",
+      "website": "",
+      "tel": "",
+      "region": "kumamoto",
+      "source_image": "",
+      "link": "/item/aso_akagi_glamping_ko"
+    },
+    {
       "id": "kiyosato_mountain_camp_en",
       "lang": "en",
       "title": "Kiyosato Mountain Camp: Yamanashi's Best Base-Camp Escape",
@@ -192,6 +486,111 @@
       "link": "/item/hachimantai_en"
     },
     {
+      "id": "minamisaku_lakeside_camp_ko",
+      "lang": "ko",
+      "title": "미나미사쿠 호숫가 캠프: 후지산이 보이는 나가노 오토캠핑 완전 가이드",
+      "lat": 35.4,
+      "lng": 138.0,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/minamisaku_lakeside_camp.jpg",
+      "youtube_id": "",
+      "address": "Nagano, Japan",
+      "published": "2026-09-27",
+      "summary": "차를 사이트 바로 옆에 대고 호수와 후지산을 동시에 바라보는 나가노의 오토캠핑 명소, 미나미사쿠 호숫가 캠프를 소개합니다.",
+      "website": "",
+      "tel": "",
+      "region": "nagano",
+      "source_image": "",
+      "link": "/item/minamisaku_lakeside_camp_ko"
+    },
+    {
+      "id": "yatsugatake_alpine_glamping_en",
+      "lang": "en",
+      "title": "Yatsugatake Alpine Glamping: Lake Views, Peaks, and Comfort Camping in Yamanashi",
+      "lat": 35.9,
+      "lng": 138.2,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/yatsugatake_alpine_glamping.jpg",
+      "youtube_id": "",
+      "address": "Yamanashi, Japan",
+      "published": "2026-09-27",
+      "summary": "Wake up to alpine lake mist and the Yatsugatake ridgeline from a heated glamping tent in Yamanashi. A high-comfort basecamp for hikers, couples, and families who want mountain drama without sleeping on the ground.",
+      "website": "",
+      "tel": "",
+      "region": "yamanashi",
+      "source_image": "",
+      "link": "/item/yatsugatake_alpine_glamping_en"
+    },
+    {
+      "id": "fuefuki_river_camp_en",
+      "lang": "en",
+      "title": "Fuefuki River Camp: Yamanashi's Best Car Camping & Riverside Water Escape",
+      "lat": 35.65,
+      "lng": 138.45,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/fuefuki_river_camp.jpg",
+      "youtube_id": "",
+      "address": "Yamanashi, Japan",
+      "published": "2026-09-27",
+      "summary": "Fuefuki River Camp pairs drive-up convenience with clear mountain water, making it one of Yamanashi's most reliable riverside sites for families and first-time car campers alike. Here's how to plan a trip that actually works, from site selection to swimming safety.",
+      "website": "",
+      "tel": "",
+      "region": "yamanashi",
+      "source_image": "",
+      "link": "/item/fuefuki_river_camp_en"
+    },
+    {
+      "id": "kiso_katsuyama_base_en",
+      "lang": "en",
+      "title": "Kiso Katsuyama Base Camp: Nagano's Alpine Glamping Escape with Mountain Views",
+      "lat": 35.45,
+      "lng": 137.55,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/kiso_katsuyama_base.jpg",
+      "youtube_id": "",
+      "address": "Nagano, Japan",
+      "published": "2026-09-27",
+      "summary": "A glamping-forward base camp tucked into the Kiso Valley, where mountain ridgelines fill the skyline and a well-marked trail leads straight from your tent to the summit view. Ideal for travelers who want comfort without losing the wilderness.",
+      "website": "",
+      "tel": "",
+      "region": "nagano",
+      "source_image": "",
+      "link": "/item/kiso_katsuyama_base_en"
+    },
+    {
+      "id": "south_yamanashi_glamping_en",
+      "lang": "en",
+      "title": "South Yamanashi Glamping Park: Forest Glamping Beneath Mount Fuji",
+      "lat": 35.35,
+      "lng": 138.5,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/south_yamanashi_glamping.jpg",
+      "youtube_id": "",
+      "address": "Yamanashi, Japan",
+      "published": "2026-09-27",
+      "summary": "A forest-shaded glamping retreat in South Yamanashi pairs Fuji views with real comfort. Here's how to plan the visit right.",
+      "website": "",
+      "tel": "",
+      "region": "yamanashi",
+      "source_image": "",
+      "link": "/item/south_yamanashi_glamping_en"
+    },
+    {
       "id": "mugi_beach_ko",
       "lang": "ko",
       "title": "무기 해변 서핑 완벽 가이드: 도쿠시마 파워풀 비치브레이크의 정석",
@@ -232,6 +631,27 @@
       "region": "wakayama",
       "source_image": "",
       "link": "/item/minabe_beach_ko"
+    },
+    {
+      "id": "tenshoji_riverside_camp_ko",
+      "lang": "ko",
+      "title": "기후 텐쇼지 강변 캠프 완벽 가이드: 계곡물과 산이 만나는 캠핑지",
+      "lat": 36.15,
+      "lng": 137.18,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/tenshoji_riverside_camp.jpg",
+      "youtube_id": "",
+      "address": "Gifu, Japan",
+      "published": "2026-09-27",
+      "summary": "기후현 산속 계곡을 따라 펼쳐진 텐쇼지 강변 캠프는 맑은 물소리와 등산로 접근성을 동시에 누릴 수 있는 곳이다. 초보 캠퍼부터 등산과 캠핑을 함께 즐기려는 여행자까지 만족시키는 실전 정보를 정리했다.",
+      "website": "",
+      "tel": "",
+      "region": "gifu",
+      "source_image": "",
+      "link": "/item/tenshoji_riverside_camp_ko"
     },
     {
       "id": "suwa_lake_glamping_ko",
@@ -297,6 +717,27 @@
       "link": "/item/kiyosato_mountain_camp_ko"
     },
     {
+      "id": "aso_akagi_glamping_en",
+      "lang": "en",
+      "title": "Aso Akagi Glamping Resort: Grassland Views Inside Japan's Largest Caldera",
+      "lat": 32.95,
+      "lng": 131.1,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/aso_akagi_glamping.jpg",
+      "youtube_id": "",
+      "address": "Kumamoto, Japan",
+      "published": "2026-09-27",
+      "summary": "Sleep inside the world's largest caldera with panoramic grassland and volcano views at Aso Akagi Glamping Resort. Full-service tents, real beds, and Kumamoto's best sunrise over Mount Aso.",
+      "website": "",
+      "tel": "",
+      "region": "kumamoto",
+      "source_image": "",
+      "link": "/item/aso_akagi_glamping_en"
+    },
+    {
       "id": "hatsushima_deep_wall_en",
       "lang": "en",
       "title": "Hatsushima Deep Wall: Atami's Premier Deep Dive Site in Izu",
@@ -339,6 +780,48 @@
       "link": "/item/hamajima_beach_ko"
     },
     {
+      "id": "akiya_beach_ko",
+      "lang": "ko",
+      "title": "아키야 해변 서핑 가이드 - 세토우치의 숨은 베이 브레이크를 만나다",
+      "lat": 34.4098,
+      "lng": 133.2044,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/akiya_beach.jpg",
+      "youtube_id": "",
+      "address": "Onomichi, Hiroshima, Japan",
+      "published": "2026-09-27",
+      "summary": "세토나이카이의 잔잔한 만 안쪽에 자리한 아키야 해변은 초보자와 롱보더에게 이상적인 보호형 베이 브레이크입니다. 오노미치 시내에서 차로 20분이면 닿는 접근성 덕분에 당일치기 서핑 여행지로도 손색이 없습니다.",
+      "website": "",
+      "tel": "",
+      "region": "hiroshima",
+      "source_image": "",
+      "link": "/item/akiya_beach_ko"
+    },
+    {
+      "id": "matsuzaki_twin_boulders_en",
+      "lang": "en",
+      "title": "Matsuzaki Twin Boulders: A Diver's Guide to Izu's Hidden Rock Pinnacles",
+      "lat": 34.72,
+      "lng": 138.56,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/matsuzaki_twin_boulders.jpg",
+      "youtube_id": "",
+      "address": "Shizuoka Prefecture, Matsuzaki",
+      "published": "2026-09-27",
+      "summary": "Two granite pinnacles rising from a temperate Izu seabed offer swim-throughs, schooling fish, and a quieter alternative to the peninsula's busier dive sites.",
+      "website": "",
+      "tel": "",
+      "region": "izu",
+      "source_image": "",
+      "link": "/item/matsuzaki_twin_boulders_en"
+    },
+    {
       "id": "suwa_lake_glamping_en",
       "lang": "en",
       "title": "Suwa Lake Glamping Village: Alpine Views Meet Lakeside Comfort in Nagano",
@@ -358,6 +841,27 @@
       "region": "nagano",
       "source_image": "",
       "link": "/item/suwa_lake_glamping_en"
+    },
+    {
+      "id": "tenshoji_riverside_camp_en",
+      "lang": "en",
+      "title": "Tenshoji Riverside Camp: Gifu's Gateway to River, Forest, and Mountain",
+      "lat": 36.15,
+      "lng": 137.18,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/tenshoji_riverside_camp.jpg",
+      "youtube_id": "",
+      "address": "Gifu, Japan",
+      "published": "2026-09-27",
+      "summary": "Tenshoji Riverside Camp pairs clear river frontage with easy mountain access deep in Gifu's forested interior. It's a low-key basecamp for anyone who wants water, woods, and quiet in the same weekend.",
+      "website": "",
+      "tel": "",
+      "region": "gifu",
+      "source_image": "",
+      "link": "/item/tenshoji_riverside_camp_en"
     },
     {
       "id": "minabe_beach_en",
@@ -402,6 +906,132 @@
       "link": "/item/mugi_beach_en"
     },
     {
+      "id": "south_yamanashi_glamping_ko",
+      "lang": "ko",
+      "title": "남부 야마나시 글래핑 파크: 후지산 자락 숲속 캠핑 완전 가이드",
+      "lat": 35.35,
+      "lng": 138.5,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/south_yamanashi_glamping.jpg",
+      "youtube_id": "",
+      "address": "Yamanashi, Japan",
+      "published": "2026-09-27",
+      "summary": "텐트 없이 떠나는 야마나시 숲속 글래핑, 후지산 조망과 온천을 한 번에 즐기는 가족·커플 캠핑지. 도쿄에서 두 시간 거리로 접근성까지 챙긴 실속형 여행 코스.",
+      "website": "",
+      "tel": "",
+      "region": "yamanashi",
+      "source_image": "",
+      "link": "/item/south_yamanashi_glamping_ko"
+    },
+    {
+      "id": "kiso_katsuyama_base_ko",
+      "lang": "ko",
+      "title": "기소 가츠야마 베이스 캠프: 나가노 산악 뷰 글램핑과 하이킹의 완벽한 조화",
+      "lat": 35.45,
+      "lng": 137.55,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/kiso_katsuyama_base.jpg",
+      "youtube_id": "",
+      "address": "Nagano, Japan",
+      "published": "2026-09-27",
+      "summary": "기소 가츠야마 베이스 캠프는 나가노 기소 계곡의 산세를 그대로 마주하는 글램핑 캠프장이다. 하이킹 트레일과 온천, 계곡 전망을 한 번에 즐길 수 있는 실전 정보를 정리했다.",
+      "website": "",
+      "tel": "",
+      "region": "nagano",
+      "source_image": "",
+      "link": "/item/kiso_katsuyama_base_ko"
+    },
+    {
+      "id": "fuefuki_river_camp_ko",
+      "lang": "ko",
+      "title": "후에후키 강 캠프 완벽 가이드: 야마나시 카캠핑과 물놀이의 정석",
+      "lat": 35.65,
+      "lng": 138.45,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/fuefuki_river_camp.jpg",
+      "youtube_id": "",
+      "address": "Yamanashi, Japan",
+      "published": "2026-09-27",
+      "summary": "후지산 자락 야마나시를 흐르는 후에후키 강변에서 즐기는 카캠핑과 물놀이, 도쿄에서 두 시간이면 닿는 진짜 아웃도어.",
+      "website": "",
+      "tel": "",
+      "region": "yamanashi",
+      "source_image": "",
+      "link": "/item/fuefuki_river_camp_ko"
+    },
+    {
+      "id": "yatsugatake_alpine_glamping_ko",
+      "lang": "ko",
+      "title": "야츠가타케 알파인 글램핑, 표고 1200m 고원에서 호수와 산 능선을 한눈에",
+      "lat": 35.9,
+      "lng": 138.2,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/yatsugatake_alpine_glamping.jpg",
+      "youtube_id": "",
+      "address": "Yamanashi, Japan",
+      "published": "2026-09-27",
+      "summary": "야마나시 야츠가타케 고원의 알파인 글램핑은 텐트 밖으로 바로 산 능선과 호수 풍경이 펼쳐지는 곳이다. 도쿄에서 두 시간대로 접근 가능하면서도 고도감 있는 알프스급 전망을 누릴 수 있다.",
+      "website": "",
+      "tel": "",
+      "region": "yamanashi",
+      "source_image": "",
+      "link": "/item/yatsugatake_alpine_glamping_ko"
+    },
+    {
+      "id": "minamisaku_lakeside_camp_en",
+      "lang": "en",
+      "title": "Minamisaku Lakeside Camp: Car Camping in Nagano with Fuji Views",
+      "lat": 35.98,
+      "lng": 138.48,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/minamisaku_lakeside_camp.jpg",
+      "youtube_id": "",
+      "address": "Nagano, Japan",
+      "published": "2026-09-27",
+      "summary": "A car-friendly lakeside campground in Minamisaku, Nagano, where still water, pine forest, and rare glimpses of Mt. Fuji share the same horizon.",
+      "website": "",
+      "tel": "",
+      "region": "nagano",
+      "source_image": "",
+      "link": "/item/minamisaku_lakeside_camp_en"
+    },
+    {
+      "id": "shikine_island_reef_ko",
+      "lang": "ko",
+      "title": "시키네 섬 산호초 다이빙 완전 가이드: 이즈 제도 최고의 투명 바다 탐험",
+      "lat": 34.327,
+      "lng": 139.212,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/shikine_island_reef.jpg",
+      "youtube_id": "",
+      "address": "Tokyo (Izu Islands), Japan",
+      "published": "2026-09-27",
+      "summary": "도쿄에서 배로 3시간이면 닿는 시키네 섬에서 투명도 20m의 바다와 산호초를 만나는 다이빙 여행기. 초보부터 중급 다이버까지 만족할 포인트 구성과 실전 접근법을 정리했다.",
+      "website": "",
+      "tel": "",
+      "region": "izu",
+      "source_image": "",
+      "link": "/item/shikine_island_reef_ko"
+    },
+    {
       "id": "iriomote_barasu_sandspit_ko",
       "lang": "ko",
       "title": "이리오모테 바라수 모래톱 다이빙: 산호초 위에 뜬 환상의 백사장을 만나다",
@@ -444,6 +1074,90 @@
       "link": "/item/seifa_utaki_rock_dive_ko"
     },
     {
+      "id": "itoshima_beach_en",
+      "lang": "en",
+      "title": "Itoshima Beach Surf Guide: Fukuoka's Beginner-Friendly Beach Break",
+      "lat": 33.92,
+      "lng": 130.17,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/itoshima_beach.jpg",
+      "youtube_id": "",
+      "address": "Itoshima, Fukuoka, Japan",
+      "published": "2026-09-27",
+      "summary": "Itoshima's sandy beach breaks pair forgiving whitewash with dramatic coastal scenery just 40 minutes from Fukuoka city. It's the easiest place in Kyushu to catch your first wave without sacrificing a good view.",
+      "website": "",
+      "tel": "",
+      "region": "fukuoka",
+      "source_image": "",
+      "link": "/item/itoshima_beach_en"
+    },
+    {
+      "id": "iwami_beach_en",
+      "lang": "en",
+      "title": "Iwami Beach: The Quiet Sanin Beach Break in Masuda, Shimane",
+      "lat": 34.75,
+      "lng": 131.62,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/iwami_beach.jpg",
+      "youtube_id": "",
+      "address": "Masuda, Shimane, Japan",
+      "published": "2026-09-27",
+      "summary": "A low-key beach break on Shimane's Sanin coast where swells wrap in clean and crowds never show up. Iwami Beach rewards surfers who value open peaks over hype.",
+      "website": "",
+      "tel": "",
+      "region": "shimane",
+      "source_image": "",
+      "link": "/item/iwami_beach_en"
+    },
+    {
+      "id": "hateruma_blue_water_en",
+      "lang": "en",
+      "title": "Hateruma Island Blue Water: Japan's Southernmost Dive Frontier",
+      "lat": 24.054,
+      "lng": 123.867,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/hateruma_blue_water.jpg",
+      "youtube_id": "",
+      "address": "Okinawa, Japan",
+      "published": "2026-09-27",
+      "summary": "Hateruma Island guards some of Japan's clearest water and least crowded reef walls, rewarding divers willing to make the long trip south. This is a guide to diving the country's southernmost inhabited point, built for advanced divers chasing visibility, current, and solitude.",
+      "website": "",
+      "tel": "",
+      "region": "okinawa",
+      "source_image": "",
+      "link": "/item/hateruma_blue_water_en"
+    },
+    {
+      "id": "zamami_coral_garden_ko",
+      "lang": "ko",
+      "title": "자마미 산호초 정원, 게라마 제도 데이 보트 다이빙 완벽 가이드",
+      "lat": 26.18,
+      "lng": 127.33,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/zamami_coral_garden.jpg",
+      "youtube_id": "",
+      "address": "Okinawa (Kerama Islands), Japan",
+      "published": "2026-09-27",
+      "summary": "게라마 블루로 불리는 자마미 산호초 정원에서 데이 보트로 즐기는 스쿠버 다이빙, 시야 30m와 테이블 산호 군락을 함께 경험한다.",
+      "website": "",
+      "tel": "",
+      "region": "okinawa",
+      "source_image": "",
+      "link": "/item/zamami_coral_garden_ko"
+    },
+    {
       "id": "daisetsuzan_forest_camp_ko",
       "lang": "ko",
       "title": "다이세츠잔 숲 캠프: 홋카이도 지붕 아래 알파인 베이스캠프 완전 가이드",
@@ -463,6 +1177,48 @@
       "region": "hokkaido",
       "source_image": "",
       "link": "/item/daisetsuzan_forest_camp_ko"
+    },
+    {
+      "id": "nobeoka_beach_en",
+      "lang": "en",
+      "title": "Nobeoka Beach Surf Guide: Reef Breaks and Pacific Swell in Miyazaki",
+      "lat": 32.58,
+      "lng": 131.65,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/nobeoka_beach.jpg",
+      "youtube_id": "",
+      "address": "Nobeoka, Miyazaki, Japan",
+      "published": "2026-09-27",
+      "summary": "Nobeoka Beach delivers punchy reef-break waves fed by clean Pacific swell, a step up from the beginner beaches further south. Here's how to read the reef, time the season, and surf it without drama.",
+      "website": "",
+      "tel": "",
+      "region": "miyazaki",
+      "source_image": "",
+      "link": "/item/nobeoka_beach_en"
+    },
+    {
+      "id": "kuchinoerabu_volcanic_dive_en",
+      "lang": "en",
+      "title": "Kuchinoerabu Island Volcanic Dive: Kagoshima's Geothermal Scuba Frontier",
+      "lat": 32.137,
+      "lng": 130.277,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/kuchinoerabu_volcanic_dive.jpg",
+      "youtube_id": "",
+      "address": "Kagoshima, Japan",
+      "published": "2026-09-27",
+      "summary": "Dive a living volcano where seafloor vents bubble hot gas through black sand and coral clings to lava flows. Kuchinoerabu Island turns Kagoshima's remote southern waters into one of Japan's strangest and most rewarding dive destinations.",
+      "website": "",
+      "tel": "",
+      "region": "kyushu",
+      "source_image": "",
+      "link": "/item/kuchinoerabu_volcanic_dive_en"
     },
     {
       "id": "teine_olympia_ko",
@@ -505,6 +1261,69 @@
       "region": "hokkaido",
       "source_image": "",
       "link": "/item/weiss_yotei_en"
+    },
+    {
+      "id": "tone_valley_campground_en",
+      "lang": "en",
+      "title": "Tone Valley Campground: Gunma's River-Valley Car Camp Near the Trailheads",
+      "lat": 36.5,
+      "lng": 139.0,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/tone_valley_campground.jpg",
+      "youtube_id": "",
+      "address": "Gunma, Japan",
+      "published": "2026-09-27",
+      "summary": "Pitch your tent beside the Tone River with your car parked steps away, then walk straight onto Gunma's valley trail network at first light.",
+      "website": "",
+      "tel": "",
+      "region": "gunma",
+      "source_image": "",
+      "link": "/item/tone_valley_campground_en"
+    },
+    {
+      "id": "kawazu_underwater_canyon_ko",
+      "lang": "ko",
+      "title": "카와즈 수중 협곡 다이빙: 이즈반도 최고의 캐년 다이브 스팟",
+      "lat": 34.78,
+      "lng": 138.6,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/kawazu_underwater_canyon.jpg",
+      "youtube_id": "",
+      "address": "Shizuoka Prefecture, Kawazu",
+      "published": "2026-09-27",
+      "summary": "시즈오카 가와즈 앞바다에 숨겨진 수중 협곡에서 벽 다이빙과 딥워터 드리프트를 동시에 즐긴다. 이즈반도에서 손꼽히는 캐년 지형 다이브 사이트를 실전 가이드로 정리했다.",
+      "website": "",
+      "tel": "",
+      "region": "izu",
+      "source_image": "",
+      "link": "/item/kawazu_underwater_canyon_ko"
+    },
+    {
+      "id": "tokunoshima_drift_dive_en",
+      "lang": "en",
+      "title": "Tokunoshima Drift Dive: Kagoshima's Untamed Current & Pelagic Frontier",
+      "lat": 27.813,
+      "lng": 129.238,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/tokunoshima_drift_dive.jpg",
+      "youtube_id": "",
+      "address": "Kagoshima, Japan",
+      "published": "2026-09-27",
+      "summary": "Ride the Kuroshio-fed currents of Tokunoshima for big-animal encounters few divers in Japan ever see. This subtropical Kagoshima island trades crowded reefs for raw, current-driven drift diving.",
+      "website": "",
+      "tel": "",
+      "region": "kyushu",
+      "source_image": "",
+      "link": "/item/tokunoshima_drift_dive_en"
     },
     {
       "id": "onomichi_island_glamping_en",
@@ -3386,7 +4205,7 @@
     {
       "id": "hakuba_iwatake_ko",
       "lang": "ko",
-      "title": "하쿠바 이와타케",
+      "title": "하쿠바 이와타케 곤돌라 스키장 완벽 가이드 - JPFun",
       "lat": 36.712,
       "lng": 137.861,
       "activity": "ski",
@@ -6263,7 +7082,7 @@
     {
       "id": "niseko_hanazono_ko",
       "lang": "ko",
-      "title": "니세코 하나조노",
+      "title": "니세코 하나조노 스키장 가이드 - JPFun",
       "lat": 42.897,
       "lng": 140.715,
       "activity": "ski",
@@ -6274,7 +7093,7 @@
       "youtube_id": "1ksmiy6EsDo",
       "address": "일본 홋카이도 굿찬정 하나조노",
       "published": "2026-08-15",
-      "summary": "니세코 하나조노 — 패밀리 코스, 버튼 파크, 유나이트권과 숙소 팁.",
+      "summary": "니세코 하나조노의 패밀리 코스, 버튼 파크, 니세코 유나이트 연결과 오는 길·숙소 팁을 정리한 가이드입니다.",
       "website": "https://www.niseko.ne.jp/",
       "tel": "",
       "region": "hokkaido",
