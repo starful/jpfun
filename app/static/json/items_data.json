@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.09.28",
-  "total_count": 385,
+  "total_count": 397,
   "items": [
     {
       "id": "yoron_drift_zone_ko",
@@ -24,6 +24,27 @@
       "link": "/item/yoron_drift_zone_ko"
     },
     {
+      "id": "kuzuryu_valley_glamping_en",
+      "lang": "en",
+      "title": "Kuzuryu Valley Glamping: Fukui's Riverside Forest Retreat",
+      "lat": 35.85,
+      "lng": 136.15,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/kuzuryu_valley_glamping.jpg",
+      "youtube_id": "",
+      "address": "Fukui, Japan",
+      "published": "2026-09-28",
+      "summary": "Fall asleep to the sound of the Kuzuryu River and wake up under a canopy of cedar and beech. This glamping retreat pairs real comfort with real wilderness in one of Fukui's quietest mountain corridors.",
+      "website": "",
+      "tel": "",
+      "region": "fukui",
+      "source_image": "",
+      "link": "/item/kuzuryu_valley_glamping_en"
+    },
+    {
       "id": "kumano_kodo_trail_ko",
       "lang": "ko",
       "title": "쿠마노 고도 트레일 캠프 완전 정복: 와카야마 순례길과 함께하는 차박 캠핑 가이드",
@@ -43,6 +64,27 @@
       "region": "wakayama",
       "source_image": "",
       "link": "/item/kumano_kodo_trail_ko"
+    },
+    {
+      "id": "kii_peninsula_depth_ko",
+      "lang": "ko",
+      "title": "기이 반도 심해역, 와카야마 딥다이브 성지에서 만나는 검은 산호와 해류의 세계",
+      "lat": 33.713,
+      "lng": 135.597,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/kii_peninsula_depth.jpg",
+      "youtube_id": "",
+      "address": "Wakayama, Japan",
+      "published": "2026-09-28",
+      "summary": "와카야마 기이 반도 심해역은 흑조 해류가 만든 다이나믹한 지형과 대형 어군을 동시에 즐길 수 있는 어드밴스드 다이버 전용 필드다. 30m 이상의 드롭오프와 강한 조류를 경험하고 싶다면 이곳이 정답이다.",
+      "website": "",
+      "tel": "",
+      "region": "kansai",
+      "source_image": "",
+      "link": "/item/kii_peninsula_depth_ko"
     },
     {
       "id": "tokashiki_papagayo_point_en",
@@ -108,6 +150,27 @@
       "link": "/item/akagane_mountain_camp_en"
     },
     {
+      "id": "miyoshi_highland_nature_en",
+      "lang": "en",
+      "title": "Miyoshi Highland Nature Base: Hiroshima's Plateau Glamping Escape",
+      "lat": 34.8,
+      "lng": 132.7,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/miyoshi_highland_nature.jpg",
+      "youtube_id": "",
+      "address": "Hiroshima, Japan",
+      "published": "2026-09-28",
+      "summary": "A breezy plateau retreat above Miyoshi's basin fog, pairing glamping comfort with genuine forest quiet. Ideal for first-timers and families who want nature without giving up a real bed or hot food.",
+      "website": "",
+      "tel": "",
+      "region": "hiroshima",
+      "source_image": "",
+      "link": "/item/miyoshi_highland_nature_en"
+    },
+    {
       "id": "rusutsu_resort_en",
       "lang": "en",
       "title": "Rusutsu Resort Guide: Hokkaido Powder Skiing for Families",
@@ -171,6 +234,27 @@
       "link": "/item/isozaki_valley_glamping_en"
     },
     {
+      "id": "oki_islands_adventure_ko",
+      "lang": "ko",
+      "title": "오키 섬 어드벤처 다이빙: 산인 최고의 비경 아일랜드 다이빙 완전 가이드",
+      "lat": 36.2,
+      "lng": 133.32,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/oki_islands_adventure.jpg",
+      "youtube_id": "",
+      "address": "Shimane, Japan",
+      "published": "2026-09-28",
+      "summary": "혼슈 본토에서 배로 3시간, 시마네현 오키 제도의 투명한 동해 바다에서 즐기는 비경 다이빙. 대마 난류가 만드는 아열대성 어군과 화산 지형의 조합을 경험할 수 있다.",
+      "website": "",
+      "tel": "",
+      "region": "chugoku",
+      "source_image": "",
+      "link": "/item/oki_islands_adventure_ko"
+    },
+    {
       "id": "tottori_daisen_plateau_ko",
       "lang": "ko",
       "title": "돗토리 다이센 고지대 베이스: 차박과 산악 접근이 만나는 캠프 명소",
@@ -211,6 +295,48 @@
       "region": "okinawa",
       "source_image": "",
       "link": "/item/okinawa_chatan_reef_ko"
+    },
+    {
+      "id": "noto_peninsula_drift_en",
+      "lang": "en",
+      "title": "Noto Peninsula Drift Dive: Cold-Water Diving in Ishikawa, Japan",
+      "lat": 37.485,
+      "lng": 136.843,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/noto_peninsula_drift.jpg",
+      "youtube_id": "",
+      "address": "Ishikawa, Japan",
+      "published": "2026-09-28",
+      "summary": "Ride the Tsushima Current along Noto's rugged coastline for encounters with temperate reef life found nowhere else in Japan's dive guidebooks. A cold-water drift dive for divers who want solitude, structure, and species you won't see in Okinawa.",
+      "website": "",
+      "tel": "",
+      "region": "hokuriku",
+      "source_image": "",
+      "link": "/item/noto_peninsula_drift_en"
+    },
+    {
+      "id": "iya_valley_riverside_ko",
+      "lang": "ko",
+      "title": "이야 계곡 강변 캠프: 도쿠시마 협곡 뷰 오토캠핑 완전 정복",
+      "lat": 33.92,
+      "lng": 134.0,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/iya_valley_riverside.jpg",
+      "youtube_id": "",
+      "address": "Tokushima, Japan",
+      "published": "2026-09-28",
+      "summary": "에메랄드빛 계곡물과 깎아지른 협곡을 마당처럼 두른 이야 계곡 강변 캠프, 차를 세우고 텐트를 치는 순간부터 여행이 시작됩니다. 오토캠핑과 물놀이, 협곡 트레킹을 한 번에 즐기고 싶은 이들을 위한 실전 가이드입니다.",
+      "website": "",
+      "tel": "",
+      "region": "tokushima",
+      "source_image": "",
+      "link": "/item/iya_valley_riverside_ko"
     },
     {
       "id": "maruyama_ski_park_ko",
@@ -360,6 +486,27 @@
       "link": "/item/rusutsu_resort_ko"
     },
     {
+      "id": "miyoshi_highland_nature_ko",
+      "lang": "ko",
+      "title": "미요시 고지대 자연 베이스 완전 가이드 - 히로시마 글램핑과 고원 캠핑의 정석",
+      "lat": 34.8,
+      "lng": 132.7,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/miyoshi_highland_nature.jpg",
+      "youtube_id": "",
+      "address": "Hiroshima, Japan",
+      "published": "2026-09-28",
+      "summary": "히로시마 내륙의 서늘한 고지대에 자리한 미요시 고지대 자연 베이스는 안개 낀 분지 지형과 활엽수림이 만드는 독특한 풍경을 즐길 수 있는 캠프장이다. 글램핑 텐트부터 프리 사이트까지 선택지가 넓어 초보자와 숙련 캠퍼 모두에게 알맞다.",
+      "website": "",
+      "tel": "",
+      "region": "hiroshima",
+      "source_image": "",
+      "link": "/item/miyoshi_highland_nature_ko"
+    },
+    {
       "id": "akagane_mountain_camp_ko",
       "lang": "ko",
       "title": "아카가네 산악 캠프 완전정복: 가고시마 숲속 오토캠핑 가이드",
@@ -465,6 +612,48 @@
       "link": "/item/maruyama_ski_park_en"
     },
     {
+      "id": "iya_valley_riverside_en",
+      "lang": "en",
+      "title": "Iya Valley Riverside Camp: Gorge Views, Rapids & Car Camping in Tokushima",
+      "lat": 33.92,
+      "lng": 134.0,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/iya_valley_riverside.jpg",
+      "youtube_id": "",
+      "address": "Tokushima, Japan",
+      "published": "2026-09-28",
+      "summary": "Pitch your tent beside the emerald rapids of one of Japan's three great hidden gorges, with car camping, cliffside views, and river play all in one spot.",
+      "website": "",
+      "tel": "",
+      "region": "tokushima",
+      "source_image": "",
+      "link": "/item/iya_valley_riverside_en"
+    },
+    {
+      "id": "noto_peninsula_drift_ko",
+      "lang": "ko",
+      "title": "노토 반도 드리프트 다이빙 완벽 가이드 — 이시카와 냉수성 생물의 보고",
+      "lat": 37.485,
+      "lng": 136.843,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/noto_peninsula_drift.jpg",
+      "youtube_id": "",
+      "address": "Ishikawa, Japan",
+      "published": "2026-09-28",
+      "summary": "쿠로시오와 리만 해류가 교차하는 노토 반도에서 즐기는 드리프트 다이빙, 냉수성과 온대성 생물이 공존하는 독특한 수중 생태를 만난다.",
+      "website": "",
+      "tel": "",
+      "region": "hokuriku",
+      "source_image": "",
+      "link": "/item/noto_peninsula_drift_ko"
+    },
+    {
       "id": "okinawa_chatan_reef_en",
       "lang": "en",
       "title": "Okinawa Chatan Coastal Reef: A Beginner-Friendly Shore Dive Escape",
@@ -507,6 +696,27 @@
       "link": "/item/tottori_daisen_plateau_en"
     },
     {
+      "id": "oki_islands_adventure_en",
+      "lang": "en",
+      "title": "Oki Islands Adventure Dive: Remote Scuba Diving in Shimane, Japan",
+      "lat": 36.2,
+      "lng": 133.32,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/oki_islands_adventure.jpg",
+      "youtube_id": "",
+      "address": "Shimane, Japan",
+      "published": "2026-09-28",
+      "summary": "Volcanic walls, clear Sea of Japan water, and a fraction of the crowds — Oki Islands diving rewards anyone willing to make the ferry crossing.",
+      "website": "",
+      "tel": "",
+      "region": "chugoku",
+      "source_image": "",
+      "link": "/item/oki_islands_adventure_en"
+    },
+    {
       "id": "tokashiki_papagayo_point_ko",
       "lang": "ko",
       "title": "토카시키 파파가요 포인트: 케라마 블루 드롭오프 다이빙의 정수",
@@ -528,6 +738,27 @@
       "link": "/item/tokashiki_papagayo_point_ko"
     },
     {
+      "id": "kii_peninsula_depth_en",
+      "lang": "en",
+      "title": "Kii Peninsula Depth Zone: Wakayama's Deep-Water Playground for Advanced Divers",
+      "lat": 33.713,
+      "lng": 135.597,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/kii_peninsula_depth.jpg",
+      "youtube_id": "",
+      "address": "Wakayama, Japan",
+      "published": "2026-09-28",
+      "summary": "Kuroshio-fed walls, swim-throughs, and 30m+ terrain make the Kii Peninsula Depth Zone Japan's serious deep-diving proving ground. Built for certified divers chasing big pelagics and dramatic topography off Wakayama.",
+      "website": "",
+      "tel": "",
+      "region": "kansai",
+      "source_image": "",
+      "link": "/item/kii_peninsula_depth_en"
+    },
+    {
       "id": "kumano_kodo_trail_en",
       "lang": "en",
       "title": "Kumano Kodo Trail Camp: Car Camping Gateway to Wakayama's Sacred Shrine Trek",
@@ -547,6 +778,27 @@
       "region": "wakayama",
       "source_image": "",
       "link": "/item/kumano_kodo_trail_en"
+    },
+    {
+      "id": "kuzuryu_valley_glamping_ko",
+      "lang": "ko",
+      "title": "쿠즈류 계곡 글램핑 완벽 가이드 | 후쿠이 숲속 리트리트에서 만나는 청류",
+      "lat": 35.85,
+      "lng": 136.15,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/kuzuryu_valley_glamping.jpg",
+      "youtube_id": "",
+      "address": "Fukui, Japan",
+      "published": "2026-09-28",
+      "summary": "후쿠이 쿠즈류 계곡의 맑은 물줄기 옆에서 즐기는 글램핑, 텐트 치는 수고 없이 숲과 강을 그대로 누리는 힐링 캠핑을 소개합니다.",
+      "website": "",
+      "tel": "",
+      "region": "fukui",
+      "source_image": "",
+      "link": "/item/kuzuryu_valley_glamping_ko"
     },
     {
       "id": "yoron_drift_zone_en",
