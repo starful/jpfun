@@ -1,5 +1,5 @@
 ---
-youtube_id: sOMFH7XhfN0
+youtube_id: Iv2VUE_UhRQ
 lang: ko
 title: 하쿠바 이와타케 곤돌라 스키장 완벽 가이드 - JPFun
 lat: 36.712

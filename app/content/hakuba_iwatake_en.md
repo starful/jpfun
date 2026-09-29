@@ -1,5 +1,5 @@
 ---
-youtube_id: sOMFH7XhfN0
+youtube_id: Iv2VUE_UhRQ
 lang: en
 title: Hakuba Iwatake Ski Resort Guide 2026 | JPFun
 lat: 36.712
