@@ -1,4 +1,6 @@
 ---
+youtube_id: 8sc6BZk5tB8
+
 lang: ko
 title: "아카지마 다이브: 케라마 블루의 한산한 산호 섬"
 lat: 26.192

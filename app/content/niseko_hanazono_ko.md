@@ -1,5 +1,5 @@
 ---
-youtube_id: 1ksmiy6EsDo
+youtube_id: WmdZFk933Io
 lang: ko
 title: 니세코 하나조노 스키장 가이드 - JPFun
 lat: 42.897

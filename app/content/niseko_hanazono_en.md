@@ -1,5 +1,5 @@
 ---
-youtube_id: 1ksmiy6EsDo
+youtube_id: WmdZFk933Io
 lang: en
 title: 'Niseko Hanazono Ski Guide: Family Terrain, Burton Park & Access'
 lat: 42.897

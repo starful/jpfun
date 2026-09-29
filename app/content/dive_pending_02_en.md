@@ -1,4 +1,6 @@
 ---
+youtube_id: 8sc6BZk5tB8
+
 lang: en
 title: "Aka Island Dive: Exploring Okinawa's Kerama Blue Underwater World"
 lat: 26.192
