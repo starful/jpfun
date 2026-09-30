@@ -976,8 +976,12 @@ def _filter_items(lang: str, activity: str | None = None, region: str = "all") -
     for item in _items_for_lang(lang):
         if activity and _item_activity(item) != activity:
             continue
-        reg = item.get("region") or parse_region(
-            item.get("address"), item.get("lat"), item.get("lng"), explicit=item.get("region")
+        reg = parse_region(
+            item.get("address"),
+            item.get("lat"),
+            item.get("lng"),
+            explicit=item.get("region"),
+            activity=activity,
         )
         if isinstance(reg, str):
             reg = {"sido": reg, "district": None}

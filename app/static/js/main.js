@@ -59,7 +59,7 @@ async function loadItems(lang) {
     const items = data[key] || [];
     outdoorItems = items
         .filter(i => matchesActivityFilter(i, currentActivity))
-        .map(withRegion)
+        .map(i => withRegion(i, currentActivity))
         .map(withTraits);
 
     const el = document.getElementById('last-updated-date');
