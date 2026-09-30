@@ -88,6 +88,7 @@ def matches_region_filter(
     region: dict | None,
     region_filter: str,
     district_filter: str | None = None,
+    known_keys: set[str] | None = None,
 ) -> bool:
     if region_filter == "all":
         return True
@@ -95,4 +96,9 @@ def matches_region_filter(
         return False
     if district_filter and district_filter != "all":
         return False
-    return region.get("sido") == region_filter
+    sido = region.get("sido")
+    if region_filter == "other":
+        if known_keys is not None:
+            return sido not in known_keys
+        return sido == "other"
+    return sido == region_filter

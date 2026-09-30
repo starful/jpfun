@@ -72,6 +72,7 @@ REGIONS_BY_ACTIVITY: dict[str, list[dict[str, str]]] = {
         {"key": "gifu", "label_en": "Gifu", "label_ko": "기후"},
         {"key": "gunma", "label_en": "Gunma", "label_ko": "군마"},
         {"key": "tochigi", "label_en": "Tochigi", "label_ko": "도치기"},
+        {"key": "other", "label_en": "Etc", "label_ko": "기타"},
     ],
     "surf": [
         {"key": "all", "label_en": "All", "label_ko": "전체"},
@@ -80,12 +81,14 @@ REGIONS_BY_ACTIVITY: dict[str, list[dict[str, str]]] = {
         {"key": "tohoku", "label_en": "Tohoku", "label_ko": "도호쿠"},
         {"key": "shikoku", "label_en": "Shikoku", "label_ko": "시코쿠"},
         {"key": "okinawa", "label_en": "Okinawa", "label_ko": "오키나와"},
+        {"key": "other", "label_en": "Etc", "label_ko": "기타"},
     ],
     "dive": [
         {"key": "all", "label_en": "All", "label_ko": "전체"},
         {"key": "okinawa", "label_en": "Okinawa", "label_ko": "오키나와"},
         {"key": "chubu", "label_en": "Izu / Chubu", "label_ko": "이즈·중부"},
         {"key": "kyushu", "label_en": "Kyushu", "label_ko": "규슈"},
+        {"key": "other", "label_en": "Etc", "label_ko": "기타"},
     ],
     "camp": [
         {"key": "all", "label_en": "All", "label_ko": "전체"},
@@ -94,6 +97,7 @@ REGIONS_BY_ACTIVITY: dict[str, list[dict[str, str]]] = {
         {"key": "hokkaido", "label_en": "Hokkaido", "label_ko": "홋카이도"},
         {"key": "kanto", "label_en": "Kanto", "label_ko": "간토"},
         {"key": "chugoku", "label_en": "Chugoku / Shimanami", "label_ko": "주고쿠·시마나미"},
+        {"key": "other", "label_en": "Etc", "label_ko": "기타"},
     ],
 }
 

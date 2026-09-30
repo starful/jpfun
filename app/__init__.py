@@ -959,8 +959,18 @@ def _items_for_lang(lang: str) -> list:
 def _filter_items(lang: str, activity: str | None = None, region: str = "all") -> list:
     try:
         from .region import matches_region_filter, parse_region
+        from .activities import REGIONS_BY_ACTIVITY
     except ImportError:
         from region import matches_region_filter, parse_region
+        from activities import REGIONS_BY_ACTIVITY
+
+    known_keys = None
+    if activity:
+        known_keys = {
+            r["key"]
+            for r in REGIONS_BY_ACTIVITY.get(activity, [])
+            if r["key"] not in ("all", "other")
+        }
 
     out = []
     for item in _items_for_lang(lang):
@@ -971,7 +981,7 @@ def _filter_items(lang: str, activity: str | None = None, region: str = "all") -
         )
         if isinstance(reg, str):
             reg = {"sido": reg, "district": None}
-        if not matches_region_filter(reg, region):
+        if not matches_region_filter(reg, region, known_keys=known_keys):
             continue
         row = dict(item)
         row["region"] = reg

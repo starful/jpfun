@@ -14,6 +14,7 @@ export const REGIONS_BY_ACTIVITY = {
         { key: 'gifu', label: 'Gifu', countId: 'count-region-gifu' },
         { key: 'gunma', label: 'Gunma', countId: 'count-region-gunma' },
         { key: 'tochigi', label: 'Tochigi', countId: 'count-region-tochigi' },
+        { key: 'other', label: 'Etc', countId: 'count-region-other' },
     ],
     surf: [
         { key: 'all', label: 'All', countId: 'count-region-all' },
@@ -22,12 +23,14 @@ export const REGIONS_BY_ACTIVITY = {
         { key: 'tohoku', label: 'Tohoku', countId: 'count-region-tohoku' },
         { key: 'shikoku', label: 'Shikoku', countId: 'count-region-shikoku' },
         { key: 'okinawa', label: 'Okinawa', countId: 'count-region-okinawa' },
+        { key: 'other', label: 'Etc', countId: 'count-region-other' },
     ],
     dive: [
         { key: 'all', label: 'All', countId: 'count-region-all' },
         { key: 'okinawa', label: 'Okinawa', countId: 'count-region-okinawa' },
         { key: 'chubu', label: 'Izu / Chubu', countId: 'count-region-chubu' },
         { key: 'kyushu', label: 'Kyushu', countId: 'count-region-kyushu' },
+        { key: 'other', label: 'Etc', countId: 'count-region-other' },
     ],
     camp: [
         { key: 'all', label: 'All', countId: 'count-region-all' },
@@ -36,6 +39,7 @@ export const REGIONS_BY_ACTIVITY = {
         { key: 'hokkaido', label: 'Hokkaido', countId: 'count-region-hokkaido' },
         { key: 'kanto', label: 'Kanto', countId: 'count-region-kanto' },
         { key: 'chugoku', label: 'Chugoku / Shimanami', countId: 'count-region-chugoku' },
+        { key: 'other', label: 'Etc', countId: 'count-region-other' },
     ],
 };
 
@@ -76,10 +80,21 @@ export function withRegion(item) {
     return item;
 }
 
-export function matchesRegionFilter(region, regionFilter) {
+export function knownRegionKeys(activity) {
+    return new Set(
+        (REGIONS_BY_ACTIVITY[activity] || [])
+            .map(r => r.key)
+            .filter(k => k !== 'all' && k !== 'other')
+    );
+}
+
+export function matchesRegionFilter(region, regionFilter, activity) {
     if (!regionFilter || regionFilter === 'all') return true;
     if (!region) return false;
     const sido = typeof region === 'string' ? region : region.sido;
+    if (regionFilter === 'other') {
+        return !knownRegionKeys(activity).has(sido);
+    }
     return sido === regionFilter;
 }
 

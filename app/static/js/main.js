@@ -68,7 +68,7 @@ async function loadItems(lang) {
 
 function filteredItems() {
     return outdoorItems.filter(item =>
-        matchesRegionFilter(item.region, currentRegion)
+        matchesRegionFilter(item.region, currentRegion, currentActivity)
         && matchesTraitFilter(item.traits, currentTrait)
     );
 }
@@ -163,7 +163,7 @@ function updateCounts() {
         }
         el.textContent = String(
             outdoorItems.filter(i =>
-                matchesRegionFilter(i.region, btn.key)
+                matchesRegionFilter(i.region, btn.key, currentActivity)
                 && matchesTraitFilter(i.traits, currentTrait)
             ).length
         );
@@ -174,13 +174,13 @@ function updateCounts() {
         if (!el) continue;
         if (btn.key === 'all') {
             el.textContent = String(
-                outdoorItems.filter(i => matchesRegionFilter(i.region, currentRegion)).length
+                outdoorItems.filter(i => matchesRegionFilter(i.region, currentRegion, currentActivity)).length
             );
             continue;
         }
         el.textContent = String(
             outdoorItems.filter(i =>
-                matchesRegionFilter(i.region, currentRegion)
+                matchesRegionFilter(i.region, currentRegion, currentActivity)
                 && matchesTraitFilter(i.traits, btn.key)
             ).length
         );
