@@ -66,6 +66,18 @@
                 </button>
                 {% endfor %}
             </div>
+            {% if trait_buttons is defined and trait_buttons %}
+            <div class="theme-filter-buttons theme-filter-buttons--trait" data-level="trait" role="toolbar" aria-label="Style">
+                {% for btn in trait_buttons %}
+                <button type="button"
+                        class="theme-button theme-button--trait {% if btn.key == (trait if trait is defined else 'all') %}active{% endif %}"
+                        data-trait="{{ btn.key }}">
+                    {{ btn.label }}
+                    <span class="count-badge" id="{{ btn.count_id }}">0</span>
+                </button>
+                {% endfor %}
+            </div>
+            {% endif %}
         </div>
         {% endif %}
     </div>

@@ -95,6 +95,11 @@ header {
     gap: 8px;
 }
 
+.theme-filter-buttons--trait {
+    padding-top: 0;
+    gap: 8px;
+}
+
 .theme-filter-buttons.is-hidden,
 .theme-filter-buttons[hidden] {
     display: none;
@@ -111,6 +116,13 @@ header {
     font-size: 0.82rem;
     border-radius: 22px;
     background: #f7fbfa;
+}
+.theme-button--trait {
+    padding: 6px 14px;
+    font-size: 0.82rem;
+    border-radius: 22px;
+    background: #f5f8fc;
+    border-color: #e2e8f0;
 }
 .theme-button.active {
     background-color: var(--accent-color); color: white; border-color: var(--accent-color);

@@ -1045,6 +1045,7 @@ def activity_map(region: str = "all"):
             is_activity,
             normalize_region,
             regions_for,
+            traits_for,
         )
     except ImportError:
         from activities import (
@@ -1055,6 +1056,7 @@ def activity_map(region: str = "all"):
             is_activity,
             normalize_region,
             regions_for,
+            traits_for,
         )
 
     activity = request.path.strip("/").split("/")[0].lower()
@@ -1071,6 +1073,13 @@ def activity_map(region: str = "all"):
     if path_region and path_region != region and region == "all":
         return redirect(activity_path(activity, "all", lang), code=302)
 
+    try:
+        from .traits import matches_trait_filter, normalize_trait
+    except ImportError:
+        from traits import matches_trait_filter, normalize_trait
+
+    trait = normalize_trait(activity, request.args.get("tag"))
+
     meta = ACTIVITY_META[activity]
     activity_label = meta["label_ko"] if lang == "ko" else meta["label_en"]
     region_label = (
@@ -1086,6 +1095,8 @@ def activity_map(region: str = "all"):
         page_title = page_heading
 
     items = _filter_items(lang, activity=activity, region=region)
+    if trait != "all":
+        items = [i for i in items if matches_trait_filter(i, trait)]
     items = sorted(items, key=lambda x: str(x.get("published") or ""), reverse=True)
 
     stats = _get_footer_stats(lang)
@@ -1104,6 +1115,8 @@ def activity_map(region: str = "all"):
         activity_label=activity_label,
         region_label=region_label,
         region_buttons=regions_for(activity, lang),
+        trait_buttons=traits_for(activity, lang),
+        trait=trait,
         hub_nav=hub_cards(lang),
         initial_items=items[:48],
         page_title=page_title,

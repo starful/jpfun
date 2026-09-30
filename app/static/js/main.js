@@ -1,5 +1,5 @@
 /**
- * JPFun activity map — one activity, region filters, SEO paths /ski/hokkaido
+ * JPFun activity map — one activity, region + style filters, SEO paths /ski/hokkaido
  */
 
 import {
@@ -9,6 +9,12 @@ import {
     activityPath,
     withRegion,
 } from './regions.js';
+import {
+    matchesTraitFilter,
+    traitsForActivity,
+    withTraits,
+    isKnownTrait,
+} from './traits.js';
 import {
     initGoogleMap,
     renderClinicMarkers,
@@ -21,6 +27,7 @@ import {
 const mapRoot = document.getElementById('map');
 const currentActivity = (mapRoot?.dataset.activity || 'ski').toLowerCase();
 const regionFilters = regionsForActivity(currentActivity);
+const traitFilters = traitsForActivity(currentActivity);
 
 const params = new URLSearchParams(window.location.search);
 let currentLang = params.get('lang') || document.documentElement.lang || 'en';
@@ -28,15 +35,20 @@ if (!['en', 'ko'].includes(currentLang)) currentLang = 'en';
 
 let outdoorItems = [];
 let currentRegion = (mapRoot?.dataset.region || 'all').toLowerCase();
+let currentTrait = (params.get('tag') || 'all').toLowerCase();
+if (!isKnownTrait(currentActivity, currentTrait)) currentTrait = 'all';
 
 function itemBaseId(item) {
     return String(item?.id || item?.base_id || '').replace(/_(en|ko)$/i, '');
 }
 
 function langSuffix(path) {
-    if (currentLang === 'en') return path;
-    const join = path.includes('?') ? '&' : '?';
-    return `${path}${join}lang=${currentLang}`;
+    const url = new URL(path, window.location.origin);
+    if (currentLang !== 'en') url.searchParams.set('lang', currentLang);
+    else url.searchParams.delete('lang');
+    if (currentTrait && currentTrait !== 'all') url.searchParams.set('tag', currentTrait);
+    else url.searchParams.delete('tag');
+    return `${url.pathname}${url.search}`;
 }
 
 async function loadItems(lang) {
@@ -47,7 +59,8 @@ async function loadItems(lang) {
     const items = data[key] || [];
     outdoorItems = items
         .filter(i => matchesActivityFilter(i, currentActivity))
-        .map(withRegion);
+        .map(withRegion)
+        .map(withTraits);
 
     const el = document.getElementById('last-updated-date');
     if (el) el.textContent = data.last_updated || '';
@@ -56,6 +69,7 @@ async function loadItems(lang) {
 function filteredItems() {
     return outdoorItems.filter(item =>
         matchesRegionFilter(item.region, currentRegion)
+        && matchesTraitFilter(item.traits, currentTrait)
     );
 }
 
@@ -98,7 +112,7 @@ function renderList(data) {
     if (data.length === 0) {
         container.innerHTML = `
             <div style="grid-column:1/-1; text-align:center; padding:100px 0; color:#999;">
-                <p style="font-size:1.2rem;">No spots in this region.</p>
+                <p style="font-size:1.2rem;">No spots match these filters.</p>
             </div>`;
         return;
     }
@@ -142,11 +156,33 @@ function updateCounts() {
         const el = document.getElementById(btn.countId);
         if (!el) continue;
         if (btn.key === 'all') {
-            el.textContent = String(outdoorItems.length);
+            el.textContent = String(
+                outdoorItems.filter(i => matchesTraitFilter(i.traits, currentTrait)).length
+            );
             continue;
         }
         el.textContent = String(
-            outdoorItems.filter(i => matchesRegionFilter(i.region, btn.key)).length
+            outdoorItems.filter(i =>
+                matchesRegionFilter(i.region, btn.key)
+                && matchesTraitFilter(i.traits, currentTrait)
+            ).length
+        );
+    }
+
+    for (const btn of traitFilters) {
+        const el = document.getElementById(btn.countId);
+        if (!el) continue;
+        if (btn.key === 'all') {
+            el.textContent = String(
+                outdoorItems.filter(i => matchesRegionFilter(i.region, currentRegion)).length
+            );
+            continue;
+        }
+        el.textContent = String(
+            outdoorItems.filter(i =>
+                matchesRegionFilter(i.region, currentRegion)
+                && matchesTraitFilter(i.traits, btn.key)
+            ).length
         );
     }
 }
@@ -158,17 +194,47 @@ function syncActiveFilterButton() {
             const key = b.dataset.region || 'all';
             b.classList.toggle('active', key === currentRegion);
         });
+    document
+        .querySelectorAll('.theme-filter-buttons[data-level="trait"] .theme-button')
+        .forEach(b => {
+            const key = b.dataset.trait || 'all';
+            b.classList.toggle('active', key === currentTrait);
+        });
+}
+
+function pushFilterUrl() {
+    const path = langSuffix(activityPath(currentActivity, currentRegion));
+    window.history.pushState(
+        { activity: currentActivity, region: currentRegion, tag: currentTrait },
+        '',
+        path,
+    );
+    if (mapRoot) {
+        mapRoot.dataset.region = currentRegion;
+        mapRoot.dataset.tag = currentTrait;
+    }
 }
 
 function bindFilterButtons() {
     document.querySelectorAll('.theme-filter-buttons[data-level="region"] .theme-button').forEach(btn => {
         btn.addEventListener('click', async (e) => {
             e.preventDefault();
-            const next = btn.dataset.region || 'all';
-            currentRegion = next;
-            const path = langSuffix(activityPath(currentActivity, next));
-            window.history.pushState({ activity: currentActivity, region: next }, '', path);
-            if (mapRoot) mapRoot.dataset.region = next;
+            currentRegion = btn.dataset.region || 'all';
+            pushFilterUrl();
+            syncActiveFilterButton();
+            closeInfoWindow();
+            await updateUI();
+            if (window.innerWidth < 768) {
+                document.getElementById('list-section')?.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    });
+
+    document.querySelectorAll('.theme-filter-buttons[data-level="trait"] .theme-button').forEach(btn => {
+        btn.addEventListener('click', async (e) => {
+            e.preventDefault();
+            currentTrait = btn.dataset.trait || 'all';
+            pushFilterUrl();
             syncActiveFilterButton();
             closeInfoWindow();
             await updateUI();
@@ -182,7 +248,13 @@ function bindFilterButtons() {
 window.addEventListener('popstate', async () => {
     const parts = window.location.pathname.replace(/\/+$/, '').split('/').filter(Boolean);
     currentRegion = (parts[1] || 'all').toLowerCase();
-    if (mapRoot) mapRoot.dataset.region = currentRegion;
+    const nextParams = new URLSearchParams(window.location.search);
+    const tag = (nextParams.get('tag') || 'all').toLowerCase();
+    currentTrait = isKnownTrait(currentActivity, tag) ? tag : 'all';
+    if (mapRoot) {
+        mapRoot.dataset.region = currentRegion;
+        mapRoot.dataset.tag = currentTrait;
+    }
     syncActiveFilterButton();
     closeInfoWindow();
     await updateUI();

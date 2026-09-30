@@ -14,8 +14,8 @@ ACTIVITY_META: dict[str, dict[str, str]] = {
         "label_ko": "스키",
         "title_en": "Japan ski resorts on the map",
         "title_ko": "일본 스키장 지도",
-        "desc_en": "Powder, resorts, and village bases — filter by region.",
-        "desc_ko": "파우더·리조트·마을 베이스. 지역으로 좁혀 보세요.",
+        "desc_en": "Powder, resorts, and village bases — filter by region or style.",
+        "desc_ko": "파우더·리조트·마을 베이스. 지역·스타일로 좁혀 보세요.",
         "category": "Ski",
         "image": "/static/images/hub/ski.jpg",
         "tone": "#1b4f72",
@@ -27,8 +27,8 @@ ACTIVITY_META: dict[str, dict[str, str]] = {
         "label_ko": "서핑",
         "title_en": "Japan surf spots on the map",
         "title_ko": "일본 서핑 스팟 지도",
-        "desc_en": "Beach and point breaks near Tokyo, Chiba, and the islands.",
-        "desc_ko": "쇼난·치바·섬 지역의 비치·포인트 브레이크.",
+        "desc_en": "Beach and point breaks — filter by beginner, reef, or day trip.",
+        "desc_ko": "비치·포인트 브레이크. 초보·리프·당일로 좁혀 보세요.",
         "category": "Surf",
         "image": "/static/images/hub/surf.jpg",
         "tone": "#0e7490",
@@ -40,8 +40,8 @@ ACTIVITY_META: dict[str, dict[str, str]] = {
         "label_ko": "스쿠버",
         "title_en": "Japan scuba & dive sites on the map",
         "title_ko": "일본 스쿠버·다이빙 지도",
-        "desc_en": "Okinawa, Kerama, Ishigaki, and Izu boat / shore dives.",
-        "desc_ko": "오키나와·케라마·이시가키·이즈 보트·쇼어 다이빙.",
+        "desc_en": "Okinawa to Izu — filter by beginner, reef, or wall dives.",
+        "desc_ko": "오키나와~이즈. 초보·산호·월 다이브로 좁혀 보세요.",
         "category": "Dive",
         "image": "/static/images/hub/dive.jpg",
         "tone": "#0f766e",
@@ -53,8 +53,8 @@ ACTIVITY_META: dict[str, dict[str, str]] = {
         "label_ko": "캠핑",
         "title_en": "Japan camping & glamping on the map",
         "title_ko": "일본 캠핑·글램핑 지도",
-        "desc_en": "Lakeside, alpine, and island-hop camp bases.",
-        "desc_ko": "호숫가·알파인·섬 캠프 베이스.",
+        "desc_en": "Lakeside and alpine bases — filter glamping, car camp, onsen.",
+        "desc_ko": "호숫가·알파인 베이스. 글램핑·차박·온천으로 좁혀 보세요.",
         "category": "Camp",
         "image": "/static/images/hub/camp.jpg",
         "tone": "#3f6212",
@@ -115,6 +115,38 @@ REGION_LABELS_EN = {
     "other": "Other",
 }
 
+# Non-region style filters (title/summary keyword tags). Per-activity chip sets.
+TRAITS_BY_ACTIVITY: dict[str, list[dict[str, str]]] = {
+    "ski": [
+        {"key": "all", "label_en": "All", "label_ko": "전체"},
+        {"key": "beginner", "label_en": "Beginner", "label_ko": "초보"},
+        {"key": "family", "label_en": "Family", "label_ko": "가족"},
+        {"key": "powder", "label_en": "Powder", "label_ko": "파우더"},
+        {"key": "onsen", "label_en": "Onsen", "label_ko": "온천"},
+        {"key": "daytrip", "label_en": "Day trip", "label_ko": "당일"},
+    ],
+    "surf": [
+        {"key": "all", "label_en": "All", "label_ko": "전체"},
+        {"key": "beginner", "label_en": "Beginner", "label_ko": "초보"},
+        {"key": "reef", "label_en": "Reef / Point", "label_ko": "리프·포인트"},
+        {"key": "daytrip", "label_en": "Day trip", "label_ko": "당일"},
+    ],
+    "dive": [
+        {"key": "all", "label_en": "All", "label_ko": "전체"},
+        {"key": "beginner", "label_en": "Beginner", "label_ko": "초보"},
+        {"key": "reef", "label_en": "Reef", "label_ko": "산호·리프"},
+        {"key": "wall", "label_en": "Wall / Advanced", "label_ko": "월·상급"},
+        {"key": "video", "label_en": "Has video", "label_ko": "영상"},
+    ],
+    "camp": [
+        {"key": "all", "label_en": "All", "label_ko": "전체"},
+        {"key": "glamping", "label_en": "Glamping", "label_ko": "글램핑"},
+        {"key": "carcamp", "label_en": "Car camp", "label_ko": "차박"},
+        {"key": "beginner", "label_en": "Beginner", "label_ko": "초보"},
+        {"key": "onsen", "label_en": "Onsen", "label_ko": "온천"},
+    ],
+}
+
 
 def is_activity(slug: str | None) -> bool:
     return bool(slug) and slug in ACTIVITY_META
@@ -145,6 +177,20 @@ def regions_for(activity: str, lang: str = "en") -> list[dict[str, Any]]:
                 "label": label,
                 "count_id": f"count-region-{r['key']}",
                 "path": activity_path(activity, r["key"], lang),
+            }
+        )
+    return rows
+
+
+def traits_for(activity: str, lang: str = "en") -> list[dict[str, Any]]:
+    rows = []
+    for t in TRAITS_BY_ACTIVITY.get(activity, []):
+        label = t["label_ko"] if lang == "ko" else t["label_en"]
+        rows.append(
+            {
+                "key": t["key"],
+                "label": label,
+                "count_id": f"count-trait-{t['key']}",
             }
         )
     return rows

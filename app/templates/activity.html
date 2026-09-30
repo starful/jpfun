@@ -46,7 +46,8 @@
             <div id="map"
                  data-map-id="{{ site.maps_id }}"
                  data-activity="{{ activity }}"
-                 data-region="{{ region }}"></div>
+                 data-region="{{ region }}"
+                 data-tag="{{ trait if trait is defined else 'all' }}"></div>
             <aside class="map-legend" aria-label="Map legend">
                 <div class="map-legend-title">{{ activity_meta.emoji }} {{ activity_label }} map</div>
                 <ul class="map-legend-list">
@@ -57,9 +58,9 @@
                 </ul>
                 <p class="map-legend-note">
                     {% if lang == 'ko' %}
-                    위에서 지역을 고르면 지도와 목록이 함께 좁혀집니다.
+                    지역·스타일 필터로 지도와 목록을 함께 좁혀 보세요.
                     {% else %}
-                    Use the region filters above to narrow the map and list.
+                    Use region and style filters to narrow the map and list.
                     {% endif %}
                 </p>
             </aside>
