@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026.09.30",
-  "total_count": 397,
+  "last_updated": "2026.10.01",
+  "total_count": 395,
   "items": [
     {
       "id": "yoron_drift_zone_ko",
@@ -2166,27 +2166,6 @@
       "link": "/item/onomichi_island_glamping_en"
     },
     {
-      "id": "kominato_river_mouth_en",
-      "lang": "en",
-      "title": "Kominato River Mouth Surf Guide: Chiba's Tidal River-Mouth Break",
-      "lat": 35.272,
-      "lng": 140.326,
-      "activity": "surf",
-      "categories": [
-        "Surf"
-      ],
-      "thumbnail": "/static/images/kominato_river_mouth.jpg",
-      "youtube_id": "",
-      "address": "Chiba, Kanto",
-      "published": "2026-09-26",
-      "summary": "A tide-shaped river-mouth beach break on Chiba's Boso Coast, where sandbar shape and current shift with every swell. Best surfed with local knowledge of the tide tables and a respect for the channel.",
-      "website": "",
-      "tel": "",
-      "region": "chiba",
-      "source_image": "",
-      "link": "/item/kominato_river_mouth_en"
-    },
-    {
       "id": "matsuura_coast_camp_ko",
       "lang": "ko",
       "title": "마쓰우라 해안 캠프 완벽 가이드: 나가사키 바다뷰 캠핑의 정석",
@@ -2458,27 +2437,6 @@
       "region": "nagasaki",
       "source_image": "",
       "link": "/item/matsuura_coast_camp_en"
-    },
-    {
-      "id": "kominato_river_mouth_ko",
-      "lang": "ko",
-      "title": "고미나토 강어귀 서핑 가이드: 지바 리버마우스 서핑 스팟 완전 정복",
-      "lat": 35.272,
-      "lng": 140.326,
-      "activity": "surf",
-      "categories": [
-        "Surf"
-      ],
-      "thumbnail": "/static/images/kominato_river_mouth.jpg",
-      "youtube_id": "",
-      "address": "Chiba, Kanto",
-      "published": "2026-09-26",
-      "summary": "지바현 고미나토 강어귀는 강물과 바닷물이 만나는 독특한 지형 덕분에 초보자부터 중급자까지 즐길 수 있는 비치 브레이크 서핑 스팟이다. 조수 변화를 읽는 법만 익히면 사계절 내내 안정적인 파도를 만날 수 있다.",
-      "website": "",
-      "tel": "",
-      "region": "chiba",
-      "source_image": "",
-      "link": "/item/kominato_river_mouth_ko"
     },
     {
       "id": "ohmachi_ski_area_ko",
