@@ -2,16 +2,19 @@
 lang: en
 activity: route
 emoji: 🤿
-title: 'Okinawa Scuba Diving Weekend: Boat-First Dive Route - JPFun Guide'
+title: 'Okinawa Scuba Diving Weekend: Boat-First Dive Route | JPFun'
 date: '2026-08-12'
-summary: 'A boat-first Okinawa scuba diving weekend: lock the Kerama or Ishigaki dive
-  day, then build lodging and buffer days around it.'
-description: 'Okinawa scuba diving weekend guide: book the boat first, then plan lodging
-  around Kerama or Ishigaki water clarity — a certified diver''s 2–3 day route.'
-seo_title: 'Okinawa Scuba Diving Weekend: Boat-First Dive Route - JPFun Guide'
-seo_description: 'Okinawa scuba diving weekend guide: book the boat first, then plan
-  lodging around Kerama or Ishigaki water clarity — a certified diver''s 2–3 day route.'
+summary: 'A boat-first Okinawa scuba diving weekend route: lock the Kerama or Ishigaki
+  dive day, then build lodging and buffer days around it.'
+description: 'Plan a boat-first Okinawa scuba diving weekend: lock your Kerama or
+  Ishigaki dive day first, then build lodging, buffer days, and flight timing around
+  it.'
+seo_title: 'Okinawa Scuba Diving Weekend Route: Kerama vs Ishigaki | JPFun'
+seo_description: 'Boat-first Okinawa scuba diving weekend guide: lock the Kerama or
+  Ishigaki dive day, then fit lodging, buffer days, and your flight-home gap around
+  it.'
 ---
+
 
 
 Scuba weekends in Okinawa fail when lodging comes before the **boat booking**. Reverse it: lock the dive day, then place the hotel.
@@ -51,3 +54,7 @@ Certified divers who want **one excellent water day** more than a packed sightse
 - First Okinawa dive trip? Ask your shop whether Kerama (calmer, closer to Naha) or Ishigaki (Yaeyama currents, manta season) fits your comfort level before booking.
 - Traveling with a non-diving partner? Pair this route with a separate Naha or Ishigaki sightseeing day instead of squeezing them onto the boat schedule.
 - Solo certified divers can usually join a shop's mixed-group boat without chartering a private trip — just ask when you book.
+
+## Who This Okinawa Dive Weekend Suits
+
+Certified divers with a few logged dives who'd rather lock in one strong boat day than chase a packed sightseeing list. Have your c-card, logbook, and dive insurance info ready — most Kerama and Ishigaki shops ask before you board. New to Okinawa diving or chasing manta season at Ishigaki? Message the shop directly about current conditions before you lock flights, since the operator — not this route — picks the day's actual dive sites.
