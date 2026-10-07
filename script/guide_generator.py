@@ -256,7 +256,13 @@ def run_batch(limit=3):
         )
     print(f"🚀 {pairs_queued}페어 · {len(tasks_to_run)}파일 가이드 생성 시작...")
 
-    workers = max(1, min(len(tasks_to_run), 5))
+    try:
+        worker_cap = int(os.environ.get("ITEM_GEN_WORKERS") or 8)
+    except ValueError:
+        worker_cap = 8
+    worker_cap = max(1, min(worker_cap, 16))
+    workers = max(1, min(len(tasks_to_run), worker_cap))
+    print(f"🧵 workers={workers}")
     ok = 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
         futures = [executor.submit(generate_guide, t[0], t[1]) for t in tasks_to_run]
