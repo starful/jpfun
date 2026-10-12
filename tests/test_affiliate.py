@@ -58,8 +58,9 @@ class TestJpfunAffiliate(unittest.TestCase):
         ctx = a8_banners_context(activity="ski", lang="en")
         self.assertTrue(ctx["show_a8_banners"])
         ids = [b["id"] for b in ctx["a8_banners"]]
-        self.assertEqual(ids[0], "ski_tour")
-        self.assertIn("agoda", ids)
+        self.assertEqual(ids[0], "agoda")
+        self.assertIn("ski_tour", ids)
+        self.assertTrue(ctx["show_agoda_cta"])
         self.assertNotIn("tora_esim", ids)
 
     def test_camp_a8_includes_hinata_not_glamping(self):

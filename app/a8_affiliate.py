@@ -108,18 +108,25 @@ def a8_banners_context(
     lng: float | None = None,
 ) -> dict[str, Any]:
     if not _enabled():
-        return {"show_a8_banners": False, "a8_banners": []}
+        return {
+            "show_a8_banners": False,
+            "a8_banners": [],
+            "agoda_cta": None,
+            "show_agoda_cta": False,
+        }
 
     act = (activity or "").strip().lower()
+    # Agoda first for stay exposure; ski/camp partners follow.
     keys = ["agoda"]
     if act == "ski":
-        keys.insert(0, "ski_tour")
+        keys.append("ski_tour")
     elif act == "camp":
         keys.append("hinata_rental")
 
     kw = {"lang": lang, "lat": lat, "lng": lng}
     banners = [_copy(k, **kw) for k in keys]
     is_ko = (lang or "en").lower() == "ko"
+    agoda = next((b for b in banners if b.get("id") == "agoda"), None)
     return {
         "show_a8_banners": True,
         "a8_banners": banners,
@@ -131,4 +138,6 @@ def a8_banners_context(
             if is_ko
             else "Affiliate ads · opens in new tab"
         ),
+        "agoda_cta": agoda,
+        "show_agoda_cta": agoda is not None,
     }

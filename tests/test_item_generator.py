@@ -113,6 +113,46 @@ def test_item_activity_caps_skip_other_activities(tmp_path, monkeypatch):
     assert queued == ["spot_b_en", "spot_b_ko"]
 
 
+def test_ensure_item_shell_wraps_body_without_yaml():
+    gen = _load("item_generator")
+    guards = _load("content_guards")
+    body = (
+        "## Who this is for\n"
+        "A quiet ski day near Tokyo with easy train access and beginner slopes.\n\n"
+        "## Conditions on the mountain\n"
+        "Powder and groomers with night skiing when the lifts stay open.\n\n"
+        "## Season and access\n"
+        "Best from December to March; Shinkansen then local bus about 90 minutes.\n\n"
+        "## Practical tips\n"
+        "Book rental boots early and check the morning queue at the ticket window.\n"
+    )
+    # Pad to clear KO min when used as KO; here we validate structure for EN with sibling
+    body = body + ("More visitor logistics. " * 200)
+    wrapped = gen._ensure_item_shell(
+        body,
+        lang="en",
+        name="Pilatus Taira",
+        activity="ski",
+        lat="36.72",
+        lng="137.85",
+        address="Omachi, Nagano, Japan",
+        website="",
+        region="nagano",
+        safe_name="pilatus_taira",
+    )
+    assert wrapped.startswith("---\n")
+    assert 'lang: en' in wrapped
+    assert 'activity: "ski"' in wrapped
+    assert "lat: 36.72" in wrapped
+    meta, _ = guards.parse_frontmatter_body(wrapped)
+    assert meta.get("lang") == "en"
+    assert meta.get("title")
+    assert meta.get("summary")
+    assert meta.get("date")
+    assert meta.get("lat") == "36.72"
+    assert meta.get("thumbnail")
+
+
 def test_ko_item_min_chars_is_2500():
     guards = _load("content_guards")
     assert guards.KO_MIN_CHARS == 2500

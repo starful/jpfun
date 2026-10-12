@@ -10,6 +10,7 @@ from topic_queue_csv import resolve as resolve_queue_csv
 from content_guards import (
     duplicate_guide_reason,
     locale_pair_status,
+    parse_frontmatter_body,
     quality_prompt_block,
     sibling_exists,
     strip_code_fences,
@@ -104,13 +105,20 @@ def generate_guide(row, lang):
             if attempt == 1:
                 call_prompt = (
                     prompt
-                    + "\n\nRETRY: Previous draft was too short. Expand every ## section "
-                    "with concrete numbers, place names, booking steps, and season windows "
-                    "until the body is at least 2,500 characters.\n"
+                    + "\n\nRETRY: Previous draft failed quality checks. Start with YAML "
+                    "frontmatter (--- / lang / title / summary / date / ---), then expand "
+                    "every ## section with concrete numbers, place names, booking steps, "
+                    "and season windows until the body is long enough.\n"
                 )
                 print(f"🔁 짧은 초안 재작성: {filename}")
             response_text = _claude_md(call_prompt)
             content = strip_code_fences(response_text or "")
+            content = _ensure_guide_shell(
+                content,
+                lang=lang,
+                topic=topic or base_id,
+                activity=activity,
+            )
             ok, errors = validate_generated_markdown(
                 content,
                 kind="guide",
@@ -119,16 +127,19 @@ def generate_guide(row, lang):
             )
             if ok:
                 break
-            if not any(e.startswith("too_short:") for e in errors):
+            if not any(
+                e.startswith("too_short:") or e == "missing_frontmatter" for e in errors
+            ):
                 break
         if not ok:
             return f"⛔ 품질미달·저장안함: {filename} — {', '.join(errors)}"
-        content = _ensure_activity_frontmatter(content, activity)
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(content)
         return f"✅ 성공: {filename}"
     except Exception as e:
         return f"❌ 에러: {filename} - {str(e)}"
+
+
 def _activity_limits_from_env():
     """Per-activity caps from okadmin (ski / surf / dive=scuba / camp)."""
     caps = {
@@ -155,6 +166,34 @@ def _ensure_activity_frontmatter(content: str, activity: str) -> str:
         count=1,
     )
     return patched if n else content
+
+
+def _ensure_guide_shell(
+    content: str,
+    *,
+    lang: str,
+    topic: str,
+    activity: str,
+) -> str:
+    """If the model omits YAML, wrap the body so validation can still pass."""
+    meta, body = parse_frontmatter_body(content or "")
+    title = (meta.get("title") or topic or "JPFun guide").strip().strip('"')
+    summary = (meta.get("summary") or topic or title).strip().strip('"')
+    if len(summary) > 180:
+        summary = summary[:177] + "..."
+    date = (meta.get("date") or datetime.now().strftime("%Y-%m-%d")).strip().strip('"')
+    if not body.strip():
+        body = (content or "").strip()
+    title_q = title.replace('"', "'")
+    summary_q = summary.replace('"', "'")
+    act_line = f"\nactivity: {activity}" if activity else ""
+    return (
+        f"---\nlang: {lang}{act_line}\n"
+        f'title: "{title_q}"\n'
+        f'summary: "{summary_q}"\n'
+        f'date: "{date}"\n'
+        f"---\n{body.strip()}\n"
+    )
 
 
 def _infer_activity(row: dict) -> str:

@@ -16,6 +16,7 @@ from dotenv import load_dotenv
 from topic_queue_csv import resolve as resolve_queue_csv
 from content_guards import (
     locale_pair_status,
+    parse_frontmatter_body,
     quality_prompt_block,
     sibling_exists,
     strip_code_fences,
@@ -154,6 +155,54 @@ def _patch_item_frontmatter(
     return content
 
 
+def _ensure_item_shell(
+    content: str,
+    *,
+    lang: str,
+    name: str,
+    activity: str,
+    lat: str,
+    lng: str,
+    address: str,
+    website: str,
+    region: str,
+    safe_name: str,
+) -> str:
+    """If the model omits YAML, wrap the body so validation can still pass."""
+    meta, body = parse_frontmatter_body(content or "")
+    if not body.strip():
+        body = (content or "").strip()
+    title = (meta.get("title") or name or safe_name or "JPFun spot").strip().strip('"')
+    summary = (meta.get("summary") or name or title).strip().strip('"')
+    if len(summary) > 180:
+        summary = summary[:177] + "..."
+    date = (meta.get("date") or datetime.now().strftime("%Y-%m-%d")).strip().strip('"')
+    cat = CATEGORY_FOR_ACTIVITY.get(activity, "Leisure")
+    title_q = title.replace('"', "'")
+    summary_q = summary.replace('"', "'")
+    address_q = (address or "").replace('"', "'")
+    website_q = (website or "").replace('"', "'")
+    region_q = (region or "").replace('"', "'")
+    return (
+        f"---\n"
+        f"lang: {lang}\n"
+        f'title: "{title_q}"\n'
+        f"lat: {lat or '0'}\n"
+        f"lng: {lng or '0'}\n"
+        f'activity: "{activity}"\n'
+        f'categories: ["{cat}"]\n'
+        f'thumbnail: "/static/images/{safe_name}.jpg"\n'
+        f'address: "{address_q}"\n'
+        f'date: "{date}"\n'
+        f'website: "{website_q}"\n'
+        f'summary: "{summary_q}"\n'
+        f'image_prompt: ""\n'
+        f'region: "{region_q}"\n'
+        f"---\n"
+        f"{body.strip()}\n"
+    )
+
+
 def generate_item(row: dict, lang: str) -> str:
     safe_name = _item_id(row)
     if not safe_name:
@@ -223,15 +272,18 @@ def generate_item(row: dict, lang: str) -> str:
             if attempt == 1:
                 call_prompt = (
                     prompt
-                    + "\n\nRETRY: Previous draft was too short. Expand every ## section "
-                    "with concrete numbers, place names, booking steps, and season windows "
-                    "until the body is at least 2,500 characters.\n"
+                    + "\n\nRETRY: Previous draft failed quality checks. Start with YAML "
+                    "frontmatter (--- / lang / title / lat / lng / summary / date / ---), "
+                    "then expand every ## section with concrete numbers, place names, "
+                    "booking steps, and season windows until the body is long enough.\n"
                 )
                 print(f"🔁 짧은 초안 재작성: {filename}")
             response_text = _claude_md(call_prompt)
             content = strip_code_fences(response_text or "")
-            content = _patch_item_frontmatter(
+            content = _ensure_item_shell(
                 content,
+                lang=lang,
+                name=name,
                 activity=activity,
                 lat=lat or "0",
                 lng=lng or "0",
@@ -248,7 +300,9 @@ def generate_item(row: dict, lang: str) -> str:
             )
             if ok:
                 break
-            if not any(e.startswith("too_short:") for e in errors):
+            if not any(
+                e.startswith("too_short:") or e == "missing_frontmatter" for e in errors
+            ):
                 break
         if not ok:
             return f"⛔ 품질미달·저장안함: {filename} — {', '.join(errors)}"

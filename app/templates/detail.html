@@ -155,6 +155,22 @@
             {% endif %}
         </div>
 
+        {% if show_agoda_cta and agoda_cta %}
+        <aside class="early-agoda-cta" style="margin: 0 0 24px; padding: 16px 18px; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 14px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between;">
+          <p style="margin: 0; color: #1e3a5f; font-size: 0.95rem; font-weight: 600; line-height: 1.45; flex: 1 1 220px;">
+            {% if lang == 'ko' %}이 스팟 주변 숙소는 Agoda에서 검색하세요.{% else %}Search stays near this spot on Agoda.{% endif %}
+          </p>
+          <a href="{{ agoda_cta.click_url }}"
+             target="_blank"
+             rel="nofollow sponsored noopener noreferrer"
+             data-track="affiliate_a8"
+             data-track-label="agoda-early"
+             style="display: inline-block; padding: 12px 22px; background: #1d4ed8; color: #fff; font-weight: 800; font-size: 0.95rem; border-radius: 999px; text-decoration: none; white-space: nowrap;">
+            {% if lang == 'ko' %}Agoda에서 숙소 보기{% else %}Find stays on Agoda{% endif %}
+          </a>
+        </aside>
+        {% endif %}
+
         {% if website or tel or maps_query %}
         <div class="detail-actions" role="group" aria-label="Quick actions">
             {% if website %}
@@ -383,7 +399,7 @@
         </div>
         {% endif %}
 
-        {% if show_rakuten %}
+        {% if show_rakuten or show_agoda_cta %}
         <div class="booking-box">
             <h3>🏨 {{ booking_title }}</h3>
             <p>{{ booking_desc }}</p>
@@ -398,10 +414,21 @@
                     {{ rakuten_label }}
                 </a>
                 {% endif %}
+                {% if show_agoda_cta and agoda_cta %}
+                <a href="{{ agoda_cta.click_url }}"
+                   target="_blank"
+                   rel="noopener noreferrer nofollow sponsored"
+                   class="booking-btn booking-btn--agoda"
+                   data-track="affiliate_a8"
+                   data-track-label="agoda-early"
+                   style="background:#1d4ed8;">
+                    {% if lang == 'ko' %}Agoda에서 주변 숙소 보기{% else %}Find nearby stays on Agoda{% endif %}
+                </a>
+                {% endif %}
             </div>
         </div>
-        {% include 'partials/a8_banners.html' %}
         {% endif %}
+        {% include 'partials/a8_banners.html' %}
 
         {% include 'partials/share_bar.html' %}
 
