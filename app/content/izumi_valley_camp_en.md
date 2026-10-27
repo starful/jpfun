@@ -1,18 +1,21 @@
 ---
 lang: en
-title: "Izumi Valley Camp: Osaka's Scenic Car Camping Escape"
+title: 'Izumi Valley Camp: Osaka''s Scenic Car Camping Escape'
 lat: 34.52
 lng: 135.42
-activity: "camp"
-categories: ["Camp"]
-thumbnail: "/static/images/izumi_valley_camp.jpg"
-address: "Osaka, Japan"
-date: "2026-10-06"
-website: ""
-summary: "A car-friendly valley campground in Osaka with layered green views and easy nature trails. Perfect for a weekend reset without a long drive out of the city."
-image_prompt: ""
-region: "osaka"
+activity: camp
+categories:
+- Camp
+thumbnail: /static/images/izumi_valley_camp.jpg
+address: Osaka, Japan
+date: '2026-10-27'
+website: ''
+summary: A car-friendly valley campground in Osaka with layered green views and easy
+  nature trails. Perfect for a weekend reset without a long drive out of the city.
+image_prompt: ''
+region: osaka
 ---
+
 
 ## Why Izumi Valley Camp Stands Out From Other Osaka Campgrounds
 

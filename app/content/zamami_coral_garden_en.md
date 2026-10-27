@@ -1,18 +1,22 @@
 ---
 lang: en
-title: "Zamami Coral Garden: The Kerama Islands' Best Day-Boat Reef Dive"
+title: 'Zamami Coral Garden: The Kerama Islands'' Best Day-Boat Reef Dive'
 lat: 26.18
 lng: 127.33
-activity: "dive"
-categories: ["Dive"]
-thumbnail: "/static/images/zamami_coral_garden.jpg"
-address: "Okinawa (Kerama Islands), Japan"
-date: "2026-09-27"
-website: ""
-summary: "Zamami Coral Garden delivers some of Japan's healthiest hard coral cover and reliable 20m+ visibility, just a short day-boat ride from Naha. It's the Kerama Islands dive every diver should log at least once."
-image_prompt: ""
-region: "okinawa"
+activity: dive
+categories:
+- Dive
+thumbnail: /static/images/zamami_coral_garden.jpg
+address: Okinawa (Kerama Islands), Japan
+date: '2026-10-27'
+website: ''
+summary: Zamami Coral Garden delivers some of Japan's healthiest hard coral cover
+  and reliable 20m+ visibility, just a short day-boat ride from Naha. It's the Kerama
+  Islands dive every diver should log at least once.
+image_prompt: ''
+region: okinawa
 ---
+
 
 Forty minutes off the coast of Okinawa's main island, the Kerama Islands sit inside a national park protecting some of the clearest water in East Asia, and Zamami Coral Garden is the site that shows why. This isn't a single dive spot but a cluster of shallow reef terraces off Zamami Island, where table coral, staghorn thickets, and blue coral colonies spread out in a mosaic that's survived bleaching events better than almost anywhere else in Japan. Divers come here for the "Kerama Blue" — a startling turquoise visibility that regularly exceeds 20 meters — and for a reef structure gentle enough for open water divers but layered enough to reward advanced divers hunting for nudibranchs, pipefish, and the occasional hawksbill turtle grazing the shallows.
 

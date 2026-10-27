@@ -1,7 +1,637 @@
 {
-  "last_updated": "2026.10.12",
-  "total_count": 604,
+  "last_updated": "2026-10-27",
+  "total_count": 606,
   "items": [
+    {
+      "id": "tokushima_hayama_kaigan_ko",
+      "lang": "ko",
+      "title": "도쿠시마 하야마 카이간 서핑 가이드: 모래 바닥 비치 브레이크 완전 정복",
+      "lat": 34.127,
+      "lng": 134.523,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/tokushima_hayama_kaigan.jpg",
+      "youtube_id": "",
+      "address": "Tokushima, Japan",
+      "published": "2026-10-27",
+      "summary": "시코쿠 도쿠시마의 숨은 비치 브레이크, 하야마 카이간에서 모래 바닥의 부드러운 라이딩을 즐겨보세요. 초보부터 중급 서퍼까지 만족할 수 있는 접근성 좋은 서핑 스폿입니다.",
+      "website": "",
+      "tel": "",
+      "region": "tokushima",
+      "source_image": "",
+      "link": "/item/tokushima_hayama_kaigan_ko"
+    },
+    {
+      "id": "tsujido_south_break_ko",
+      "lang": "ko",
+      "title": "츠지도 사우스 브레이크 완전 정복: 쇼난 비치 브레이크 서핑과 렌탈샵 가이드",
+      "lat": 35.32,
+      "lng": 139.45,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/tsujido_south_break.jpg",
+      "youtube_id": "",
+      "address": "Fujisawa, Kanagawa, Japan",
+      "published": "2026-10-27",
+      "summary": "도쿄에서 전철로 한 시간이면 닿는 쇼난 대표 비치 브레이크, 츠지도 사우스 브레이크를 소개합니다. 렌탈샵부터 주말 혼잡 대처법까지 실전 정보를 한 번에 정리했습니다.",
+      "website": "",
+      "tel": "",
+      "region": "kanagawa",
+      "source_image": "",
+      "link": "/item/tsujido_south_break_ko"
+    },
+    {
+      "id": "suo_oshima_beach_ko",
+      "lang": "ko",
+      "title": "수오 오시마 비치 서핑 가이드: 세토내해 비치 브레이크에서 즐기는 롱 라이드",
+      "lat": 34.367,
+      "lng": 131.797,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/suo_oshima_beach.jpg",
+      "youtube_id": "",
+      "address": "Suo-Oshima, Yamaguchi, Japan",
+      "published": "2026-10-27",
+      "summary": "세토내해 안쪽 섬 수오 오시마에서 만나는 느긋한 비치 브레이크, 태풍 스웰이 들어오는 시즌이면 초보자도 긴 라이드를 즐길 수 있다.",
+      "website": "",
+      "tel": "",
+      "region": "yamaguchi",
+      "source_image": "",
+      "link": "/item/suo_oshima_beach_ko"
+    },
+    {
+      "id": "zamami_coral_garden_en",
+      "lang": "en",
+      "title": "Zamami Coral Garden: The Kerama Islands' Best Day-Boat Reef Dive",
+      "lat": 26.18,
+      "lng": 127.33,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/zamami_coral_garden.jpg",
+      "youtube_id": "",
+      "address": "Okinawa (Kerama Islands), Japan",
+      "published": "2026-10-27",
+      "summary": "Zamami Coral Garden delivers some of Japan's healthiest hard coral cover and reliable 20m+ visibility, just a short day-boat ride from Naha. It's the Kerama Islands dive every diver should log at least once.",
+      "website": "",
+      "tel": "",
+      "region": "okinawa",
+      "source_image": "",
+      "link": "/item/zamami_coral_garden_en"
+    },
+    {
+      "id": "izumi_valley_camp_ko",
+      "lang": "ko",
+      "title": "이즈미 계곡 캠프 완벽 가이드: Osaka 근교 차박 명당",
+      "lat": 34.52,
+      "lng": 135.42,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/izumi_valley_camp.jpg",
+      "youtube_id": "",
+      "address": "Osaka, Japan",
+      "published": "2026-10-27",
+      "summary": "Osaka에서 차로 한 시간 거리, 계곡 전망과 숲길을 품은 이즈미 계곡 캠프의 실전 정보를 정리했습니다. 차박부터 트레킹까지 한 번에 준비하세요.",
+      "website": "",
+      "tel": "",
+      "region": "osaka",
+      "source_image": "",
+      "link": "/item/izumi_valley_camp_ko"
+    },
+    {
+      "id": "yonago_coastal_reef_ko",
+      "lang": "ko",
+      "title": "요나고 해안 리프: 돗토리 초보 서퍼를 위한 비치브레이크 완벽 가이드",
+      "lat": 35.411,
+      "lng": 133.331,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/yonago_coastal_reef.jpg",
+      "youtube_id": "",
+      "address": "Yonago, Tottori, Japan",
+      "published": "2026-10-27",
+      "summary": "돗토리현 요나고 해안 리프는 완만한 리프 지형과 비치브레이크가 공존하는 초보자 친화적 서핑 포인트다. 산인 지역 특유의 한적한 바다에서 기초부터 차근차근 배울 수 있다.",
+      "website": "",
+      "tel": "",
+      "region": "tottori",
+      "source_image": "",
+      "link": "/item/yonago_coastal_reef_ko"
+    },
+    {
+      "id": "kakuda_beach_en",
+      "lang": "en",
+      "title": "Niigata Kakuda Beach: Japan's Underrated Winter Surf Powerhouse",
+      "lat": 37.85,
+      "lng": 138.9,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/kakuda_beach.jpg",
+      "youtube_id": "",
+      "address": "Niigata, Japan",
+      "published": "2026-10-27",
+      "summary": "Kakuda Beach delivers some of the most consistent winter swell on Japan's Sea of Japan coast, with a wide sandy beach break that rewards patient surfers. Here's how to read it, when to go, and how to get there from Niigata City.",
+      "website": "",
+      "tel": "",
+      "region": "tohoku",
+      "source_image": "",
+      "link": "/item/kakuda_beach_en"
+    },
+    {
+      "id": "nasu_forest_camp_base_ko",
+      "lang": "ko",
+      "title": "나스 포레스트 캠프 완전 가이드: 돗치기 고원에서 즐기는 가족 캠핑과 글램핑",
+      "lat": 37.12,
+      "lng": 139.97,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/nasu_forest_camp_base.jpg",
+      "youtube_id": "",
+      "address": "Nasu, Tochigi, Japan",
+      "published": "2026-10-27",
+      "summary": "도쿄에서 2시간 거리, 해발 700m 고원 숲속에서 즐기는 나스 포레스트 캠프는 가족 단위 초보 캠퍼부터 글램핑을 원하는 커플까지 모두를 만족시키는 돗치기현 대표 캠핑지입니다.",
+      "website": "",
+      "tel": "",
+      "region": "tochigi",
+      "source_image": "",
+      "link": "/item/nasu_forest_camp_base_ko"
+    },
+    {
+      "id": "hachijojima_soft_coral_wall_ko",
+      "lang": "ko",
+      "title": "하치조지마 소프트코랄 월, 도쿄 속 남국 다이빙 명소 완전 가이드",
+      "lat": 33.11,
+      "lng": 139.79,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/hachijojima_soft_coral_wall.jpg",
+      "youtube_id": "",
+      "address": "Hachijo, Tokyo, Japan",
+      "published": "2026-10-27",
+      "summary": "도쿄에서 비행기로 55분, 수직 벽을 따라 펼쳐지는 소프트코랄 군락을 만나는 하치조지마 다이빙 포인트. 초중급자도 가이드와 함께라면 충분히 즐길 수 있는 접근성과 난이도를 갖췄다.",
+      "website": "",
+      "tel": "",
+      "region": "tokyo",
+      "source_image": "",
+      "link": "/item/hachijojima_soft_coral_wall_ko"
+    },
+    {
+      "id": "izu_oshima_en",
+      "lang": "en",
+      "title": "Izu Oshima Dive Spots",
+      "lat": 34.737,
+      "lng": 139.4,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/izu_oshima.jpg",
+      "youtube_id": "",
+      "address": "Oshima, Tokyo, Japan",
+      "published": "2026-10-27",
+      "summary": "Tokyo island diving with volcanic rock reefs — ferry access and local dive shops.",
+      "website": "",
+      "tel": "",
+      "region": "chubu",
+      "source_image": "",
+      "link": "/item/izu_oshima_en"
+    },
+    {
+      "id": "surf_pending_08_ko",
+      "lang": "ko",
+      "title": "시모다 시라하마 서프 완벽 가이드: 이즈반도 최고의 파도를 만나는 법",
+      "lat": 34.692,
+      "lng": 138.972,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/surf_pending_08.jpg",
+      "youtube_id": "",
+      "address": "Shimoda Shirahama Surf, Japan",
+      "published": "2026-10-27",
+      "summary": "도쿄에서 당일치기로 닿는 이즈반도 최남단, 시모다 시라하마의 하얀 모래와 태평양 스웰이 만드는 서핑 천국을 소개합니다. 초보자 화이트워시부터 태풍 스웰까지, 레벨별 공략법을 담았습니다.",
+      "website": "",
+      "tel": "",
+      "region": "chubu",
+      "source_image": "",
+      "link": "/item/surf_pending_08_ko"
+    },
+    {
+      "id": "oshikaigan_surf_ko",
+      "lang": "ko",
+      "title": "오시카이간 서프 완벽 가이드: 치바 이즈미 비치브레이크 포인트",
+      "lat": 35.15,
+      "lng": 140.28,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/oshikaigan_surf.jpg",
+      "youtube_id": "",
+      "address": "Isumi, Chiba, Japan",
+      "published": "2026-10-27",
+      "summary": "태평양 스웰이 정직하게 들어오는 치바 이즈미의 비치브레이크, 오시카이간에서 중급 서퍼가 실력을 다지는 법을 정리했다.",
+      "website": "",
+      "tel": "",
+      "region": "chiba",
+      "source_image": "",
+      "link": "/item/oshikaigan_surf_ko"
+    },
+    {
+      "id": "isumi_ohara_coast_ko",
+      "lang": "ko",
+      "title": "이스미 오하라 해안 서핑 가이드: 지바 태풍 스웰의 비치 브레이크",
+      "lat": 35.25,
+      "lng": 140.39,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/isumi_ohara_coast.jpg",
+      "youtube_id": "",
+      "address": "Isumi, Chiba, Japan",
+      "published": "2026-10-27",
+      "summary": "지바현 이스미시 오하라 해안은 태풍 시즌 스웰과 넉넉한 주차 공간을 갖춘 비치 브레이크로, 도쿄에서 당일치기 서핑 트립으로 가장 접근성이 좋은 포인트 중 하나다.",
+      "website": "",
+      "tel": "",
+      "region": "chiba",
+      "source_image": "",
+      "link": "/item/isumi_ohara_coast_ko"
+    },
+    {
+      "id": "yoron_island_coral_gardens_en",
+      "lang": "en",
+      "title": "Yoron Island Coral Gardens: Okinawa's Clearest Dive Escape",
+      "lat": 27.05,
+      "lng": 128.42,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/yoron_island_coral_gardens.jpg",
+      "youtube_id": "",
+      "address": "Okinawa, Japan",
+      "published": "2026-10-27",
+      "summary": "Yoron Island's shallow coral gardens deliver some of the clearest water in the Ryukyu chain, perfect for divers chasing tropical reef life without the crowds.",
+      "website": "",
+      "tel": "",
+      "region": "okinawa",
+      "source_image": "",
+      "link": "/item/yoron_island_coral_gardens_en"
+    },
+    {
+      "id": "surf_pending_08_en",
+      "lang": "en",
+      "title": "Shimoda Shirahama Surf: Japan's Most Consistent Beach Break Guide",
+      "lat": 34.692,
+      "lng": 138.972,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/surf_pending_08.jpg",
+      "youtube_id": "",
+      "address": "Shimoda Shirahama Surf, Japan",
+      "published": "2026-10-27",
+      "summary": "Shimoda Shirahama is Japan's most reliable surf beach, a wide sandy bay on the Izu Peninsula with waves for every level. Here's how to read the break, time the season, and get there without a car.",
+      "website": "",
+      "tel": "",
+      "region": "chubu",
+      "source_image": "",
+      "link": "/item/surf_pending_08_en"
+    },
+    {
+      "id": "niseko_moiwa_ski_resort_en",
+      "lang": "en",
+      "title": "Niseko Moiwa Ski Resort: Hokkaido's Boutique Powder Secret",
+      "lat": 42.8482023,
+      "lng": 140.6303168,
+      "activity": "ski",
+      "categories": [
+        "Ski"
+      ],
+      "thumbnail": "/static/images/niseko_moiwa_ski_resort.jpg",
+      "youtube_id": "",
+      "address": "448 Niseko, Abuta District, Hokkaido 048-1511",
+      "published": "2026-10-27",
+      "summary": "A small-footprint resort beside Japan's biggest ski region, delivering untracked powder and backcountry gates without the lift lines.",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/niseko_moiwa_ski_resort_en"
+    },
+    {
+      "id": "izu_oshima_ko",
+      "lang": "ko",
+      "title": "이즈 오시마 다이빙",
+      "lat": 34.737,
+      "lng": 139.4,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/izu_oshima.jpg",
+      "youtube_id": "",
+      "address": "일본 도쿄도 오시마정",
+      "published": "2026-10-27",
+      "summary": "화산암 리프의 도쿄 도서 다이빙. 페리와 로컬 샵 접근.",
+      "website": "",
+      "tel": "",
+      "region": "chubu",
+      "source_image": "",
+      "link": "/item/izu_oshima_ko"
+    },
+    {
+      "id": "yoron_island_coral_gardens_ko",
+      "lang": "ko",
+      "title": "요론 섬 산호 정원, 오키나와 북쪽 끝에서 만나는 투명 바다 다이빙",
+      "lat": 27.05,
+      "lng": 128.42,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/yoron_island_coral_gardens.jpg",
+      "youtube_id": "",
+      "address": "Okinawa, Japan",
+      "published": "2026-10-27",
+      "summary": "요론 섬 산호 정원은 오키나와 최북단 외딴 섬에서 만나는 숨은 다이빙 포인트로, 투명도 높은 바다와 넓은 산호 군락이 압도적인 규모를 자랑한다.",
+      "website": "",
+      "tel": "",
+      "region": "okinawa",
+      "source_image": "",
+      "link": "/item/yoron_island_coral_gardens_ko"
+    },
+    {
+      "id": "isumi_ohara_coast_en",
+      "lang": "en",
+      "title": "Isumi Ohara Coast: Chiba's Typhoon-Swell Beach Break for Every Surfer",
+      "lat": 35.25,
+      "lng": 140.39,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/isumi_ohara_coast.jpg",
+      "youtube_id": "",
+      "address": "Isumi, Chiba, Japan",
+      "published": "2026-10-27",
+      "summary": "A forgiving beach break on the Boso Peninsula that lights up when typhoon swells roll through the Pacific. Easy parking and consistent sandbars make Ohara a go-to session for Tokyo-area surfers.",
+      "website": "",
+      "tel": "",
+      "region": "chiba",
+      "source_image": "",
+      "link": "/item/isumi_ohara_coast_en"
+    },
+    {
+      "id": "oshikaigan_surf_en",
+      "lang": "en",
+      "title": "Oshikaigan Surf: Isumi's Intermediate Beach Break on Chiba's Pacific Coast",
+      "lat": 35.15,
+      "lng": 140.28,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/oshikaigan_surf.jpg",
+      "youtube_id": "",
+      "address": "Isumi, Chiba, Japan",
+      "published": "2026-10-27",
+      "summary": "Oshikaigan is the sandbar-driven beach break that Isumi locals quietly favor over its more crowded neighbors. Consistent Pacific swell and a forgiving-but-punchy wave make it a natural step up for intermediate surfers ready to leave the whitewash behind.",
+      "website": "",
+      "tel": "",
+      "region": "chiba",
+      "source_image": "",
+      "link": "/item/oshikaigan_surf_en"
+    },
+    {
+      "id": "kakuda_beach_ko",
+      "lang": "ko",
+      "title": "니가타 가쿠다 비치 서핑 가이드: 윈터 스웰이 빚어내는 정직한 비치브레이크",
+      "lat": 37.85,
+      "lng": 138.9,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/kakuda_beach.jpg",
+      "youtube_id": "",
+      "address": "Niigata, Japan",
+      "published": "2026-10-27",
+      "summary": "도호쿠 니가타 해안의 가쿠다 비치는 겨울 스웰이 꾸준히 들어오는 비치브레이크 포인트다. 혼잡하지 않은 로컬 분위기에서 정직한 파도를 즐기고 싶은 서퍼에게 추천한다.",
+      "website": "",
+      "tel": "",
+      "region": "tohoku",
+      "source_image": "",
+      "link": "/item/kakuda_beach_ko"
+    },
+    {
+      "id": "yonago_coastal_reef_en",
+      "lang": "en",
+      "title": "Yonago Coastal Reef: Tottori's Friendliest Reef-Backed Beach Break for Surf",
+      "lat": 35.411,
+      "lng": 133.331,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/yonago_coastal_reef.jpg",
+      "youtube_id": "",
+      "address": "Yonago, Tottori, Japan",
+      "published": "2026-10-27",
+      "summary": "Yonago Coastal Reef pairs a forgiving sandy beach break with a shallow rock shelf that shapes clean, predictable swell lines. It's one of the few San-in coast spots where beginners and improvers can actually read the wave before committing.",
+      "website": "",
+      "tel": "",
+      "region": "tottori",
+      "source_image": "",
+      "link": "/item/yonago_coastal_reef_en"
+    },
+    {
+      "id": "izumi_valley_camp_en",
+      "lang": "en",
+      "title": "Izumi Valley Camp: Osaka's Scenic Car Camping Escape",
+      "lat": 34.52,
+      "lng": 135.42,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/izumi_valley_camp.jpg",
+      "youtube_id": "",
+      "address": "Osaka, Japan",
+      "published": "2026-10-27",
+      "summary": "A car-friendly valley campground in Osaka with layered green views and easy nature trails. Perfect for a weekend reset without a long drive out of the city.",
+      "website": "",
+      "tel": "",
+      "region": "osaka",
+      "source_image": "",
+      "link": "/item/izumi_valley_camp_en"
+    },
+    {
+      "id": "hakuba_norikura_onsen_ski_resort_en",
+      "lang": "en",
+      "title": "Hakuba Norikura Onsen Ski Resort: Family-Friendly Powder and Hot Springs",
+      "lat": 36.7704016,
+      "lng": 137.8663364,
+      "activity": "ski",
+      "categories": [
+        "Ski"
+      ],
+      "thumbnail": "/static/images/hakuba_norikura_onsen_ski_resort.jpg",
+      "youtube_id": "",
+      "address": "12851 Chikuniotsu, Otari, Kitaazumi District, Nagano 399-9422",
+      "published": "2026-10-27",
+      "summary": "A quiet, family-friendly corner of the Hakuba Valley where gentle slopes meet genuine onsen culture. Hakuba Norikura Onsen Ski Resort trades crowds for comfort without sacrifici...",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/hakuba_norikura_onsen_ski_resort_en"
+    },
+    {
+      "id": "zamami_coral_garden_ko",
+      "lang": "ko",
+      "title": "자마미 산호초 정원, 게라마 제도 데이 보트 다이빙 완벽 가이드",
+      "lat": 26.18,
+      "lng": 127.33,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/zamami_coral_garden.jpg",
+      "youtube_id": "",
+      "address": "Okinawa (Kerama Islands), Japan",
+      "published": "2026-10-27",
+      "summary": "게라마 블루로 불리는 자마미 산호초 정원에서 데이 보트로 즐기는 스쿠버 다이빙, 시야 30m와 테이블 산호 군락을 함께 경험한다.",
+      "website": "",
+      "tel": "",
+      "region": "okinawa",
+      "source_image": "",
+      "link": "/item/zamami_coral_garden_ko"
+    },
+    {
+      "id": "suo_oshima_beach_en",
+      "lang": "en",
+      "title": "Suo Oshima Beach: Yamaguchi's Long-Ride Surf Secret",
+      "lat": 34.367,
+      "lng": 131.797,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/suo_oshima_beach.jpg",
+      "youtube_id": "",
+      "address": "Suo-Oshima, Yamaguchi, Japan",
+      "published": "2026-10-27",
+      "summary": "A mellow Seto Inland Sea beach break where long, forgiving rides beat crowded Pacific lineups. Suo Oshima rewards patience with uncrowded peaks and a slow island pace.",
+      "website": "",
+      "tel": "",
+      "region": "yamaguchi",
+      "source_image": "",
+      "link": "/item/suo_oshima_beach_en"
+    },
+    {
+      "id": "tsujido_south_break_en",
+      "lang": "en",
+      "title": "Tsujido South Break: Fujisawa's Reliable Beach-Break Surf Spot",
+      "lat": 35.32,
+      "lng": 139.45,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/tsujido_south_break.jpg",
+      "youtube_id": "",
+      "address": "Fujisawa, Kanagawa, Japan",
+      "published": "2026-10-27",
+      "summary": "A forgiving beach-break peak on Fujisawa's Shonan coast where weekend crowds, rental boards, and consistent swell windows make surfing approachable without sacrificing quality waves.",
+      "website": "",
+      "tel": "",
+      "region": "kanagawa",
+      "source_image": "",
+      "link": "/item/tsujido_south_break_en"
+    },
+    {
+      "id": "tokushima_hayama_kaigan_en",
+      "lang": "en",
+      "title": "Tokushima Hayama Kaigan: A Sandy Beach Break Built for Real Progression",
+      "lat": 34.127,
+      "lng": 134.523,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/tokushima_hayama_kaigan.jpg",
+      "youtube_id": "",
+      "address": "Tokushima, Japan",
+      "published": "2026-10-27",
+      "summary": "A forgiving, sandy-bottomed beach break on Tokushima's Pacific-facing coast where peaks shift with every swell. Here's how to read it, time it, and surf it without wasting a session.",
+      "website": "",
+      "tel": "",
+      "region": "tokushima",
+      "source_image": "",
+      "link": "/item/tokushima_hayama_kaigan_en"
+    },
+    {
+      "id": "hachijojima_soft_coral_wall_en",
+      "lang": "en",
+      "title": "Hachijojima Soft Coral Wall: Tokyo's Hidden Dive Frontier",
+      "lat": 33.11,
+      "lng": 139.79,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/hachijojima_soft_coral_wall.jpg",
+      "youtube_id": "",
+      "address": "Hachijo, Tokyo, Japan",
+      "published": "2026-10-27",
+      "summary": "A volcanic wall draped in soft coral gardens, just an hour's flight from Tokyo. Hachijojima delivers warm Kuroshio currents and big-animal encounters without the crowds of Okinawa.",
+      "website": "",
+      "tel": "",
+      "region": "tokyo",
+      "source_image": "",
+      "link": "/item/hachijojima_soft_coral_wall_en"
+    },
+    {
+      "id": "nasu_forest_camp_base_en",
+      "lang": "en",
+      "title": "Nasu Forest Camp Base: A Highland Family Campground in Tochigi",
+      "lat": 37.12,
+      "lng": 139.97,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/nasu_forest_camp_base.jpg",
+      "youtube_id": "",
+      "address": "Nasu, Tochigi, Japan",
+      "published": "2026-10-27",
+      "summary": "A cool-climate forest campground on the Nasu highlands that pairs easy family-friendly sites with glamping options nearby and quick access to onsen towns.",
+      "website": "",
+      "tel": "",
+      "region": "tochigi",
+      "source_image": "",
+      "link": "/item/nasu_forest_camp_base_en"
+    },
     {
       "id": "pilatus_taira_ko",
       "lang": "ko",
@@ -192,27 +822,6 @@
       "link": "/item/shichirigahama_en"
     },
     {
-      "id": "tsujido_south_break_ko",
-      "lang": "ko",
-      "title": "츠지도 사우스 브레이크 완전 정복: 쇼난 비치 브레이크 서핑과 렌탈샵 가이드",
-      "lat": 35.32,
-      "lng": 139.45,
-      "activity": "surf",
-      "categories": [
-        "Surf"
-      ],
-      "thumbnail": "/static/images/tsujido_south_break.jpg",
-      "youtube_id": "",
-      "address": "Fujisawa, Kanagawa, Japan",
-      "published": "2026-10-11",
-      "summary": "도쿄에서 전철로 한 시간이면 닿는 쇼난 대표 비치 브레이크, 츠지도 사우스 브레이크를 소개합니다. 렌탈샵부터 주말 혼잡 대처법까지 실전 정보를 한 번에 정리했습니다.",
-      "website": "",
-      "tel": "",
-      "region": "kanagawa",
-      "source_image": "",
-      "link": "/item/tsujido_south_break_ko"
-    },
-    {
       "id": "torami_beach_en",
       "lang": "en",
       "title": "Torami Beach: Chiba's Easygoing Longboard Beach Break Near Ichinomiya",
@@ -358,27 +967,6 @@
       "region": "chiba",
       "source_image": "",
       "link": "/item/kujukuri_central_strand_en"
-    },
-    {
-      "id": "kakuda_beach_en",
-      "lang": "en",
-      "title": "Niigata Kakuda Beach: Japan's Underrated Winter Surf Powerhouse",
-      "lat": 37.85,
-      "lng": 138.9,
-      "activity": "surf",
-      "categories": [
-        "Surf"
-      ],
-      "thumbnail": "/static/images/kakuda_beach.jpg",
-      "youtube_id": "",
-      "address": "Niigata, Japan",
-      "published": "2026-10-11",
-      "summary": "Kakuda Beach delivers some of the most consistent winter swell on Japan's Sea of Japan coast, with a wide sandy beach break that rewards patient surfers. Here's how to read it, when to go, and how to get there from Niigata City.",
-      "website": "",
-      "tel": "",
-      "region": "tohoku",
-      "source_image": "",
-      "link": "/item/kakuda_beach_en"
     },
     {
       "id": "okushiga_kogen_ko",
@@ -549,27 +1137,6 @@
       "link": "/item/amami_tomori_beach_reef_en"
     },
     {
-      "id": "nasu_forest_camp_base_ko",
-      "lang": "ko",
-      "title": "나스 포레스트 캠프 완전 가이드: 돗치기 고원에서 즐기는 가족 캠핑과 글램핑",
-      "lat": 37.12,
-      "lng": 139.97,
-      "activity": "camp",
-      "categories": [
-        "Camp"
-      ],
-      "thumbnail": "/static/images/nasu_forest_camp_base.jpg",
-      "youtube_id": "",
-      "address": "Nasu, Tochigi, Japan",
-      "published": "2026-10-11",
-      "summary": "도쿄에서 2시간 거리, 해발 700m 고원 숲속에서 즐기는 나스 포레스트 캠프는 가족 단위 초보 캠퍼부터 글램핑을 원하는 커플까지 모두를 만족시키는 돗치기현 대표 캠핑지입니다.",
-      "website": "",
-      "tel": "",
-      "region": "tochigi",
-      "source_image": "",
-      "link": "/item/nasu_forest_camp_base_ko"
-    },
-    {
       "id": "lake_sai_autocamp_ko",
       "lang": "ko",
       "title": "사이코 오토캠프: 후지산 조망과 호수를 품은 조용한 차박 캠핑지",
@@ -631,27 +1198,6 @@
       "region": "kyushu",
       "source_image": "",
       "link": "/item/aoshima_surf_point_ko"
-    },
-    {
-      "id": "hachijojima_soft_coral_wall_ko",
-      "lang": "ko",
-      "title": "하치조지마 소프트코랄 월, 도쿄 속 남국 다이빙 명소 완전 가이드",
-      "lat": 33.11,
-      "lng": 139.79,
-      "activity": "dive",
-      "categories": [
-        "Dive"
-      ],
-      "thumbnail": "/static/images/hachijojima_soft_coral_wall.jpg",
-      "youtube_id": "",
-      "address": "Hachijo, Tokyo, Japan",
-      "published": "2026-10-11",
-      "summary": "도쿄에서 비행기로 55분, 수직 벽을 따라 펼쳐지는 소프트코랄 군락을 만나는 하치조지마 다이빙 포인트. 초중급자도 가이드와 함께라면 충분히 즐길 수 있는 접근성과 난이도를 갖췄다.",
-      "website": "",
-      "tel": "",
-      "region": "tokyo",
-      "source_image": "",
-      "link": "/item/hachijojima_soft_coral_wall_ko"
     },
     {
       "id": "aso_kusasenri_camp_ko",
@@ -927,27 +1473,6 @@
       "link": "/item/atami_sunny_beach_surf_en"
     },
     {
-      "id": "oshikaigan_surf_ko",
-      "lang": "ko",
-      "title": "오시카이간 서프 완벽 가이드: 치바 이즈미 비치브레이크 포인트",
-      "lat": 35.15,
-      "lng": 140.28,
-      "activity": "surf",
-      "categories": [
-        "Surf"
-      ],
-      "thumbnail": "/static/images/oshikaigan_surf.jpg",
-      "youtube_id": "",
-      "address": "Isumi, Chiba, Japan",
-      "published": "2026-10-11",
-      "summary": "태평양 스웰이 정직하게 들어오는 치바 이즈미의 비치브레이크, 오시카이간에서 중급 서퍼가 실력을 다지는 법을 정리했다.",
-      "website": "",
-      "tel": "",
-      "region": "chiba",
-      "source_image": "",
-      "link": "/item/oshikaigan_surf_ko"
-    },
-    {
       "id": "sugadaira_kogen_en",
       "lang": "en",
       "title": "Sugadaira Kogen: Nagano's Family-Friendly Plateau for Cross-Country and Gentle Alpine Skiing",
@@ -1135,27 +1660,6 @@
       "region": "chugoku",
       "source_image": "",
       "link": "/item/hakuto_beach_ko"
-    },
-    {
-      "id": "isumi_ohara_coast_ko",
-      "lang": "ko",
-      "title": "이스미 오하라 해안 서핑 가이드: 지바 태풍 스웰의 비치 브레이크",
-      "lat": 35.25,
-      "lng": 140.39,
-      "activity": "surf",
-      "categories": [
-        "Surf"
-      ],
-      "thumbnail": "/static/images/isumi_ohara_coast.jpg",
-      "youtube_id": "",
-      "address": "Isumi, Chiba, Japan",
-      "published": "2026-10-11",
-      "summary": "지바현 이스미시 오하라 해안은 태풍 시즌 스웰과 넉넉한 주차 공간을 갖춘 비치 브레이크로, 도쿄에서 당일치기 서핑 트립으로 가장 접근성이 좋은 포인트 중 하나다.",
-      "website": "",
-      "tel": "",
-      "region": "chiba",
-      "source_image": "",
-      "link": "/item/isumi_ohara_coast_ko"
     },
     {
       "id": "chigasaki_nishihama_en",
@@ -1389,27 +1893,6 @@
       "link": "/item/chigasaki_nishihama_ko"
     },
     {
-      "id": "isumi_ohara_coast_en",
-      "lang": "en",
-      "title": "Isumi Ohara Coast: Chiba's Typhoon-Swell Beach Break for Every Surfer",
-      "lat": 35.25,
-      "lng": 140.39,
-      "activity": "surf",
-      "categories": [
-        "Surf"
-      ],
-      "thumbnail": "/static/images/isumi_ohara_coast.jpg",
-      "youtube_id": "",
-      "address": "Isumi, Chiba, Japan",
-      "published": "2026-10-11",
-      "summary": "A forgiving beach break on the Boso Peninsula that lights up when typhoon swells roll through the Pacific. Easy parking and consistent sandbars make Ohara a go-to session for Tokyo-area surfers.",
-      "website": "",
-      "tel": "",
-      "region": "chiba",
-      "source_image": "",
-      "link": "/item/isumi_ohara_coast_en"
-    },
-    {
       "id": "hakuto_beach_en",
       "lang": "en",
       "title": "Tottori Hakuto Beach: A Sea of Japan Beach Break for Surfers Who Want Space",
@@ -1578,27 +2061,6 @@
       "link": "/item/sugadaira_kogen_ko"
     },
     {
-      "id": "oshikaigan_surf_en",
-      "lang": "en",
-      "title": "Oshikaigan Surf: Isumi's Intermediate Beach Break on Chiba's Pacific Coast",
-      "lat": 35.15,
-      "lng": 140.28,
-      "activity": "surf",
-      "categories": [
-        "Surf"
-      ],
-      "thumbnail": "/static/images/oshikaigan_surf.jpg",
-      "youtube_id": "",
-      "address": "Isumi, Chiba, Japan",
-      "published": "2026-10-11",
-      "summary": "Oshikaigan is the sandbar-driven beach break that Isumi locals quietly favor over its more crowded neighbors. Consistent Pacific swell and a forgiving-but-punchy wave make it a natural step up for intermediate surfers ready to leave the whitewash behind.",
-      "website": "",
-      "tel": "",
-      "region": "chiba",
-      "source_image": "",
-      "link": "/item/oshikaigan_surf_en"
-    },
-    {
       "id": "atami_sunny_beach_surf_ko",
       "lang": "ko",
       "title": "아타미 써니비치 서프: 도쿄에서 당일치기로 가는 이즈 입문 서핑 포인트",
@@ -1618,27 +2080,6 @@
       "region": "shizuoka",
       "source_image": "",
       "link": "/item/atami_sunny_beach_surf_ko"
-    },
-    {
-      "id": "kakuda_beach_ko",
-      "lang": "ko",
-      "title": "니가타 가쿠다 비치 서핑 가이드: 윈터 스웰이 빚어내는 정직한 비치브레이크",
-      "lat": 37.85,
-      "lng": 138.9,
-      "activity": "surf",
-      "categories": [
-        "Surf"
-      ],
-      "thumbnail": "/static/images/kakuda_beach.jpg",
-      "youtube_id": "",
-      "address": "Niigata, Japan",
-      "published": "2026-10-11",
-      "summary": "도호쿠 니가타 해안의 가쿠다 비치는 겨울 스웰이 꾸준히 들어오는 비치브레이크 포인트다. 혼잡하지 않은 로컬 분위기에서 정직한 파도를 즐기고 싶은 서퍼에게 추천한다.",
-      "website": "",
-      "tel": "",
-      "region": "tohoku",
-      "source_image": "",
-      "link": "/item/kakuda_beach_ko"
     },
     {
       "id": "miyako_irabu_bridge_dive_en",
@@ -1809,27 +2250,6 @@
       "link": "/item/torami_beach_ko"
     },
     {
-      "id": "tsujido_south_break_en",
-      "lang": "en",
-      "title": "Tsujido South Break: Fujisawa's Reliable Beach-Break Surf Spot",
-      "lat": 35.32,
-      "lng": 139.45,
-      "activity": "surf",
-      "categories": [
-        "Surf"
-      ],
-      "thumbnail": "/static/images/tsujido_south_break.jpg",
-      "youtube_id": "",
-      "address": "Fujisawa, Kanagawa, Japan",
-      "published": "2026-10-11",
-      "summary": "A forgiving beach-break peak on Fujisawa's Shonan coast where weekend crowds, rental boards, and consistent swell windows make surfing approachable without sacrificing quality waves.",
-      "website": "",
-      "tel": "",
-      "region": "kanagawa",
-      "source_image": "",
-      "link": "/item/tsujido_south_break_en"
-    },
-    {
       "id": "biwako_valley_ski_en",
       "lang": "en",
       "title": "Biwako Valley Ski: Lake Views and Easy Gondola Access from Otsu",
@@ -1893,27 +2313,6 @@
       "link": "/item/aso_kusasenri_camp_en"
     },
     {
-      "id": "hachijojima_soft_coral_wall_en",
-      "lang": "en",
-      "title": "Hachijojima Soft Coral Wall: Tokyo's Hidden Dive Frontier",
-      "lat": 33.11,
-      "lng": 139.79,
-      "activity": "dive",
-      "categories": [
-        "Dive"
-      ],
-      "thumbnail": "/static/images/hachijojima_soft_coral_wall.jpg",
-      "youtube_id": "",
-      "address": "Hachijo, Tokyo, Japan",
-      "published": "2026-10-11",
-      "summary": "A volcanic wall draped in soft coral gardens, just an hour's flight from Tokyo. Hachijojima delivers warm Kuroshio currents and big-animal encounters without the crowds of Okinawa.",
-      "website": "",
-      "tel": "",
-      "region": "tokyo",
-      "source_image": "",
-      "link": "/item/hachijojima_soft_coral_wall_en"
-    },
-    {
       "id": "aoshima_surf_point_en",
       "lang": "en",
       "title": "Miyazaki Aoshima Surf: Kyushu's Beach Break Capital",
@@ -1975,27 +2374,6 @@
       "region": "yamanashi",
       "source_image": "",
       "link": "/item/lake_sai_autocamp_en"
-    },
-    {
-      "id": "nasu_forest_camp_base_en",
-      "lang": "en",
-      "title": "Nasu Forest Camp Base: A Highland Family Campground in Tochigi",
-      "lat": 37.12,
-      "lng": 139.97,
-      "activity": "camp",
-      "categories": [
-        "Camp"
-      ],
-      "thumbnail": "/static/images/nasu_forest_camp_base.jpg",
-      "youtube_id": "",
-      "address": "Nasu, Tochigi, Japan",
-      "published": "2026-10-11",
-      "summary": "A cool-climate forest campground on the Nasu highlands that pairs easy family-friendly sites with glamping options nearby and quick access to onsen towns.",
-      "website": "",
-      "tel": "",
-      "region": "tochigi",
-      "source_image": "",
-      "link": "/item/nasu_forest_camp_base_en"
     },
     {
       "id": "amami_tomori_beach_reef_ko",
@@ -2124,27 +2502,6 @@
       "link": "/item/okushiga_kogen_en"
     },
     {
-      "id": "tokushima_hayama_kaigan_ko",
-      "lang": "ko",
-      "title": "도쿠시마 하야마 카이간 서핑 가이드: 모래 바닥 비치 브레이크 완전 정복",
-      "lat": 34.127,
-      "lng": 134.523,
-      "activity": "surf",
-      "categories": [
-        "Surf"
-      ],
-      "thumbnail": "/static/images/tokushima_hayama_kaigan.jpg",
-      "youtube_id": "",
-      "address": "Tokushima, Japan",
-      "published": "2026-10-06",
-      "summary": "시코쿠 도쿠시마의 숨은 비치 브레이크, 하야마 카이간에서 모래 바닥의 부드러운 라이딩을 즐겨보세요. 초보부터 중급 서퍼까지 만족할 수 있는 접근성 좋은 서핑 스폿입니다.",
-      "website": "",
-      "tel": "",
-      "region": "tokushima",
-      "source_image": "",
-      "link": "/item/tokushima_hayama_kaigan_ko"
-    },
-    {
       "id": "usui_rock_formation_en",
       "lang": "en",
       "title": "Usui Rock Formation: Shizuoka's Hidden Granite Reef for Divers",
@@ -2187,27 +2544,6 @@
       "link": "/item/tsugaru_highland_camp_ko"
     },
     {
-      "id": "suo_oshima_beach_ko",
-      "lang": "ko",
-      "title": "수오 오시마 비치 서핑 가이드: 세토내해 비치 브레이크에서 즐기는 롱 라이드",
-      "lat": 34.367,
-      "lng": 131.797,
-      "activity": "surf",
-      "categories": [
-        "Surf"
-      ],
-      "thumbnail": "/static/images/suo_oshima_beach.jpg",
-      "youtube_id": "",
-      "address": "Suo-Oshima, Yamaguchi, Japan",
-      "published": "2026-10-06",
-      "summary": "세토내해 안쪽 섬 수오 오시마에서 만나는 느긋한 비치 브레이크, 태풍 스웰이 들어오는 시즌이면 초보자도 긴 라이드를 즐길 수 있다.",
-      "website": "",
-      "tel": "",
-      "region": "yamaguchi",
-      "source_image": "",
-      "link": "/item/suo_oshima_beach_ko"
-    },
-    {
       "id": "tokunoshima_reef_wall_en",
       "lang": "en",
       "title": "Tokunoshima Reef Wall: Okinawa's Premier Drift-and-Wall Dive Escape",
@@ -2227,27 +2563,6 @@
       "region": "okinawa",
       "source_image": "",
       "link": "/item/tokunoshima_reef_wall_en"
-    },
-    {
-      "id": "izumi_valley_camp_ko",
-      "lang": "ko",
-      "title": "이즈미 계곡 캠프 완벽 가이드: Osaka 근교 차박 명당",
-      "lat": 34.52,
-      "lng": 135.42,
-      "activity": "camp",
-      "categories": [
-        "Camp"
-      ],
-      "thumbnail": "/static/images/izumi_valley_camp.jpg",
-      "youtube_id": "",
-      "address": "Osaka, Japan",
-      "published": "2026-10-06",
-      "summary": "Osaka에서 차로 한 시간 거리, 계곡 전망과 숲길을 품은 이즈미 계곡 캠프의 실전 정보를 정리했습니다. 차박부터 트레킹까지 한 번에 준비하세요.",
-      "website": "",
-      "tel": "",
-      "region": "osaka",
-      "source_image": "",
-      "link": "/item/izumi_valley_camp_ko"
     },
     {
       "id": "takahara_mountain_glamping_en",
@@ -2290,27 +2605,6 @@
       "region": "okayama",
       "source_image": "",
       "link": "/item/kibi_plain_camping_ko"
-    },
-    {
-      "id": "yonago_coastal_reef_ko",
-      "lang": "ko",
-      "title": "요나고 해안 리프: 돗토리 초보 서퍼를 위한 비치브레이크 완벽 가이드",
-      "lat": 35.411,
-      "lng": 133.331,
-      "activity": "surf",
-      "categories": [
-        "Surf"
-      ],
-      "thumbnail": "/static/images/yonago_coastal_reef.jpg",
-      "youtube_id": "",
-      "address": "Yonago, Tottori, Japan",
-      "published": "2026-10-06",
-      "summary": "돗토리현 요나고 해안 리프는 완만한 리프 지형과 비치브레이크가 공존하는 초보자 친화적 서핑 포인트다. 산인 지역 특유의 한적한 바다에서 기초부터 차근차근 배울 수 있다.",
-      "website": "",
-      "tel": "",
-      "region": "tottori",
-      "source_image": "",
-      "link": "/item/yonago_coastal_reef_ko"
     },
     {
       "id": "miyazaki_seafront_break_ko",
@@ -3153,27 +3447,6 @@
       "link": "/item/kume_island_deep_blue_en"
     },
     {
-      "id": "yoron_island_coral_gardens_en",
-      "lang": "en",
-      "title": "Yoron Island Coral Gardens: Okinawa's Clearest Dive Escape",
-      "lat": 27.05,
-      "lng": 128.42,
-      "activity": "dive",
-      "categories": [
-        "Dive"
-      ],
-      "thumbnail": "/static/images/yoron_island_coral_gardens.jpg",
-      "youtube_id": "",
-      "address": "Okinawa, Japan",
-      "published": "2026-10-06",
-      "summary": "Yoron Island's shallow coral gardens deliver some of the clearest water in the Ryukyu chain, perfect for divers chasing tropical reef life without the crowds.",
-      "website": "",
-      "tel": "",
-      "region": "okinawa",
-      "source_image": "",
-      "link": "/item/yoron_island_coral_gardens_en"
-    },
-    {
       "id": "kumakogen_coast_break_ko",
       "lang": "ko",
       "title": "구마코겐 해안 브레이크 서핑 가이드: 코치 초보자를 위한 완벽한 비치브레이크",
@@ -3531,27 +3804,6 @@
       "link": "/item/kumakogen_coast_break_en"
     },
     {
-      "id": "yoron_island_coral_gardens_ko",
-      "lang": "ko",
-      "title": "요론 섬 산호 정원, 오키나와 북쪽 끝에서 만나는 투명 바다 다이빙",
-      "lat": 27.05,
-      "lng": 128.42,
-      "activity": "dive",
-      "categories": [
-        "Dive"
-      ],
-      "thumbnail": "/static/images/yoron_island_coral_gardens.jpg",
-      "youtube_id": "",
-      "address": "Okinawa, Japan",
-      "published": "2026-10-06",
-      "summary": "요론 섬 산호 정원은 오키나와 최북단 외딴 섬에서 만나는 숨은 다이빙 포인트로, 투명도 높은 바다와 넓은 산호 군락이 압도적인 규모를 자랑한다.",
-      "website": "",
-      "tel": "",
-      "region": "okinawa",
-      "source_image": "",
-      "link": "/item/yoron_island_coral_gardens_ko"
-    },
-    {
       "id": "kume_island_deep_blue_ko",
       "lang": "ko",
       "title": "쿠메 섬 심해 블루 다이빙 가이드 — 오키나와 최고의 투명도를 찾아서",
@@ -3825,27 +4077,6 @@
       "link": "/item/miyazaki_seafront_break_en"
     },
     {
-      "id": "yonago_coastal_reef_en",
-      "lang": "en",
-      "title": "Yonago Coastal Reef: Tottori's Friendliest Reef-Backed Beach Break for Surf",
-      "lat": 35.411,
-      "lng": 133.331,
-      "activity": "surf",
-      "categories": [
-        "Surf"
-      ],
-      "thumbnail": "/static/images/yonago_coastal_reef.jpg",
-      "youtube_id": "",
-      "address": "Yonago, Tottori, Japan",
-      "published": "2026-10-06",
-      "summary": "Yonago Coastal Reef pairs a forgiving sandy beach break with a shallow rock shelf that shapes clean, predictable swell lines. It's one of the few San-in coast spots where beginners and improvers can actually read the wave before committing.",
-      "website": "",
-      "tel": "",
-      "region": "tottori",
-      "source_image": "",
-      "link": "/item/yonago_coastal_reef_en"
-    },
-    {
       "id": "kibi_plain_camping_en",
       "lang": "en",
       "title": "Kibi Plain Camping: Okayama's Car-Camp and Cycling Basecamp",
@@ -3886,27 +4117,6 @@
       "region": "nara",
       "source_image": "",
       "link": "/item/takahara_mountain_glamping_ko"
-    },
-    {
-      "id": "izumi_valley_camp_en",
-      "lang": "en",
-      "title": "Izumi Valley Camp: Osaka's Scenic Car Camping Escape",
-      "lat": 34.52,
-      "lng": 135.42,
-      "activity": "camp",
-      "categories": [
-        "Camp"
-      ],
-      "thumbnail": "/static/images/izumi_valley_camp.jpg",
-      "youtube_id": "",
-      "address": "Osaka, Japan",
-      "published": "2026-10-06",
-      "summary": "A car-friendly valley campground in Osaka with layered green views and easy nature trails. Perfect for a weekend reset without a long drive out of the city.",
-      "website": "",
-      "tel": "",
-      "region": "osaka",
-      "source_image": "",
-      "link": "/item/izumi_valley_camp_en"
     },
     {
       "id": "tokunoshima_reef_wall_ko",
@@ -3951,27 +4161,6 @@
       "link": "/item/izu_aoshima_wreck_ko"
     },
     {
-      "id": "suo_oshima_beach_en",
-      "lang": "en",
-      "title": "Suo Oshima Beach: Yamaguchi's Long-Ride Surf Secret",
-      "lat": 34.367,
-      "lng": 131.797,
-      "activity": "surf",
-      "categories": [
-        "Surf"
-      ],
-      "thumbnail": "/static/images/suo_oshima_beach.jpg",
-      "youtube_id": "",
-      "address": "Suo-Oshima, Yamaguchi, Japan",
-      "published": "2026-10-06",
-      "summary": "A mellow Seto Inland Sea beach break where long, forgiving rides beat crowded Pacific lineups. Suo Oshima rewards patience with uncrowded peaks and a slow island pace.",
-      "website": "",
-      "tel": "",
-      "region": "yamaguchi",
-      "source_image": "",
-      "link": "/item/suo_oshima_beach_en"
-    },
-    {
       "id": "tsugaru_highland_camp_en",
       "lang": "en",
       "title": "Tsugaru Highland Camp: Car Camping with Plateau Views in Aomori",
@@ -4012,27 +4201,6 @@
       "region": "shizuoka",
       "source_image": "",
       "link": "/item/usui_rock_formation_ko"
-    },
-    {
-      "id": "tokushima_hayama_kaigan_en",
-      "lang": "en",
-      "title": "Tokushima Hayama Kaigan: A Sandy Beach Break Built for Real Progression",
-      "lat": 34.127,
-      "lng": 134.523,
-      "activity": "surf",
-      "categories": [
-        "Surf"
-      ],
-      "thumbnail": "/static/images/tokushima_hayama_kaigan.jpg",
-      "youtube_id": "",
-      "address": "Tokushima, Japan",
-      "published": "2026-10-06",
-      "summary": "A forgiving, sandy-bottomed beach break on Tokushima's Pacific-facing coast where peaks shift with every swell. Here's how to read it, time it, and surf it without wasting a session.",
-      "website": "",
-      "tel": "",
-      "region": "tokushima",
-      "source_image": "",
-      "link": "/item/tokushima_hayama_kaigan_en"
     },
     {
       "id": "sakieda_point_wall_en",
@@ -5253,27 +5421,6 @@
       "link": "/item/daisetsuzan_forest_camp_en"
     },
     {
-      "id": "zamami_coral_garden_en",
-      "lang": "en",
-      "title": "Zamami Coral Garden: The Kerama Islands' Best Day-Boat Reef Dive",
-      "lat": 26.18,
-      "lng": 127.33,
-      "activity": "dive",
-      "categories": [
-        "Dive"
-      ],
-      "thumbnail": "/static/images/zamami_coral_garden.jpg",
-      "youtube_id": "",
-      "address": "Okinawa (Kerama Islands), Japan",
-      "published": "2026-09-27",
-      "summary": "Zamami Coral Garden delivers some of Japan's healthiest hard coral cover and reliable 20m+ visibility, just a short day-boat ride from Naha. It's the Kerama Islands dive every diver should log at least once.",
-      "website": "",
-      "tel": "",
-      "region": "okinawa",
-      "source_image": "",
-      "link": "/item/zamami_coral_garden_en"
-    },
-    {
       "id": "hateruma_blue_water_ko",
       "lang": "ko",
       "title": "하테루마 섬 블루 워터 다이빙: 일본 최남단 유인도의 투명 바다 완전 가이드",
@@ -6343,27 +6490,6 @@
       "region": "okinawa",
       "source_image": "",
       "link": "/item/hateruma_blue_water_en"
-    },
-    {
-      "id": "zamami_coral_garden_ko",
-      "lang": "ko",
-      "title": "자마미 산호초 정원, 게라마 제도 데이 보트 다이빙 완벽 가이드",
-      "lat": 26.18,
-      "lng": 127.33,
-      "activity": "dive",
-      "categories": [
-        "Dive"
-      ],
-      "thumbnail": "/static/images/zamami_coral_garden.jpg",
-      "youtube_id": "",
-      "address": "Okinawa (Kerama Islands), Japan",
-      "published": "2026-09-27",
-      "summary": "게라마 블루로 불리는 자마미 산호초 정원에서 데이 보트로 즐기는 스쿠버 다이빙, 시야 30m와 테이블 산호 군락을 함께 경험한다.",
-      "website": "",
-      "tel": "",
-      "region": "okinawa",
-      "source_image": "",
-      "link": "/item/zamami_coral_garden_ko"
     },
     {
       "id": "daisetsuzan_forest_camp_ko",
@@ -7584,27 +7710,6 @@
       "link": "/item/hakkoda_ski_resort_en"
     },
     {
-      "id": "surf_pending_08_ko",
-      "lang": "ko",
-      "title": "시모다 시라하마 서프 완벽 가이드: 이즈반도 최고의 파도를 만나는 법",
-      "lat": 34.692,
-      "lng": 138.972,
-      "activity": "surf",
-      "categories": [
-        "Surf"
-      ],
-      "thumbnail": "/static/images/surf_pending_08.jpg",
-      "youtube_id": "",
-      "address": "Shimoda Shirahama Surf, Japan",
-      "published": "2026-09-20",
-      "summary": "도쿄에서 당일치기로 닿는 이즈반도 최남단, 시모다 시라하마의 하얀 모래와 태평양 스웰이 만드는 서핑 천국을 소개합니다. 초보자 화이트워시부터 태풍 스웰까지, 레벨별 공략법을 담았습니다.",
-      "website": "",
-      "tel": "",
-      "region": "chubu",
-      "source_image": "",
-      "link": "/item/surf_pending_08_ko"
-    },
-    {
       "id": "camp_pending_09_en",
       "lang": "en",
       "title": "Aso Grassland Camp: Kyushu's Wide-Sky Volcano Camping Escape",
@@ -7792,27 +7897,6 @@
       "region": "kyushu",
       "source_image": "",
       "link": "/item/camp_pending_09_ko"
-    },
-    {
-      "id": "surf_pending_08_en",
-      "lang": "en",
-      "title": "Shimoda Shirahama Surf: Japan's Most Consistent Beach Break Guide",
-      "lat": 34.692,
-      "lng": 138.972,
-      "activity": "surf",
-      "categories": [
-        "Surf"
-      ],
-      "thumbnail": "/static/images/surf_pending_08.jpg",
-      "youtube_id": "",
-      "address": "Shimoda Shirahama Surf, Japan",
-      "published": "2026-09-20",
-      "summary": "Shimoda Shirahama is Japan's most reliable surf beach, a wide sandy bay on the Izu Peninsula with waves for every level. Here's how to read the break, time the season, and get there without a car.",
-      "website": "",
-      "tel": "",
-      "region": "chubu",
-      "source_image": "",
-      "link": "/item/surf_pending_08_en"
     },
     {
       "id": "hakkoda_ski_resort_ko",
@@ -9371,7 +9455,7 @@
     {
       "id": "hakuba_iwatake_ko",
       "lang": "ko",
-      "title": "하쿠바 이와타케 곤돌라 스키장 가이드 - 양지 슬로프·북알프스 전망·가족 코스 | JPFun",
+      "title": "하쿠바 이와타케 스키장 가이드 | 양지 슬로프·곤돌라 전망·패밀리 코스",
       "lat": 36.712,
       "lng": 137.861,
       "activity": "ski",
@@ -10041,27 +10125,6 @@
       "link": "/item/kagoshima_yakushima_ko"
     },
     {
-      "id": "izu_oshima_en",
-      "lang": "en",
-      "title": "Izu Oshima Dive Spots",
-      "lat": 34.737,
-      "lng": 139.4,
-      "activity": "dive",
-      "categories": [
-        "Dive"
-      ],
-      "thumbnail": "/static/images/izu_oshima.jpg",
-      "youtube_id": "",
-      "address": "Oshima, Tokyo, Japan",
-      "published": "2026-08-15",
-      "summary": "Tokyo island diving with volcanic rock reefs — ferry access and local dive shops.",
-      "website": "",
-      "tel": "",
-      "region": "chubu",
-      "source_image": "",
-      "link": "/item/izu_oshima_en"
-    },
-    {
       "id": "hunter_mountain_shiobara_ko",
       "lang": "ko",
       "title": "헌터마운틴 시오바라",
@@ -10106,7 +10169,7 @@
     {
       "id": "naeba_en",
       "lang": "en",
-      "title": "Naeba Ski Resort",
+      "title": "Naeba Ski Resort (Yuzawa) | Best for Families 2h from Tokyo",
       "lat": 36.871,
       "lng": 138.755,
       "activity": "ski",
@@ -10117,7 +10180,7 @@
       "youtube_id": "lRZRiC52JJQ",
       "address": "Yuzawa, Niigata, Japan",
       "published": "2026-08-15",
-      "summary": "Naeba Ski Resort — Prince hotels, Fuji Rock summer fame, and Yuzawa family skiing.",
+      "summary": "Naeba Ski Resort anchors Yuzawa — a family-focused powder hub 2h from Tokyo with Prince Hotel lodging, groomed runs, onsen, and Fuji Rock festival access.",
       "website": "https://www.princehotels.co.jp/ski/naeba/",
       "tel": "",
       "region": "niigata",
@@ -11219,7 +11282,7 @@
     {
       "id": "naeba_ko",
       "lang": "ko",
-      "title": "나에바 스키장 가이드 | 유자와 나에바 프린스 호텔 가는 법·시즌·리프트 - JPFun",
+      "title": "나에바 스키장 가이드 | 슬로프·숙소·도쿄 교통·시즌",
       "lat": 36.871,
       "lng": 138.755,
       "activity": "ski",
@@ -11278,27 +11341,6 @@
       "region": "tochigi",
       "source_image": "",
       "link": "/item/hunter_mountain_shiobara_en"
-    },
-    {
-      "id": "izu_oshima_ko",
-      "lang": "ko",
-      "title": "이즈 오시마 다이빙",
-      "lat": 34.737,
-      "lng": 139.4,
-      "activity": "dive",
-      "categories": [
-        "Dive"
-      ],
-      "thumbnail": "/static/images/izu_oshima.jpg",
-      "youtube_id": "",
-      "address": "일본 도쿄도 오시마정",
-      "published": "2026-08-15",
-      "summary": "화산암 리프의 도쿄 도서 다이빙. 페리와 로컬 샵 접근.",
-      "website": "",
-      "tel": "",
-      "region": "chubu",
-      "source_image": "",
-      "link": "/item/izu_oshima_ko"
     },
     {
       "id": "kagoshima_yakushima_en",
@@ -12248,7 +12290,7 @@
     {
       "id": "niseko_hanazono_ko",
       "lang": "ko",
-      "title": "니세코 하나조노 스키장 가이드 - JPFun",
+      "title": "니세코 하나조노 스키장 가이드 | 패밀리 코스·버튼 파크·유나이트권",
       "lat": 42.897,
       "lng": 140.715,
       "activity": "ski",

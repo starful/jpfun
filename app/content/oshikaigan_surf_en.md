@@ -1,18 +1,23 @@
 ---
 lang: en
-title: "Oshikaigan Surf: Isumi's Intermediate Beach Break on Chiba's Pacific Coast"
+title: 'Oshikaigan Surf: Isumi''s Intermediate Beach Break on Chiba''s Pacific Coast'
 lat: 35.15
 lng: 140.28
-activity: "surf"
-categories: ["Surf"]
-thumbnail: "/static/images/oshikaigan_surf.jpg"
-address: "Isumi, Chiba, Japan"
-date: "2026-10-11"
-website: ""
-summary: "Oshikaigan is the sandbar-driven beach break that Isumi locals quietly favor over its more crowded neighbors. Consistent Pacific swell and a forgiving-but-punchy wave make it a natural step up for intermediate surfers ready to leave the whitewash behind."
-image_prompt: ""
-region: "chiba"
+activity: surf
+categories:
+- Surf
+thumbnail: /static/images/oshikaigan_surf.jpg
+address: Isumi, Chiba, Japan
+date: '2026-10-27'
+website: ''
+summary: Oshikaigan is the sandbar-driven beach break that Isumi locals quietly favor
+  over its more crowded neighbors. Consistent Pacific swell and a forgiving-but-punchy
+  wave make it a natural step up for intermediate surfers ready to leave the whitewash
+  behind.
+image_prompt: ''
+region: chiba
 ---
+
 
 ## Why Oshikaigan Stands Out Among Isumi's Surf Breaks
 

@@ -1,18 +1,22 @@
 ---
 lang: ko
-title: "요나고 해안 리프: 돗토리 초보 서퍼를 위한 비치브레이크 완벽 가이드"
+title: '요나고 해안 리프: 돗토리 초보 서퍼를 위한 비치브레이크 완벽 가이드'
 lat: 35.411
 lng: 133.331
-activity: "surf"
-categories: ["Surf"]
-thumbnail: "/static/images/yonago_coastal_reef.jpg"
-address: "Yonago, Tottori, Japan"
-date: "2026-10-06"
-website: ""
-summary: "돗토리현 요나고 해안 리프는 완만한 리프 지형과 비치브레이크가 공존하는 초보자 친화적 서핑 포인트다. 산인 지역 특유의 한적한 바다에서 기초부터 차근차근 배울 수 있다."
-image_prompt: ""
-region: "tottori"
+activity: surf
+categories:
+- Surf
+thumbnail: /static/images/yonago_coastal_reef.jpg
+address: Yonago, Tottori, Japan
+date: '2026-10-27'
+website: ''
+summary: 돗토리현 요나고 해안 리프는 완만한 리프 지형과 비치브레이크가 공존하는 초보자 친화적 서핑 포인트다. 산인 지역 특유의 한적한 바다에서
+  기초부터 차근차근 배울 수 있다.
+image_prompt: ''
+region: tottori
 ---
+
+
 
 ## 왜 요나고 해안 리프를 주목해야 하는가
 

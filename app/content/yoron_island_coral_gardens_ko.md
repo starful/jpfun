@@ -1,18 +1,21 @@
 ---
 lang: ko
-title: "요론 섬 산호 정원, 오키나와 북쪽 끝에서 만나는 투명 바다 다이빙"
+title: 요론 섬 산호 정원, 오키나와 북쪽 끝에서 만나는 투명 바다 다이빙
 lat: 27.05
 lng: 128.42
-activity: "dive"
-categories: ["Dive"]
-thumbnail: "/static/images/yoron_island_coral_gardens.jpg"
-address: "Okinawa, Japan"
-date: "2026-10-06"
-website: ""
-summary: "요론 섬 산호 정원은 오키나와 최북단 외딴 섬에서 만나는 숨은 다이빙 포인트로, 투명도 높은 바다와 넓은 산호 군락이 압도적인 규모를 자랑한다."
-image_prompt: ""
-region: "okinawa"
+activity: dive
+categories:
+- Dive
+thumbnail: /static/images/yoron_island_coral_gardens.jpg
+address: Okinawa, Japan
+date: '2026-10-27'
+website: ''
+summary: 요론 섬 산호 정원은 오키나와 최북단 외딴 섬에서 만나는 숨은 다이빙 포인트로, 투명도 높은 바다와 넓은 산호 군락이 압도적인 규모를
+  자랑한다.
+image_prompt: ''
+region: okinawa
 ---
+
 
 ## 요론 섬 산호 정원이 특별한 이유
 

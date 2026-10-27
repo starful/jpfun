@@ -1,18 +1,20 @@
 ---
 lang: ko
-title: "이즈 오시마 다이빙"
+title: 이즈 오시마 다이빙
 lat: 34.737
 lng: 139.4
-activity: "dive"
-categories: ["Dive"]
-thumbnail: "/static/images/izu_oshima.jpg"
-address: "일본 도쿄도 오시마정"
-date: "2026-08-15"
-website: ""
-summary: "화산암 리프의 도쿄 도서 다이빙. 페리와 로컬 샵 접근."
-image_prompt: ""
-region: "chubu"
+activity: dive
+categories:
+- Dive
+thumbnail: /static/images/izu_oshima.jpg
+address: 일본 도쿄도 오시마정
+date: '2026-10-27'
+website: ''
+summary: 화산암 리프의 도쿄 도서 다이빙. 페리와 로컬 샵 접근.
+image_prompt: ''
+region: chubu
 ---
+
 
 ## 개요
 

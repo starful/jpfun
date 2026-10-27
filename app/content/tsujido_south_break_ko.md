@@ -1,18 +1,22 @@
 ---
 lang: ko
-title: "츠지도 사우스 브레이크 완전 정복: 쇼난 비치 브레이크 서핑과 렌탈샵 가이드"
+title: '츠지도 사우스 브레이크 완전 정복: 쇼난 비치 브레이크 서핑과 렌탈샵 가이드'
 lat: 35.32
 lng: 139.45
-activity: "surf"
-categories: ["Surf"]
-thumbnail: "/static/images/tsujido_south_break.jpg"
-address: "Fujisawa, Kanagawa, Japan"
-date: "2026-10-11"
-website: ""
-summary: "도쿄에서 전철로 한 시간이면 닿는 쇼난 대표 비치 브레이크, 츠지도 사우스 브레이크를 소개합니다. 렌탈샵부터 주말 혼잡 대처법까지 실전 정보를 한 번에 정리했습니다."
-image_prompt: ""
-region: "kanagawa"
+activity: surf
+categories:
+- Surf
+thumbnail: /static/images/tsujido_south_break.jpg
+address: Fujisawa, Kanagawa, Japan
+date: '2026-10-27'
+website: ''
+summary: 도쿄에서 전철로 한 시간이면 닿는 쇼난 대표 비치 브레이크, 츠지도 사우스 브레이크를 소개합니다. 렌탈샵부터 주말 혼잡 대처법까지
+  실전 정보를 한 번에 정리했습니다.
+image_prompt: ''
+region: kanagawa
 ---
+
+
 
 ## 도쿄 근교 서퍼들의 주말 성지, 츠지도 사우스 브레이크가 특별한 이유
 

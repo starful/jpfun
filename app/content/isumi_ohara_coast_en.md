@@ -1,18 +1,22 @@
 ---
 lang: en
-title: "Isumi Ohara Coast: Chiba's Typhoon-Swell Beach Break for Every Surfer"
+title: 'Isumi Ohara Coast: Chiba''s Typhoon-Swell Beach Break for Every Surfer'
 lat: 35.25
 lng: 140.39
-activity: "surf"
-categories: ["Surf"]
-thumbnail: "/static/images/isumi_ohara_coast.jpg"
-address: "Isumi, Chiba, Japan"
-date: "2026-10-11"
-website: ""
-summary: "A forgiving beach break on the Boso Peninsula that lights up when typhoon swells roll through the Pacific. Easy parking and consistent sandbars make Ohara a go-to session for Tokyo-area surfers."
-image_prompt: ""
-region: "chiba"
+activity: surf
+categories:
+- Surf
+thumbnail: /static/images/isumi_ohara_coast.jpg
+address: Isumi, Chiba, Japan
+date: '2026-10-27'
+website: ''
+summary: A forgiving beach break on the Boso Peninsula that lights up when typhoon
+  swells roll through the Pacific. Easy parking and consistent sandbars make Ohara
+  a go-to session for Tokyo-area surfers.
+image_prompt: ''
+region: chiba
 ---
+
 
 ## Who Surfs Ohara: Chiba's Reliable Beach-Break Workhorse
 

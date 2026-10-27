@@ -1,18 +1,23 @@
 ---
 lang: en
-title: "Niigata Kakuda Beach: Japan's Underrated Winter Surf Powerhouse"
+title: 'Niigata Kakuda Beach: Japan''s Underrated Winter Surf Powerhouse'
 lat: 37.85
-lng: 138.90
-activity: "surf"
-categories: ["Surf"]
-thumbnail: "/static/images/kakuda_beach.jpg"
-address: "Niigata, Japan"
-date: "2026-10-11"
-website: ""
-summary: "Kakuda Beach delivers some of the most consistent winter swell on Japan's Sea of Japan coast, with a wide sandy beach break that rewards patient surfers. Here's how to read it, when to go, and how to get there from Niigata City."
-image_prompt: ""
-region: "tohoku"
+lng: 138.9
+activity: surf
+categories:
+- Surf
+thumbnail: /static/images/kakuda_beach.jpg
+address: Niigata, Japan
+date: '2026-10-27'
+website: ''
+summary: Kakuda Beach delivers some of the most consistent winter swell on Japan's
+  Sea of Japan coast, with a wide sandy beach break that rewards patient surfers.
+  Here's how to read it, when to go, and how to get there from Niigata City.
+image_prompt: ''
+region: tohoku
 ---
+
+
 
 ## Why Kakuda Beach Stands Out on the Sea of Japan Coast
 

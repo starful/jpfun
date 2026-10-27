@@ -1,18 +1,21 @@
 ---
 lang: ko
-title: "나스 포레스트 캠프 완전 가이드: 돗치기 고원에서 즐기는 가족 캠핑과 글램핑"
+title: '나스 포레스트 캠프 완전 가이드: 돗치기 고원에서 즐기는 가족 캠핑과 글램핑'
 lat: 37.12
 lng: 139.97
-activity: "camp"
-categories: ["Camp"]
-thumbnail: "/static/images/nasu_forest_camp_base.jpg"
-address: "Nasu, Tochigi, Japan"
-date: "2026-10-11"
-website: ""
-summary: "도쿄에서 2시간 거리, 해발 700m 고원 숲속에서 즐기는 나스 포레스트 캠프는 가족 단위 초보 캠퍼부터 글램핑을 원하는 커플까지 모두를 만족시키는 돗치기현 대표 캠핑지입니다."
-image_prompt: ""
-region: "tochigi"
+activity: camp
+categories:
+- Camp
+thumbnail: /static/images/nasu_forest_camp_base.jpg
+address: Nasu, Tochigi, Japan
+date: '2026-10-27'
+website: ''
+summary: 도쿄에서 2시간 거리, 해발 700m 고원 숲속에서 즐기는 나스 포레스트 캠프는 가족 단위 초보 캠퍼부터 글램핑을 원하는 커플까지
+  모두를 만족시키는 돗치기현 대표 캠핑지입니다.
+image_prompt: ''
+region: tochigi
 ---
+
 
 ## 나스 포레스트 캠프가 특별한 이유
 

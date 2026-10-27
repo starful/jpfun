@@ -1,18 +1,23 @@
 ---
 lang: en
-title: "Yonago Coastal Reef: Tottori's Friendliest Reef-Backed Beach Break for Surf"
+title: 'Yonago Coastal Reef: Tottori''s Friendliest Reef-Backed Beach Break for Surf'
 lat: 35.411
 lng: 133.331
-activity: "surf"
-categories: ["Surf"]
-thumbnail: "/static/images/yonago_coastal_reef.jpg"
-address: "Yonago, Tottori, Japan"
-date: "2026-10-06"
-website: ""
-summary: "Yonago Coastal Reef pairs a forgiving sandy beach break with a shallow rock shelf that shapes clean, predictable swell lines. It's one of the few San-in coast spots where beginners and improvers can actually read the wave before committing."
-image_prompt: ""
-region: "tottori"
+activity: surf
+categories:
+- Surf
+thumbnail: /static/images/yonago_coastal_reef.jpg
+address: Yonago, Tottori, Japan
+date: '2026-10-27'
+website: ''
+summary: Yonago Coastal Reef pairs a forgiving sandy beach break with a shallow rock
+  shelf that shapes clean, predictable swell lines. It's one of the few San-in coast
+  spots where beginners and improvers can actually read the wave before committing.
+image_prompt: ''
+region: tottori
 ---
+
+
 
 ## Why Surfers Overlook Yonago (And Why That's Your Advantage)
 

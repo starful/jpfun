@@ -1,18 +1,21 @@
 ---
 lang: ko
-title: "수오 오시마 비치 서핑 가이드: 세토내해 비치 브레이크에서 즐기는 롱 라이드"
+title: '수오 오시마 비치 서핑 가이드: 세토내해 비치 브레이크에서 즐기는 롱 라이드'
 lat: 34.367
 lng: 131.797
-activity: "surf"
-categories: ["Surf"]
-thumbnail: "/static/images/suo_oshima_beach.jpg"
-address: "Suo-Oshima, Yamaguchi, Japan"
-date: "2026-10-06"
-website: ""
-summary: "세토내해 안쪽 섬 수오 오시마에서 만나는 느긋한 비치 브레이크, 태풍 스웰이 들어오는 시즌이면 초보자도 긴 라이드를 즐길 수 있다."
-image_prompt: ""
-region: "yamaguchi"
+activity: surf
+categories:
+- Surf
+thumbnail: /static/images/suo_oshima_beach.jpg
+address: Suo-Oshima, Yamaguchi, Japan
+date: '2026-10-27'
+website: ''
+summary: 세토내해 안쪽 섬 수오 오시마에서 만나는 느긋한 비치 브레이크, 태풍 스웰이 들어오는 시즌이면 초보자도 긴 라이드를 즐길 수 있다.
+image_prompt: ''
+region: yamaguchi
 ---
+
+
 
 ## 세토내해 섬 서핑이 특별한 이유
 
