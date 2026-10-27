@@ -60,7 +60,7 @@ def _inject_lang_switch():
 
 @app.context_processor
 def _inject_family_sites():
-    # JPFun: no "family sites" strip — journey next-steps are passed per view instead.
+    # JPFun: family-sites strip is disabled; templates just get empty defaults.
     lang = request.args.get('lang', 'en')
     if lang not in SUPPORTED_LANGS:
         lang = 'en'
@@ -128,7 +128,6 @@ def _build_guide_image_pools() -> dict[str, list[str]]:
     def _add(act: str, url: str) -> None:
         if act not in pools or not url or url in seen[act]:
             return
-        fname = url.split("/")[-1] if "/hub/" not in url else "hub/" + url.split("/")[-1]
         if "/hub/" in url:
             check = "hub/" + url.split("/")[-1]
         else:

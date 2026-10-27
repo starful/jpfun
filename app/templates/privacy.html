@@ -33,6 +33,7 @@
     {% set _lang = request.args.get('lang') or active_lang or 'en' %}
     {% if _lang == 'ko' %}
     <h1>개인정보 처리방침</h1>
+{#
   Shared Privacy Policy body (Korean).
   Variables: site_name, domain, contact_url, updated_at
 #}
@@ -176,6 +177,7 @@
 </p>
     {% else %}
     <h1>Privacy Policy</h1>
+{#
   Shared Privacy Policy body (English).
   Variables: site_name, domain, contact_url, updated_at
 #}

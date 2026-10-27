@@ -1,18 +1,19 @@
 ---
 lang: en
 activity: dive
-title: 'Scuba Certification in Japan: Open Water Diver (OWD) Guide for Okinawa & Izu
-  - JPFun Guide'
-summary: From Okinawa's coral reefs to Izu's volcanic walls, here's everything you
-  need to know about earning your Open Water Diver certification in Japan — plus who
-  the course suits and quick tips before you book.
+title: 'Get Scuba Certified in Japan: OWD Course in Okinawa & Izu | English Dive Schools'
+summary: 'Earn your OWD scuba certification in Japan''s crystal-clear waters: Okinawa''s
+  coral reefs and Izu''s volcanic walls, plus complete guide to English-friendly dive
+  schools.'
 date: '2026-08-19'
-description: 'Get your Open Water Diver certification in Japan: English-speaking dive
-  schools in Okinawa and Izu, what to expect, and how to choose a course.'
-seo_title: 'Scuba Certification in Japan: OWD Guide (Okinawa & Izu) - JPFun Guide'
-seo_description: Earn your Open Water Diver certification in Japan. English-friendly
-  dive schools in Okinawa and Izu, course basics, and how to pick the right one.
+description: Open Water Diver certification in Japan. English-friendly dive schools
+  in Okinawa and Izu, cost, duration, best sites, and how to choose.
+seo_title: Scuba Certification Japan OWD Okinawa Izu - English Dive Schools, Cost
+  & Duration
+seo_description: 'Earn OWD scuba certification in Japan: Okinawa and Izu English-friendly
+  dive schools, course details, duration, and how to choose your instructor.'
 ---
+
 
 
 ## Why Japan Is an Unexpectedly Brilliant Place to Learn to Dive
@@ -72,3 +73,7 @@ This OWD course works well for complete beginners, families traveling together, 
 - Bring your own mask if you have one; rental gear is common but personal fit helps
 - Allow a buffer day or two, since sea conditions can shift training schedules
 - Confirm the certification agency (PADI, NAUI, SSI) matches what you plan to use later
+
+## Cost & Timeline: Certification Pricing & Duration
+
+An OWD course in Japan typically takes 3–4 days (classroom + confined water + open water dives). Most travelers fit certification into a 5–7 day itinerary alongside sightseeing. English-taught courses in Okinawa's resort areas (Naha, Kerama) book 2–3 weeks out. Izu dive shops fill faster during winter (December–March) due to Tokyo weekender traffic. Costs vary by location and season, so compare prices when booking. Schedule certification before or after a longer trip to avoid fatigue during your dives.

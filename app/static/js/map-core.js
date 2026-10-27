@@ -29,7 +29,7 @@ export async function initGoogleMap(mapId, center = { lat: 37.4979, lng: 127.028
     await waitForGoogleMaps();
     const { Map, RenderingType } = await google.maps.importLibrary("maps");
 
-    // Hide Google's default business/attraction pins so only OKSki Clinic/Stay/Food markers compete for attention.
+    // Hide Google's default business/attraction pins so only our spot markers compete for attention.
     // JSON styles require raster rendering (vector + mapId ignores `styles`).
     const hideGooglePois = [
         { featureType: 'poi', stylers: [{ visibility: 'off' }] },
@@ -127,31 +127,10 @@ export async function renderNearbyMarkers(pois) {
 }
 
 /**
- * Show/hide markers by category theme (legacy). Prefer filterMapByClinicIds for region filters.
- */
-export function filterMapMarkers(theme) {
-    const showClinic = theme === 'all' || theme === 'clinic' || theme === 'region';
-    const showStay = theme === 'all' || theme === 'stay';
-    const showFood = theme === 'all' || theme === 'food';
-
-    clinicMarkers.forEach(m => {
-        m.map = showClinic ? map : null;
-    });
-    nearbyMarkers.forEach(m => {
-        const kind = (m.itemData?.kind || '').toLowerCase();
-        const visible =
-            (kind === 'stay' && showStay) ||
-            (kind === 'food' && showFood);
-        m.map = visible ? map : null;
-    });
-    _fitVisible();
-}
-
-/**
  * Region filter: clinic markers are already rendered for the filtered set.
  * Keep nearby pins that relate to any visible clinic id.
- * Fit the map to clinics only — nearby Stay/Food would pull the viewport
- * out to Incheon/Gyeonggi and make "All Seoul" feel like it never zoomed.
+ * Fit the map to clinics only — nearby Stay/Food pins would pull the
+ * viewport out and make a region filter feel like it never zoomed.
  *
  * @param {string[]} clinicIds
  * @param {{ scope?: 'all'|'sido'|'district' }} [opts]
@@ -335,7 +314,7 @@ function _fitVisible({ clinicsOnly = false, scope = 'sido' } = {}) {
         return;
     }
 
-    // Nationwide "All": frame Korea; do not clamp zoom up (that cropped to 남원/지리산).
+    // Nationwide "All": frame the whole country; do not clamp zoom up (that cropped outlying spots).
     if (scope === 'all') {
         map.fitBounds(bounds, { padding: 48 });
         google.maps.event.addListenerOnce(map, 'idle', () => {
@@ -353,7 +332,7 @@ function _fitVisible({ clinicsOnly = false, scope = 'sido' } = {}) {
             if (z > 14) map.setZoom(14);
             if (z < 11) map.setZoom(11);
         } else {
-            // sido (Seoul / Busan / …)
+            // sido (region-level) scope
             if (z > 13) map.setZoom(13);
             if (z < 10) map.setZoom(10);
         }
@@ -373,14 +352,4 @@ function _addLocationButton() {
             map.setZoom(14);
         });
     };
-}
-
-// Back-compat aliases used by older callers
-export async function renderPhotoMarkers(items) {
-    await renderClinicMarkers(items);
-    filterMapMarkers('all');
-}
-
-export function filterMarkers(theme) {
-    filterMapMarkers(theme);
 }
