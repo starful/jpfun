@@ -8,7 +8,7 @@ categories:
 - Dive
 thumbnail: /static/images/hachijojima_soft_coral_wall.jpg
 address: Hachijo, Tokyo, Japan
-date: '2026-10-27'
+date: '2026-10-11'
 website: ''
 summary: 도쿄에서 비행기로 55분, 수직 벽을 따라 펼쳐지는 소프트코랄 군락을 만나는 하치조지마 다이빙 포인트. 초중급자도 가이드와 함께라면
   충분히 즐길 수 있는 접근성과 난이도를 갖췄다.

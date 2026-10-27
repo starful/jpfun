@@ -8,7 +8,7 @@ categories:
 - Surf
 thumbnail: /static/images/isumi_ohara_coast.jpg
 address: Isumi, Chiba, Japan
-date: '2026-10-27'
+date: '2026-10-06'
 website: ''
 summary: A forgiving beach break on the Boso Peninsula that lights up when typhoon
   swells roll through the Pacific. Easy parking and consistent sandbars make Ohara
