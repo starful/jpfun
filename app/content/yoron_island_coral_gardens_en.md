@@ -1,18 +1,21 @@
 ---
 lang: en
-title: "Yoron Island Coral Gardens: Okinawa's Clearest Dive Escape"
+title: 'Yoron Island Coral Gardens: Okinawa''s Clearest Dive Escape'
 lat: 27.05
 lng: 128.42
-activity: "dive"
-categories: ["Dive"]
-thumbnail: "/static/images/yoron_island_coral_gardens.jpg"
-address: "Okinawa, Japan"
-date: "2026-10-06"
-website: ""
-summary: "Yoron Island's shallow coral gardens deliver some of the clearest water in the Ryukyu chain, perfect for divers chasing tropical reef life without the crowds."
-image_prompt: ""
-region: "okinawa"
+activity: dive
+categories:
+- Dive
+thumbnail: /static/images/yoron_island_coral_gardens.jpg
+address: Okinawa, Japan
+date: '2026-10-27'
+website: ''
+summary: Yoron Island's shallow coral gardens deliver some of the clearest water in
+  the Ryukyu chain, perfect for divers chasing tropical reef life without the crowds.
+image_prompt: ''
+region: okinawa
 ---
+
 
 ## A Reef for Divers Who Want Clarity Over Crowds
 

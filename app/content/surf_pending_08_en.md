@@ -1,18 +1,22 @@
 ---
 lang: en
-title: "Shimoda Shirahama Surf: Japan's Most Consistent Beach Break Guide"
+title: 'Shimoda Shirahama Surf: Japan''s Most Consistent Beach Break Guide'
 lat: 34.692
 lng: 138.972
-activity: "surf"
-categories: ["Surf"]
-thumbnail: "/static/images/surf_pending_08.jpg"
-address: "Shimoda Shirahama Surf, Japan"
-date: "2026-09-20"
-website: ""
-summary: "Shimoda Shirahama is Japan's most reliable surf beach, a wide sandy bay on the Izu Peninsula with waves for every level. Here's how to read the break, time the season, and get there without a car."
-image_prompt: ""
-region: "chubu"
+activity: surf
+categories:
+- Surf
+thumbnail: /static/images/surf_pending_08.jpg
+address: Shimoda Shirahama Surf, Japan
+date: '2026-10-27'
+website: ''
+summary: Shimoda Shirahama is Japan's most reliable surf beach, a wide sandy bay on
+  the Izu Peninsula with waves for every level. Here's how to read the break, time
+  the season, and get there without a car.
+image_prompt: ''
+region: chubu
 ---
+
 
 ## Why Surfers Keep Coming Back to Shirahama
 

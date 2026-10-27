@@ -1,18 +1,21 @@
 ---
 lang: ko
-title: "도쿠시마 하야마 카이간 서핑 가이드: 모래 바닥 비치 브레이크 완전 정복"
+title: '도쿠시마 하야마 카이간 서핑 가이드: 모래 바닥 비치 브레이크 완전 정복'
 lat: 34.127
 lng: 134.523
-activity: "surf"
-categories: ["Surf"]
-thumbnail: "/static/images/tokushima_hayama_kaigan.jpg"
-address: "Tokushima, Japan"
-date: "2026-10-06"
-website: ""
-summary: "시코쿠 도쿠시마의 숨은 비치 브레이크, 하야마 카이간에서 모래 바닥의 부드러운 라이딩을 즐겨보세요. 초보부터 중급 서퍼까지 만족할 수 있는 접근성 좋은 서핑 스폿입니다."
-image_prompt: ""
-region: "tokushima"
+activity: surf
+categories:
+- Surf
+thumbnail: /static/images/tokushima_hayama_kaigan.jpg
+address: Tokushima, Japan
+date: '2026-10-27'
+website: ''
+summary: 시코쿠 도쿠시마의 숨은 비치 브레이크, 하야마 카이간에서 모래 바닥의 부드러운 라이딩을 즐겨보세요. 초보부터 중급 서퍼까지 만족할
+  수 있는 접근성 좋은 서핑 스폿입니다.
+image_prompt: ''
+region: tokushima
 ---
+
 
 ## 왜 하야마 카이간인가, 이곳만의 색깔
 

@@ -1,18 +1,23 @@
 ---
 lang: en
-title: "Suo Oshima Beach: Yamaguchi's Long-Ride Surf Secret"
+title: 'Suo Oshima Beach: Yamaguchi''s Long-Ride Surf Secret'
 lat: 34.367
 lng: 131.797
-activity: "surf"
-categories: ["Surf"]
-thumbnail: "/static/images/suo_oshima_beach.jpg"
-address: "Suo-Oshima, Yamaguchi, Japan"
-date: "2026-10-06"
-website: ""
-summary: "A mellow Seto Inland Sea beach break where long, forgiving rides beat crowded Pacific lineups. Suo Oshima rewards patience with uncrowded peaks and a slow island pace."
-image_prompt: ""
-region: "yamaguchi"
+activity: surf
+categories:
+- Surf
+thumbnail: /static/images/suo_oshima_beach.jpg
+address: Suo-Oshima, Yamaguchi, Japan
+date: '2026-10-27'
+website: ''
+summary: A mellow Seto Inland Sea beach break where long, forgiving rides beat crowded
+  Pacific lineups. Suo Oshima rewards patience with uncrowded peaks and a slow island
+  pace.
+image_prompt: ''
+region: yamaguchi
 ---
+
+
 
 ## Why Surfers Overlook This Island — And Why That's the Point
 

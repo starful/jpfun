@@ -1,18 +1,22 @@
 ---
 lang: ko
-title: "니가타 가쿠다 비치 서핑 가이드: 윈터 스웰이 빚어내는 정직한 비치브레이크"
+title: '니가타 가쿠다 비치 서핑 가이드: 윈터 스웰이 빚어내는 정직한 비치브레이크'
 lat: 37.85
-lng: 138.90
-activity: "surf"
-categories: ["Surf"]
-thumbnail: "/static/images/kakuda_beach.jpg"
-address: "Niigata, Japan"
-date: "2026-10-11"
-website: ""
-summary: "도호쿠 니가타 해안의 가쿠다 비치는 겨울 스웰이 꾸준히 들어오는 비치브레이크 포인트다. 혼잡하지 않은 로컬 분위기에서 정직한 파도를 즐기고 싶은 서퍼에게 추천한다."
-image_prompt: ""
-region: "tohoku"
+lng: 138.9
+activity: surf
+categories:
+- Surf
+thumbnail: /static/images/kakuda_beach.jpg
+address: Niigata, Japan
+date: '2026-10-27'
+website: ''
+summary: 도호쿠 니가타 해안의 가쿠다 비치는 겨울 스웰이 꾸준히 들어오는 비치브레이크 포인트다. 혼잡하지 않은 로컬 분위기에서 정직한 파도를
+  즐기고 싶은 서퍼에게 추천한다.
+image_prompt: ''
+region: tohoku
 ---
+
+
 
 ## 가쿠다 비치는 어떤 서퍼에게 맞을까
 

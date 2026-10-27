@@ -1,18 +1,22 @@
 ---
 lang: en
-title: "Hachijojima Soft Coral Wall: Tokyo's Hidden Dive Frontier"
+title: 'Hachijojima Soft Coral Wall: Tokyo''s Hidden Dive Frontier'
 lat: 33.11
 lng: 139.79
-activity: "dive"
-categories: ["Dive"]
-thumbnail: "/static/images/hachijojima_soft_coral_wall.jpg"
-address: "Hachijo, Tokyo, Japan"
-date: "2026-10-11"
-website: ""
-summary: "A volcanic wall draped in soft coral gardens, just an hour's flight from Tokyo. Hachijojima delivers warm Kuroshio currents and big-animal encounters without the crowds of Okinawa."
-image_prompt: ""
-region: "tokyo"
+activity: dive
+categories:
+- Dive
+thumbnail: /static/images/hachijojima_soft_coral_wall.jpg
+address: Hachijo, Tokyo, Japan
+date: '2026-10-27'
+website: ''
+summary: A volcanic wall draped in soft coral gardens, just an hour's flight from
+  Tokyo. Hachijojima delivers warm Kuroshio currents and big-animal encounters without
+  the crowds of Okinawa.
+image_prompt: ''
+region: tokyo
 ---
+
 
 ## A Volcanic Wall Few Divers Know Exists
 

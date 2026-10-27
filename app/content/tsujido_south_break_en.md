@@ -1,18 +1,23 @@
 ---
 lang: en
-title: "Tsujido South Break: Fujisawa's Reliable Beach-Break Surf Spot"
+title: 'Tsujido South Break: Fujisawa''s Reliable Beach-Break Surf Spot'
 lat: 35.32
 lng: 139.45
-activity: "surf"
-categories: ["Surf"]
-thumbnail: "/static/images/tsujido_south_break.jpg"
-address: "Fujisawa, Kanagawa, Japan"
-date: "2026-10-11"
-website: ""
-summary: "A forgiving beach-break peak on Fujisawa's Shonan coast where weekend crowds, rental boards, and consistent swell windows make surfing approachable without sacrificing quality waves."
-image_prompt: ""
-region: "kanagawa"
+activity: surf
+categories:
+- Surf
+thumbnail: /static/images/tsujido_south_break.jpg
+address: Fujisawa, Kanagawa, Japan
+date: '2026-10-27'
+website: ''
+summary: A forgiving beach-break peak on Fujisawa's Shonan coast where weekend crowds,
+  rental boards, and consistent swell windows make surfing approachable without sacrificing
+  quality waves.
+image_prompt: ''
+region: kanagawa
 ---
+
+
 
 ## Why Surfers Keep Coming Back to Tsujido South
 

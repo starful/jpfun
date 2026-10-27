@@ -1,18 +1,21 @@
 ---
 lang: ko
-title: "이즈미 계곡 캠프 완벽 가이드: Osaka 근교 차박 명당"
+title: '이즈미 계곡 캠프 완벽 가이드: Osaka 근교 차박 명당'
 lat: 34.52
 lng: 135.42
-activity: "camp"
-categories: ["Camp"]
-thumbnail: "/static/images/izumi_valley_camp.jpg"
-address: "Osaka, Japan"
-date: "2026-10-06"
-website: ""
-summary: "Osaka에서 차로 한 시간 거리, 계곡 전망과 숲길을 품은 이즈미 계곡 캠프의 실전 정보를 정리했습니다. 차박부터 트레킹까지 한 번에 준비하세요."
-image_prompt: ""
-region: "osaka"
+activity: camp
+categories:
+- Camp
+thumbnail: /static/images/izumi_valley_camp.jpg
+address: Osaka, Japan
+date: '2026-10-27'
+website: ''
+summary: Osaka에서 차로 한 시간 거리, 계곡 전망과 숲길을 품은 이즈미 계곡 캠프의 실전 정보를 정리했습니다. 차박부터 트레킹까지 한
+  번에 준비하세요.
+image_prompt: ''
+region: osaka
 ---
+
 
 ## 이즈미 계곡 캠프가 특별한 이유
 

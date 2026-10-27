@@ -1,18 +1,20 @@
 ---
 lang: ko
-title: "자마미 산호초 정원, 게라마 제도 데이 보트 다이빙 완벽 가이드"
+title: 자마미 산호초 정원, 게라마 제도 데이 보트 다이빙 완벽 가이드
 lat: 26.18
 lng: 127.33
-activity: "dive"
-categories: ["Dive"]
-thumbnail: "/static/images/zamami_coral_garden.jpg"
-address: "Okinawa (Kerama Islands), Japan"
-date: "2026-09-27"
-website: ""
-summary: "게라마 블루로 불리는 자마미 산호초 정원에서 데이 보트로 즐기는 스쿠버 다이빙, 시야 30m와 테이블 산호 군락을 함께 경험한다."
-image_prompt: ""
-region: "okinawa"
+activity: dive
+categories:
+- Dive
+thumbnail: /static/images/zamami_coral_garden.jpg
+address: Okinawa (Kerama Islands), Japan
+date: '2026-10-27'
+website: ''
+summary: 게라마 블루로 불리는 자마미 산호초 정원에서 데이 보트로 즐기는 스쿠버 다이빙, 시야 30m와 테이블 산호 군락을 함께 경험한다.
+image_prompt: ''
+region: okinawa
 ---
+
 
 ## 왜 자마미인가: 오키나와 본섬 다이빙과 다른 점
 

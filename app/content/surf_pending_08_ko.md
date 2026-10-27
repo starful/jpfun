@@ -1,18 +1,21 @@
 ---
 lang: ko
-title: "시모다 시라하마 서프 완벽 가이드: 이즈반도 최고의 파도를 만나는 법"
+title: '시모다 시라하마 서프 완벽 가이드: 이즈반도 최고의 파도를 만나는 법'
 lat: 34.692
 lng: 138.972
-activity: "surf"
-categories: ["Surf"]
-thumbnail: "/static/images/surf_pending_08.jpg"
-address: "Shimoda Shirahama Surf, Japan"
-date: "2026-09-20"
-website: ""
-summary: "도쿄에서 당일치기로 닿는 이즈반도 최남단, 시모다 시라하마의 하얀 모래와 태평양 스웰이 만드는 서핑 천국을 소개합니다. 초보자 화이트워시부터 태풍 스웰까지, 레벨별 공략법을 담았습니다."
-image_prompt: ""
-region: "chubu"
+activity: surf
+categories:
+- Surf
+thumbnail: /static/images/surf_pending_08.jpg
+address: Shimoda Shirahama Surf, Japan
+date: '2026-10-27'
+website: ''
+summary: 도쿄에서 당일치기로 닿는 이즈반도 최남단, 시모다 시라하마의 하얀 모래와 태평양 스웰이 만드는 서핑 천국을 소개합니다. 초보자 화이트워시부터
+  태풍 스웰까지, 레벨별 공략법을 담았습니다.
+image_prompt: ''
+region: chubu
 ---
+
 
 ## 시라하마가 특별한 이유: 누구를 위한 파도인가
 

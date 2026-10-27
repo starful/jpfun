@@ -1,18 +1,21 @@
 ---
 lang: ko
-title: "이스미 오하라 해안 서핑 가이드: 지바 태풍 스웰의 비치 브레이크"
+title: '이스미 오하라 해안 서핑 가이드: 지바 태풍 스웰의 비치 브레이크'
 lat: 35.25
 lng: 140.39
-activity: "surf"
-categories: ["Surf"]
-thumbnail: "/static/images/isumi_ohara_coast.jpg"
-address: "Isumi, Chiba, Japan"
-date: "2026-10-11"
-website: ""
-summary: "지바현 이스미시 오하라 해안은 태풍 시즌 스웰과 넉넉한 주차 공간을 갖춘 비치 브레이크로, 도쿄에서 당일치기 서핑 트립으로 가장 접근성이 좋은 포인트 중 하나다."
-image_prompt: ""
-region: "chiba"
+activity: surf
+categories:
+- Surf
+thumbnail: /static/images/isumi_ohara_coast.jpg
+address: Isumi, Chiba, Japan
+date: '2026-10-27'
+website: ''
+summary: 지바현 이스미시 오하라 해안은 태풍 시즌 스웰과 넉넉한 주차 공간을 갖춘 비치 브레이크로, 도쿄에서 당일치기 서핑 트립으로 가장 접근성이
+  좋은 포인트 중 하나다.
+image_prompt: ''
+region: chiba
 ---
+
 
 ## 이런 서퍼에게 맞는 포인트다
 

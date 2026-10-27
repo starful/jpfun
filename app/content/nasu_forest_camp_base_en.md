@@ -1,18 +1,21 @@
 ---
 lang: en
-title: "Nasu Forest Camp Base: A Highland Family Campground in Tochigi"
+title: 'Nasu Forest Camp Base: A Highland Family Campground in Tochigi'
 lat: 37.12
 lng: 139.97
-activity: "camp"
-categories: ["Camp"]
-thumbnail: "/static/images/nasu_forest_camp_base.jpg"
-address: "Nasu, Tochigi, Japan"
-date: "2026-10-11"
-website: ""
-summary: "A cool-climate forest campground on the Nasu highlands that pairs easy family-friendly sites with glamping options nearby and quick access to onsen towns."
-image_prompt: ""
-region: "tochigi"
+activity: camp
+categories:
+- Camp
+thumbnail: /static/images/nasu_forest_camp_base.jpg
+address: Nasu, Tochigi, Japan
+date: '2026-10-27'
+website: ''
+summary: A cool-climate forest campground on the Nasu highlands that pairs easy family-friendly
+  sites with glamping options nearby and quick access to onsen towns.
+image_prompt: ''
+region: tochigi
 ---
+
 
 ## A Highland Escape for Families Who Don't Want to Rough It Completely
 

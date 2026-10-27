@@ -1,18 +1,22 @@
 ---
 lang: en
-title: "Tokushima Hayama Kaigan: A Sandy Beach Break Built for Real Progression"
+title: 'Tokushima Hayama Kaigan: A Sandy Beach Break Built for Real Progression'
 lat: 34.127
 lng: 134.523
-activity: "surf"
-categories: ["Surf"]
-thumbnail: "/static/images/tokushima_hayama_kaigan.jpg"
-address: "Tokushima, Japan"
-date: "2026-10-06"
-website: ""
-summary: "A forgiving, sandy-bottomed beach break on Tokushima's Pacific-facing coast where peaks shift with every swell. Here's how to read it, time it, and surf it without wasting a session."
-image_prompt: ""
-region: "tokushima"
+activity: surf
+categories:
+- Surf
+thumbnail: /static/images/tokushima_hayama_kaigan.jpg
+address: Tokushima, Japan
+date: '2026-10-27'
+website: ''
+summary: A forgiving, sandy-bottomed beach break on Tokushima's Pacific-facing coast
+  where peaks shift with every swell. Here's how to read it, time it, and surf it
+  without wasting a session.
+image_prompt: ''
+region: tokushima
 ---
+
 
 ## A Sand-Bottomed Stretch That Rewards Patience, Not Power
 

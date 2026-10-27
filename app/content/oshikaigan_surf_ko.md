@@ -1,18 +1,20 @@
 ---
 lang: ko
-title: "오시카이간 서프 완벽 가이드: 치바 이즈미 비치브레이크 포인트"
+title: '오시카이간 서프 완벽 가이드: 치바 이즈미 비치브레이크 포인트'
 lat: 35.15
 lng: 140.28
-activity: "surf"
-categories: ["Surf"]
-thumbnail: "/static/images/oshikaigan_surf.jpg"
-address: "Isumi, Chiba, Japan"
-date: "2026-10-11"
-website: ""
-summary: "태평양 스웰이 정직하게 들어오는 치바 이즈미의 비치브레이크, 오시카이간에서 중급 서퍼가 실력을 다지는 법을 정리했다."
-image_prompt: ""
-region: "chiba"
+activity: surf
+categories:
+- Surf
+thumbnail: /static/images/oshikaigan_surf.jpg
+address: Isumi, Chiba, Japan
+date: '2026-10-27'
+website: ''
+summary: 태평양 스웰이 정직하게 들어오는 치바 이즈미의 비치브레이크, 오시카이간에서 중급 서퍼가 실력을 다지는 법을 정리했다.
+image_prompt: ''
+region: chiba
 ---
+
 
 ## 오시카이간 서프 포인트는 누구에게 어울릴까
 
