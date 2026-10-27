@@ -2,7 +2,7 @@
 lang: en
 activity: surf
 title: "How to Choose Surfing Spots: A Beginner's Guide to Japan's Best Breaks"
-summary: "Learn how to read swell charts, match wave type to skill level, and pick the right Japanese surf break for your first sessions. A practical, no-fluff guide to choosing surfing s..."
+summary: "Learn how to read swell charts, match wave type to skill level, and pick the right Japanese surf break for your first sessions. A practical, no-fluff guide to choosing surfing spots that match your skill level, the season, and where you're staying in Japan."
 date: "2026-10-27"
 ---
 Japan has one of the most underrated surf coastlines in the world, stretching from the Pacific swell magnets of Chiba and Shonan to the typhoon-fed breaks of Miyazaki and Okinawa. But with thousands of kilometers of coast and wildly different wave conditions from one beach to the next, beginners often struggle with the most basic question: which surfing spots should I actually paddle out at? This guide walks you through a practical framework for choosing surf breaks that match your skill level, so your first weeks in the water build confidence instead of fear.
