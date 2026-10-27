@@ -12,9 +12,9 @@ date: '2026-10-27'
 website: ''
 summary: A quiet, family-friendly corner of the Hakuba Valley where gentle slopes
   meet genuine onsen culture. Hakuba Norikura Onsen Ski Resort trades crowds for comfort
-  without sacrifici...
+  without sacrificing real powder or a proper hot-spring soak at the end of the day.
 image_prompt: ''
-region: ''
+region: nagano
 ---
 
 ## A Smaller Resort With a Bigger Soul

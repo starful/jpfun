@@ -13,7 +13,7 @@ website: ''
 summary: A small-footprint resort beside Japan's biggest ski region, delivering untracked
   powder and backcountry gates without the lift lines.
 image_prompt: ''
-region: ''
+region: hokkaido
 ---
 
 ## Why Moiwa Stands Apart From Its Bigger Neighbors
