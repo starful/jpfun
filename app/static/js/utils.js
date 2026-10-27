@@ -2,7 +2,7 @@ import { CATEGORY_MAP, THEME_COLORS } from './config.js';
 
 /**
  * Return theme keys from category labels
- * ex) ["Tonkotsu", "Local Gem"] → ["tonkotsu", "local"]
+ * ex) ["Stay", "Food"] → ["stay", "food"]
  */
 export function getThemesFromCategories(categories = []) {
     const reverseMap = {};

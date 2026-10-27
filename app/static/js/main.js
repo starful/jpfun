@@ -260,10 +260,4 @@ window.addEventListener('popstate', async () => {
     await updateUI();
 });
 
-document.querySelectorAll('.lang-btn[data-lang]').forEach(btn => {
-    btn.addEventListener('click', async () => {
-        // full navigation via <a href> — no SPA lang switch on activity pages
-    });
-});
-
 if (mapRoot) initApp();

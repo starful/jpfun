@@ -4,8 +4,6 @@ from __future__ import annotations
 import re
 from typing import Any
 
-_LANG_SUFFIX = re.compile(r"_(en|ko)$", re.I)
-
 REGION_RULES: list[tuple[str, re.Pattern[str]]] = [
     ("hokkaido", re.compile(r"Hokkaido|홋카이도|北海道", re.I)),
     ("nagano", re.compile(r"Nagano|나가노|長野", re.I)),
@@ -143,10 +141,6 @@ REGION_COLLAPSE: dict[str, str] = {
     "kanto": "chubu",
     "okinawa": "kyushu",
 }
-
-
-def base_id(item_id: str) -> str:
-    return _LANG_SUFFIX.sub("", str(item_id or ""))
 
 
 def canonicalize_region_key(key: str | None) -> str:

@@ -1,20 +1,27 @@
 ---
 youtube_id: lRZRiC52JJQ
-
 lang: en
-title: "Naeba Ski Resort"
+title: Naeba Ski Resort (Yuzawa) | Best for Families 2h from Tokyo
 lat: 36.871
 lng: 138.755
-categories: ["Ski"]
-activity: "ski"
-thumbnail: "/static/images/naeba.jpg"
-address: "Yuzawa, Niigata, Japan"
-date: "2026-08-15"
-website: "https://www.princehotels.co.jp/ski/naeba/"
-summary: "Naeba Ski Resort — Prince hotels, Fuji Rock summer fame, and Yuzawa family skiing."
-image_prompt: ""
-region: "niigata"
+categories:
+- Ski
+activity: ski
+thumbnail: /static/images/naeba.jpg
+address: Yuzawa, Niigata, Japan
+date: '2026-08-15'
+website: https://www.princehotels.co.jp/ski/naeba/
+summary: Naeba Ski Resort anchors Yuzawa — a family-focused powder hub 2h from Tokyo
+  with Prince Hotel lodging, groomed runs, onsen, and Fuji Rock festival access.
+image_prompt: ''
+region: niigata
+description: Naeba Ski Resort near Yuzawa — family-friendly 2h from Tokyo. Prince
+  Hotel lodging, groomed powder, onsen, Fuji Rock festival site.
+seo_title: 'Naeba Yuzawa Ski Resort: Family Powder Base 2h from Tokyo | JPFun'
+seo_description: 'Discover Naeba Ski Resort near Yuzawa: best for families, 2h from
+  Tokyo. Prince Hotel base, groomed powder, onsen, and Fuji Rock festival site.'
 ---
+
 
 ## Overview
 
@@ -53,3 +60,6 @@ JPFun shows Naeba with **Stay** and **Food** pins across the Prince base and Yuz
 - Station-area **Stay** saves money; Prince saves time on the snow.
 - Book Prince early for **Fuji Rock weekend overflow crowds** in winter (still popular for ski).
 
+## Before You Book: Tokyo & Seoul Access Tips
+
+Naeba's position as Yuzawa's hub offers quick-trip appeal. From Tokyo, Joetsu Shinkansen + shuttle means you leave mid-morning and ski by afternoon—rare for Honshu resorts. Seoul travelers enjoy direct winter flights to Narita or Haneda, then the same routing. Echigo-Yuzawa Station offers luggage forwarding and hotel pickups. Many families take 1–2-night trips combining Prince Hotel lodging with onsen and shopping downtown. Consider whether a Naeba + Kagura linked ticket fits your terrain goals versus Naeba-only daily passes.
