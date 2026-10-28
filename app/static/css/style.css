@@ -584,6 +584,24 @@ header {
     background: color-mix(in srgb, var(--accent-color, #2EB5A8) 12%, transparent);
 }
 
+/* Winter season trend-spot overlay (Niseko / Hakuba / Iwatake rollout) */
+.card-visual--winter-trend::after,
+.detail-img-wrap--winter-trend::after {
+    content: '';
+    position: absolute; inset: 0;
+    background: linear-gradient(180deg, rgba(10, 35, 66, 0) 55%, rgba(8, 28, 58, 0.55) 100%);
+    pointer-events: none;
+}
+.winter-season-badge {
+    position: absolute; left: 10px; top: 10px; z-index: 2;
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 5px 12px; border-radius: 999px;
+    background: linear-gradient(135deg, #1d4ed8, #0ea5e9);
+    color: #fff; font-size: 0.72rem; font-weight: 800; letter-spacing: 0.02em;
+    box-shadow: 0 4px 12px rgba(13, 42, 74, 0.28);
+    pointer-events: none;
+}
+
 /* =========================================
    7. Detail Page
    ========================================= */
@@ -656,6 +674,14 @@ header {
     color: #8a9aa1; font-style: italic; font-weight: 500;
 }
 
+.detail-img-wrap {
+    position: relative; border-radius: 15px; overflow: hidden;
+    margin-bottom: 24px;
+}
+.detail-img-wrap .detail-img { margin-bottom: 0; }
+.detail-img-wrap .winter-season-badge {
+    top: 14px; left: 14px; font-size: 0.82rem; padding: 7px 15px;
+}
 .detail-img {
     width: 100%; max-height: 450px; object-fit: cover;
     border-radius: 15px; margin-bottom: 24px; display: block;
