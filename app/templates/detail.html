@@ -98,6 +98,7 @@
       {% set lbl_website = '웹사이트' %}
       {% set lbl_na = '공개 정보 없음 — 스키장에 확인' %}
       {% set lbl_back = '지도로 돌아가기' %}
+      {% set lbl_winter = '❄ 겨울 시즌 인기' %}
     {% elif lang == 'ja' %}
       {% set lbl_site = '公式サイト' %}
       {% set lbl_call = '電話する' %}
@@ -108,6 +109,7 @@
       {% set lbl_website = 'ウェブサイト' %}
       {% set lbl_na = '公開情報なし — クリニックへ確認' %}
       {% set lbl_back = '地図に戻る' %}
+      {% set lbl_winter = '❄ 冬シーズン注目' %}
     {% elif lang == 'zh' %}
       {% set lbl_site = '官方网站' %}
       {% set lbl_call = '拨打电话' %}
@@ -118,6 +120,7 @@
       {% set lbl_website = '网站' %}
       {% set lbl_na = '公开信息未收录 — 请向诊所确认' %}
       {% set lbl_back = '返回地图' %}
+      {% set lbl_winter = '❄ 冬季人气推荐' %}
     {% elif lang == 'zh_tw' %}
       {% set lbl_site = '官方網站' %}
       {% set lbl_call = '撥打電話' %}
@@ -128,6 +131,7 @@
       {% set lbl_website = '網站' %}
       {% set lbl_na = '公開資訊未收錄 — 請向診所確認' %}
       {% set lbl_back = '返回地圖' %}
+      {% set lbl_winter = '❄ 冬季人氣推薦' %}
     {% else %}
       {% set lbl_site = 'Official website' %}
       {% set lbl_call = 'Call' %}
@@ -138,7 +142,11 @@
       {% set lbl_website = 'Website' %}
       {% set lbl_na = 'Not in public listing — ask the clinic' %}
       {% set lbl_back = 'Back to map' %}
+      {% set lbl_winter = '❄ Winter season pick' %}
     {% endif %}
+
+    {% set winter_trend_prefixes = ['niseko', 'hakuba', 'iwatake'] %}
+    {% set is_winter_trend = (post.activity == 'ski') and (winter_trend_prefixes|select('in', base_id)|first) %}
 
     <article class="detail-container">
         <div class="detail-header">
@@ -250,7 +258,12 @@
             </p>
         </details>
         {% else %}
-        <img src="{{ post.thumbnail }}" alt="{{ post.title }} in {{ post.address }}" class="detail-img">
+        <div class="detail-img-wrap {% if is_winter_trend %}detail-img-wrap--winter-trend{% endif %}">
+            <img src="{{ post.thumbnail }}" alt="{{ post.title }} in {{ post.address }}" class="detail-img">
+            {% if is_winter_trend %}
+            <span class="winter-season-badge"><i class="fa-solid fa-snowflake" aria-hidden="true"></i> {{ lbl_winter }}</span>
+            {% endif %}
+        </div>
         {% endif %}
 
         {% if content %}

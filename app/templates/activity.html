@@ -82,11 +82,14 @@
                     {% if lang == 'ko' %}스팟 목록{% else %}Spot list{% endif %}
                 </h2>
                 <div id="item-list" class="onsen-grid">
+                    {% set winter_trend_prefixes = ['niseko', 'hakuba', 'iwatake'] %}
                     {% for item in initial_items %}
+                    {% set is_winter_trend = (activity == 'ski') and (winter_trend_prefixes|select('in', item.id)|first) %}
                     <div class="onsen-card">
                         <a href="{{ item.link }}">
-                            <div class="card-visual">
+                            <div class="card-visual {% if is_winter_trend %}card-visual--winter-trend{% endif %}">
                             <img src="{{ item.thumbnail }}" class="card-thumb" alt="{{ item.title }}" loading="lazy">
+                            {% if is_winter_trend %}<span class="winter-season-badge"><i class="fa-solid fa-snowflake" aria-hidden="true"></i> {% if lang == 'ko' %}겨울 인기{% else %}Winter pick{% endif %}</span>{% endif %}
                             {% if item.youtube_id %}<span class="card-play" aria-hidden="true">▶</span>{% endif %}
                             </div>
                         </a>

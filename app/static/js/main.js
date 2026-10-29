@@ -105,6 +105,12 @@ function activityEmoji() {
     return '🎉';
 }
 
+const WINTER_TREND_PREFIXES = ['niseko', 'hakuba', 'iwatake'];
+function isWinterTrendSpot(item) {
+    const id = (item.id || '').toLowerCase();
+    return currentActivity === 'ski' && WINTER_TREND_PREFIXES.some(p => id.includes(p));
+}
+
 function renderList(data) {
     const container = document.getElementById('item-list');
     if (!container) return;
@@ -121,9 +127,10 @@ function renderList(data) {
     container.innerHTML = data.map(item => `
         <div class="onsen-card" data-resort-id="${item.id || ''}">
             <a href="${item.link}">
-                <div class="card-visual">
+                <div class="card-visual ${isWinterTrendSpot(item) ? 'card-visual--winter-trend' : ''}">
                     <img src="${item.thumbnail}" class="card-thumb" alt="${item.title}" loading="lazy"
                          onerror="this.src='/static/images/default.jpg'">
+                    ${isWinterTrendSpot(item) ? '<span class="winter-season-badge"><i class="fa-solid fa-snowflake" aria-hidden="true"></i> Winter pick</span>' : ''}
                     ${item.youtube_id ? '<span class="card-play" aria-hidden="true">▶</span>' : ''}
                 </div>
             </a>
