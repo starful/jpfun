@@ -1427,3 +1427,45 @@ footer {
         max-width: none;
     }
 }
+
+/* =========================================
+   10. Social preview card (/card/item, /card/guide)
+   Standard for thumbnail/OG-image title overlays:
+   - Scrim: linear-gradient, dark bottom ~45% of the 1200x630 frame, so any
+     photo keeps >= 4.5:1 contrast for white title text without flattening
+     the whole image.
+   - Title: max 2 lines (clamp + ellipsis), font-weight >= 800, text-shadow
+     for busy/light backgrounds, left/right padding >= 5% of width so crops
+     on Facebook/X/KakaoTalk don't clip the first or last word.
+   - Keep this card's look in sync with any future automated thumbnail/OG
+     image generation so previews match what renders here.
+   ========================================= */
+.social-preview-page { max-width: 720px; margin: 48px auto; }
+.social-preview-card {
+    position: relative; border-radius: 16px; overflow: hidden;
+    box-shadow: 0 10px 28px rgba(15, 42, 50, 0.12);
+}
+.social-preview-media {
+    position: relative; width: 100%; aspect-ratio: 1200 / 630;
+    background: #0c1b24;
+}
+.social-preview-media img {
+    width: 100%; height: 100%; object-fit: cover; display: block;
+}
+.social-preview-scrim {
+    position: absolute; inset: 0; pointer-events: none;
+    background: linear-gradient(180deg, rgba(8, 20, 30, 0) 55%, rgba(6, 16, 26, 0.82) 100%);
+}
+.social-preview-title-overlay {
+    position: absolute; left: 0; right: 0; bottom: 0; z-index: 1;
+    margin: 0; padding: 20px 6% 18px;
+    color: #fff; font-size: clamp(1.15rem, 4vw, 1.6rem); font-weight: 800;
+    line-height: 1.32; text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.social-preview-desc {
+    margin: 20px 0 0; color: #64748b; line-height: 1.6;
+}
+.social-preview-link { margin-top: 24px; }
+.social-preview-link a { font-weight: 700; color: var(--accent-hover); }
