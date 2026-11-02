@@ -30,11 +30,16 @@
     <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
-    <main class="detail-container" style="max-width:720px;margin:48px auto;padding:0 16px;">
-        <img src="{{ og_image_abs }}" alt="{{ seo_title }}" width="1200" height="630" style="width:100%;height:auto;border-radius:12px;">
-        <h1 style="margin-top:24px;font-size:1.5rem;">{{ title }}</h1>
-        <p style="color:#64748b;line-height:1.6;">{{ seo_desc }}</p>
-        <p style="margin-top:24px;"><a href="{{ page_url }}" style="font-weight:700;">{{ '페이지 보기 →' if lang == 'ko' else 'View page →' }}</a></p>
+    <main class="detail-container social-preview-page">
+        <div class="social-preview-card">
+            <div class="social-preview-media">
+                <img src="{{ og_image_abs }}" alt="{{ seo_title }}" width="1200" height="630" loading="eager">
+                <div class="social-preview-scrim" aria-hidden="true"></div>
+                <h1 class="social-preview-title-overlay">{{ title }}</h1>
+            </div>
+        </div>
+        <p class="social-preview-desc">{{ seo_desc }}</p>
+        <p class="social-preview-link"><a href="{{ page_url }}">{{ '페이지 보기 →' if lang == 'ko' else 'View page →' }}</a></p>
     </main>
 </body>
 </html>
