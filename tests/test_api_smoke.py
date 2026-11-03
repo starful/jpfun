@@ -56,7 +56,7 @@ class ApiSmokeTest(unittest.TestCase):
         self.assertEqual(detail.status_code, 200)
         self.assertIn(b"reaction-panel", detail.data)
 
-    def test_item_detail_shows_a8_and_rakuten(self):
+    def test_item_detail_shows_agoda_amazon_and_rakuten(self):
         items_resp = self.client.get("/api/items?lang=en")
         payload = items_resp.get_json()
         items = payload.get("items") or []
@@ -65,7 +65,11 @@ class ApiSmokeTest(unittest.TestCase):
         detail = self.client.get(f"/item/{item_id}")
         self.assertEqual(detail.status_code, 200)
         body = detail.get_data(as_text=True)
-        self.assertIn("px.a8.net/svt/ejp", body)
+        self.assertNotIn("px.a8.net", body)
+        self.assertIn("agoda.com", body)
+        self.assertIn("amazon.co.jp/s", body)
+        self.assertIn("tag=starful06-22", body)
+        self.assertIn("affiliate_agoda", body)
         self.assertIn("a8-banners", body)
         self.assertNotIn("a8-banners__img", body)
         self.assertIn("booking-box", body)
@@ -73,7 +77,7 @@ class ApiSmokeTest(unittest.TestCase):
         self.assertNotIn("link.coupang.com", body)
         self.assertNotIn("klook.tpo.mx", body)
 
-    def test_item_detail_ko_shows_rakuten_and_a8(self):
+    def test_item_detail_ko_shows_rakuten_agoda_amazon(self):
         items_resp = self.client.get("/api/items?lang=ko")
         payload = items_resp.get_json()
         items = payload.get("items") or []
@@ -83,7 +87,8 @@ class ApiSmokeTest(unittest.TestCase):
         self.assertEqual(detail.status_code, 200)
         body = detail.get_data(as_text=True)
         self.assertIn("hb.afl.rakuten.co.jp/hgc/", body)
-        self.assertIn("px.a8.net/svt/ejp", body)
+        self.assertNotIn("px.a8.net", body)
+        self.assertIn("amazon.co.jp/s", body)
         self.assertNotIn("link.coupang.com", body)
         self.assertNotIn("klook.tpo.mx", body)
         self.assertNotIn("쿠팡 파트너스", body)

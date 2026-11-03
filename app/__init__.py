@@ -1383,9 +1383,11 @@ def item_detail(item_id):
     try:
         from .affiliate import affiliate_context
         from .a8_affiliate import a8_banners_context
+        from .amazon_affiliate import amazon_context
     except ImportError:
         from affiliate import affiliate_context
         from a8_affiliate import a8_banners_context
+        from amazon_affiliate import amazon_context
     aff = affiliate_context(
         item_id,
         lang=lang,
@@ -1399,6 +1401,7 @@ def item_detail(item_id):
         lat=post.get("lat"),
         lng=post.get("lng"),
     )
+    amazon = amazon_context(kind=str(post.get("activity") or ""), lang=lang)
     return render_template(
         'detail.html',
         post=post,
@@ -1411,6 +1414,7 @@ def item_detail(item_id):
         **stats,
         **aff,
         **a8,
+        **amazon,
     )
 
 
