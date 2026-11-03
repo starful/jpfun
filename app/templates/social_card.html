@@ -39,7 +39,11 @@
             </div>
         </div>
         <p class="social-preview-desc">{{ seo_desc }}</p>
+        <p class="social-preview-size-check"
+           data-ok-label="{{ 'OG 이미지 크기 정상 ({w}×{h})' if lang == 'ko' else 'OG image size OK ({w}×{h})' }}"
+           data-warn-label="{{ '⚠ OG 이미지 크기 불일치: 실제 {w}×{h} / 선언 {dw}×{dh}' if lang == 'ko' else '⚠ OG image size mismatch: actual {w}×{h} vs declared {dw}×{dh}' }}"></p>
         <p class="social-preview-link"><a href="{{ page_url }}">{{ '페이지 보기 →' if lang == 'ko' else 'View page →' }}</a></p>
     </main>
+    <script src="/static/js/card-qa.js" defer></script>
 </body>
 </html>
