@@ -171,7 +171,7 @@
           <a href="{{ agoda_cta.click_url }}"
              target="_blank"
              rel="nofollow sponsored noopener noreferrer"
-             data-track="affiliate_a8"
+             data-track="affiliate_agoda"
              data-track-label="agoda-early"
              style="display: inline-block; padding: 12px 22px; background: #1d4ed8; color: #fff; font-weight: 800; font-size: 0.95rem; border-radius: 999px; text-decoration: none; white-space: nowrap;">
             {% if lang == 'ko' %}Agoda에서 숙소 보기{% else %}Find stays on Agoda{% endif %}
@@ -412,7 +412,7 @@
         </div>
         {% endif %}
 
-        {% if show_rakuten or show_agoda_cta %}
+        {% if show_rakuten or show_agoda_cta or show_amazon %}
         <div class="booking-box">
             <h3>🏨 {{ booking_title }}</h3>
             <p>{{ booking_desc }}</p>
@@ -432,10 +432,21 @@
                    target="_blank"
                    rel="noopener noreferrer nofollow sponsored"
                    class="booking-btn booking-btn--agoda"
-                   data-track="affiliate_a8"
+                   data-track="affiliate_agoda"
                    data-track-label="agoda-early"
                    style="background:#1d4ed8;">
                     {% if lang == 'ko' %}Agoda에서 주변 숙소 보기{% else %}Find nearby stays on Agoda{% endif %}
+                </a>
+                {% endif %}
+                {% if show_amazon and amazon_cta %}
+                <a href="{{ amazon_cta.click_url }}"
+                   target="_blank"
+                   rel="noopener noreferrer nofollow sponsored"
+                   class="booking-btn booking-btn--amazon"
+                   data-track="affiliate_amazon"
+                   data-track-label="{{ amazon_cta.kind }}"
+                   style="background:#ff9900;color:#111;">
+                    {{ amazon_cta.label }}
                 </a>
                 {% endif %}
             </div>

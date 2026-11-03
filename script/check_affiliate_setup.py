@@ -20,7 +20,7 @@ APP_DIR = BASE_DIR / "app"
 if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))
 
-MODULES = ("a8_affiliate", "agoda_partners", "rakuten_affiliate")
+MODULES = ("a8_affiliate", "agoda_partners", "rakuten_affiliate", "amazon_affiliate")
 
 
 def check_modules_present() -> bool:
@@ -48,6 +48,10 @@ def check_module_config() -> bool:
     from app.agoda_partners import AGODA_CID
 
     print(f"✅ agoda_partners: using CID {AGODA_CID}")
+
+    from app.amazon_affiliate import AMAZON_TAG
+
+    print(f"✅ amazon_affiliate: using tag {AMAZON_TAG}")
 
     from app.rakuten_affiliate import is_configured as rakuten_configured
 

@@ -1,7 +1,10 @@
 import unittest
 
 from app.affiliate import affiliate_context, rakuten_url_for, resolve_ski_region
+from urllib.parse import quote_plus
+
 from app.a8_affiliate import a8_banners_context
+from app.amazon_affiliate import amazon_context
 
 
 class TestJpfunAffiliate(unittest.TestCase):
@@ -54,24 +57,48 @@ class TestJpfunAffiliate(unittest.TestCase):
         self.assertIn("白馬", keyword)
         self.assertEqual(label, "Hakuba")
 
-    def test_ski_a8_includes_ski_tour(self):
-        ctx = a8_banners_context(activity="ski", lang="en")
+    def test_ski_a8_agoda_only(self):
+        ctx = a8_banners_context(activity="ski", lang="en", lat=36.7, lng=137.8)
         self.assertTrue(ctx["show_a8_banners"])
         ids = [b["id"] for b in ctx["a8_banners"]]
-        self.assertEqual(ids[0], "agoda")
-        self.assertIn("ski_tour", ids)
+        self.assertEqual(ids, ["agoda"])
         self.assertTrue(ctx["show_agoda_cta"])
-        self.assertNotIn("tora_esim", ids)
+        self.assertNotIn("a8.net", ctx["agoda_cta"]["click_url"])
 
-    def test_camp_a8_includes_hinata_not_glamping(self):
+    def test_camp_a8_agoda_only(self):
         ctx = a8_banners_context(activity="camp", lang="en")
         ids = [b["id"] for b in ctx["a8_banners"]]
-        self.assertNotIn("glamping", ids)
-        self.assertIn("hinata_rental", ids)
-        self.assertIn("agoda", ids)
-        hinata = next(b for b in ctx["a8_banners"] if b["id"] == "hinata_rental")
-        self.assertIn("4BCE3P+1C87V6+4U5Q+5YJRM", hinata["click_url"])
-        self.assertIn("hinata", hinata["label"].lower())
+        self.assertEqual(ids, ["agoda"])
+        for banner in ctx["a8_banners"]:
+            self.assertNotIn("px.a8.net", banner["click_url"])
+            self.assertEqual(banner["pixel_url"], "")
+
+    def test_a8_agoda_only_for_all_activities(self):
+        for act in ("", "surf", "ski", "camp", "glamping"):
+            ctx = a8_banners_context(activity=act, lang="ko")
+            self.assertEqual([b["id"] for b in ctx["a8_banners"]], ["agoda"])
+
+    def test_amazon_default_and_kinds(self):
+        cases = {
+            "": "アウトドア グッズ",
+            "surf": "アウトドア グッズ",
+            "ski": "スキー ウェア",
+            "camp": "キャンプ用品",
+            "glamping": "グランピング グッズ",
+        }
+        for kind, kw in cases.items():
+            ctx = amazon_context(kind=kind, lang="en")
+            self.assertTrue(ctx["show_amazon"])
+            url = ctx["amazon_cta"]["click_url"]
+            self.assertIn("amazon.co.jp/s", url)
+            self.assertIn("tag=starful06-22", url)
+            self.assertIn(quote_plus(kw), url)
+
+    def test_amazon_label_lang(self):
+        ko = amazon_context(kind="camp", lang="ko")["amazon_cta"]["label"]
+        en = amazon_context(kind="camp", lang="en")["amazon_cta"]["label"]
+        self.assertIn("Amazon", ko)
+        self.assertNotEqual(ko, en)
 
 
 if __name__ == "__main__":
