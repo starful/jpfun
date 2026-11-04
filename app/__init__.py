@@ -1343,6 +1343,13 @@ def guide_detail(guide_id):
     content_html = _md_to_html(body, extensions=['tables', 'toc', 'fenced_code'])
     page_path = f"/guide/{guide_id}"
     share_ctx = _share_context(guide_id, title, lang, page_path, base_id, 'guide')
+    try:
+        from .a8_affiliate import a8_banners_context
+        from .amazon_affiliate import amazon_context
+    except ImportError:
+        from a8_affiliate import a8_banners_context
+        from amazon_affiliate import amazon_context
+    act = str(post.get("activity") or "guide")
     return render_template('guide_detail.html',
                            title=title, content=content_html, lang=lang,
                            guide_id=guide_id, base_id=base_id,
@@ -1350,6 +1357,8 @@ def guide_detail(guide_id):
                            canonical=f"{SITE_CONFIG['site_url']}/guide/{guide_id}",
                            alt_en=alt_en, alt_ja=alt_ja, alt_zh=alt_zh, alt_zh_tw=alt_zh_tw,
                            post=post,
+                           **a8_banners_context(lang=lang),
+                           **amazon_context(kind=act, lang=lang),
                            **_og_image_context(base_id), **share_ctx, **stats)
 
 @app.route('/item/<item_id>')
