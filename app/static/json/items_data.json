@@ -1,7 +1,343 @@
 {
-  "last_updated": "2026-10-27",
-  "total_count": 606,
+  "last_updated": "2026.11.07",
+  "total_count": 622,
   "items": [
+    {
+      "id": "tsurigasaki_beach_ko",
+      "lang": "ko",
+      "title": "쓰리가사키 비치(Tsurigasaki Beach) 서핑 완벽 가이드: 도쿄 근교 최고의 초보자 서핑 스팟",
+      "lat": 35.3359696,
+      "lng": 140.3946096,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/tsurigasaki_beach.jpg",
+      "youtube_id": "",
+      "address": "6961-7 Torami, Ichinomiya, Chōsei District, Chiba 299-4303",
+      "published": "2026-11-07",
+      "summary": "도쿄 올림픽 서핑 경기장이었던 쓰리가사키 비치는 완만한 모래 해변과 꾸준한 파도로 서핑 입문자에게 최적의 환경을 제공한다. 도쿄에서 기차로 두 시간이면 닿을 수 있어 당일치기 서핑 여행도 충분히 가능하다.",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/tsurigasaki_beach_ko"
+    },
+    {
+      "id": "konashidaira_campground_ko",
+      "lang": "ko",
+      "title": "코나시다이라 캠프장 완벽 가이드: 가미코치 북알프스 하이킹 베이스캠프",
+      "lat": 36.251174299999995,
+      "lng": 137.6405697,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/konashidaira_campground.jpg",
+      "youtube_id": "",
+      "address": "〒390-1520 Nagano, Matsumoto, Azumi, 上高地４４６８",
+      "published": "2026-11-07",
+      "summary": "가미코치 한복판, 북알프스 설경을 텐트 안에서 바라보는 코나시다이라 캠프장은 하이킹 베이스캠프로 최적의 조건을 갖췄다.",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/konashidaira_campground_ko"
+    },
+    {
+      "id": "mitsumata_ski_area_en",
+      "lang": "en",
+      "title": "Mitsumata Ski Area: Niigata's Beginner-Friendly Powder Gateway",
+      "lat": 36.888459499999996,
+      "lng": 138.7544033,
+      "activity": "ski",
+      "categories": [
+        "Ski"
+      ],
+      "thumbnail": "/static/images/mitsumata_ski_area.jpg",
+      "youtube_id": "",
+      "address": "Mitsumata, Yuzawa, Minamiuonuma District, Niigata 949-6211",
+      "published": "2026-11-07",
+      "summary": "A quiet, gondola-served pocket of Yuzawa powder built for beginners and families who want real snow without the crowds.",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/mitsumata_ski_area_en"
+    },
+    {
+      "id": "zao_onsen_ski_resort_ko",
+      "lang": "ko",
+      "title": "자오 온천 스키 리조트 완벽 가이드: 주효 수빙과 함께하는 동북 최고의 스키장",
+      "lat": 38.1651589,
+      "lng": 140.3952784,
+      "activity": "ski",
+      "categories": [
+        "Ski"
+      ],
+      "thumbnail": "/static/images/zao_onsen_ski_resort.jpg",
+      "youtube_id": "",
+      "address": "Zaoonsen, Yamagata, 990-2301",
+      "published": "2026-11-07",
+      "summary": "눈으로 뒤덮인 거대한 주효 수빙 사이를 활강하는 동북 지방 최고의 스키장, 자오 온천. 중급자에게 완벽한 슬로프와 피로를 풀어주는 온천욕까지 한 번에 즐겨보세요.",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/zao_onsen_ski_resort_ko"
+    },
+    {
+      "id": "naeba_ski_resort_ko",
+      "lang": "ko",
+      "title": "나에바 스키 리조트(Naeba Ski Resort) 완전 가이드: 파우더와 가족 스키의 성지",
+      "lat": 36.7953474,
+      "lng": 138.786228,
+      "activity": "ski",
+      "categories": [
+        "Ski"
+      ],
+      "thumbnail": "/static/images/naeba_ski_resort.jpg",
+      "youtube_id": "",
+      "address": "202 Mikuni, Yuzawa, Minamiuonuma District, Niigata 949-6212",
+      "published": "2026-11-07",
+      "summary": "니가타 유자와의 나에바 스키 리조트는 초보자부터 상급자까지 만족시키는 광활한 슬로프와 풍부한 파우더 스노우를 자랑한다. 도쿄에서 당일치기도 가능한 접근성과 가족 친화적 시설이 장점이다.",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/naeba_ski_resort_ko"
+    },
+    {
+      "id": "hanazono_niseko_ko",
+      "lang": "ko",
+      "title": "하나조노 니세코(Hanazono Niseko) 완벽 가이드: 파우더와 가족 스키의 성지",
+      "lat": 42.8930897,
+      "lng": 140.7001713,
+      "activity": "ski",
+      "categories": [
+        "Ski"
+      ],
+      "thumbnail": "/static/images/hanazono_niseko.jpg",
+      "youtube_id": "",
+      "address": "328-36 Iwaobetsu, Kutchan, Abuta District, Hokkaido 044-0082",
+      "published": "2026-11-07",
+      "summary": "세계적인 파우더 스노우와 가족 친화 시설을 동시에 갖춘 하나조노 니세코, 초급부터 중급자까지 만족시키는 홋카이도 스키 여행의 핵심 포인트를 정리했습니다.",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/hanazono_niseko_ko"
+    },
+    {
+      "id": "hakuba_sanosaka_ski_resort_en",
+      "lang": "en",
+      "title": "Hakuba Sanosaka Ski Resort: The Family-Friendly Beginner Base in Hakuba Valley",
+      "lat": 36.6291875,
+      "lng": 137.8416153,
+      "activity": "ski",
+      "categories": [
+        "Ski"
+      ],
+      "thumbnail": "/static/images/hakuba_sanosaka_ski_resort.jpg",
+      "youtube_id": "",
+      "address": "458 Kamishiro, Hakuba, Kitaazumi District, Nagano 399-9211",
+      "published": "2026-11-07",
+      "summary": "A gentle, family-sized ski hill in the heart of Hakuba Valley, built for first turns, night runs, and stress-free days on snow.",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/hakuba_sanosaka_ski_resort_en"
+    },
+    {
+      "id": "mikomoto_island_ko",
+      "lang": "ko",
+      "title": "미코모토 섬 다이빙 가이드: 해머헤드 샤크를 만나는 시모다 드리프트 다이빙",
+      "lat": 34.575521699999996,
+      "lng": 138.94149969999998,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/mikomoto_island.jpg",
+      "youtube_id": "",
+      "address": "Mikomoto Island, Touji, Shimoda, Shizuoka 415-0029",
+      "published": "2026-11-07",
+      "summary": "시즈오카 시모다 앞바다의 미코모토 섬은 해머헤드 샤크 군집으로 유명한 일본 최고의 드리프트 다이빙 포인트다. 강한 조류와 수심 변화가 많아 어드밴스드 다이버에게 추천되는 코스다.",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/mikomoto_island_ko"
+    },
+    {
+      "id": "hakuba_sanosaka_ski_resort_ko",
+      "lang": "ko",
+      "title": "하쿠바 사노사카 스키장(Hakuba Sanosaka Ski Resort) 완벽 가이드 – 가족과 초보자를 위한 나이트 스키 명소",
+      "lat": 36.6291875,
+      "lng": 137.8416153,
+      "activity": "ski",
+      "categories": [
+        "Ski"
+      ],
+      "thumbnail": "/static/images/hakuba_sanosaka_ski_resort.jpg",
+      "youtube_id": "",
+      "address": "458 Kamishiro, Hakuba, Kitaazumi District, Nagano 399-9211",
+      "published": "2026-11-07",
+      "summary": "나가노 하쿠바 사노사카는 완만한 슬로프와 나이트 스키로 유명한 가족형 스키장이다. 초보자 레슨부터 야간 설경까지 한 번에 즐길 수 있다.",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/hakuba_sanosaka_ski_resort_ko"
+    },
+    {
+      "id": "hanazono_niseko_en",
+      "lang": "en",
+      "title": "Hanazono Niseko: Hokkaido's Powder Playground for Every Skill Level",
+      "lat": 42.8930897,
+      "lng": 140.7001713,
+      "activity": "ski",
+      "categories": [
+        "Ski"
+      ],
+      "thumbnail": "/static/images/hanazono_niseko.jpg",
+      "youtube_id": "",
+      "address": "328-36 Iwaobetsu, Kutchan, Abuta District, Hokkaido 044-0082",
+      "published": "2026-11-07",
+      "summary": "Hanazono Niseko delivers some of Japan's deepest, driest powder alongside a genuinely family-friendly base village. It's the Niseko sector built for both cautious beginners and ...",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/hanazono_niseko_en"
+    },
+    {
+      "id": "mikomoto_island_en",
+      "lang": "en",
+      "title": "Mikomoto Island Diving: Hammerhead Shark Drift Dives for Advanced Divers",
+      "lat": 34.575521699999996,
+      "lng": 138.94149969999998,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/mikomoto_island.jpg",
+      "youtube_id": "",
+      "address": "Mikomoto Island, Touji, Shimoda, Shizuoka 415-0029",
+      "published": "2026-11-07",
+      "summary": "Mikomoto Island off Shimoda is Japan's premier hammerhead shark site, where strong currents and open-water drift dives reward experienced divers. Here's how to plan the trip, re...",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/mikomoto_island_en"
+    },
+    {
+      "id": "mitsumata_ski_area_ko",
+      "lang": "ko",
+      "title": "미쓰마타 스키장(Mitsumata Ski Area) 완벽 가이드: 니가타 파우더 스노우의 숨은 보석",
+      "lat": 36.888459499999996,
+      "lng": 138.7544033,
+      "activity": "ski",
+      "categories": [
+        "Ski"
+      ],
+      "thumbnail": "/static/images/mitsumata_ski_area.jpg",
+      "youtube_id": "",
+      "address": "Mitsumata, Yuzawa, Minamiuonuma District, Niigata 949-6211",
+      "published": "2026-11-07",
+      "summary": "도쿄에서 당일치기로 다녀올 수 있는 니가타 유자와의 숨은 파우더 명당, 미쓰마타 스키장을 소개합니다. 곤돌라로 편하게 접근하는 초중급자 친화 슬로프와 실제 방문 전 알아야 할 교통·숙박 정보를 정리했습니다.",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/mitsumata_ski_area_ko"
+    },
+    {
+      "id": "konashidaira_campground_en",
+      "lang": "en",
+      "title": "Konashidaira Campground: Your Alpine Basecamp in Kamikochi",
+      "lat": 36.251174299999995,
+      "lng": 137.6405697,
+      "activity": "camp",
+      "categories": [
+        "Camp"
+      ],
+      "thumbnail": "/static/images/konashidaira_campground.jpg",
+      "youtube_id": "",
+      "address": "〒390-1520 Nagano, Matsumoto, Azumi, 上高地４４６８",
+      "published": "2026-11-07",
+      "summary": "Konashidaira Campground sits deep inside car-free Kamikochi, putting you within a riverside walk of the Azusa River and the peaks of the Hotaka range. It's the only realistic wa...",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/konashidaira_campground_en"
+    },
+    {
+      "id": "tsurigasaki_beach_en",
+      "lang": "en",
+      "title": "Tsurigasaki Beach: Chiba's Premier Beginner-Friendly Surf Beach",
+      "lat": 35.3359696,
+      "lng": 140.3946096,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/tsurigasaki_beach.jpg",
+      "youtube_id": "",
+      "address": "6961-7 Torami, Ichinomiya, Chōsei District, Chiba 299-4303",
+      "published": "2026-11-07",
+      "summary": "Tsurigasaki Beach offers Japan's most consistent beginner-friendly surf on a long sandy shore just 90 minutes from Tokyo. Olympic-tested waves meet an easygoing, learner-packed ...",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/tsurigasaki_beach_en"
+    },
+    {
+      "id": "naeba_ski_resort_en",
+      "lang": "en",
+      "title": "Naeba Ski Resort: Niigata's Legendary Powder Giant for Every Skill Level",
+      "lat": 36.7953474,
+      "lng": 138.786228,
+      "activity": "ski",
+      "categories": [
+        "Ski"
+      ],
+      "thumbnail": "/static/images/naeba_ski_resort.jpg",
+      "youtube_id": "",
+      "address": "202 Mikuni, Yuzawa, Minamiuonuma District, Niigata 949-6212",
+      "published": "2026-11-07",
+      "summary": "Naeba Ski Resort delivers deep Niigata powder across 24 runs for every level, with direct Shinkansen-plus-bus access from Tokyo.",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/naeba_ski_resort_en"
+    },
+    {
+      "id": "zao_onsen_ski_resort_en",
+      "lang": "en",
+      "title": "Zao Onsen Ski Resort: Japan's Snow Monster Capital for Intermediate Skiers",
+      "lat": 38.1651589,
+      "lng": 140.3952784,
+      "activity": "ski",
+      "categories": [
+        "Ski"
+      ],
+      "thumbnail": "/static/images/zao_onsen_ski_resort.jpg",
+      "youtube_id": "",
+      "address": "Zaoonsen, Yamagata, 990-2301",
+      "published": "2026-11-07",
+      "summary": "Zao Onsen pairs wide, cruisy intermediate terrain with the surreal sight of frost-caked Juhyo snow monsters and some of the hottest, most sulfurous onsen water in Japan.",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/zao_onsen_ski_resort_en"
+    },
     {
       "id": "tokushima_hayama_kaigan_ko",
       "lang": "ko",
@@ -171,27 +507,6 @@
       "link": "/item/nasu_forest_camp_base_ko"
     },
     {
-      "id": "hachijojima_soft_coral_wall_ko",
-      "lang": "ko",
-      "title": "하치조지마 소프트코랄 월, 도쿄 속 남국 다이빙 명소 완전 가이드",
-      "lat": 33.11,
-      "lng": 139.79,
-      "activity": "dive",
-      "categories": [
-        "Dive"
-      ],
-      "thumbnail": "/static/images/hachijojima_soft_coral_wall.jpg",
-      "youtube_id": "",
-      "address": "Hachijo, Tokyo, Japan",
-      "published": "2026-10-27",
-      "summary": "도쿄에서 비행기로 55분, 수직 벽을 따라 펼쳐지는 소프트코랄 군락을 만나는 하치조지마 다이빙 포인트. 초중급자도 가이드와 함께라면 충분히 즐길 수 있는 접근성과 난이도를 갖췄다.",
-      "website": "",
-      "tel": "",
-      "region": "tokyo",
-      "source_image": "",
-      "link": "/item/hachijojima_soft_coral_wall_ko"
-    },
-    {
       "id": "izu_oshima_en",
       "lang": "en",
       "title": "Izu Oshima Dive Spots",
@@ -334,30 +649,9 @@
       "summary": "A small-footprint resort beside Japan's biggest ski region, delivering untracked powder and backcountry gates without the lift lines.",
       "website": "",
       "tel": "",
-      "region": "",
+      "region": "hokkaido",
       "source_image": "",
       "link": "/item/niseko_moiwa_ski_resort_en"
-    },
-    {
-      "id": "izu_oshima_ko",
-      "lang": "ko",
-      "title": "이즈 오시마 다이빙",
-      "lat": 34.737,
-      "lng": 139.4,
-      "activity": "dive",
-      "categories": [
-        "Dive"
-      ],
-      "thumbnail": "/static/images/izu_oshima.jpg",
-      "youtube_id": "",
-      "address": "일본 도쿄도 오시마정",
-      "published": "2026-10-27",
-      "summary": "화산암 리프의 도쿄 도서 다이빙. 페리와 로컬 샵 접근.",
-      "website": "",
-      "tel": "",
-      "region": "chubu",
-      "source_image": "",
-      "link": "/item/izu_oshima_ko"
     },
     {
       "id": "yoron_island_coral_gardens_ko",
@@ -379,27 +673,6 @@
       "region": "okinawa",
       "source_image": "",
       "link": "/item/yoron_island_coral_gardens_ko"
-    },
-    {
-      "id": "isumi_ohara_coast_en",
-      "lang": "en",
-      "title": "Isumi Ohara Coast: Chiba's Typhoon-Swell Beach Break for Every Surfer",
-      "lat": 35.25,
-      "lng": 140.39,
-      "activity": "surf",
-      "categories": [
-        "Surf"
-      ],
-      "thumbnail": "/static/images/isumi_ohara_coast.jpg",
-      "youtube_id": "",
-      "address": "Isumi, Chiba, Japan",
-      "published": "2026-10-27",
-      "summary": "A forgiving beach break on the Boso Peninsula that lights up when typhoon swells roll through the Pacific. Easy parking and consistent sandbars make Ohara a go-to session for Tokyo-area surfers.",
-      "website": "",
-      "tel": "",
-      "region": "chiba",
-      "source_image": "",
-      "link": "/item/isumi_ohara_coast_en"
     },
     {
       "id": "oshikaigan_surf_en",
@@ -499,10 +772,10 @@
       "youtube_id": "",
       "address": "12851 Chikuniotsu, Otari, Kitaazumi District, Nagano 399-9422",
       "published": "2026-10-27",
-      "summary": "A quiet, family-friendly corner of the Hakuba Valley where gentle slopes meet genuine onsen culture. Hakuba Norikura Onsen Ski Resort trades crowds for comfort without sacrifici...",
+      "summary": "A quiet, family-friendly corner of the Hakuba Valley where gentle slopes meet genuine onsen culture. Hakuba Norikura Onsen Ski Resort trades crowds for comfort without sacrificing real powder or a proper hot-spring soak at the end of the day.",
       "website": "",
       "tel": "",
-      "region": "",
+      "region": "nagano",
       "source_image": "",
       "link": "/item/hakuba_norikura_onsen_ski_resort_en"
     },
@@ -1198,6 +1471,27 @@
       "region": "kyushu",
       "source_image": "",
       "link": "/item/aoshima_surf_point_ko"
+    },
+    {
+      "id": "hachijojima_soft_coral_wall_ko",
+      "lang": "ko",
+      "title": "하치조지마 소프트코랄 월, 도쿄 속 남국 다이빙 명소 완전 가이드",
+      "lat": 33.11,
+      "lng": 139.79,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/hachijojima_soft_coral_wall.jpg",
+      "youtube_id": "",
+      "address": "Hachijo, Tokyo, Japan",
+      "published": "2026-10-11",
+      "summary": "도쿄에서 비행기로 55분, 수직 벽을 따라 펼쳐지는 소프트코랄 군락을 만나는 하치조지마 다이빙 포인트. 초중급자도 가이드와 함께라면 충분히 즐길 수 있는 접근성과 난이도를 갖췄다.",
+      "website": "",
+      "tel": "",
+      "region": "tokyo",
+      "source_image": "",
+      "link": "/item/hachijojima_soft_coral_wall_ko"
     },
     {
       "id": "aso_kusasenri_camp_ko",
@@ -3802,6 +4096,27 @@
       "region": "kochi",
       "source_image": "",
       "link": "/item/kumakogen_coast_break_en"
+    },
+    {
+      "id": "isumi_ohara_coast_en",
+      "lang": "en",
+      "title": "Isumi Ohara Coast: Chiba's Typhoon-Swell Beach Break for Every Surfer",
+      "lat": 35.25,
+      "lng": 140.39,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/isumi_ohara_coast.jpg",
+      "youtube_id": "",
+      "address": "Isumi, Chiba, Japan",
+      "published": "2026-10-06",
+      "summary": "A forgiving beach break on the Boso Peninsula that lights up when typhoon swells roll through the Pacific. Easy parking and consistent sandbars make Ohara a go-to session for Tokyo-area surfers.",
+      "website": "",
+      "tel": "",
+      "region": "chiba",
+      "source_image": "",
+      "link": "/item/isumi_ohara_coast_en"
     },
     {
       "id": "kume_island_deep_blue_ko",
@@ -11341,6 +11656,27 @@
       "region": "tochigi",
       "source_image": "",
       "link": "/item/hunter_mountain_shiobara_en"
+    },
+    {
+      "id": "izu_oshima_ko",
+      "lang": "ko",
+      "title": "이즈 오시마 다이빙",
+      "lat": 34.737,
+      "lng": 139.4,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/izu_oshima.jpg",
+      "youtube_id": "",
+      "address": "일본 도쿄도 오시마정",
+      "published": "2026-08-15",
+      "summary": "화산암 리프의 도쿄 도서 다이빙. 페리와 로컬 샵 접근.",
+      "website": "",
+      "tel": "",
+      "region": "chubu",
+      "source_image": "",
+      "link": "/item/izu_oshima_ko"
     },
     {
       "id": "kagoshima_yakushima_en",
