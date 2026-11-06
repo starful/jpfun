@@ -1,18 +1,21 @@
 ---
 lang: ko
-title: "기츠키 돌덩어리 다이빙 가이드: 오키나와 거암 지형 속으로"
+title: '기츠키 돌덩어리 다이빙 가이드: 오키나와 거암 지형 속으로'
 lat: 26.195
 lng: 127.325
-activity: "dive"
-categories: ["Dive"]
-thumbnail: "/static/images/kitsuki_boulders.jpg"
-address: "Okinawa, Japan"
-date: "2026-10-11"
-website: ""
-summary: "오키나와 바닷속에 흩어진 거대한 돌덩어리 사이를 유영하는 기츠키 돌덩어리 다이빙 포인트, 초보부터 중급 다이버까지 두루 즐기기 좋은 열대 바위 지형 다이브 사이트를 소개합니다."
-image_prompt: ""
-region: "okinawa"
+activity: dive
+categories:
+- Dive
+thumbnail: /static/images/kitsuki_boulders.jpg
+address: Okinawa, Japan
+date: '2026-11-07'
+website: ''
+summary: 오키나와 바닷속에 흩어진 거대한 돌덩어리 사이를 유영하는 기츠키 돌덩어리 다이빙 포인트, 초보부터 중급 다이버까지 두루 즐기기 좋은
+  열대 바위 지형 다이브 사이트를 소개합니다.
+image_prompt: ''
+region: okinawa
 ---
+
 
 ## 기츠키 돌덩어리는 누구에게, 왜 특별한가
 
