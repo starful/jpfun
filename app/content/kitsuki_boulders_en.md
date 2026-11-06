@@ -1,18 +1,22 @@
 ---
 lang: en
-title: "Kitsuki Boulders: Okinawa's Underwater Granite Maze for Divers"
+title: 'Kitsuki Boulders: Okinawa''s Underwater Granite Maze for Divers'
 lat: 26.195
 lng: 127.325
-activity: "dive"
-categories: ["Dive"]
-thumbnail: "/static/images/kitsuki_boulders.jpg"
-address: "Okinawa, Japan"
-date: "2026-10-06"
-website: ""
-summary: "Kitsuki Boulders stacks house-sized granite blocks into swim-through canyons alive with reef fish and soft coral. It rewards divers who love terrain as much as marine life, with routes for both relaxed drifters and confident explorers."
-image_prompt: ""
-region: "okinawa"
+activity: dive
+categories:
+- Dive
+thumbnail: /static/images/kitsuki_boulders.jpg
+address: Okinawa, Japan
+date: '2026-11-07'
+website: ''
+summary: Kitsuki Boulders stacks house-sized granite blocks into swim-through canyons
+  alive with reef fish and soft coral. It rewards divers who love terrain as much
+  as marine life, with routes for both relaxed drifters and confident explorers.
+image_prompt: ''
+region: okinawa
 ---
+
 
 ## A Diver's Maze Carved in Stone: Why Kitsuki Stands Apart
 
