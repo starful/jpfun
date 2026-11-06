@@ -1,0 +1,16 @@
+{% set rel_lang = (related_lang if related_lang is defined else (post.lang if post is defined else lang))|default('en') %}
+{% set rel_activity = (related_activity if related_activity is defined else (post.activity if post is defined else ''))|default('') %}
+{% set rel_region = (related_region if related_region is defined else (post.region if post is defined else ''))|default('') %}
+{% set rel_exclude = (related_exclude_id if related_exclude_id is defined else (post.id if post is defined else ''))|default('') %}
+
+<section class="related-spots" aria-labelledby="related-spots-heading"
+     data-activity="{{ rel_activity }}"
+     data-region="{{ rel_region if rel_region is string else '' }}"
+     data-lang="{{ rel_lang }}"
+     data-exclude-id="{{ rel_exclude }}">
+    <h2 id="related-spots-heading" class="related-spots-title">
+        {{ '이런 스팟도 둘러보세요' if rel_lang == 'ko' else 'You might also like' }}
+    </h2>
+    <div class="related-spots-grid" data-related-spots-grid></div>
+</section>
+<script src="/static/js/related-spots.js" defer></script>

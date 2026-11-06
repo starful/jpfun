@@ -1356,7 +1356,7 @@ def guide_detail(guide_id):
                            image_url=image, image_url_abs=_absolute_url(image),
                            canonical=f"{SITE_CONFIG['site_url']}/guide/{guide_id}",
                            alt_en=alt_en, alt_ja=alt_ja, alt_zh=alt_zh, alt_zh_tw=alt_zh_tw,
-                           post=post,
+                           post=post, related_activity=act,
                            **a8_banners_context(lang=lang),
                            **amazon_context(kind=act, lang=lang),
                            **_og_image_context(base_id), **share_ctx, **stats)
