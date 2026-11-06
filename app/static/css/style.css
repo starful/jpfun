@@ -890,6 +890,36 @@ header {
     margin-top: 6px; font-size: 0.85rem; font-weight: 700; color: var(--accent-hover);
 }
 
+.related-spots {
+    margin: 36px 0 0;
+}
+.related-spots[hidden] { display: none; }
+.related-spots-title {
+    margin: 0 0 14px; font-size: 1.15rem; font-weight: 800; color: var(--primary-color);
+}
+.related-spots-grid {
+    display: grid; grid-template-columns: 1fr; gap: 12px;
+}
+@media (min-width: 640px) {
+    .related-spots-grid { grid-template-columns: repeat(3, 1fr); }
+}
+.related-spot-card {
+    display: flex; flex-direction: column;
+    background: #fff; border: 1.5px solid #e2eeeb; border-radius: 14px;
+    overflow: hidden; text-decoration: none; color: inherit;
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+.related-spot-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent-color);
+    box-shadow: 0 8px 20px rgba(46, 181, 168, 0.16);
+}
+.related-spot-thumb-wrap { aspect-ratio: 4/3; overflow: hidden; background: #f0f4f3; }
+.related-spot-thumb { width: 100%; height: 100%; object-fit: cover; display: block; }
+.related-spot-body { padding: 12px 14px; display: flex; flex-direction: column; gap: 4px; }
+.related-spot-name { font-size: 0.95rem; font-weight: 800; color: var(--primary-color); line-height: 1.35; }
+.related-spot-meta { font-size: 0.8rem; color: #6b7f86; }
+
 .booking-box {
     text-align: center; margin: 36px 0; padding: 30px;
     background: #EAF6F4; border-radius: 15px; border: 2px dashed var(--accent-color);
