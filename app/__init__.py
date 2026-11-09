@@ -1335,10 +1335,13 @@ def guide_detail(guide_id):
         stable=False,
     )
     stats   = _get_footer_stats(lang)
+    # jpfun only publishes en/ko guides; ja/zh/zh_tw hreflang alternates 404'd.
     alt_en = f"{SITE_CONFIG['site_url']}/guide/{base_id}_en"
-    alt_ja = f"{SITE_CONFIG['site_url']}/guide/{base_id}_ja"
-    alt_zh = f"{SITE_CONFIG['site_url']}/guide/{base_id}_zh"
-    alt_zh_tw = f"{SITE_CONFIG['site_url']}/guide/{base_id}_zh_tw"
+    alt_ko = (
+        f"{SITE_CONFIG['site_url']}/guide/{base_id}_ko"
+        if os.path.exists(os.path.join(GUIDE_DIR, f"{base_id}_ko.md"))
+        else None
+    )
 
     content_html = _md_to_html(body, extensions=['tables', 'toc', 'fenced_code'])
     page_path = f"/guide/{guide_id}"
@@ -1355,7 +1358,7 @@ def guide_detail(guide_id):
                            guide_id=guide_id, base_id=base_id,
                            image_url=image, image_url_abs=_absolute_url(image),
                            canonical=f"{SITE_CONFIG['site_url']}/guide/{guide_id}",
-                           alt_en=alt_en, alt_ja=alt_ja, alt_zh=alt_zh, alt_zh_tw=alt_zh_tw,
+                           alt_en=alt_en, alt_ko=alt_ko,
                            post=post, related_activity=act,
                            **a8_banners_context(lang=lang),
                            **amazon_context(kind=act, lang=lang),
@@ -1380,6 +1383,17 @@ def item_detail(item_id):
     lang = str(post.get('lang', 'en'))
     base_id, _lang_from_id = _split_lang_id(item_id)
     stats = _get_footer_stats(lang)
+    # jpfun only publishes en/ko items; skip hreflang for languages with no file.
+    alt_en = (
+        f"{SITE_CONFIG['site_url']}/item/{base_id}_en"
+        if os.path.exists(os.path.join(CONTENT_DIR, f"{base_id}_en.md"))
+        else None
+    )
+    alt_ko = (
+        f"{SITE_CONFIG['site_url']}/item/{base_id}_ko"
+        if os.path.exists(os.path.join(CONTENT_DIR, f"{base_id}_ko.md"))
+        else None
+    )
     page_path = f"/item/{item_id}"
     share_ctx = _share_context(
         item_id,
@@ -1417,6 +1431,8 @@ def item_detail(item_id):
         content=content_html,
         plan=plan,
         base_id=base_id,
+        alt_en=alt_en,
+        alt_ko=alt_ko,
         thumbnail_abs=_absolute_url(str(post.get('thumbnail', '/static/images/default.jpg'))),
         **_og_image_context(base_id),
         **share_ctx,
