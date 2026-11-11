@@ -682,9 +682,12 @@ header {
 
 .detail-img-wrap {
     position: relative; border-radius: 15px; overflow: hidden;
-    margin-bottom: 24px;
+    margin-bottom: 24px; aspect-ratio: 16 / 9; background: #f0f4f3;
 }
-.detail-img-wrap .detail-img { margin-bottom: 0; }
+.detail-img-wrap .detail-img {
+    width: 100%; height: 100%; max-height: none;
+    object-fit: cover; margin-bottom: 0; display: block;
+}
 .detail-img-wrap .winter-season-badge {
     top: 14px; left: 14px; font-size: 0.82rem; padding: 7px 15px;
 }
