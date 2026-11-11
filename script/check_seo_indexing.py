@@ -1,24 +1,32 @@
 """
 jpfun SEO indexing health check — diagnose "0 search clicks / 0 conversions".
 
-Covers the three usual technical culprits before anything else is blamed:
+Covers the usual technical culprits before anything else is blamed:
   1. robots.txt / sitemap.xml must respond 200 and sitemap must be valid XML
      (a 404/500 on either silently empties the index).
   2. Recent git history for app/templates/* and the robots.txt route in
      app/__init__.py, scanned for an accidentally-added "noindex" or a
      full-site "Disallow: /" slipped in by a deploy.
-  3. Optional: classify a GSC "Pages"/Coverage CSV export ("제외됨" rows) by
+  3. In-process code-level check (no deployed server needed): runs the real
+     robots_txt()/sitemap_xml() route functions via a Flask test client and
+     cross-checks the generated URLs for duplicate <loc> entries, items/guides
+     the app loaded but the sitemap generator dropped, sitemap URLs that
+     contradict robots.txt's own Disallow rules, and a noindex meta tag on
+     the actual rendered HTML. Can export a CSV of per-URL findings.
+  4. Optional: classify a GSC "Pages"/Coverage CSV export ("제외됨" rows) by
      exclusion reason, so triage doesn't start from a raw reason string.
 
 Run manually:
   python script/check_seo_indexing.py
   python script/check_seo_indexing.py --since-commits 30
+  python script/check_seo_indexing.py --export-csv out/seo_urls.csv
   python script/check_seo_indexing.py --gsc-csv path/to/excluded_pages.csv
 """
 from __future__ import annotations
 
 import argparse
 import csv
+import re
 import subprocess
 import sys
 import xml.etree.ElementTree as ET
@@ -85,6 +93,136 @@ def check_robots_and_sitemap(base_url: str) -> bool:
         ok = False
 
     return ok
+
+
+def check_sitemap_generation_inprocess(out_csv: Path | None, max_render_checks: int) -> bool:
+    """Run the real robots_txt()/sitemap_xml() route code via a Flask test
+    client (no deployed server needed) and cross-check the output for
+    duplicate, missing, or noindex/robots-blocked pages."""
+    try:
+        from app import app as flask_app, CACHED_DATA, CACHED_GUIDES, SITE_CONFIG as APP_SITE_CONFIG
+    except Exception as exc:
+        print(f"❌ could not import the Flask app in-process: {exc}")
+        return False
+
+    client = flask_app.test_client()
+    base = APP_SITE_CONFIG['site_url'].rstrip('/')
+
+    robots_res = client.get('/robots.txt')
+    sitemap_res = client.get('/sitemap.xml')
+    if robots_res.status_code != 200 or sitemap_res.status_code != 200:
+        print(f"❌ in-process /robots.txt={robots_res.status_code} /sitemap.xml={sitemap_res.status_code}")
+        return False
+
+    disallow_prefixes = [
+        line.split(':', 1)[1].strip()
+        for line in robots_res.get_data(as_text=True).splitlines()
+        if line.lower().startswith('disallow:') and line.split(':', 1)[1].strip()
+    ]
+
+    try:
+        root = ET.fromstring(sitemap_res.data)
+    except ET.ParseError as exc:
+        print(f"❌ in-process /sitemap.xml did not parse: {exc}")
+        return False
+
+    ns = {'sm': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
+    locs = [el.text for el in root.findall('sm:url/sm:loc', ns) if el.text]
+
+    dup_counts = Counter(locs)
+    duplicates = {loc: n for loc, n in dup_counts.items() if n > 1}
+    if duplicates:
+        print(f"❌ {len(duplicates)} duplicate <loc> entries in sitemap.xml:")
+        for loc, n in duplicates.items():
+            print(f"   x{n}  {loc}")
+    else:
+        print(f"✅ no duplicate <loc> entries ({len(locs)} URLs)")
+
+    # Each <url> block carries one canonical <loc> plus hreflang alternates for
+    # the other language — a ko page is "covered" via its alternate href, not
+    # a <loc> of its own, so both must be scanned or every ko page false-positives
+    # as "missing".
+    xhtml_link_tag = '{http://www.w3.org/1999/xhtml}link'
+    sitemap_item_ids: set[str] = set()
+    sitemap_guide_ids: set[str] = set()
+    for url_el in root.findall('sm:url', ns):
+        loc_el = url_el.find('sm:loc', ns)
+        hrefs = [loc_el.text] if loc_el is not None and loc_el.text else []
+        hrefs += [link.get('href') for link in url_el.findall(xhtml_link_tag) if link.get('href')]
+        for href in hrefs:
+            if '/item/' in href:
+                sitemap_item_ids.add(href.rsplit('/', 1)[-1])
+            elif '/guide/' in href:
+                sitemap_guide_ids.add(href.rsplit('/', 1)[-1])
+
+    missing_items = [
+        item.get('id') for item in CACHED_DATA.get(APP_SITE_CONFIG['data_key'], [])
+        if item.get('id') and item.get('lang', 'en') in ('en', 'ko') and item.get('id') not in sitemap_item_ids
+    ]
+    missing_guides = [
+        guide.get('id') for lang in ('en', 'ko') for guide in CACHED_GUIDES.get(lang, [])
+        if guide.get('id') and guide.get('id') not in sitemap_guide_ids
+    ]
+    if missing_items or missing_guides:
+        print(f"❌ {len(missing_items)} item page(s) and {len(missing_guides)} guide page(s) loaded by the app but absent from sitemap.xml:")
+        for mid in missing_items[:20]:
+            print(f"   item  {mid}")
+        for mid in missing_guides[:20]:
+            print(f"   guide {mid}")
+    else:
+        print(f"✅ every loaded en/ko item ({len(sitemap_item_ids)}) and guide ({len(sitemap_guide_ids)}) page is in sitemap.xml")
+
+    blocked: list[tuple[str, str]] = []
+    for loc in locs:
+        path = loc[len(base):] if loc.startswith(base) else loc
+        for prefix in disallow_prefixes:
+            if path.startswith(prefix):
+                blocked.append((loc, prefix))
+                break
+    if blocked:
+        print(f"❌ {len(blocked)} sitemap URL(s) blocked by a robots.txt Disallow rule:")
+        for loc, prefix in blocked[:20]:
+            print(f"   {loc} ← Disallow: {prefix}")
+    else:
+        print("✅ no sitemap URL is blocked by robots.txt")
+
+    noindex_hits: list[str] = []
+    sample = locs[:max_render_checks] if max_render_checks > 0 else locs
+    meta_re = re.compile(r'<meta[^>]+name=["\']robots["\'][^>]+content=["\']([^"\']*)["\']', re.I)
+    for loc in sample:
+        path = loc[len(base):] if loc.startswith(base) else loc
+        res = client.get(path or '/')
+        if res.status_code != 200:
+            continue
+        match = meta_re.search(res.get_data(as_text=True))
+        if match and 'noindex' in match.group(1).lower():
+            noindex_hits.append(loc)
+    if noindex_hits:
+        print(f"❌ {len(noindex_hits)} rendered page(s) carry a noindex meta tag:")
+        for loc in noindex_hits:
+            print(f"   {loc}")
+    else:
+        print(f"✅ no noindex meta tag found on the {len(sample)} rendered page(s) sampled")
+
+    if out_csv:
+        missing_urls = {f"{base}/item/{mid}" for mid in missing_items} | {f"{base}/guide/{mid}" for mid in missing_guides}
+        blocked_urls = {loc for loc, _ in blocked}
+        noindex_urls = set(noindex_hits)
+        out_csv.parent.mkdir(parents=True, exist_ok=True)
+        with open(out_csv, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            writer.writerow(['url', 'duplicate_count', 'missing_from_sitemap', 'blocked_by_robots', 'noindex_detected'])
+            for loc in sorted(set(locs) | missing_urls):
+                writer.writerow([
+                    loc,
+                    dup_counts.get(loc, 0),
+                    loc in missing_urls,
+                    loc in blocked_urls,
+                    loc in noindex_urls,
+                ])
+        print(f"📄 wrote {out_csv} — diff this against a Search Console 'Pages' export to see which flagged URLs GSC also excludes")
+
+    return not duplicates and not missing_items and not missing_guides and not blocked and not noindex_hits
 
 
 def check_noindex_regressions(since_commits: int) -> bool:
@@ -175,11 +313,14 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="jpfun SEO indexing health check")
     parser.add_argument("--base-url", default=SITE_CONFIG["site_url"], help="site base URL to probe")
     parser.add_argument("--since-commits", type=int, default=20, help="how many recent commits to scan for noindex regressions")
+    parser.add_argument("--export-csv", type=Path, default=None, help="write the in-process sitemap findings to this CSV path, for diffing against a GSC 'Pages' export")
+    parser.add_argument("--max-render-checks", type=int, default=200, help="max sitemap URLs to render in-process when scanning for noindex meta tags (0 = all)")
     parser.add_argument("--gsc-csv", type=Path, default=None, help="path to a GSC Coverage/Pages 'excluded' CSV export")
     args = parser.parse_args()
 
     print("🔍 jpfun SEO indexing check")
     robots_sitemap_ok = check_robots_and_sitemap(args.base_url)
+    generation_ok = check_sitemap_generation_inprocess(args.export_csv, args.max_render_checks)
     noindex_ok = check_noindex_regressions(args.since_commits)
 
     gsc_ok = True
@@ -192,7 +333,7 @@ def main() -> None:
     else:
         print("ℹ️  no --gsc-csv passed — skipping GSC excluded-reason classification")
 
-    if robots_sitemap_ok and noindex_ok and gsc_ok:
+    if robots_sitemap_ok and generation_ok and noindex_ok and gsc_ok:
         print("✅ SEO indexing check passed")
     else:
         print("⚠️  SEO indexing check needs attention — see messages above")
