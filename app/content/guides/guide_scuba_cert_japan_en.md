@@ -1,18 +1,18 @@
 ---
 lang: en
 activity: dive
-title: 'Get Scuba Certified in Japan: OWD Course in Okinawa & Izu | English Dive Schools'
-summary: 'Earn your OWD scuba certification in Japan''s crystal-clear waters: Okinawa''s
-  coral reefs and Izu''s volcanic walls, plus complete guide to English-friendly dive
-  schools.'
+title: 'Scuba Certification Japan: OWD Course Okinawa & Izu | English Schools, Cost'
+summary: 'Get certified in Japan''s coral and volcanic sites: a guide to OWD courses,
+  English instructors, and why Japan rivals Southeast Asia.'
 date: '2026-08-19'
-description: Open Water Diver certification in Japan. English-friendly dive schools
-  in Okinawa and Izu, cost, duration, best sites, and how to choose.
-seo_title: Scuba Certification Japan OWD Okinawa Izu - English Dive Schools, Cost
-  & Duration
-seo_description: 'Earn OWD scuba certification in Japan: Okinawa and Izu English-friendly
-  dive schools, course details, duration, and how to choose your instructor.'
+description: 'Get OWD scuba certified in Japan: Okinawa coral reefs, Izu volcanic
+  walls, English instructors. Costs, course length, and dive school selection.'
+seo_title: 'Scuba Certification Japan OWD: Okinawa, Izu, English Dive Schools & Pricing'
+seo_description: 'Earn OWD scuba certification in Japan''s crystal waters: Okinawa
+  reefs, Izu drop-offs, meticulous English-speaking instructors. Comparable cost to
+  Thailand.'
 ---
+
 
 
 
@@ -77,3 +77,7 @@ This OWD course works well for complete beginners, families traveling together, 
 ## Cost & Timeline: Certification Pricing & Duration
 
 An OWD course in Japan typically takes 3–4 days (classroom + confined water + open water dives). Most travelers fit certification into a 5–7 day itinerary alongside sightseeing. English-taught courses in Okinawa's resort areas (Naha, Kerama) book 2–3 weeks out. Izu dive shops fill faster during winter (December–March) due to Tokyo weekender traffic. Costs vary by location and season, so compare prices when booking. Schedule certification before or after a longer trip to avoid fatigue during your dives.
+
+## Japan OWD Cost vs Thailand & Philippines
+
+Japan OWD courses run ¥50,000–80,000 (roughly $340–550) for 3–4 days—comparable to Southeast Asia but with stricter equipment protocols and higher instructor certification standards. Japanese dive shops maintain more frequent maintenance schedules and detailed pre-dive briefings; you're paying for meticulous safety culture rather than volume tourism.

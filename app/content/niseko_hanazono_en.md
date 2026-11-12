@@ -1,7 +1,7 @@
 ---
 youtube_id: WmdZFk933Io
 lang: en
-title: 'Niseko Hanazono Ski Guide: Family Terrain, Burton Park & Access'
+title: 'Niseko Hanazono Ski Resort: Family Slopes, Burton Park & Quieter than Hirafu'
 lat: 42.897
 lng: 140.715
 categories:
@@ -11,16 +11,17 @@ thumbnail: /static/images/niseko_hanazono.jpg
 address: Hanazono, Kutchan, Hokkaido, Japan
 date: '2026-08-15'
 website: https://www.niseko.ne.jp/
-summary: A practical guide to Niseko Hanazono covering family terrain, the Burton
-  park, lift access into Niseko United, and quieter base-area stays.
+summary: Hanazono delivers family terrain and Burton park on slopes quieter than central
+  Hirafu, with full Niseko United lift access.
 image_prompt: ''
 region: hokkaido
-description: 'Niseko Hanazono guide: family-friendly groomers, the Burton terrain
-  park, lift access into Niseko United, and quieter base-area stays.'
-seo_title: 'Niseko Hanazono Ski Guide: Family Terrain, Burton Park & Access | JPFun'
-seo_description: 'Plan your Niseko Hanazono trip: family terrain, Burton park, lift
-  access, getting there from CTS, and quieter stays near Niseko United.'
+description: 'Niseko Hanazono: family-friendly terrain, Burton park, quieter slopes
+  than Hirafu. Lift access to Niseko United, English ski school.'
+seo_title: 'Niseko Hanazono: Family Slopes, Burton Park, Quieter than Hirafu Base'
+seo_description: 'Avoid Hirafu crowds: Niseko Hanazono offers groomed family runs,
+  Burton terrain park, and lighter daytime queues. Full Niseko United access.'
 ---
+
 
 
 ## Overview
@@ -68,3 +69,7 @@ Use JPFun **Stay** and **Food** pins to find lodging and meals without relying o
 - **First-time Niseko visitors:** English-friendly ski school and straightforward CTS access make trip planning simpler.
 
 If your group is torn between a lively base and a mellower one, Hanazono is the compromise — quieter by day, still connected by night.
+
+## Hanazono vs Hirafu: Crowd & Terrain Comparison
+
+Hanazono's northeast-facing slope and gondola design naturally distribute crowds better than Hirafu base: midday lift lines often run 5–10 min vs 20–30 min at Hirafu. Families with younger skiers or riders preferring open groomers over moguls find Hanazono's tree zones and park line less congested during peak-week holidays, making it ideal for groups wanting to maximize actual ski time.
