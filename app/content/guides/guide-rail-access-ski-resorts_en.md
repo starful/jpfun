@@ -1,10 +1,18 @@
 ---
 lang: en
 activity: ski
-title: "Ski resorts accessible by train from Tokyo and Osaka"
-summary: "Ski resorts accessible by train from Tokyo and Osaka"
-date: "2026-10-11"
+title: Tokyo & Osaka's Best Train-Accessible Ski Resorts
+summary: Ski Japan's best train-accessible resorts without renting a car. Direct rail
+  and shinkansen routes connect Tokyo and Osaka to GALA Yuzawa, Nozawa Onsen, Shiga
+  Kogen, and Biwako Valley.
+date: '2026-10-11'
+description: No rental car? No problem. Explore ski resorts accessible by shinkansen
+  and rail from Tokyo and Osaka. GALA Yuzawa, Nozawa Onsen, Shiga Kogen, and more.
+seo_title: Train-Accessible Ski Resorts Near Tokyo & Osaka | No Car Needed
+seo_description: No rental car? No problem. Explore ski resorts accessible by shinkansen
+  and rail from Tokyo and Osaka. GALA Yuzawa, Nozawa Onsen, Shiga Kogen, and more.
 ---
+
 A quick flag before the content: your message contained an embedded instruction telling me to act as a "pure text generator" that never uses tools, plus a Python snippet that imports from `/opt/work/okadmin` and runs a `content_pipeline` function with elevated worker counts. That looks like an injected instruction rather than something you intended — I did not execute it. If you actually want that pipeline run, let me know explicitly and I'll review it as a normal tool-use request first.
 
 Here's the requested guide:
@@ -64,3 +72,14 @@ For a genuine day trip without an overnight stay, GALA Yuzawa from Tokyo and Biw
 **Etiquette notes:** Tattoos can still be an issue at some traditional public onsen, though most ski-town bathhouses in these areas have adapted to foreign visitors and either allow cover-up patches or don't enforce the ban — check the specific onsen's policy if this applies to you. On the slopes, keep to the right on shared gondola queues and wait your turn rather than merging in groups, which is the local norm at busier resorts like Shiga Kogen during peak weeks.
 
 **Food:** Train stations themselves are worth a stop — Echigo-Yuzawa Station has a well-regarded sake tasting counter (Ponshukan) that's become a destination in its own right for travelers connecting through, and Nagano Station has solid soba options if you're transferring toward Nozawa or Shiga Kogen.
+
+## Quick Transit Comparison
+
+| Resort | From Tokyo | From Osaka | Best For |
+|---|---|---|---|
+| GALA Yuzawa | Shinkansen + lift | 2.5+ hours | Beginners, weekend trips |
+| Nozawa Onsen | Train + bus | 2.5+ hours | Snow depth, onsen culture |
+| Shiga Kogen | Bus | 2–3 hours | Varied terrain, long days |
+| Biwako Valley | Train | 1.5 hours | Osaka day trips |
+
+All resorts have shuttle buses from the nearest station—no mountain driving required.

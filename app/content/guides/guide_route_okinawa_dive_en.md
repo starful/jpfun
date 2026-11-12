@@ -2,20 +2,21 @@
 lang: en
 activity: route
 emoji: 🤿
-title: 'Okinawa Scuba Diving Weekend: Boat-First Dive Route | JPFun'
+title: 'Okinawa Scuba Diving Weekend Guide: Kerama vs Ishigaki + 2-Day Itinerary'
 date: '2026-08-12'
-summary: 'A boat-first Okinawa scuba diving weekend route: lock the Kerama or Ishigaki
-  dive day, then build lodging and buffer days around it.'
-description: 'Plan a boat-first Okinawa scuba diving weekend: lock your Kerama or
-  Ishigaki dive day first, then build lodging, buffer days, and flight timing around
-  it.'
-seo_title: 'Okinawa Scuba Diving Weekend Route: Kerama vs Ishigaki | JPFun'
-seo_description: 'Boat-first Okinawa scuba diving weekend guide: lock the Kerama or
-  Ishigaki dive day, then fit lodging, buffer days, and your flight-home gap around
-  it.'
+summary: Plan your Okinawa scuba weekend by choosing Kerama (calm, accessible) or
+  Ishigaki (manta rays). Book your dive boat first, then build lodging and buffer
+  days around it.
+description: 'Weekend scuba diving in Okinawa: compare Kerama (calm, accessible) vs
+  Ishigaki (mantas). Includes boat booking strategy, 2-day itinerary, and dive tips.'
+seo_title: 'Okinawa Scuba Diving Weekend Guide: Kerama vs Ishigaki + 2-Day Itinerary'
+seo_description: 'Weekend scuba diving in Okinawa: compare Kerama (calm, accessible)
+  vs Ishigaki (mantas). Includes boat booking strategy, 2-day itinerary, and dive
+  tips.'
 ---
+## Plan Your Okinawa Scuba Weekend: Kerama or Ishigaki?
 
-
+Okinawa is Japan's premier scuba destination for weekend trips. Two regions lead: **Kerama Islands** (calm waters, accessible from Naha, beginner-friendly year-round) and **Ishigaki Island** (famous for manta rays May–October, stronger currents). Most divers choose one region as their core dive day and add a buffer day for safety and recovery. A weekend is enough for one excellent boat dive—trying to squeeze two destinations or back-to-back dives typically dilutes the experience.
 
 Scuba weekends in Okinawa fail when lodging comes before the **boat booking**. Reverse it: lock the dive day, then place the hotel.
 
