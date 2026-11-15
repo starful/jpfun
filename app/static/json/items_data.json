@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-11-15",
-  "total_count": 624,
+  "total_count": 626,
   "items": [
     {
       "id": "blue_cave_okinawa_en",
@@ -43,6 +43,48 @@
       "region": "",
       "source_image": "",
       "link": "/item/blue_cave_okinawa_ko"
+    },
+    {
+      "id": "ichinomiya_beach_en",
+      "lang": "en",
+      "title": "Ichinomiya Beach: Chiba's Classic Beginner Surf Break",
+      "lat": 35.37742610000001,
+      "lng": 140.3909912,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/ichinomiya_beach.jpg",
+      "youtube_id": "",
+      "address": "Ichinomiya beach, Ichinomiya, Chōsei District, Chiba 299-4301",
+      "published": "2026-11-15",
+      "summary": "Ichinomiya Beach is the beginner-friendly heart of Chiba's surf coast, with dependable beach-break waves year-round. A straightforward Tokyo day trip that doubles as Japan's Olympic surfing venue.",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/ichinomiya_beach_en"
+    },
+    {
+      "id": "ichinomiya_beach_ko",
+      "lang": "ko",
+      "title": "이치노미야 해변 서핑 가이드: 올림픽 서핑 성지에서 파도 타는 법",
+      "lat": 35.37742610000001,
+      "lng": 140.3909912,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/ichinomiya_beach.jpg",
+      "youtube_id": "",
+      "address": "Ichinomiya beach, Ichinomiya, Chōsei District, Chiba 299-4301",
+      "published": "2026-11-15",
+      "summary": "도쿄에서 당일치기로 다녀올 수 있는 일본 최고의 비치브레이크, 이치노미야 해변에서 일관된 파도와 초보자 친화적인 환경을 만나보세요.",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/ichinomiya_beach_ko"
     },
     {
       "id": "tsurigasaki_beach_ko",
