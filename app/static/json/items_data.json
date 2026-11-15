@@ -1,7 +1,91 @@
 {
-  "last_updated": "2026-11-07",
-  "total_count": 622,
+  "last_updated": "2026-11-15",
+  "total_count": 626,
   "items": [
+    {
+      "id": "blue_cave_okinawa_en",
+      "lang": "en",
+      "title": "Blue Cave, Okinawa: Beginner Dive Guide to the Reef Cave Classic",
+      "lat": 26.4426007,
+      "lng": 127.7734664,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/blue_cave_okinawa.jpg",
+      "youtube_id": "",
+      "address": "469-1 Maeda, Onna, Kunigami District, Okinawa 904-0417",
+      "published": "2026-11-15",
+      "summary": "Okinawa's Blue Cave pairs a shallow, light-filled cavern with easy reef diving just steps from the shore at Maeda Point. A forgiving, scenic dive that rewards first-timers and snorkelers alike.",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/blue_cave_okinawa_en"
+    },
+    {
+      "id": "blue_cave_okinawa_ko",
+      "lang": "ko",
+      "title": "오키나와 블루케이브: 초보자도 가능한 환상의 동굴 다이빙 명소",
+      "lat": 26.4426007,
+      "lng": 127.7734664,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/blue_cave_okinawa.jpg",
+      "youtube_id": "",
+      "address": "469-1 Maeda, Onna, Kunigami District, Okinawa 904-0417",
+      "published": "2026-11-15",
+      "summary": "오키나와 서해안 마에다 곶의 블루케이브는 초보자도 입문 다이빙으로 신비로운 코발트빛 동굴과 산호초를 동시에 즐길 수 있는 명소입니다.",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/blue_cave_okinawa_ko"
+    },
+    {
+      "id": "ichinomiya_beach_en",
+      "lang": "en",
+      "title": "Ichinomiya Beach: Chiba's Classic Beginner Surf Break",
+      "lat": 35.37742610000001,
+      "lng": 140.3909912,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/ichinomiya_beach.jpg",
+      "youtube_id": "",
+      "address": "Ichinomiya beach, Ichinomiya, Chōsei District, Chiba 299-4301",
+      "published": "2026-11-15",
+      "summary": "Ichinomiya Beach is the beginner-friendly heart of Chiba's surf coast, with dependable beach-break waves year-round. A straightforward Tokyo day trip that doubles as Japan's Olympic surfing venue.",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/ichinomiya_beach_en"
+    },
+    {
+      "id": "ichinomiya_beach_ko",
+      "lang": "ko",
+      "title": "이치노미야 해변 서핑 가이드: 올림픽 서핑 성지에서 파도 타는 법",
+      "lat": 35.37742610000001,
+      "lng": 140.3909912,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/ichinomiya_beach.jpg",
+      "youtube_id": "",
+      "address": "Ichinomiya beach, Ichinomiya, Chōsei District, Chiba 299-4301",
+      "published": "2026-11-15",
+      "summary": "도쿄에서 당일치기로 다녀올 수 있는 일본 최고의 비치브레이크, 이치노미야 해변에서 일관된 파도와 초보자 친화적인 환경을 만나보세요.",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/ichinomiya_beach_ko"
+    },
     {
       "id": "tsurigasaki_beach_ko",
       "lang": "ko",
@@ -171,6 +255,27 @@
       "link": "/item/mikomoto_island_ko"
     },
     {
+      "id": "kitsuki_boulders_en",
+      "lang": "en",
+      "title": "Kitsuki Boulders: Okinawa's Underwater Granite Maze for Divers",
+      "lat": 26.195,
+      "lng": 127.325,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/kitsuki_boulders.jpg",
+      "youtube_id": "",
+      "address": "Okinawa, Japan",
+      "published": "2026-11-07",
+      "summary": "Kitsuki Boulders stacks house-sized granite blocks into swim-through canyons alive with reef fish and soft coral. It rewards divers who love terrain as much as marine life, with routes for both relaxed drifters and confident explorers.",
+      "website": "",
+      "tel": "",
+      "region": "okinawa",
+      "source_image": "",
+      "link": "/item/kitsuki_boulders_en"
+    },
+    {
       "id": "hakuba_sanosaka_ski_resort_ko",
       "lang": "ko",
       "title": "하쿠바 사노사카 스키장(Hakuba Sanosaka Ski Resort) 완벽 가이드 – 가족과 초보자를 위한 나이트 스키 명소",
@@ -211,6 +316,27 @@
       "region": "",
       "source_image": "",
       "link": "/item/hanazono_niseko_en"
+    },
+    {
+      "id": "kitsuki_boulders_ko",
+      "lang": "ko",
+      "title": "기츠키 돌덩어리 다이빙 가이드: 오키나와 거암 지형 속으로",
+      "lat": 26.195,
+      "lng": 127.325,
+      "activity": "dive",
+      "categories": [
+        "Dive"
+      ],
+      "thumbnail": "/static/images/kitsuki_boulders.jpg",
+      "youtube_id": "",
+      "address": "Okinawa, Japan",
+      "published": "2026-11-07",
+      "summary": "오키나와 바닷속에 흩어진 거대한 돌덩어리 사이를 유영하는 기츠키 돌덩어리 다이빙 포인트, 초보부터 중급 다이버까지 두루 즐기기 좋은 열대 바위 지형 다이브 사이트를 소개합니다.",
+      "website": "",
+      "tel": "",
+      "region": "okinawa",
+      "source_image": "",
+      "link": "/item/kitsuki_boulders_ko"
     },
     {
       "id": "mikomoto_island_en",
@@ -2145,27 +2271,6 @@
       "link": "/item/aka_island_nishihama_dive_en"
     },
     {
-      "id": "kitsuki_boulders_ko",
-      "lang": "ko",
-      "title": "기츠키 돌덩어리 다이빙 가이드: 오키나와 거암 지형 속으로",
-      "lat": 26.195,
-      "lng": 127.325,
-      "activity": "dive",
-      "categories": [
-        "Dive"
-      ],
-      "thumbnail": "/static/images/kitsuki_boulders.jpg",
-      "youtube_id": "",
-      "address": "Okinawa, Japan",
-      "published": "2026-11-07",
-      "summary": "오키나와 바닷속에 흩어진 거대한 돌덩어리 사이를 유영하는 기츠키 돌덩어리 다이빙 포인트, 초보부터 중급 다이버까지 두루 즐기기 좋은 열대 바위 지형 다이브 사이트를 소개합니다.",
-      "website": "",
-      "tel": "",
-      "region": "okinawa",
-      "source_image": "",
-      "link": "/item/kitsuki_boulders_ko"
-    },
-    {
       "id": "chigasaki_nishihama_ko",
       "lang": "ko",
       "title": "지가사키 니시하마 서핑 가이드: 쇼난 롱보더의 비치 브레이크",
@@ -3760,27 +3865,6 @@
       "region": "kochi",
       "source_image": "",
       "link": "/item/kumakogen_coast_break_ko"
-    },
-    {
-      "id": "kitsuki_boulders_en",
-      "lang": "en",
-      "title": "Kitsuki Boulders: Okinawa's Underwater Granite Maze for Divers",
-      "lat": 26.195,
-      "lng": 127.325,
-      "activity": "dive",
-      "categories": [
-        "Dive"
-      ],
-      "thumbnail": "/static/images/kitsuki_boulders.jpg",
-      "youtube_id": "",
-      "address": "Okinawa, Japan",
-      "published": "2026-11-07",
-      "summary": "Kitsuki Boulders stacks house-sized granite blocks into swim-through canyons alive with reef fish and soft coral. It rewards divers who love terrain as much as marine life, with routes for both relaxed drifters and confident explorers.",
-      "website": "",
-      "tel": "",
-      "region": "okinawa",
-      "source_image": "",
-      "link": "/item/kitsuki_boulders_en"
     },
     {
       "id": "moriyama_seamount_ko",
@@ -10211,7 +10295,7 @@
     {
       "id": "niseko_hanazono_en",
       "lang": "en",
-      "title": "Niseko Hanazono Ski Guide: Family Terrain, Burton Park & Access",
+      "title": "Niseko Hanazono Ski Resort: Family Slopes, Burton Park & Quieter than Hirafu",
       "lat": 42.897,
       "lng": 140.715,
       "activity": "ski",
@@ -10222,7 +10306,7 @@
       "youtube_id": "WmdZFk933Io",
       "address": "Hanazono, Kutchan, Hokkaido, Japan",
       "published": "2026-08-15",
-      "summary": "A practical guide to Niseko Hanazono covering family terrain, the Burton park, lift access into Niseko United, and quieter base-area stays.",
+      "summary": "Hanazono delivers family terrain and Burton park on slopes quieter than central Hirafu, with full Niseko United lift access.",
       "website": "https://www.niseko.ne.jp/",
       "tel": "",
       "region": "hokkaido",
@@ -10484,7 +10568,7 @@
     {
       "id": "naeba_en",
       "lang": "en",
-      "title": "Naeba Ski Resort (Yuzawa) | Best for Families 2h from Tokyo",
+      "title": "Naeba Ski Resort Yuzawa: Best Family Powder 2h Tokyo, Prince Hotel + Onsen",
       "lat": 36.871,
       "lng": 138.755,
       "activity": "ski",
@@ -10495,7 +10579,7 @@
       "youtube_id": "lRZRiC52JJQ",
       "address": "Yuzawa, Niigata, Japan",
       "published": "2026-08-15",
-      "summary": "Naeba Ski Resort anchors Yuzawa — a family-focused powder hub 2h from Tokyo with Prince Hotel lodging, groomed runs, onsen, and Fuji Rock festival access.",
+      "summary": "Naeba anchors Yuzawa — a family-focused powder resort 2h from Tokyo with Prince Hotel base, groomed runs, and onsen access.",
       "website": "https://www.princehotels.co.jp/ski/naeba/",
       "tel": "",
       "region": "niigata",
