@@ -1,4 +1,6 @@
 ---
+youtube_id: e6Dm-d0wvkw
+
 lang: ko
 image_prompt: ""
 title: "히바 산 글램핑 완벽 가이드: 히로시마 숲속 캠핑의 정수"

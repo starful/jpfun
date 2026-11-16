@@ -1,4 +1,6 @@
 ---
+youtube_id: jmQowC-dm5Q
+
 lang: en
 title: "Amami Tomori Beach Reef: A Beginner-Friendly Shore Dive in Kagoshima"
 lat: 28.42

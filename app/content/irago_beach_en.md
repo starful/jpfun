@@ -1,4 +1,6 @@
 ---
+youtube_id: voQzP3tufek
+
 lang: en
 title: "Tahara Irago Beach: Aichi's Pacific Beach Break for Every Swell"
 lat: 34.58

@@ -1,4 +1,6 @@
 ---
+youtube_id: jmQowC-dm5Q
+
 lang: ko
 title: "아마미 토모리 비치 리프 다이빙 가이드: 초보자를 위한 산호 쇼어 다이빙 완벽 정리"
 lat: 28.42

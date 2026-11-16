@@ -1,4 +1,6 @@
 ---
+youtube_id: Z1OXKJ3VVTE
+
 lang: en
 title: 'Tokushima Hayama Kaigan: A Sandy Beach Break Built for Real Progression'
 lat: 34.127

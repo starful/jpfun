@@ -1,4 +1,6 @@
 ---
+youtube_id: ZetH-iXe0zE
+
 lang: en
 title: 'Nasu Forest Camp Base: A Highland Family Campground in Tochigi'
 lat: 37.12

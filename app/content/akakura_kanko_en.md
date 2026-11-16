@@ -1,4 +1,6 @@
 ---
+youtube_id: tB28M_-Cx_U
+
 lang: en
 title: "Akakura Kanko: Iwate's Old-School Powder Playground for Intermediate Skiers"
 lat: 39.85

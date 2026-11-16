@@ -1,4 +1,6 @@
 ---
+youtube_id: O2PSih2c7Ao
+
 lang: ko
 title: "아쓰미 반도 캠프 완벽 가이드: 바다를 품은 아이치 차박 캠핑지"
 lat: 34.62

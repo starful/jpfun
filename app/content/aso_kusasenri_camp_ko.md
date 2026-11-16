@@ -1,4 +1,6 @@
 ---
+youtube_id: 7yal0nvBu7U
+
 lang: ko
 title: "아소 쿠사센리 캠프, 칼데라 초원에서 즐기는 구마모토 카캠핑 명소"
 lat: 32.88

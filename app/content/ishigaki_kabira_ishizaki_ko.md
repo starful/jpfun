@@ -1,4 +1,6 @@
 ---
+youtube_id: VCbMRe4d7R0
+
 lang: ko
 title: "이시가키 카비라 이시자키 다이빙: 만타 시즌 보트 다이빙 완벽 가이드"
 lat: 24.45

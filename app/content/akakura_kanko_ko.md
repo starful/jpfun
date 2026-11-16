@@ -1,4 +1,6 @@
 ---
+youtube_id: tB28M_-Cx_U
+
 lang: ko
 title: "아카쿠라 칸코 스키장 완벽 가이드: 이와테 파우더와 로프웨이의 전통 리조트"
 lat: 39.85

@@ -1,4 +1,6 @@
 ---
+youtube_id: Z1OXKJ3VVTE
+
 lang: ko
 title: '도쿠시마 하야마 카이간 서핑 가이드: 모래 바닥 비치 브레이크 완전 정복'
 lat: 34.127

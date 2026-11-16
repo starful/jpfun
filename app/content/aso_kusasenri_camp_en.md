@@ -1,4 +1,6 @@
 ---
+youtube_id: 7yal0nvBu7U
+
 lang: en
 title: "Aso Kusasenri Camp: A Caldera Grassland Guide for Car Campers"
 lat: 32.88

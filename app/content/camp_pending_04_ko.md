@@ -1,4 +1,6 @@
 ---
+youtube_id: Ou0rHdvPl4M
+
 lang: ko
 title: "만자 캠핑장 완벽 가이드: 군마 고원에서 즐기는 여름 캠핑"
 lat: 36.642

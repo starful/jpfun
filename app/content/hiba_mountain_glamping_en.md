@@ -1,4 +1,6 @@
 ---
+youtube_id: e6Dm-d0wvkw
+
 lang: en
 title: "Hiba Mountain Glamping: A Forest Camp Escape in Hiroshima"
 lat: 34.82

@@ -1,4 +1,6 @@
 ---
+youtube_id: n_PxJ2PyecI
+
 lang: en
 title: "Izu Daruma Mountain Camp: A Weekend Car Camping Escape in Shizuoka"
 lat: 34.92
