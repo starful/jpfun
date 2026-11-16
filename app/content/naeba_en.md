@@ -1,7 +1,7 @@
 ---
 youtube_id: lRZRiC52JJQ
 lang: en
-title: 'Naeba Ski Resort Yuzawa: Best Family Powder 2h Tokyo, Prince Hotel + Onsen'
+title: 'Naeba Ski Resort: Best Family Powder 2 Hours from Tokyo with Prince Hotel'
 lat: 36.871
 lng: 138.755
 categories:
@@ -11,18 +11,17 @@ thumbnail: /static/images/naeba.jpg
 address: Yuzawa, Niigata, Japan
 date: '2026-08-15'
 website: https://www.princehotels.co.jp/ski/naeba/
-summary: Naeba anchors Yuzawa — a family-focused powder resort 2h from Tokyo with
-  Prince Hotel base, groomed runs, and onsen access.
+summary: Yuzawa from Tokyo is the fastest ski escape—two hours by train to Prince
+  Hotel, powder terrain, kids' programs, and onsen, with zero rental-car stress.
 image_prompt: ''
 region: niigata
-description: 'Naeba Yuzawa: family ski resort 2h from Tokyo. Prince Hotel base, groomed
-  powder, onsen, Fuji Rock festival access. Book early Dec–Feb.'
-seo_title: 'Naeba Yuzawa Ski Resort: Family Powder, Prince Hotel, Onsen 2h Tokyo'
-seo_description: 'Plan Naeba ski trips: powder terrain, Prince Hotel lodging, onsen
-  recovery, lifts into Kagura. Best family resort near Tokyo.'
+description: '2 hours from Tokyo: Naeba powder runs, Prince Hotel base, onsen, Yuzawa
+  shopping. Best family resort near Tokyo.'
+seo_title: 'Naeba Ski Resort: Best Family Powder 2 Hours from Tokyo with Prince Hotel'
+seo_description: '2 hours from Tokyo: Naeba powder runs, Prince Hotel base, onsen,
+  Yuzawa shopping. Best family resort near Tokyo.'
 ---
-
-
+Yuzawa from Tokyo is the fastest ski escape in Japan. Two hours by train puts you at Prince Hotel with powder terrain and onsen waiting. Families return year after year because logistics work: direct shinkansen, slope-side hotel, kids' programs, no stress about rentals or winter mountain roads. Pack light, take the train, ski.
 
 ## Overview
 

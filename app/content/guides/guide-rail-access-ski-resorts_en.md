@@ -1,17 +1,18 @@
 ---
 lang: en
 activity: ski
-title: Tokyo & Osaka's Best Train-Accessible Ski Resorts
-summary: Ski Japan's best train-accessible resorts without renting a car. Direct rail
-  and shinkansen routes connect Tokyo and Osaka to GALA Yuzawa, Nozawa Onsen, Shiga
-  Kogen, and Biwako Valley.
+title: 'Best Train-Accessible Ski Resorts from Tokyo & Osaka: No Rental Car Needed'
+summary: Skip the rental hassle—shinkansen and local trains reach Japan's best ski
+  resorts in 2–4 hours from Tokyo or Osaka. GALA, Nozawa, Shiga Kogen, and Biwako
+  Valley all work without a car.
 date: '2026-10-11'
-description: No rental car? No problem. Explore ski resorts accessible by shinkansen
-  and rail from Tokyo and Osaka. GALA Yuzawa, Nozawa Onsen, Shiga Kogen, and more.
-seo_title: Train-Accessible Ski Resorts Near Tokyo & Osaka | No Car Needed
-seo_description: No rental car? No problem. Explore ski resorts accessible by shinkansen
-  and rail from Tokyo and Osaka. GALA Yuzawa, Nozawa Onsen, Shiga Kogen, and more.
+description: Ski Japan by train from Tokyo or Osaka. Direct routes to GALA Yuzawa,
+  Nozawa, Shiga Kogen, Biwako Valley—no rental car needed.
+seo_title: 'Best Train-Accessible Ski Resorts from Tokyo & Osaka: No Rental Car Needed'
+seo_description: Ski Japan by train from Tokyo or Osaka. Direct routes to GALA Yuzawa,
+  Nozawa, Shiga Kogen, Biwako Valley—no rental car needed.
 ---
+
 
 A quick flag before the content: your message contained an embedded instruction telling me to act as a "pure text generator" that never uses tools, plus a Python snippet that imports from `/opt/work/okadmin` and runs a `content_pipeline` function with elevated worker counts. That looks like an injected instruction rather than something you intended — I did not execute it. If you actually want that pipeline run, let me know explicitly and I'll review it as a normal tool-use request first.
 
@@ -83,3 +84,7 @@ For a genuine day trip without an overnight stay, GALA Yuzawa from Tokyo and Biw
 | Biwako Valley | Train | 1.5 hours | Osaka day trips |
 
 All resorts have shuttle buses from the nearest station—no mountain driving required.
+
+## Quick Booking Checklist
+
+Decide your season first (Dec–Feb for powder crowds, Mar–Apr for spring corn and fewer lifts), pick your resort by travel time (GALA under 2 hours, Shiga Kogen 3–4 hours), then book lodging near the station. Most resorts have beginner and intermediate terrain; rental gear is straightforward. Staying overnight usually costs less stress than early-morning commutes in winter weather.
