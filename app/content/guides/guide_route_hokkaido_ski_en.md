@@ -2,16 +2,19 @@
 lang: en
 activity: route
 emoji: ⛷️
-title: 'Hokkaido Ski Route Guide: Niseko or Furano 3–4 Days, Powder + Onsen Recovery'
+title: 'Hokkaido Ski Route: Niseko or Furano 3–4 Days | First-Timer Friendly Plan'
 date: '2026-08-12'
-summary: Pick Niseko or Furano, ski two days, flex one for powder or recovery — a
-  beginner-friendly Hokkaido itinerary.
-description: 'First Hokkaido ski trip: Niseko (trees, international) or Furano (calm,
-  views). 2 powder days + 1 flex day for weather or onsen.'
-seo_title: 'Hokkaido Ski Route: Niseko or Furano 3–4 Days | First-Timer Friendly Plan'
-seo_description: 'Plan a first Hokkaido ski trip: pick Niseko or Furano base, ski
-  2 days, save 1 flex day for powder storms or onsen recovery.'
+summary: Reframed title to emphasize 'first-time' keyword for discovery. Added gear
+  rental costs and budget breakdown to support beginner planning.
+description: 'Plan a first Hokkaido ski trip: pick Niseko or Furano base, ski 2 days,
+  save 1 flex day for powder storms or onsen recovery.'
+seo_title: 'First-Time Hokkaido Ski Trip: Niseko or Furano Base Route (3–4 Days, Beginner
+  Guide)'
+seo_description: 'First Hokkaido ski trip: Niseko or Furano base. 2 ski days plus
+  flex day for powder or recovery. Beginner itinerary with rental costs and onsen
+  stops.'
 ---
+
 
 
 
@@ -56,3 +59,7 @@ This plan fits first-time Hokkaido skiers who want one solid base village instea
 ## Why Single-Base Routes Work Better for First-Timers
 
 Staying at one resort eliminates day-trip fatigue and jet-lag mistakes; you learn one lift system and local shuttle routes. Niseko suits travelers seeking international dining and tree skiing; Furano appeals to skiers wanting fewer crowds and expansive views. Keeping Day 3 unscheduled lets you follow live snow reports instead of pre-booked dinners—a flexibility that often determines whether you catch powder or face wind holds.
+
+## First-Timer Gear & Budget Snapshot
+
+Rent skis/boots/helmet on arrival (~¥3,000–5,000/day) rather than shipping. Bring thermal base layers, goggles spare lens, and travel insurance covering off-piste. Budget ¥8,000–12,000/day for slopes, meals, and lodging. Book ski school early in peak weeks; group lessons are cheaper than private and often full on holidays.

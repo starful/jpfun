@@ -1,19 +1,17 @@
 ---
 lang: en
 activity: leisure
-title: 'Japan Leisure Trip Planner: Ski, Scuba, Surf &amp; Camp Itinerary Guide -
-  JPFun'
+title: 'Plan Your Japan Leisure Trip by Season: Ski, Scuba, Surf, or Camp'
 date: '2026-08-12'
-summary: How to plan a Japan leisure trip by season — ski, scuba, surf, or camp —
-  then add ramen, onsen, or golf days using JPFun's regional maps.
-description: 'Plan a Japan leisure trip by season: ski, scuba, surf, or camp, plus
-  easy add-ons like ramen, onsen, and golf. A simple JPFun itinerary sequence.'
-seo_title: 'Japan Leisure Trip Planner: Ski, Scuba, Surf &amp; Camp Itinerary Guide
-  - JPFun'
-seo_description: 'Plan a Japan leisure trip by season: ski, scuba, surf, or camp,
-  plus easy add-ons like ramen, onsen, and golf. A simple JPFun itinerary sequence.'
+summary: Skip the overwhelm—pick one main leisure activity, choose your season, add
+  1–2 flexible days for food and onsen, and you have a complete Japan trip.
+description: Mix one main activity with easy add-ons. Plan Japan ski, scuba, surf,
+  or camp trips with JPFun's seasonal guides & regional maps.
+seo_title: 'Plan Your Japan Leisure Trip by Season: Ski, Scuba, Surf, or Camp'
+seo_description: Mix one main activity with easy add-ons. Plan Japan ski, scuba, surf,
+  or camp trips with JPFun's seasonal guides & regional maps.
 ---
-
+Want to escape to Japan but overwhelmed by planning? Here's the real formula: pick **one main activity** (ski, scuba, surf, or camp), choose your season, then add 1–2 flexible days for ramen, onsen, or golf. That's a complete Japan leisure trip—no binder full of tabs required.
 
 Japan rewards trips that mix **one main leisure focus** with easy side days. Use JPFun to choose **ski, scuba, surf, or camp**, filter by region, then bolt on bowls, baths, or a round of golf when the weather flips.
 

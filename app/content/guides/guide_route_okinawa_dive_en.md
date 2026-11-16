@@ -4,16 +4,16 @@ activity: route
 emoji: 🤿
 title: 'Okinawa Scuba Diving Weekend Guide: Kerama vs Ishigaki + 2-Day Itinerary'
 date: '2026-08-12'
-summary: Plan your Okinawa scuba weekend by choosing Kerama (calm, accessible) or
-  Ishigaki (manta rays). Book your dive boat first, then build lodging and buffer
-  days around it.
+summary: Enhanced title with difficulty-level and wildlife keywords. Added certification-level
+  section and seasonal booking timing to support decision-making.
 description: 'Weekend scuba diving in Okinawa: compare Kerama (calm, accessible) vs
   Ishigaki (mantas). Includes boat booking strategy, 2-day itinerary, and dive tips.'
-seo_title: 'Okinawa Scuba Diving Weekend Guide: Kerama vs Ishigaki + 2-Day Itinerary'
-seo_description: 'Weekend scuba diving in Okinawa: compare Kerama (calm, accessible)
-  vs Ishigaki (mantas). Includes boat booking strategy, 2-day itinerary, and dive
-  tips.'
+seo_title: 'Okinawa Scuba Diving Weekend: Kerama (Beginner) vs Ishigaki (Mantas) +
+  2-Day Plan'
+seo_description: 'Okinawa weekend scuba: Kerama Islands (beginner-calm) vs Ishigaki
+  manta rays (May–Oct). 2-day itinerary with boat booking strategy and cert requirements.'
 ---
+
 ## Plan Your Okinawa Scuba Weekend: Kerama or Ishigaki?
 
 Okinawa is Japan's premier scuba destination for weekend trips. Two regions lead: **Kerama Islands** (calm waters, accessible from Naha, beginner-friendly year-round) and **Ishigaki Island** (famous for manta rays May–October, stronger currents). Most divers choose one region as their core dive day and add a buffer day for safety and recovery. A weekend is enough for one excellent boat dive—trying to squeeze two destinations or back-to-back dives typically dilutes the experience.
@@ -59,3 +59,7 @@ Certified divers who want **one excellent water day** more than a packed sightse
 ## Who This Okinawa Dive Weekend Suits
 
 Certified divers with a few logged dives who'd rather lock in one strong boat day than chase a packed sightseeing list. Have your c-card, logbook, and dive insurance info ready — most Kerama and Ishigaki shops ask before you board. New to Okinawa diving or chasing manta season at Ishigaki? Message the shop directly about current conditions before you lock flights, since the operator — not this route — picks the day's actual dive sites.
+
+## Certification Level & Seasonal Timing
+
+Open Water (PADI/SSI OW) gets you boat dives with instruction. Kerama is beginner-calm year-round; Ishigaki manta season (May–October) requires Open Water minimum. Book shops 2–3 weeks ahead for summer; winter has fewer divers but smaller seas. Bring certification cards and logbook photos; many shops email you a pre-dive form to fill at booking.

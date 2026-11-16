@@ -2,16 +2,17 @@
 lang: en
 activity: route
 emoji: 🤿
-title: 'Izu Scuba Diving from Tokyo: Shore & Boat Weekend Route'
+title: 'Izu Scuba Diving from Tokyo: 2-Hour Weekend Trips for Certified Divers'
 date: '2026-08-12'
-summary: 'A Tokyo-friendly Izu scuba diving weekend: shore or short boat dives, simple
-  logistics, and a no-flight-stress route for certified divers.'
-description: 'Plan a Tokyo-to-Izu scuba diving weekend: shore and short boat dives,
-  easy logistics, and a simple 3-day route for certified divers.'
-seo_title: Izu Scuba Diving Weekend from Tokyo | Shore & Boat Dive Route
-seo_description: 'Tokyo-based divers: plan an easy Izu scuba weekend — shore or short
-  boat dives, simple logistics, no flights. Full 3-day route guide.'
+summary: Tokyo-based divers get to Izu in 2 hours by train or bus—shore or boat dives,
+  simple logistics, and home by dinner the next day.
+description: 'No flights needed. Dive Izu in 2 hours from Tokyo: shore & boat routes,
+  certified diver guides, complete weekend logistics.'
+seo_title: 'Izu Scuba Diving from Tokyo: 2-Hour Weekend Trips for Certified Divers'
+seo_description: 'No flights needed. Dive Izu in 2 hours from Tokyo: shore & boat
+  routes, certified diver guides, complete weekend logistics.'
 ---
+
 
 
 
@@ -56,3 +57,7 @@ Best for certified divers based in Tokyo who want a low-hassle weekend: short tr
 **Best season?** Shops run dives most of the year; conditions vary by site, so confirm current visibility and surge with your operator when booking.
 
 **Gear to bring?** Reef-safe sunscreen, a warm layer for boat wind, and a spare mask strap or O-ring kit for a smooth weekend.
+
+## Weekend Dive Trip Essentials
+
+Most Tokyo divers catch the overnight bus or morning train, dive the same day, and return within 48 hours. Bring reef-safe sunscreen, a warm layer for boat wind, and confirm your shop's briefing time before arrival. Two tanks is the weekend target—skip stacking night dives unless you planned ahead. After the dive, train back the next morning; you're usually home for dinner.
