@@ -1,4 +1,6 @@
 ---
+youtube_id: n_PxJ2PyecI
+
 lang: ko
 title: "이즈 다루마산 캠프, 스루가만과 후지산이 한눈에 보이는 주말 차박 명소"
 lat: 34.92

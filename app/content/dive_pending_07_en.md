@@ -1,4 +1,6 @@
 ---
+youtube_id: utObEuQqViI
+
 lang: en
 title: "Atami Dive Point: A Complete Guide to Diving in Atami, Japan"
 lat: 35.094

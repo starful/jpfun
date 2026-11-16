@@ -1,4 +1,6 @@
 ---
+youtube_id: O2PSih2c7Ao
+
 lang: en
 title: "Atsumi Peninsula Camp: Aichi's Best Car Camping Beach Getaway"
 lat: 34.62

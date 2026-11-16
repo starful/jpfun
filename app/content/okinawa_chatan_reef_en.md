@@ -1,4 +1,6 @@
 ---
+youtube_id: ymVcY2JGvbQ
+
 lang: en
 title: "Okinawa Chatan Coastal Reef: A Beginner-Friendly Shore Dive Escape"
 lat: 26.33

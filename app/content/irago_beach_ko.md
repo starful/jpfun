@@ -1,4 +1,6 @@
 ---
+youtube_id: voQzP3tufek
+
 lang: ko
 title: "이라고 비치(Irago Beach) 서핑 완벽 가이드: 아이치 태평양 비치브레이크"
 lat: 34.58

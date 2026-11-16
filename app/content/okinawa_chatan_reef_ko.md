@@ -1,4 +1,6 @@
 ---
+youtube_id: ymVcY2JGvbQ
+
 lang: ko
 title: "오키나와 차탄 해안 산호초 다이빙: 초보자도 안전한 얕은 산호 정원"
 lat: 26.33

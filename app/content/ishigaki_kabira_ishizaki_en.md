@@ -1,4 +1,6 @@
 ---
+youtube_id: VCbMRe4d7R0
+
 lang: en
 title: "Ishigaki Kabira Ishizaki: Advanced Manta Diving by Boat"
 lat: 24.45

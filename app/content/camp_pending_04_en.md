@@ -1,4 +1,6 @@
 ---
+youtube_id: Ou0rHdvPl4M
+
 lang: en
 title: "Manza Campground: A Kanto Base Camp for Real Off-Grid Nights"
 lat: 36.642

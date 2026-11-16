@@ -1,4 +1,6 @@
 ---
+youtube_id: ZetH-iXe0zE
+
 lang: ko
 title: '나스 포레스트 캠프 완전 가이드: 돗치기 고원에서 즐기는 가족 캠핑과 글램핑'
 lat: 37.12

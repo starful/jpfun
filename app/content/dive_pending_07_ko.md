@@ -1,4 +1,6 @@
 ---
+youtube_id: utObEuQqViI
+
 lang: ko
 title: "아타미 다이브 완전 가이드: 이즈반도 최고의 다이빙 포인트 탐방"
 lat: 35.094
