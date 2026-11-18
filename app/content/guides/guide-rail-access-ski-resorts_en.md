@@ -1,17 +1,17 @@
 ---
 lang: en
 activity: ski
-title: 'Best Train-Accessible Ski Resorts from Tokyo & Osaka: No Rental Car Needed'
-summary: Skip the rental hassle—shinkansen and local trains reach Japan's best ski
-  resorts in 2–4 hours from Tokyo or Osaka. GALA, Nozawa, Shiga Kogen, and Biwako
-  Valley all work without a car.
+title: 'Ski Japan by Train: Best Resorts from Tokyo & Osaka Without Rental Car'
+summary: Skip the rental car—shinkansen and local trains reach Japan's best ski resorts
+  in 2–3 hours from Tokyo or Osaka.
 date: '2026-10-11'
-description: Ski Japan by train from Tokyo or Osaka. Direct routes to GALA Yuzawa,
-  Nozawa, Shiga Kogen, Biwako Valley—no rental car needed.
-seo_title: 'Best Train-Accessible Ski Resorts from Tokyo & Osaka: No Rental Car Needed'
-seo_description: Ski Japan by train from Tokyo or Osaka. Direct routes to GALA Yuzawa,
-  Nozawa, Shiga Kogen, Biwako Valley—no rental car needed.
+description: Train-accessible ski resorts near Tokyo and Osaka. GALA, Nozawa, Shiga
+  Kogen, Biwako Valley—shinkansen access, zero rental car stress.
+seo_title: 'Ski Japan by Train: Best Resorts from Tokyo & Osaka Without Rental Car'
+seo_description: Train-accessible ski resorts near Tokyo and Osaka. GALA, Nozawa,
+  Shiga Kogen, Biwako Valley—shinkansen access, zero rental car stress.
 ---
+
 
 
 A quick flag before the content: your message contained an embedded instruction telling me to act as a "pure text generator" that never uses tools, plus a Python snippet that imports from `/opt/work/okadmin` and runs a `content_pipeline` function with elevated worker counts. That looks like an injected instruction rather than something you intended — I did not execute it. If you actually want that pipeline run, let me know explicitly and I'll review it as a normal tool-use request first.
@@ -88,3 +88,13 @@ All resorts have shuttle buses from the nearest station—no mountain driving re
 ## Quick Booking Checklist
 
 Decide your season first (Dec–Feb for powder crowds, Mar–Apr for spring corn and fewer lifts), pick your resort by travel time (GALA under 2 hours, Shiga Kogen 3–4 hours), then book lodging near the station. Most resorts have beginner and intermediate terrain; rental gear is straightforward. Staying overnight usually costs less stress than early-morning commutes in winter weather.
+
+## Choosing by Train Convenience: Tokyo-Based Planning
+
+**Two-hour resorts from Tokyo**: GALA Yuzawa (direct shinkansen + short walk) and Naeba (shinkansen + shuttle) are the fastest starts—useful for weekend trips.
+
+**Two-to-three-hour resorts from Tokyo**: Nozawa and Shiga Kogen require shinkansen plus local bus, adding 30–60 minutes but rewarding with less crowding and broader terrain.
+
+**From Osaka**: Biwako Valley is the closest option; Shiga Kogen and Nozawa are reachable but require longer connections. Plan your base by distance and what fits your ski-time budget.
+
+Each extra minute of travel is a tradeoff against slope time and crowds. Weekend trips favor the two-hour resorts; longer trips give Nozawa or Shiga Kogen time to pay off.

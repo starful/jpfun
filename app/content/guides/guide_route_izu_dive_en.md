@@ -2,16 +2,17 @@
 lang: en
 activity: route
 emoji: 🤿
-title: 'Izu Scuba Diving from Tokyo: 2-Hour Weekend Trips for Certified Divers'
+title: 'Izu Scuba Weekend from Tokyo: 2-Hour Train, Shore & Boat Dives'
 date: '2026-08-12'
-summary: Tokyo-based divers get to Izu in 2 hours by train or bus—shore or boat dives,
-  simple logistics, and home by dinner the next day.
-description: 'No flights needed. Dive Izu in 2 hours from Tokyo: shore & boat routes,
-  certified diver guides, complete weekend logistics.'
-seo_title: 'Izu Scuba Diving from Tokyo: 2-Hour Weekend Trips for Certified Divers'
-seo_description: 'No flights needed. Dive Izu in 2 hours from Tokyo: shore & boat
-  routes, certified diver guides, complete weekend logistics.'
+summary: Tokyo-based divers reach Izu in 2 hours by train for quick weekend dives—shore
+  or boat options, simple logistics, home by dinner Sunday.
+description: 'Izu scuba diving from Tokyo: 2-hour train weekend trips with certified
+  guides, shore or boat dives, complete logistics.'
+seo_title: 'Izu Scuba Weekend from Tokyo: 2-Hour Train, Shore & Boat Dives'
+seo_description: 'Izu scuba diving from Tokyo: 2-hour train weekend trips with certified
+  guides, shore or boat dives, complete logistics.'
 ---
+
 
 
 
@@ -61,3 +62,7 @@ Best for certified divers based in Tokyo who want a low-hassle weekend: short tr
 ## Weekend Dive Trip Essentials
 
 Most Tokyo divers catch the overnight bus or morning train, dive the same day, and return within 48 hours. Bring reef-safe sunscreen, a warm layer for boat wind, and confirm your shop's briefing time before arrival. Two tanks is the weekend target—skip stacking night dives unless you planned ahead. After the dive, train back the next morning; you're usually home for dinner.
+
+## Izu Scuba by Season: Conditions & What to Expect
+
+Izu operates year-round. Summer (June–August) brings warmth and decent visibility—the busiest tourist months. Fall (September–November) offers crisp water and calmer weekdays. Winter (December–February) is quietest but requires a thicker wetsuit and planning around surge days. Spring (March–May) transitions between seasons. Contact your shop for current conditions before booking—surge and tidal flow shift daily on these exposed coastlines.

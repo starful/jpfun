@@ -2,18 +2,20 @@
 lang: en
 activity: route
 emoji: ⛷️
-title: 'Hokkaido Ski Route: Niseko or Furano 3–4 Days | First-Timer Friendly Plan'
+title: 'First-Time Hokkaido Ski Trip: Niseko vs Furano 3–4 Day Route + Gear Rental
+  Budget'
 date: '2026-08-12'
-summary: Reframed title to emphasize 'first-time' keyword for discovery. Added gear
-  rental costs and budget breakdown to support beginner planning.
-description: 'Plan a first Hokkaido ski trip: pick Niseko or Furano base, ski 2 days,
-  save 1 flex day for powder storms or onsen recovery.'
-seo_title: 'First-Time Hokkaido Ski Trip: Niseko or Furano Base Route (3–4 Days, Beginner
-  Guide)'
-seo_description: 'First Hokkaido ski trip: Niseko or Furano base. 2 ski days plus
-  flex day for powder or recovery. Beginner itinerary with rental costs and onsen
-  stops.'
+summary: Emphasized 'first-time' and budget keywords in title for discovery. Added
+  gear rental costs and budget breakdown section to support beginner planning and
+  cost estimation.
+description: 'First-time Hokkaido skiing: pick Niseko or Furano, ski 2 days, reserve
+  rental gear in advance. Beginner-friendly 3–4 day itinerary with onsen breaks and
+  budget tips.'
+seo_title: 'First Time Hokkaido Ski: Niseko or Furano 3–4 Days + Budget Guide'
+seo_description: 'First Hokkaido ski trip: Niseko or Furano base, 2 ski days plus
+  flex day. Beginner route with rental costs, onsen stops, and budget planning.'
 ---
+
 
 
 
@@ -63,3 +65,7 @@ Staying at one resort eliminates day-trip fatigue and jet-lag mistakes; you lear
 ## First-Timer Gear & Budget Snapshot
 
 Rent skis/boots/helmet on arrival (~¥3,000–5,000/day) rather than shipping. Bring thermal base layers, goggles spare lens, and travel insurance covering off-piste. Budget ¥8,000–12,000/day for slopes, meals, and lodging. Book ski school early in peak weeks; group lessons are cheaper than private and often full on holidays.
+
+## Budget Planning: Gear Rental & Daily Costs
+
+Rental equipment (skis, boots, jacket, pants) is available at both Niseko and Furano base areas; reserve in advance during peak weeks (December–February) to secure your sizes. Ski passes for 2–3 day beginner visits are affordable; mountain cafés cost more than village restaurants. Add onsen or day-bath entry fees (budget-friendly option widely available), lodging (condo-style often cheaper than hotels), and food between ski days. Create a simple daily budget sheet before booking to avoid cost surprises and compare accommodation options early in your planning.
