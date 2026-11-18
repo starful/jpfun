@@ -1,16 +1,17 @@
 ---
 lang: en
 activity: leisure
-title: 'Plan Your Japan Leisure Trip by Season: Ski, Scuba, Surf, or Camp'
+title: 'Japan Seasonal Leisure Guide: Plan Your Ski, Scuba, Surf & Camp Trip'
 date: '2026-08-12'
-summary: Skip the overwhelm—pick one main leisure activity, choose your season, add
-  1–2 flexible days for food and onsen, and you have a complete Japan trip.
-description: Mix one main activity with easy add-ons. Plan Japan ski, scuba, surf,
-  or camp trips with JPFun's seasonal guides & regional maps.
-seo_title: 'Plan Your Japan Leisure Trip by Season: Ski, Scuba, Surf, or Camp'
-seo_description: Mix one main activity with easy add-ons. Plan Japan ski, scuba, surf,
-  or camp trips with JPFun's seasonal guides & regional maps.
+summary: Pick one main leisure activity per season—ski in December–March, scuba in
+  June–September—then add flexible days for food, onsen, or golf.
+description: Complete seasonal guide to planning ski, scuba, surf & camp trips in
+  Japan. Pick your season, choose your activity, add easy side days.
+seo_title: 'Japan Seasonal Leisure Guide: Plan Your Ski, Scuba, Surf & Camp Trip'
+seo_description: Complete seasonal guide to planning ski, scuba, surf & camp trips
+  in Japan. Pick your season, choose your activity, add easy side days.
 ---
+
 Want to escape to Japan but overwhelmed by planning? Here's the real formula: pick **one main activity** (ski, scuba, surf, or camp), choose your season, then add 1–2 flexible days for ramen, onsen, or golf. That's a complete Japan leisure trip—no binder full of tabs required.
 
 Japan rewards trips that mix **one main leisure focus** with easy side days. Use JPFun to choose **ski, scuba, surf, or camp**, filter by region, then bolt on bowls, baths, or a round of golf when the weather flips.
@@ -53,3 +54,13 @@ That is enough structure for a first Japan leisure trip without a binder full of
 - **Short on time?** Match the season first on JPFun; it narrows the map fast and keeps travel light.
 
 This sequence works for a long weekend or a two-week loop — the steps don't change, only the number of stops.
+
+## Japan Leisure Planner: Activity-by-Activity Breakdown
+
+Each leisure activity has its own JPFun guide with regional maps and pacing:
+- **Ski Guide**: Resort selection, terrain matching, gear packing, snow condition updates
+- **Scuba Guide**: Certification requirements, regional water clarity, boat vs. shore options
+- **Surf Guide**: Wave forecasts, beach access, local breaks, board rental logistics
+- **Camp Guide**: Campground availability, elevation, season-specific weather, facilities
+
+Start with your chosen activity above, then add one flexible day for the food and onsen add-ons. Each region map lets you narrow by location, travel time, and your preferences before you book lodging.

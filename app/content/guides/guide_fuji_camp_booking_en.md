@@ -1,18 +1,20 @@
 ---
 lang: en
 activity: camp
-title: How to Book Fuji Five Lakes Campgrounds | Reservations
-summary: Strengthened title with booking-window timing and urgency keywords. Added
-  timeline section clarifying exact JST opening mechanics and cancellation backup
-  strategies.
+title: 'How to Book Fuji Five Lakes Camping: 60–90 Day Reservation Strategy (Peak
+  Season)'
+summary: Reframed title to lead with 'How to Book' for discovery. Added JST opening
+  mechanics and cancellation backup section to clarify exact booking timing.
 date: '2026-08-19'
-description: Step-by-step guide to booking Fuji Five Lakes campsites. Kawaguchiko,
-  Motosu, Yamanakako, and peak season reservation strategies.
-seo_title: 'Fuji Five Lakes Camping: Booking Windows & Reservation Strategy (60–90
-  Days Ahead)'
+description: Fuji Five Lakes camping requires 60–90 day advance booking. Peak waterfront
+  plots sell within minutes of JST midnight opening. Reserve at Kawaguchiko, Yamanakako,
+  Motosuko; have backup lake strategy.
+seo_title: 'Fuji Five Lakes Camping Reservations: Book 60–90 Days Ahead | Nissan Strategy'
 seo_description: 'Fuji Five Lakes camping: 60–90 day booking windows, midnight JST
-  opens. Peak spots sell in 60 seconds. Kawaguchiko, Yamanakako, Motosuko strategies.'
+  opens. Peak spots fill fast. Kawaguchiko, Yamanakako, Motosuko strategies & cancellation
+  backups.'
 ---
+
 
 ## Quick Start: How to Reserve Fuji Five Lakes Campsites
 
@@ -73,3 +75,7 @@ Booking a campsite around Mount Fuji during peak season is less about luck and m
 ## Booking Window Timeline: When to Reserve Each Lake
 
 Most Fuji Five Lakes campsites open reservations 60–90 days ahead. Reserve on opening day at midnight Japan time (JST); popular waterfront spots often sell out within 60 seconds. Summer weekends and Obon week fill first; spring and autumn weekends have better availability. Set phone alarms for opening times; have your payment method ready and a backup lake choice if your first pick is sold out.
+
+## Booking Timeline: JST Open & Cancellation Backup Plan
+
+Fuji Five Lakes sites open reservations at midnight JST on designated dates, typically 60–90 days before your target visit. Set a phone alarm or browser reminder for 11:50 PM JST; peak lakeside plots can sell in under a minute. If your first choice campground fills, immediately switch to your secondary lake (Yamanakako and Motosuko often have longer availability windows than Kawaguchiko base). Most sites allow cancellation until 5–7 days before your booking date, so monitor newly released slots and cancel-rebook if a better waterfront pitch opens.
