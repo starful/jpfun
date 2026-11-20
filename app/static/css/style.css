@@ -767,6 +767,7 @@ header {
 .detail-content table { width: 100%; border-collapse: collapse; margin: 20px 0; }
 .detail-content th, .detail-content td { border: 1px solid #eee; padding: 10px 14px; text-align: left; }
 .detail-content th { background: #f5f5f5; font-weight: 700; }
+.detail-content img { max-width: 100%; height: auto; border-radius: 8px; }
 
 .detail-plan {
     display: flex; flex-direction: column; gap: 16px;

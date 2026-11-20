@@ -18,7 +18,6 @@ from __future__ import annotations
 
 import argparse
 import csv
-import importlib.util
 import os
 import re
 from datetime import date, timedelta
@@ -27,19 +26,10 @@ from pathlib import Path
 import requests
 from dotenv import load_dotenv
 
+from app.config import SITE_CONFIG
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(BASE_DIR / ".env")
-
-
-def _load_site_config() -> dict:
-    config_path = BASE_DIR / "app" / "config.py"
-    spec = importlib.util.spec_from_file_location("jpfun_config", config_path)
-    module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(module)
-    return module.SITE_CONFIG
-
-
-SITE_CONFIG = _load_site_config()
 
 GA4_PROPERTY_ID = os.getenv("JPFUN_GA4_PROPERTY_ID", "")
 GA4_ACCESS_TOKEN = os.getenv("GA4_ACCESS_TOKEN", "")
@@ -51,8 +41,12 @@ BOT_SOURCE_PATTERNS = (
     "petalbot", "bytespider", "yandex", "dotbot", "seznambot", "serpstat",
     "screaming frog", "headlesschrome",
 )
-BOT_SOURCE_RE = re.compile("|".join(re.escape(p) for p in BOT_SOURCE_PATTERNS), re.I)
+BOT_SOURCE_RE = re.compile(
+    r"\b(?:" + "|".join(re.escape(p) for p in BOT_SOURCE_PATTERNS) + r")", re.I
+)
 
+# 15%: past session spikes traced to bot/crawler traffic have put the bot-like
+# share well above this, while normal day-to-day noise stays below it.
 BOT_SHARE_ALERT_THRESHOLD = 0.15
 
 
