@@ -242,7 +242,7 @@
         {% else %}
         <div class="detail-img-wrap {% if is_winter_trend %}detail-img-wrap--winter-trend{% endif %}">
             <img src="{{ post.thumbnail }}" alt="{{ post.title }} in {{ post.address }}" class="detail-img"
-                 loading="eager" onerror="this.onerror=null;this.src='/static/images/default.jpg';">
+                 loading="eager" fetchpriority="high" onerror="this.onerror=null;this.src='/static/images/default.jpg';">
             {% if is_winter_trend %}
             <span class="winter-season-badge"><i class="fa-solid fa-snowflake" aria-hidden="true"></i> {{ lbl_winter }}</span>
             {% endif %}
@@ -450,5 +450,6 @@
     </article>
 
     {% include 'footer.html' %}
+    <script src="/static/js/detail-perf.js" defer></script>
 </body>
 </html>
