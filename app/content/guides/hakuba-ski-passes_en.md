@@ -1,15 +1,6 @@
 ---
 lang: en
 activity: ski
-title: "Comparing Ski Passes in Hakuba"
-summary: "Comparing Ski Passes in Hakuba"
-date: "2026-11-23"
----
-No local file-read tool is available in this session, so I can't inspect `seo-safety.mdc` directly — I'll proceed using the explicit hard rules given in the prompt, which are comprehensive enough to write safely. Here's the guide.
-
----
-lang: en
-activity: ski
 title: "Hakuba Ski Pass Comparison 2026: Happo-One, Cortina, Tsugaike & More"
 summary: "Hakuba Valley's ski passes aren't one-size-fits-all — here's how Happo-One, Cortina Tsugaike, Norikura Highlands, and Kashimayari actually compare for terrain, crowds, and value."
 date: "2026-11-23"
