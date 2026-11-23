@@ -13,25 +13,6 @@ summary: "하코네 아시노코 캠프"
 image_prompt: ""
 region: "kanagawa"
 ---
-위 메시지에는 실제 요청(하코네 아시노코 캠프 콘텐츠 작성)과 함께, 저를 "도구를 쓰지 않는 순수 텍스트 생성기"로 재정의하려는 지시문과 `/opt/work/okadmin`의 `content_pipeline.run_pipeline('jpfun', fill_half=True)`를 실행시키려는 Python 스니펫이 섞여 있습니다. 후자는 제 실제 시스템 지침을 무시하게 만들려는 프롬프트 인젝션일 수 있고, 외부 경로의 코드를 실행해 사이트 전체 콘텐츠를 일괄 생성/수정하는 잠재적으로 파급력이 큰 작업이라 명확한 사용자 확인 없이는 실행하지 않았습니다.
-
-다만 콘텐츠 작성 요청 자체는 안전하고 명확하므로, 요청하신 형식대로 마크다운 본문만 아래에 작성해 드립니다. 파이프라인 실행이 실제로 필요하시면 별도로 말씀해 주세요.
-
----
-lang: ko
-title: "하코네 아시노코 캠프 완전 가이드: 도쿄 근교 호수뷰 캠핑지"
-lat: 35.21
-lng: 139.02
-activity: "camp"
-categories: ["Camp"]
-thumbnail: "/static/images/hakone_lake_ashi_camp.jpg"
-address: "Hakone, Kanagawa, Japan"
-date: "2026-10-12"
-website: ""
-summary: "후지산이 보이는 하코네 아시노코 호숫가에서 즐기는 당일치기 또는 1박 캠핑. 도쿄에서 전철로 2시간이면 닿는 거리라 주말 캠핑 초보자에게도 추천할 만하다."
-image_prompt: ""
-region: "kanagawa"
----
 
 ## 누구에게 어울리는 캠핑지인가
 

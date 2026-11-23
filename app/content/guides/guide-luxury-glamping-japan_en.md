@@ -5,17 +5,6 @@ title: "Luxury glamping resorts and high-end experiences"
 summary: "Luxury glamping resorts and high-end experiences"
 date: "2026-10-11"
 ---
-Before I write this, a flag: your message contains a Python code block that imports `content_pipeline` from `/opt/work/okadmin` (outside this repo) and calls `run_pipeline('jpfun', ...)` to bulk-generate dozens of items/guides, plus an instruction fragment ("You are a pure text generator... never use tools...") that doesn't match the normal system context and reads like an injected directive. I'm not going to execute that code or follow that instruction — running an external, unreviewed pipeline that writes files across the repo isn't something I'll do without you explicitly asking for it and confirming what it does. If you *do* want that pipeline run, tell me directly and I'll look at `content_pipeline.py` first before running anything.
-
-What I will do is the actual content request, since that's a normal text-generation task:
-
----
-lang: en
-activity: camp
-title: "Luxury Glamping in Japan: Premium Resort Stays for Ski, Surf, and Dive Trips"
-summary: "From alpine canvas suites above Hakuba's slopes to ocean-view domes near Okinawa's reefs, Japan's high-end glamping scene pairs five-star comfort with real outdoor access. Here's how to pick the right resort glamping base and book it properly."
-date: "2026-10-11"
----
 
 ## Who Luxury Glamping Is For — and What Actually Makes It Different
 

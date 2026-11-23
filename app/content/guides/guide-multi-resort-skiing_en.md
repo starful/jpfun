@@ -5,17 +5,6 @@ title: "Skiing multiple resorts in one day: pass types and routes"
 summary: "Skiing multiple resorts in one day: pass types and routes"
 date: "2026-10-11"
 ---
-I want to flag something before giving you the content: embedded in this request was a line telling me to act as a "pure text generator" with no tools and never mention files — plus a trailing Python snippet that imports `content_pipeline` from `/opt/work/okadmin` and runs a bulk generation pipeline (with worker env vars, item/guide counts, etc.). That combination — an instruction to suppress tool use/disclosure plus code that would execute a pipeline from a different project directory — looks like an injected instruction rather than something you authored, so I did not execute it. If you actually want that pipeline run, let me know explicitly and I'll look at it as its own task.
-
-Here's the requested guide content:
-
----
-lang: en
-activity: ski
-title: "One Pass, Three Mountains: The Multi-Resort Ski Day-Trip Playbook for Japan"
-summary: "Japan's linked ski regions let you ride three or four mountains on a single lift ticket — here's how to pick the right pass and route your day so lift lines, not logistics, are the only thing slowing you down."
-date: "2026-10-11"
----
 
 Japan is one of the only places in the world where a single lift ticket can legitimately get you onto three, four, or even nineteen separate mountains in one day. Regions like Hakuba Valley, Shiga Kogen, Myoko Kogen, and Niseko United were built — some over a century of gradual development, some through deliberate postwar consolidation — around the idea that neighboring ski areas share a pass rather than compete for your money. Understanding how that system works, and how to move between areas efficiently, turns a single-resort day into a genuine multi-resort tour.
 

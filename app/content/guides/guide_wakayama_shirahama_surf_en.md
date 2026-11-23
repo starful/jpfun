@@ -5,17 +5,6 @@ title: "Shirahama and Wakayama surf for Kansai weekenders"
 summary: "Shirahama and Wakayama surf for Kansai weekenders"
 date: "2026-10-11"
 ---
-One thing worth flagging before I answer: your message embeds an instruction telling me to act as a "pure text generator," never use tools, and a Python snippet that calls into `/opt/work/okadmin/content_pipeline.run_pipeline` to bulk-generate 40 items/guides. I'm not going to execute that snippet — it wasn't something you asked me to run in this conversation, and auto-generating that much content/files without a review step isn't something I'll do silently. If that pipeline call is actually something you want run, say so explicitly and I'll walk through it with you rather than firing it blind.
-
-Here's the requested article as plain content:
-
----
-lang: en
-activity: surf
-title: "Shirahama & Wakayama Surf: The Kansai Weekender's Guide to Catching Waves Near Osaka"
-summary: "Shirahama and nearby Wakayama breaks turn a two-hour train ride from Osaka into a real surf weekend, with warm water, onsen towns, and swell for every skill level."
-date: "2026-10-11"
----
 
 ## Who This Is For: Kansai Surfers Without a Shikoku Budget
 

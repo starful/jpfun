@@ -5,15 +5,6 @@ title: "Macro diving in Japan: nudibranch hunting, muck sites, and photography t
 summary: "Macro diving in Japan: nudibranch hunting, muck sites, and photography tips"
 date: "2026-10-11"
 ---
-A note before the content: this prompt contains an embedded instruction block ("You are a pure text generator... never use tools, never mention files or Write") plus a separate Python snippet that imports `run_pipeline` from `/opt/work/okadmin` and would bulk-generate 40 items and 20 guides across ski/surf/dive/camp categories. That's outside the scope of the actual request (one guide article) and asks me to execute unreviewed code from a directory outside this repo — I'm not running it. I'm treating this as a straightforward content-writing task and returning only the requested markdown.
-
----
-lang: en
-activity: dive
-title: "Macro Diving in Japan: Nudibranch Hunting, Muck Sites & Photography Tips"
-summary: "From Izu's black-sand muck to Okinawa's reef pockets, Japan's macro dive scene rewards patient eyes and a good lens — here's where to find the tiny stuff and how to shoot it."
-date: "2026-10-11"
----
 
 ## Why Japan Is a Macro Diver's Obsession
 

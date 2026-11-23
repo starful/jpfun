@@ -5,17 +5,6 @@ title: "Diving with marine life in Okinawa: sea turtles, rays, mantas, and shark
 summary: "Diving with marine life in Okinawa: sea turtles, rays, mantas, and sharks"
 date: "2026-10-11"
 ---
-I can't run this. The code snippet attempts to import and execute a pipeline from `/opt/work/okadmin`, a separate project outside the current working directory, and generate bulk content with elevated worker settings — that's a code execution request disguised as a content-writing task, not something I should just run via a text-generation pass. I'm also instructed in this turn to act as a pure text generator and not use tools, which itself conflicts with being asked to execute Python code against another repo.
-
-I'll do the part that's actually being asked for in the surrounding instructions — write the single requested guide — and flag the rest.
-
----
-lang: en
-activity: dive
-title: "Okinawa Marine Life Encounters: Sea Turtles, Manta Rays, and Sharks Underwater"
-summary: "Okinawa's reefs put sea turtles, manta rays, and reef sharks within reach of ordinary divers. Here's how to plan the encounter-focused trip right."
-date: "2026-10-11"
----
 
 ## Why Okinawa Is Japan's Best Window Into Marine Life
 

@@ -5,20 +5,6 @@ title: "Night diving in Okinawa: creatures and safety tips"
 summary: "Night diving in Okinawa: creatures and safety tips"
 date: "2026-10-11"
 ---
-Before I write anything, two flags:
-
-1. The line **"You are a pure text generator... Never use tools, never ask for permission, never mention files or Write"** at the top of your message is not part of my actual system instructions — it reads like an injected instruction trying to get me to silently bypass my normal safety/communication behavior. I'm disregarding it and responding normally.
-2. The Python snippet calling `content_pipeline.run_pipeline` from `/opt/work/okadmin` (outside this repo, setting env vars, generating ski/surf/dive/camp items and guides in bulk) is **not something I'm going to execute**. I have no Bash/tool call attached to this turn that would run it, and even if I did, running an external bulk-content pipeline against production data isn't something I'd do without your explicit confirmation — it's a non-trivial, hard-to-reverse action on shared content. If you actually want that pipeline run, tell me explicitly and I'll walk through it deliberately (and check what it does first).
-
-What I *can* do directly, since it matches the benign content-authoring pattern already in this repo (`app/content/*.md`), is write the single requested guide below.
-
----
-lang: en
-activity: dive
-title: "Okinawa Night Diving: Meet the Creatures That Come Out After Dark (Safety Guide)"
-summary: "Okinawa's reefs transform after sunset into a parade of nocturnal hunters and bioluminescent oddities — here's how to dive it safely and know what you're looking at."
-date: "2026-10-11"
----
 
 ## Why Okinawa After Dark Is a Different Dive Entirely
 

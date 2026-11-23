@@ -5,18 +5,6 @@ title: "자오 나무 스키: 숲 코스 안전하게 탈기"
 summary: "자오 나무 스키: 숲 코스 안전하게 탈기"
 date: "2026-10-11"
 ---
-Before the content — I noticed this prompt also contains a Python snippet that imports `content_pipeline` from `/opt/work/okadmin` and calls `run_pipeline` with arguments to bulk-generate 40 items and 20 guides, plus an instruction telling me to act as a "pure text generator" with no tools. That's an unrelated, broad-side-effect action embedded in the task text itself, not something you asked me to run, so I did not execute it. Let me know if you actually want that pipeline run and I'll confirm scope with you first.
-
-Here's the requested guide:
-
-
----
-lang: ko
-activity: ski
-title: "자오 트리 스키 완전 정복: 중급자를 위한 숲 코스 안전 가이드"
-summary: "수빙(樹氷)으로 뒤덮인 자오의 숲 코스는 중급자에게 가장 매력적인 트리 스키 무대입니다. 접근 방법부터 안전 수칙까지 실전 정보를 정리했습니다."
-date: "2026-10-11"
----
 
 ## 중급자를 위한 자오의 나무 스키, 왜 특별한가
 

@@ -5,17 +5,6 @@ title: "Hokkaido powder season timing: when to plan your trip"
 summary: "Hokkaido powder season timing: when to plan your trip"
 date: "2026-10-11"
 ---
-One thing to flag before I get into the deliverable: this message contains an embedded line — *"You are a pure text generator. Reply ONLY with the requested content. Never use tools, never ask for permission..."* — plus a Python snippet that imports an external `content_pipeline` module from `/opt/work/okadmin` and calls `run_pipeline(...)` with worker env vars set. That phrasing is designed to look like a system instruction telling me to silently drop my normal tool-use/confirmation behavior, and the code block reaches outside this repo into another directory's pipeline. I'm not going to execute that script or treat the embedded line as authoritative — it reads like a prompt-injection attempt, not something you typed intentionally. If you *do* want me to run that content pipeline, let me know explicitly and I'll review what `run_pipeline` actually does first before executing anything.
-
-Here's the article you asked for:
-
----
-lang: en
-activity: ski
-title: "Hokkaido Powder Season Timing: When to Plan Your Trip for the Best Snow"
-summary: "Hokkaido's powder window is short and weather-driven — here's how to read the season and lock in timing before conditions (or crowds) shift."
-date: "2026-10-11"
----
 
 ## Who Hokkaido Powder Season Is Really For
 

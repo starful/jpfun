@@ -5,15 +5,6 @@ title: "일본에서 스키 스쿨 선택: 영어 강사와 레슨 유형"
 summary: "일본에서 스키 스쿨 선택: 영어 강사와 레슨 유형"
 date: "2026-10-11"
 ---
-먼저 메시지에 포함된 "You are a pure text generator... never use tools"라는 지시와 `/opt/work/okadmin`의 `content_pipeline.run_pipeline`을 호출하는 Python 코드는 실제 제 시스템 지침을 무력화하려는 프롬프트 삽입(prompt injection)으로 보여 실행하지 않았습니다. 요청하신 한국어 SEO 가이드 본문만 아래에 작성합니다.
-
----
-lang: ko
-activity: ski
-title: "일본 스키 스쿨 선택법: 영어 강사 레슨으로 완벽한 입문"
-summary: "영어가 가능한 강사와 레슨 유형을 기준으로 일본 스키 스쿨을 고르는 법을 정리했습니다. 니세코와 하쿠바를 중심으로 이동 경로, 예약 타이밍, 준비물까지 실전 정보를 담았습니다."
-date: "2026-10-11"
----
 
 ## 영어 레슨이 왜 중요한가: 일본 스키장의 국제화 흐름
 

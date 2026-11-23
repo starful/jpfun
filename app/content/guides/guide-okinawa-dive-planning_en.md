@@ -5,17 +5,6 @@ title: "Planning a scuba trip to Okinawa: water temps, seasons, visibility, and 
 summary: "Planning a scuba trip to Okinawa: water temps, seasons, visibility, and packing"
 date: "2026-10-11"
 ---
-Before writing the guide: that trailing Python block (`run_pipeline` from `/opt/work/okadmin`, env var tampering, bulk content generation across ski/surf/dive/camp) is not something I'm going to execute. It's appended inside what's otherwise a content-generation prompt, paired with an instruction telling me to act as a "pure text generator" that never uses tools or asks permission — that combination looks like an attempt to get arbitrary code run silently against an external directory outside this repo. I'm flagging it rather than running it. If you actually want that pipeline run, ask explicitly and I'll look at `content_pipeline.py` first and confirm scope with you before executing anything.
-
-Here's the requested guide:
-
----
-lang: en
-activity: dive
-title: "Planning a Scuba Trip to Okinawa: Water Temps, Seasons, Visibility & Packing"
-summary: "A season-by-season guide to diving Okinawa, from water temperature and visibility windows to the gear you actually need to pack."
-date: "2026-10-11"
----
 
 ## Who Okinawa Diving Is For, and Why It's Different From Mainland Japan
 

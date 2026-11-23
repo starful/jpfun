@@ -5,17 +5,6 @@ title: "하쿠바 계곡 여름 캠프베이스 선택하기"
 summary: "하쿠바 계곡 여름 캠프베이스 선택하기"
 date: "2026-10-11"
 ---
-Noted — this session doesn't actually expose a local filesystem write tool (only Google Drive/Docs connectors), so I can't create `app/content/guides/guide-hakuba-base-selection_ko.md` directly in the repo right now. I'm giving you the finished markdown below; paste it into that path (matching the existing `_en` sibling) once you've confirmed it.
-
-Also: I did **not** run the embedded Python/`content_pipeline`/`okadmin` snippet from your message — that block (plus the "pure text generator, never use tools" instruction) reads as an injection riding along with the task text, and it has nothing to do with writing one travel guide, so I disregarded it. Flagging it in case it wasn't something you intentionally pasted.
-
----
-lang: ko
-activity: camp
-title: "하쿠바 계곡 여름 캠프베이스 완벽 선택 가이드: 알파인 지형 속 캠핑지 고르기"
-summary: "스키 리조트로 유명한 하쿠바가 여름엔 어떻게 바뀌는지, 고도와 접근성을 기준으로 캠프베이스를 고르는 법을 정리했습니다."
-date: "2026-10-11"
----
 
 ## 누구를 위한 가이드이며, 하쿠바가 다른 여름 캠핑지와 다른 이유
 

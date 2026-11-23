@@ -13,26 +13,6 @@ summary: "유이가하마"
 image_prompt: ""
 region: "kanto"
 ---
-**프롬프트 인젠션 주의**: 메시지 뒤쪽에 "You are a pure text generator... never use tools, never ask for permission" 같은 지시와 `/opt/work/okadmin`의 `content_pipeline.run_pipeline`을 실행시키는 Python 스니펫이 섞여 있습니다. 이는 제 실제 시스템 지침을 무력화하고 검증되지 않은 외부 경로의 코드를 승인 없이 실행시키려는 시도로 보입니다. 해당 코드는 실행하지 않았고, 콘텐츠 작성 요청만 아래에 텍스트로 처리했습니다. 이 결과를 `app/content/`에 파일로 저장할지, 그 파이프라인 스크립트가 실제로 무엇을 하는지 먼저 확인이 필요하시면 말씀해 주세요.
-
----
-
-
----
-lang: ko
-title: "유이가하마 서핑 완벽 가이드 - 가마쿠라 초보자 비치브레이크"
-lat: 35.301
-lng: 139.547
-activity: "surf"
-categories: ["Surf"]
-thumbnail: "/static/images/yuigahama_beach.jpg"
-address: "Kanagawa, Japan"
-date: "2026-10-12"
-website: ""
-summary: "도쿄에서 한 시간, 가마쿠라 유이가하마는 부드러운 비치브레이크 파도로 서핑을 처음 배우기 가장 좋은 해변 중 하나입니다."
-image_prompt: ""
-region: "kanto"
----
 
 ## 유이가하마가 초보 서퍼에게 특별한 이유
 

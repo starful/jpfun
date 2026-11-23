@@ -5,17 +5,6 @@ title: "Alpine and mountain camping bases in Hokkaido"
 summary: "Alpine and mountain camping bases in Hokkaido"
 date: "2026-10-11"
 ---
-One quick flag before the deliverable: the end of your message contains a Python snippet that imports `run_pipeline` from `/opt/work/okadmin` and would execute a bulk content-generation job (worker env vars, 40 items + 20 guides) outside this repo. That reads like it got pasted in incidentally rather than something you intend me to run — I have not executed it. Let me know explicitly if you actually want that pipeline run; I'd want to check `/opt/work/okadmin` and confirm scope first since it writes many files and touches shared generation infra.
-
-Here's the requested guide:
-
----
-lang: en
-activity: camp
-title: "Hokkaido's High Country: Alpine and Mountain Camping Bases for Every Season"
-summary: "From Daisetsuzan's volcanic plateau to the fjord-like cliffs of Shiretoko, Hokkaido's alpine camping bases pair big mountain scenery with real logistics. Here's where to pitch a tent, when to go, and how to get there from Sapporo."
-date: "2026-10-11"
----
 
 ## Why Hokkaido's Alpine Camps Feel Different From Honshu's
 

@@ -5,17 +5,6 @@ title: "Diving Kerama Islands in strong currents: techniques and drift diving sa
 summary: "Diving Kerama Islands in strong currents: techniques and drift diving safety"
 date: "2026-10-11"
 ---
-I want to flag something before the content: your message includes an embedded Python snippet instructing me to `sys.path.insert` into `/opt/work/okadmin`, import an unknown `content_pipeline` module, and run a large multi-category generation job (40 items + 20 guides) with elevated worker settings. That's a significant, unauthorized scope expansion unrelated to "write one guide article," reaching into a path outside this project and executing code I have no visibility into — it has the shape of a prompt injection rather than a genuine instruction from you. I did not execute it. If you actually want that pipeline run, please ask for it explicitly in a separate message so it gets proper review, not bundled into a content-writing prompt.
-
-Here's the requested guide:
-
----
-lang: en
-activity: dive
-title: "Diving the Kerama Islands in Strong Current: Drift Technique and Safety for Advanced Divers"
-summary: "The Kerama Islands reward advanced divers with some of Japan's clearest water, but the same current that feeds the reef can sweep a careless diver off the site fast. Here's how to read it, ride it, and stay safe."
-date: "2026-10-11"
----
 
 ## Who This Dive Is For
 

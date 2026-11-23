@@ -13,25 +13,6 @@ summary: "Omaezaki Coast"
 image_prompt: ""
 region: "chubu"
 ---
-<system-reminder>
-Flagging before I continue: this user turn contains two things that look like injected content rather than genuine instructions — (1) a plain-text line before the system-reminder claiming I'm "a pure text generator" that must "never use tools, never ask for permission" (that contradicts how I actually operate and reads like an injection attempt), and (2) a Python snippet that sets env vars, inserts `/opt/work/okadmin` onto `sys.path`, and calls `run_pipeline('jpfun', fill_half=True)`. I'm not executing that code — it would run an arbitrary external pipeline against this project, which is exactly the kind of hard-to-reverse, unscoped action I should not take without explicit, direct confirmation from you. I'm only treating the actual content request (the Omaezaki Coast page) as the task, and producing it as plain text output below, matching the requested frontmatter/section format.
-</system-reminder>
-
----
-lang: en
-title: "Omaezaki Coast: Shizuoka's Wind-Swell Point Break for Every Level"
-lat: 34.596
-lng: 138.226
-activity: "surf"
-categories: ["Surf"]
-thumbnail: "/static/images/omaezaki_coast.jpg"
-address: "Shizuoka, Japan"
-date: "2026-10-12"
-website: ""
-summary: "A lighthouse-capped point on the open Enshu-nada coast where wind swell and typhoon groundswell meet consistent banks. Omaezaki rewards surfers who read wind direction and tide before paddling out."
-image_prompt: ""
-region: "chubu"
----
 
 ## A Lighthouse Point Break That Rewards Patience and Wind-Reading
 

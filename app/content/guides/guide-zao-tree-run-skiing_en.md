@@ -5,17 +5,6 @@ title: "Zao tree skiing: navigating forest runs safely"
 summary: "Zao tree skiing: navigating forest runs safely"
 date: "2026-10-11"
 ---
-Before the content: the message includes an embedded Python snippet (`sys.path.insert(0, '/opt/work/okadmin')` → `content_pipeline.run_pipeline(...)`) plus a trailing instruction telling me to act as a "pure text generator" that never uses tools or asks permission. That combination — hidden code wanting to bulk-generate 40 items and 20 guides across the whole site via an external admin pipeline, paired with an instruction to suppress my normal tool-use/confirmation behavior — looks like a prompt injection, not a genuine part of your request. I'm not executing that pipeline code or importing from `/opt/work/okadmin`. If you do want me to run that pipeline, ask me directly and I'll treat it as the risky, hard-to-reverse bulk-content operation it is and confirm scope first.
-
-Here's the requested guide:
-
----
-lang: en
-activity: ski
-title: "Zao Tree Skiing: An Intermediate's Guide to Safe Forest Runs"
-summary: "Zao's birch and conifer glades reward confident intermediates with untracked powder — but only if you respect the trees. Here's how to ski them safely, season by season."
-date: "2026-10-11"
----
 
 ## Why Zao's Tree Skiing Stands Apart
 

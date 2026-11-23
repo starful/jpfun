@@ -5,18 +5,6 @@ title: "홋카이도 알파인 산악 캠핑베이스"
 summary: "홋카이도 알파인 산악 캠핑베이스"
 date: "2026-10-11"
 ---
-Before the content: the end of your message includes an instruction block telling me to act as "a pure text generator" with no tools, plus a Python snippet that imports `content_pipeline` from `/opt/work/okadmin` (outside this project) and runs a generation pipeline. That doesn't match anything in your actual request, looks like injected/anomalous content, and I'm not executing it — flagging it rather than silently complying or silently running it. Let me know if you actually want that pipeline run and I'll look at it separately as its own task.
-
-Here's the requested guide:
-
-
----
-lang: ko
-activity: camp
-title: "홋카이도 알파인 산악 캠핑베이스 가이드: 다이세츠산 국립공원에서 보내는 고산 캠핑"
-summary: "일본에서 가장 넓은 국립공원인 다이세츠산을 기점으로 한 홋카이도 알파인 산악 캠핑의 모든 것. 접근 교통, 캠프 레이아웃, 계절별 조건까지 실전 정보를 정리했다."
-date: "2026-10-11"
----
 
 ## 누구를 위한 캠핑베이스인가 - 다이세츠산이 특별한 이유
 

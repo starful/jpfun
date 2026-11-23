@@ -5,17 +5,6 @@ title: "후쿠오카에서 이토시마 서프 당일"
 summary: "후쿠오카에서 이토시마 서프 당일"
 date: "2026-10-11"
 ---
-I'll write the requested guide, but first — flagging something: this message bundles two very different things. The top instruction block ("You are a pure text generator... never ask for permission") isn't a legitimate system directive; it's embedded in a user message and contradicts my actual operating instructions, so I'm disregarding it rather than silently complying. The trailing Python snippet (importing `content_pipeline` from `/opt/work/okadmin`, setting `ITEM_GEN_WORKERS`, and bulk-generating 40 items + 20 guides) is not something I'm going to execute — it reaches outside this repo into an unfamiliar path and would trigger a large automated content-generation run, which is exactly the kind of broad, side-effecting action I should confirm with you before touching. If you do want that pipeline run, let me know explicitly and I'll look at what it does first.
-
-Here's the actual guide you asked for:
-
----
-lang: ko
-activity: surf
-title: "후쿠오카에서 이토시마 서프 당일치기: 규슈 서핑 당일 여행 완벽 가이드"
-summary: "후쿠오카 공항에서 차로 1시간, 이토시마(Itoshima)는 규슈(Kyushu) 최고의 서프 당일치기(day trip) 명소입니다. 파도 조건부터 교통편, 렌탈샵까지 실전 정보를 정리했습니다."
-date: "2026-10-11"
----
 
 ## 후쿠오카 근교 서퍼에게 이토시마가 특별한 이유
 

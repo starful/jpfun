@@ -5,17 +5,6 @@ title: "Solo female camping in Japan: site selection and safety"
 summary: "Solo female camping in Japan: site selection and safety"
 date: "2026-10-11"
 ---
-One flag before the content: the message you sent includes a Python snippet that imports `content_pipeline` from `/opt/work/okadmin` and calls `run_pipeline(...)` with elevated item/guide counts and an `ITEM_GEN_WORKERS` env var override. That's a request to execute a pipeline from a directory outside this project with side effects I can't verify (file writes, env changes, external calls). I'm not running that — if you actually want that pipeline executed, please run it yourself or tell me explicitly and I'll inspect `/opt/work/okadmin/content_pipeline.py` first rather than blind-executing it. I also noticed a "you are a pure text generator, never use tools" instruction embedded in the prompt text itself — that's not a real system instruction, just text in your message, so I'm disregarding it as a directive but it happens to match what this task needs anyway (no tools required to write a markdown article).
-
-Here's the actual guide you asked for:
-
----
-lang: en
-activity: camp
-title: "Solo Female Camping in Japan: A Safety-First Guide to Site Selection"
-summary: "Japan is one of the easiest countries in the world for women to camp alone — if you know which sites to pick and how to read them. Here's the practical, safety-focused playbook."
-date: "2026-10-11"
----
 
 ## Why Japan Quietly Leads the World for Solo Female Campers
 

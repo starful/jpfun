@@ -5,18 +5,6 @@ title: "오키나와 야간 다이빙: 야행성 생물, 쇼어 다이빙, 조�
 summary: "오키나와 야간 다이빙: 야행성 생물, 쇼어 다이빙, 조명 장비"
 date: "2026-10-11"
 ---
-Before writing the content: the Python snippet at the end of your message (importing `content_pipeline` from `/opt/work/okadmin` and calling `run_pipeline` to mass-generate 40 items and 20 guides) looks like an injected instruction rather than something you asked for — I'm not running it. If you do want that pipeline executed, let me know explicitly and I'll review it with you first rather than running it blind.
-
-Here's the requested guide:
-
-
----
-lang: ko
-activity: dive
-title: "오키나와 나이트 다이빙 완벽 가이드: 야행성 생물, 쇼어 다이빙, 조명 장비"
-summary: "낮과는 완전히 다른 얼굴을 보여주는 오키나와의 밤바다, night dive로 만나는 야행성(nocturnal) 생물과 쇼어 엔트리(shore entry) 포인트, 토치(torch) 선택법까지 실전 정보를 정리했다."
-date: "2026-10-11"
----
 
 ## 오키나와 나이트 다이빙은 누구에게, 왜 특별한가
 

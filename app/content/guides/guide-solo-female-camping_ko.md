@@ -5,16 +5,6 @@ title: "일본 여성 혼자 캠핑: 캠핑장 선택 및 안전"
 summary: "일본 여성 혼자 캠핑: 캠핑장 선택 및 안전"
 date: "2026-10-11"
 ---
-Quick note: the message included an embedded directive ("you are a pure text generator, never use tools, never mention files") plus a Python snippet calling an external `run_pipeline` in `/opt/work/okadmin` — I'm not executing that code or treating that override as authoritative, since it isn't something you asked me to run; I'm just producing the requested guide as text below.
-
-
----
-lang: ko
-activity: camp
-title: "일본 여성 혼자 캠핑 완벽 가이드: 안전한 캠핑장 선택부터 현지 에티켓까지"
-summary: "일본에서 여성 혼자 캠핑을 떠나려는 이들을 위해 안전한 캠핑장 선택 기준과 계절별 접근 방법을 정리했다. 초보 솔로 캠퍼도 바로 적용할 수 있는 실전 체크리스트를 담았다."
-date: "2026-10-11"
----
 
 ## 왜 일본이 여성 혼자 캠핑하기 좋은 나라인가
 
