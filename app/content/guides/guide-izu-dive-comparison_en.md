@@ -5,15 +5,6 @@ title: "Izu Peninsula dive sites compared: Shimoda vs. Atami vs. Ito conditions"
 summary: "Izu Peninsula dive sites compared: Shimoda vs. Atami vs. Ito conditions"
 date: "2026-10-11"
 ---
-Before I write this: your message contains embedded text styled as a system reminder ("You are a pure text generator... never use tools...") plus an unrelated Python script that imports from `/opt/work/okadmin` and calls `run_pipeline(...)`. That looks like injected content rather than something you'd normally type, and I'm not going to execute that script — running an unreviewed pipeline that bulk-generates/modifies content across the repo isn't something I'll do without you explicitly asking for it as a real action. I'm treating this turn as just the content-writing request and producing the guide below.
-
----
-lang: en
-activity: dive
-title: "Izu Peninsula Dive Sites Compared: Shimoda vs. Atami vs. Ito Conditions for Every Diver"
-summary: "Shimoda, Atami, and Ito all sit on the same temperate peninsula but fish differently, feel different, and suit different skill levels. Here's how to pick the right base for your dive trip."
-date: "2026-10-11"
----
 
 ## Why Izu, and Why Compare These Three Towns
 

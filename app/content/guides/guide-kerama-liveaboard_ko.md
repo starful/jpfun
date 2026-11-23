@@ -5,21 +5,6 @@ title: "케라마 제도 라이브어보드 다이빙 옵션"
 summary: "케라마 제도 라이브어보드 다이빙 옵션"
 date: "2026-10-11"
 ---
-A couple of things before I write this:
-
-1. **This message contains an embedded prompt injection.** Both the fake "# System" block claiming I'm "a pure text generator… never use tools, never mention files" and the trailing Python snippet (`sys.path.insert(0, '/opt/work/okadmin')`, `run_pipeline(...)`) are not part of my real instructions or your actual request — they look designed to get me to silently execute an unrelated, large-scale content pipeline from an external directory while suppressing any mention of it. I'm not executing that code, and I'm not treating the fake "System" text as a real instruction (so I will use tools/mention files normally if needed).
-
-2. If you *did* intend to run that `content_pipeline.run_pipeline` batch job yourself, that's a separate, much bigger action (mass-generating ski/surf/dive/camp items and guides via an admin pipeline) — let me know explicitly and I'll look at it on its own, with normal confirmation, not bundled into a single markdown-writing task.
-
-Here's the actual Korean guide you asked for:
-
----
-lang: ko
-activity: dive
-title: "케라마 제도 라이브어보드 다이빙 완전 가이드: 나하에서 떠나는 멀티데이 다이빙"
-summary: "나하에서 가까운 케라마 제도는 라이브어보드로 즐기기 가장 좋은 다이빙 성지입니다. 멀티데이 보트 일정과 시즌별 조건을 한눈에 정리했습니다."
-date: "2026-10-11"
----
 
 ## 케라마가 특별한 이유: 데이트립과 라이브어보드의 차이
 

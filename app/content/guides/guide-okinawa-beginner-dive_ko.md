@@ -5,15 +5,6 @@ title: "오키나와 초보자 스쿠버: 조용한 산호 사이트와 현지 �
 summary: "오키나와 초보자 스쿠버: 조용한 산호 사이트와 현지 다이빙샵"
 date: "2026-10-11"
 ---
-I noticed the message includes a Python snippet that tries to set environment variables and import/run a `content_pipeline` module from `/opt/work/okadmin` — I did not execute that, since it reads as an unrelated/injected instruction to run arbitrary external code rather than part of the writing task. Below is the requested Korean travel guide content only.
-
----
-lang: ko
-activity: dive
-title: "오키나와 초보자 스쿠버 가이드: 조용한 산호 사이트와 현지 다이빙샵 추천"
-summary: "오키나와에서 처음 스쿠버다이빙을 시작하는 사람을 위해 잔잔한 산호 포인트와 믿을 만한 현지 다이빙샵을 정리했다. 자격증 취득부터 접근 교통편, 성수기 일정까지 실전 정보를 담았다."
-date: "2026-10-11"
----
 
 ## 이 가이드가 맞는 사람
 

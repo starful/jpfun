@@ -5,15 +5,6 @@ title: "Night diving in Okinawa: nocturnal creatures, shore dives, and lighting 
 summary: "Night diving in Okinawa: nocturnal creatures, shore dives, and lighting gear"
 date: "2026-10-11"
 ---
-I don't have file-editing tools available in this session, so here's the finished guide as requested — you can drop it into `app/content/guides/` following your existing naming convention (e.g., `guide-okinawa-night-dive_en.md`).
-
----
-lang: en
-activity: dive
-title: "Okinawa Night Diving Guide: Nocturnal Creatures, Shore Entries & Torch Setup"
-summary: "Okinawa's reefs transform after dark into a hunting ground for octopus, slipper lobsters, and bioluminescent plankton. Here's how to plan a safe shore-entry night dive and pick gear that won't let you down."
-date: "2026-10-11"
----
 
 Okinawa by day is postcard turquoise. Okinawa by night is a different ecosystem entirely — and that's exactly the draw for divers who've already logged their daytime reef dives and want to see what actually comes out when the light disappears.
 

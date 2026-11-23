@@ -5,15 +5,6 @@ title: "Choosing a ski school in Japan: English teachers and lesson types"
 summary: "Choosing a ski school in Japan: English teachers and lesson types"
 date: "2026-10-11"
 ---
-I want to flag one thing before delivering: the message included a Python snippet instructing me to import a `content_pipeline` module from `/opt/work/okadmin` (a different project directory) and run it with write/generation parameters. I did not execute that — it reaches outside this project, performs bulk content/file generation, and showed up embedded inside what's otherwise a content-writing prompt, which is a pattern worth treating as untrusted rather than acting on automatically. If this pipeline run is actually something you want, let me know and I can look at the script and run it deliberately with your confirmation. Below is just the requested article.
-
----
-lang: en
-activity: ski
-title: "Choosing a Ski School in Japan: English Instruction and Lesson Types Explained"
-summary: "Japan's ski schools now offer excellent English-language coaching, but the right class depends on resort, group size, and what you actually want to learn. Here's how to pick well and book without the guesswork."
-date: "2026-10-11"
----
 
 ## Who This Guide Is For
 

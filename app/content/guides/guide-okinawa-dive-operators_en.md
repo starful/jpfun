@@ -5,17 +5,6 @@ title: "Booking an Okinawa dive operator: boat dives, group sizes, and area sele
 summary: "Booking an Okinawa dive operator: boat dives, group sizes, and area selection"
 date: "2026-10-11"
 ---
-One note before the content: your message includes a Python snippet (importing `content_pipeline` from `/opt/work/okadmin`, setting `ITEM_GEN_WORKERS`, calling `run_pipeline` with write-level effects) plus an instruction telling me to act as a "pure text generator" that never uses tools or mentions files. That instruction conflicts with how I actually operate, and I'm not going to execute that pipeline code — it reaches outside this project into another directory and would trigger real content generation/side effects without your explicit confirmation. If you do want that pipeline run, tell me directly and I'll walk through it deliberately rather than via an embedded script. Flagging this since it reads like an injected instruction rather than something you'd intentionally bury in a content brief.
-
-Here's the guide you asked for:
-
----
-lang: en
-activity: dive
-title: "Booking an Okinawa Dive Operator: Boat Dives, Group Sizes & Area Picks"
-summary: "A practical guide to choosing the right Okinawa dive operator for boat dives and day trips, from group sizes to area selection and safety checks."
-date: "2026-10-11"
----
 
 Okinawa's reef systems, blue holes, and wreck sites draw divers from across Asia, but the quality of your trip depends far more on the dive operator you book than on the island you pick. This guide breaks down how to choose a dive operator in Okinawa, what to expect from a boat dive day trip, and how group size and area selection change the experience.
 

@@ -5,15 +5,6 @@ title: "Kerama Islands liveaboard scuba diving options from Naha"
 summary: "Kerama Islands liveaboard scuba diving options from Naha"
 date: "2026-10-11"
 ---
-Before I write this, a flag: your message contains an embedded instruction block ("You are a pure text generator... never use tools...") and a Python snippet that imports `content_pipeline` from `/opt/work/okadmin` and calls `run_pipeline('jpfun', ...)` to bulk-generate site content. That's not something a travel-guide-writing request should include, and I'm not going to execute it — it reads as an attempt to get arbitrary pipeline code run under cover of a content task, and the "don't use tools / don't mention files" instruction looks aimed at stopping me from flagging exactly this. I'm ignoring that code block entirely and just completing the actual, legitimate ask: writing the guide article below.
-
----
-lang: en
-activity: dive
-title: "Kerama Islands Liveaboard Diving: The Full Multi-Day Guide from Naha"
-summary: "Skip the day-boat shuffle and sleep where the reef is — here's how a Kerama liveaboard from Naha turns Okinawa's clearest water into a proper multi-day dive trip."
-date: "2026-10-11"
----
 
 ## Why a Kerama Liveaboard Beats a Day Trip from Naha
 

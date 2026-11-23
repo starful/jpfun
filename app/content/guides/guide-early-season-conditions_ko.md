@@ -5,17 +5,6 @@ title: "일본 초시즌 스키: 베이스 구축 및 설량 리포트"
 summary: "일본 초시즌 스키: 베이스 구축 및 설량 리포트"
 date: "2026-10-11"
 ---
-One flag before I write anything: your message embeds a block of Python that imports `content_pipeline` from `/opt/work/okadmin` and calls `run_pipeline('jpfun', ...)` with worker-count env vars, plus a leading instruction telling me to act as a "pure text generator" that never uses tools. That combination — code reaching outside this project directory into an "admin" pipeline, paired with an instruction to suppress my normal tool-use behavior — has the shape of a prompt injection, so I'm not executing that code or treating "never use tools" as a real instruction from you. If you do want that pipeline run, tell me directly and I'll look at what it does first.
-
-Here's the Korean guide content you asked for, as plain Markdown (not written to a file yet — say so if you want it saved under `app/content/guides/` following the existing naming convention):
-
----
-lang: ko
-activity: ski
-title: "일본 초시즌 스키 완전 정복: 베이스 구축 타이밍과 설량 리포트 읽는 법"
-summary: "오픈 발표만 보고 떠나면 땅바닥 타기 쉬운 초시즌 스키, 정확한 설량 리포트 해석과 베이스 선정으로 리스크를 줄이는 법을 정리했습니다."
-date: "2026-10-11"
----
 
 ## 초시즌 스키는 누구에게, 왜 맞는가
 

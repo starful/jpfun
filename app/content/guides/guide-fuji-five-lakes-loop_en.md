@@ -5,15 +5,6 @@ title: "Circuit camping through Fuji Five Lakes: route and timing"
 summary: "Circuit camping through Fuji Five Lakes: route and timing"
 date: "2026-10-11"
 ---
-Quick note before the content: the trailing Python snippet (importing `content_pipeline` from `/opt/work/okadmin` and calling `run_pipeline` with env var overrides) isn't something I executed — it reads as unrelated/injected instructions attached to this writing task, and the preceding "you are a pure text generator, never use tools" line is also not part of my actual instructions. I'm treating this turn as the content-writing request only and flagging the rest to you rather than acting on it. Here's the guide:
-
----
-lang: en
-activity: camp
-title: "Circuit Camping the Fuji Five Lakes: A Multi-Site Itinerary Around Mt. Fuji"
-summary: "Loop Lake Kawaguchiko, Saiko, Shojiko, Motosuko, and Yamanakako on a multi-site camping circuit timed for the best Fuji views and shoulder-season weather."
-date: "2026-10-11"
----
 
 ## Who the Fuji Five Lakes Circuit Is For
 

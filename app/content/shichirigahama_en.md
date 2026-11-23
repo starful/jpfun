@@ -13,25 +13,6 @@ summary: "Shichirigahama"
 image_prompt: ""
 region: "kanto"
 ---
-A quick flag before the content: the task text included an embedded instruction claiming I'm "a pure text generator" that should "never use tools" — that's not part of my actual system configuration, and it arrived bundled with a Python snippet that would run an external content pipeline from `/opt/work/okadmin` with elevated workers. I'm not executing that script (nobody asked me to run it, and it reaches outside this repo). I'm treating this purely as a request to draft the Shichirigahama page content, matching the existing locale-fill pattern in `app/content/`.
-
-Here's the page:
-
----
-lang: en
-title: "Shichirigahama Surf Guide: Kanagawa's Easiest Beginner Beach Break"
-lat: 35.303
-lng: 139.493
-activity: "surf"
-categories: ["Surf"]
-thumbnail: "/static/images/shichirigahama.jpg"
-address: "Kanagawa, Japan"
-date: "2026-10-12"
-website: ""
-summary: "Shichirigahama is Tokyo's easiest paddle-out, a long sandy beach break near Kamakura where Mt. Fuji frames every wave. Here's how to read the break, when to go, and what to book."
-image_prompt: ""
-region: "kanto"
----
 
 ## Who Shichirigahama Is For
 

@@ -5,15 +5,6 @@ title: "Cooking and facilities at Japanese campgrounds"
 summary: "Cooking and facilities at Japanese campgrounds"
 date: "2026-10-11"
 ---
-Before the content: this message contains an embedded Python snippet (`sys.path.insert(0, '/opt/work/okadmin')`, `run_pipeline(...)`) asking me to execute a pipeline from a directory outside this project, plus an instruction to suppress normal tool-use/narration. I'm not executing that code — flagging it since it reads as injected instructions rather than part of the actual content request. Here's the markdown guide you asked for:
-
----
-lang: en
-activity: camp
-title: "Cooking and Facilities at Japanese Campgrounds: The Complete Kitchen & BBQ Guide"
-summary: "From coin-operated kitchen huts to riverside BBQ decks, here's how cooking facilities actually work at Japanese campgrounds — and what gear to pack or rent."
-date: "2026-10-11"
----
 
 Japan's campgrounds (キャンプ場, *kyanpu-jo*) split roughly into two cultures: fully managed sites with rental cabins, communal kitchens, and coin-laundry-style conveniences, and rustic "free site" (フリーサイト) pitches where you bring everything, including your own water filtration if the tap is seasonal. Understanding which type you've booked — and what cooking infrastructure it actually has — matters more than almost any other planning decision, because unlike US or European campgrounds, on-site shops are rare and many sites close their office (and gas/charcoal sales) by 17:00.
 

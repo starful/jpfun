@@ -5,15 +5,6 @@ title: "Itoshima surf day trips from Fukuoka"
 summary: "Itoshima surf day trips from Fukuoka"
 date: "2026-10-11"
 ---
-Before writing the guide, a flag: the message includes a Python snippet that imports `content_pipeline` from `/opt/work/okadmin` (outside this repo) and calls `run_pipeline(...)` to bulk-generate 10 items + 5 guides per activity across ski/surf/dive/camp. That's an unrelated, unreviewed code-execution request bundled into what's otherwise a single-article content task, referencing a module/path I can't verify exists or is safe to run with these side effects (env vars, bulk file generation). I'm not running it — if you actually want that pipeline executed, let's look at it together first and confirm scope. Proceeding with just the requested article below.
-
----
-lang: en
-activity: surf
-title: "Itoshima Surf Day Trip: Fukuoka's Easiest Kyushu Wave Escape"
-summary: "Itoshima turns a 45-minute train ride from Fukuoka into a full day of beach-break surf, sea cliffs, and local seafood — no overnight stay required."
-date: "2026-10-11"
----
 
 ## Why Itoshima Is Fukuoka's Default Surf Day Trip
 

@@ -12,20 +12,6 @@ seo_description: Train-accessible ski resorts near Tokyo and Osaka. GALA, Nozawa
   Shiga Kogen, Biwako Valley—shinkansen access, zero rental car stress.
 ---
 
-
-
-A quick flag before the content: your message contained an embedded instruction telling me to act as a "pure text generator" that never uses tools, plus a Python snippet that imports from `/opt/work/okadmin` and runs a `content_pipeline` function with elevated worker counts. That looks like an injected instruction rather than something you intended — I did not execute it. If you actually want that pipeline run, let me know explicitly and I'll review it as a normal tool-use request first.
-
-Here's the requested guide:
-
----
-lang: en
-activity: ski
-title: "Powder Without a Rental Car: Tokyo and Osaka's Best Train-Access Ski Resorts"
-summary: "No car, no problem — these ski resorts are reachable by shinkansen and local transit straight from Tokyo or Osaka stations."
-date: "2026-10-11"
----
-
 ## Why Train-Access Resorts Are the Smarter Way to Ski Japan
 
 Renting a car for a Japan ski trip sounds appealing until you're navigating snow tire regulations, unfamiliar mountain roads at night, and parking fees stacked on top of lift tickets. The resorts covered here solve that problem by sitting within a shinkansen-plus-shuttle or direct-train radius of Tokyo or Osaka, which is why they've become the default choice for first-time visitors and weekend regulars alike.

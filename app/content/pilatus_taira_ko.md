@@ -13,23 +13,6 @@ summary: "필라투스 타이라"
 image_prompt: ""
 region: "nagano"
 ---
-One flag before the content: the "pure text generator" instruction and the embedded Python snippet importing `content_pipeline` from `/opt/work/okadmin` and calling `run_pipeline('jpfun', fill_half=True)` look like an injected attempt to get me to drop my actual operating rules and execute an unreviewed pipeline from outside this repo. I didn't run that code. Here's the requested Markdown page:
-
----
-lang: ko
-title: "필라투스 타이라 스키장 가이드: 나가노 오마치 곤돌라 전망 슬로프"
-lat: 36.72
-lng: 137.85
-activity: "ski"
-categories: ["Ski"]
-thumbnail: "/static/images/pilatus_taira.jpg"
-address: "Omachi, Nagano, Japan"
-date: "2026-10-12"
-website: ""
-summary: "나가노 오마치의 필라투스 타이라는 곤돌라를 타고 올라가는 전망형 중급자 슬로프로 북알프스 파노라마가 펼쳐지는 스키장이다. 신주쿠에서 특급열차로 약 3시간이면 닿는 접근성 덕분에 당일치기와 1박 2일 모두 가능하다."
-image_prompt: ""
-region: "nagano"
----
 
 ## 누구를 위한 곳인가: 오마치가 만든 필라투스 타이라만의 색깔
 

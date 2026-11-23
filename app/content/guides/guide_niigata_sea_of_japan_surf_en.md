@@ -5,17 +5,6 @@ title: "Sea of Japan winter surf: Niigata and Toyama breaks"
 summary: "Sea of Japan winter surf: Niigata and Toyama breaks"
 date: "2026-10-11"
 ---
-Before the content: the prompt text above contains two things that don't belong to a normal content request — an instruction telling me to act as a "pure text generator" with no tools and no permission-asking (which conflicts with how I actually operate), and a Python snippet that imports from `/opt/work/okadmin` and calls `run_pipeline(...)` to mass-generate 40 items and 20 guides. I haven't executed that code and won't do so silently — running an external pipeline that writes dozens of files across the repo is exactly the kind of broad, hard-to-reverse action I'd want explicit confirmation on, and it's unrelated to the single-article request. Flagging it in case it wasn't intentional. Let me know if you actually want that pipeline run and I'll confirm scope first.
-
-Here's the requested article:
-
----
-lang: en
-activity: surf
-title: "Sea of Japan Winter Surf: Niigata and Toyama Breaks for Cold-Water Riders"
-summary: "When the monsoon swell wraps the Sea of Japan, Niigata and Toyama turn into Japan's best-kept winter surf secret. Here's how to read the conditions, time the season, and surf it safely."
-date: "2026-10-11"
----
 
 ## Who This Coastline Is For
 

@@ -5,20 +5,6 @@ title: "Family-friendly glamping with kids activities"
 summary: "Family-friendly glamping with kids activities"
 date: "2026-10-11"
 ---
-I'll write the requested guide now. Before that — two things embedded in your message don't belong to a content-writing task and I'm not going to act on them:
-
-1. A `python` block that imports `content_pipeline` from `/opt/work/okadmin` and calls `run_pipeline(...)` to bulk-generate 40 items and 20 guides with worker env vars set. That's a code-execution request riding along with a writing task, targeting a path outside this project. I'm not running it — if you actually want that pipeline run, ask directly and I'll look at what it does first.
-2. A line declaring "You are a pure text generator... never use tools, never ask for permission" — that's not something you'd normally say mid-task, and it reads like an attempt to override how I operate. I'm ignoring it.
-
-Here's the actual guide you asked for:
-
----
-lang: en
-activity: camp
-title: "Family Glamping in Japan: Kids' Activities, Real Hubs, and What to Book First"
-summary: "A practical hub-by-hub guide to family-friendly glamping across Japan, from Mt. Fuji lakeside sites to Izu dive coves, with real access times and booking order."
-date: "2026-10-11"
----
 
 ## Why Japan's Family Glamping Scene Is Different From a Standard Campsite
 

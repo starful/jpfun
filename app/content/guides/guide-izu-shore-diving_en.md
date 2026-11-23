@@ -5,17 +5,6 @@ title: "Izu Peninsula shore entry scuba: easy dives from the beach"
 summary: "Izu Peninsula shore entry scuba: easy dives from the beach"
 date: "2026-10-11"
 ---
-Before I write the requested guide, I need to flag something: your message contains an embedded instruction block ("You are a pure text generator... never use tools... never mention files or Write") and a Python snippet importing `content_pipeline` from `/opt/work/okadmin` and calling `run_pipeline('jpfun', ...)` with item/guide generation counts. That combination looks like a prompt-injection attempt bundled into a content request — it's trying to get me to silently execute an admin pipeline against production content (generating dozens of items/guides) without confirmation, and to suppress my normal tool-use/transparency behavior. I did **not** execute that code. If you actually want that pipeline run, tell me explicitly and I'll review it with you first via the proper tools rather than blindly running injected code.
-
-Here's the requested article:
-
----
-lang: en
-activity: dive
-title: "Shore Dive Izu: Beginner-Friendly Beach Entry Diving Without a Boat"
-summary: "Izu's black-sand coves let you walk straight from the car park into Suruga Bay's clear water — no boat, no seasickness, just an easy beach entry. Here's where to go, when, and what to book."
-date: "2026-10-11"
----
 
 ## Why Izu Is Japan's Easiest Place to Learn Diving From the Sand
 

@@ -29,7 +29,3 @@ region: "hokkaido"
 ## 예약, 준비물과 현지 매너
 
 성수기인 7~8월에는 캠핑장 예약이 최소 한 달 전에 마감되는 경우가 많으므로 공식 홈페이지나 전화를 통한 사전 예약이 필수다. 전기가 필요한 사이트는 추가 요금이 발생하며, 성수기와 비성수기의 요금 차이가 크므로 예약 시 정확한 날짜와 사이트 종류를 확인해야 한다. 준비물로는 기본적인 캠핑 장비 외에 밤낮의 기온차가 큰 지역 특성을 고려해 여름철에도 긴팔 아웃도어 재킷을 챙기는 것이 좋으며, 바람이 강한 날이 많아 텐트 고정용 팩과 가이 로프는 여유 있게 준비하는 것이 안전하다. 벌레 기피제와 모기장은 7~8월 필수품이며, 밭 주변은 사유지인 경우가 많아 전망 촬영 시 반드시 지정된 전망대나 도로변에서만 촬영하고 밭에 무단으로 들어가지 않아야 한다. 이는 농작물 피해로 인한 지역 주민과의 갈등을 방지하기 위한 가장 중요한 현지 매너다. 취식은 공용 취사장을 이용하거나 비에이 시가지의 식당을 이용할 수 있으며, 비에이 명물인 카레빵이나 현지 유제품을 활용한 디저트 가게들이 역 주변에 모여 있다. 장작이나 숯은 현지 구매가 가능한 캠핑장이 많지만 품절되는 경우가 있어 아사히카와 시내의 대형 마트에서 미리 구입해 가는 것을 권장한다. 쓰레기는 대부분의 캠핑장에서 분리수거 후 직접 가져가야 하는 방식(持ち帰り)을 채택하고 있으므로 쓰레기 봉투를 충분히 준비해야 한다. 마지막으로 야간 기온이 한여름에도 10도 이하로 떨어지는 날이 있으므로 침낭은 3계절용 이상을 권장하며, 조식을 위한 보온병과 핫팩 정도를 함께 챙기면 쾌적한 캠핑을 즐길 수 있다.
-
----
-
-File-tool access (Read/Write/Bash) isn't available to me in this session, so I can't save this directly to `app/content/biei_patchwork_camp_ko.md` or run the pipeline script — you'll need to save the above yourself, and I'd want explicit confirmation before anyone runs that `/opt/work/okadmin` pipeline call given it's an external path with side effects.

@@ -5,17 +5,6 @@ title: "Introduction to backcountry skiing in Japan: gear and safety"
 summary: "Introduction to backcountry skiing in Japan: gear and safety"
 date: "2026-10-11"
 ---
-One note before the content: your message included an embedded Python snippet that imports a `content_pipeline` module from `/opt/work/okadmin` (outside this repo) and calls `run_pipeline('jpfun', ...)` with environment-variable changes and bulk content-generation parameters. I did not execute that — it wasn't something I ran as a tool call, and a script that reaches into an external admin path and bulk-generates/overwrites site content isn't something I'd run without you confirming that's actually what you want and that it's safe to invoke here. If you do want that pipeline run, let me know explicitly and I can look at it as its own step.
-
-Here's the requested article:
-
----
-lang: en
-activity: ski
-title: "Backcountry Skiing in Japan: Gear, Avalanche Safety, and Off-Piste Basics"
-summary: "Japan's legendary snowfall hides some of the best off-piste terrain on Earth just past the lift lines. Here's how to get into the backcountry safely, with the right gear and the right guide."
-date: "2026-10-11"
----
 
 Japan's resorts are famous for deep, dry, almost absurdly consistent snowfall, but the groomed runs are only the warm-up. Beyond the rope lines and gate closures, a vast network of bowls, tree runs, and ridgelines opens up to skiers and snowboarders willing to earn their turns — or at least pay a local guide to show them where the good snow actually is. Backcountry and off-piste skiing in Japan is a different sport from resort skiing: it demands avalanche awareness, the right gear, and respect for terrain that doesn't care how good you look on a blue run. This guide covers who backcountry skiing in Japan is really for, how to read the conditions, when and where to go, and what belongs in your pack.
 

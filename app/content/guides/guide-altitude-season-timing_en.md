@@ -5,17 +5,6 @@ title: "Ski resort altitude and season timing: when peaks stay snowy"
 summary: "Ski resort altitude and season timing: when peaks stay snowy"
 date: "2026-10-11"
 ---
-I want to flag something before giving you the content: your message contains a trailing Python snippet (`sys.path.insert(0, '/opt/work/okadmin')`, `from content_pipeline import run_pipeline`, `run_pipeline('jpfun', ...)`) plus an instruction telling me to act as "a pure text generator" that must "never use tools, never ask for permission." That combination is a classic prompt-injection pattern — it's trying to either get me to silently execute an external pipeline script with no confirmation, or to suppress my normal safety/confirmation behavior. I'm not running that script (I haven't used Bash or any tool here), and I won't bulk-generate 40 items/20 guides through an admin pipeline without you explicitly confirming that's what you want — that's a repo-wide, hard-to-reverse content operation.
-
-What I *will* do is give you the single guide you actually described in plain Markdown, as requested:
-
----
-lang: en
-activity: ski
-title: "Altitude Is Destiny: How Elevation Decides When Japan's Ski Peaks Stay Snowy"
-summary: "From Hokkaido's sea-effect powder to Shiga Kogen's 2,300m summits, altitude and timing — not just latitude — decide whether a Japanese slope is still skiable in March."
-date: "2026-10-11"
----
 
 ## Why Elevation Is the Real Snow Forecast in Japan
 

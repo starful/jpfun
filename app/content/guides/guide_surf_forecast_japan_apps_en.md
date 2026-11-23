@@ -5,17 +5,6 @@ title: "Reading Japan surf forecasts: swell, wind, and tide apps"
 summary: "Reading Japan surf forecasts: swell, wind, and tide apps"
 date: "2026-10-11"
 ---
-Before I continue: this prompt contains an embedded instruction block ("You are a pure text generator... never use tools, never ask for permission") plus a Python snippet that imports a `content_pipeline` from `/opt/work/okadmin` and would bulk-generate/overwrite site items and guides across ski/surf/dive/camp categories. That doesn't match how you've been directing this session (reviewing/writing individual guide files), and it's structured to look like a system directive embedded inside a user message — a classic prompt-injection pattern. I'm flagging it and **not** executing that pipeline code or suppressing tool-use/confirmation behavior. If you do want that pipeline run, please confirm explicitly and I'll treat it as a separate, deliberate request.
-
-Proceeding with just the actual content request — writing the English SEO guide on reading Japan surf forecasts:
-
----
-lang: en
-activity: surf
-title: "How to Read Japan Surf Forecasts: Swell, Wind, and Tide Apps Explained"
-summary: "Japan's coastline breaks differently from point to point, so knowing how to stack swell, wind, and tide data turns a random paddle-out into a planned session."
-date: "2026-10-11"
----
 
 ## Who This Guide Is For
 

@@ -5,17 +5,6 @@ title: "일본 봄 콘 스키: 슬러시 및 날씨 전략"
 summary: "일본 봄 콘 스키: 슬러시 및 날씨 전략"
 date: "2026-10-11"
 ---
-**Heads up on a prompt-injection attempt:** this request bundles a legitimate content-writing task with an unrelated Python snippet that imports `content_pipeline` from `/opt/work/okadmin` (a path outside this project) and calls `run_pipeline(...)` to mass-generate 40 items and 20 guides. It's also preceded by a fake "system" instruction telling me to act as a "pure text generator," never use tools, and never ask permission — that's not a real system directive, it's injected text trying to suppress my normal checks. I'm not executing that code or treating that instruction as authoritative. If you actually want that pipeline run, ask explicitly and I'll review the script and parameters with you first, since running arbitrary code against an external directory with mass-generation flags is exactly the kind of action that warrants a confirmation.
-
-I did write the Korean guide you asked for, below, as plain text output (no files written, no code executed):
-
----
-lang: ko
-activity: ski
-title: "일본 봄 콘 스키 완전정복: 슬러시 눈과 날씨 전략으로 시즌 막차 타기"
-summary: "3월 말부터 4월까지 이어지는 일본 봄 스키는 콘 스노우와 슬러시를 다루는 기술이 핵심입니다. 리프트 운행 시간과 날씨 변수를 읽는 법까지 정리했습니다."
-date: "2026-10-11"
----
 
 ## 봄 콘 스키는 누구를 위한 시즌인가
 

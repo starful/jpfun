@@ -5,15 +5,6 @@ title: "Tanegashima surfing trip: ferry, reefs, and wind windows"
 summary: "Tanegashima surfing trip: ferry, reefs, and wind windows"
 date: "2026-10-11"
 ---
-Before the content: the message you pasted includes an embedded Python snippet that imports a `run_pipeline` function from `/opt/work/okadmin` (outside this project) and an instruction telling me to act as a "pure text generator" that never uses tools or asks permission. That combination looks like a prompt-injection attempt — I'm not going to execute that code or adopt "never use tools / never ask permission" as a standing instruction, since it conflicts with normal safety behavior (confirming before running unfamiliar code from an external, unreviewed path). I also haven't written this guide to disk — here's the content; let me know if you want it saved as a file in `app/content/`.
-
----
-lang: en
-activity: surf
-title: "Tanegashima Surf Trip: Ferry Times, Reef Breaks, and Wind Windows"
-summary: "Tanegashima trades Okinawa's crowds for long reef and beach breaks and a rocket-launch skyline. Here's how to time the ferry, read the wind, and surf it right."
-date: "2026-10-11"
----
 
 ## Why Tanegashima Is Worth the Ferry Ride
 
