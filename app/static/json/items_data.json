@@ -1,7 +1,28 @@
 {
-  "last_updated": "2026-11-15",
+  "last_updated": "2026.11.23",
   "total_count": 626,
   "items": [
+    {
+      "id": "ichinomiya_beach_en",
+      "lang": "en",
+      "title": "Ichinomiya Beach: Chiba's Classic Beginner Surf Break",
+      "lat": 35.37742610000001,
+      "lng": 140.3909912,
+      "activity": "surf",
+      "categories": [
+        "Surf"
+      ],
+      "thumbnail": "/static/images/ichinomiya_beach.jpg",
+      "youtube_id": "",
+      "address": "Ichinomiya beach, Ichinomiya, Chōsei District, Chiba 299-4301",
+      "published": "2026-11-15",
+      "summary": "Ichinomiya Beach is the beginner-friendly heart of Chiba's surf coast, with dependable beach-break waves year-round. A straightforward Tokyo day trip that doubles as Japan's Oly...",
+      "website": "",
+      "tel": "",
+      "region": "",
+      "source_image": "",
+      "link": "/item/ichinomiya_beach_en"
+    },
     {
       "id": "blue_cave_okinawa_en",
       "lang": "en",
@@ -16,7 +37,7 @@
       "youtube_id": "",
       "address": "469-1 Maeda, Onna, Kunigami District, Okinawa 904-0417",
       "published": "2026-11-15",
-      "summary": "Okinawa's Blue Cave pairs a shallow, light-filled cavern with easy reef diving just steps from the shore at Maeda Point. A forgiving, scenic dive that rewards first-timers and snorkelers alike.",
+      "summary": "Okinawa's Blue Cave pairs a shallow, light-filled cavern with easy reef diving just steps from the shore at Maeda Point. A forgiving, scenic dive that rewards first-timers and s...",
       "website": "",
       "tel": "",
       "region": "",
@@ -43,27 +64,6 @@
       "region": "",
       "source_image": "",
       "link": "/item/blue_cave_okinawa_ko"
-    },
-    {
-      "id": "ichinomiya_beach_en",
-      "lang": "en",
-      "title": "Ichinomiya Beach: Chiba's Classic Beginner Surf Break",
-      "lat": 35.37742610000001,
-      "lng": 140.3909912,
-      "activity": "surf",
-      "categories": [
-        "Surf"
-      ],
-      "thumbnail": "/static/images/ichinomiya_beach.jpg",
-      "youtube_id": "",
-      "address": "Ichinomiya beach, Ichinomiya, Chōsei District, Chiba 299-4301",
-      "published": "2026-11-15",
-      "summary": "Ichinomiya Beach is the beginner-friendly heart of Chiba's surf coast, with dependable beach-break waves year-round. A straightforward Tokyo day trip that doubles as Japan's Olympic surfing venue.",
-      "website": "",
-      "tel": "",
-      "region": "",
-      "source_image": "",
-      "link": "/item/ichinomiya_beach_en"
     },
     {
       "id": "ichinomiya_beach_ko",
@@ -475,7 +475,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/tokushima_hayama_kaigan.jpg",
-      "youtube_id": "",
+      "youtube_id": "Z1OXKJ3VVTE",
       "address": "Tokushima, Japan",
       "published": "2026-10-27",
       "summary": "시코쿠 도쿠시마의 숨은 비치 브레이크, 하야마 카이간에서 모래 바닥의 부드러운 라이딩을 즐겨보세요. 초보부터 중급 서퍼까지 만족할 수 있는 접근성 좋은 서핑 스폿입니다.",
@@ -622,7 +622,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/nasu_forest_camp_base.jpg",
-      "youtube_id": "",
+      "youtube_id": "ZetH-iXe0zE",
       "address": "Nasu, Tochigi, Japan",
       "published": "2026-10-27",
       "summary": "도쿄에서 2시간 거리, 해발 700m 고원 숲속에서 즐기는 나스 포레스트 캠프는 가족 단위 초보 캠퍼부터 글램핑을 원하는 커플까지 모두를 만족시키는 돗치기현 대표 캠핑지입니다.",
@@ -979,7 +979,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/tokushima_hayama_kaigan.jpg",
-      "youtube_id": "",
+      "youtube_id": "Z1OXKJ3VVTE",
       "address": "Tokushima, Japan",
       "published": "2026-10-27",
       "summary": "A forgiving, sandy-bottomed beach break on Tokushima's Pacific-facing coast where peaks shift with every swell. Here's how to read it, time it, and surf it without wasting a session.",
@@ -1021,7 +1021,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/nasu_forest_camp_base.jpg",
-      "youtube_id": "",
+      "youtube_id": "ZetH-iXe0zE",
       "address": "Nasu, Tochigi, Japan",
       "published": "2026-10-27",
       "summary": "A cool-climate forest campground on the Nasu highlands that pairs easy family-friendly sites with glamping options nearby and quick access to onsen towns.",
@@ -1525,7 +1525,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/amami_tomori_beach_reef.jpg",
-      "youtube_id": "",
+      "youtube_id": "jmQowC-dm5Q",
       "address": "Amami, Kagoshima, Japan",
       "published": "2026-10-11",
       "summary": "A shallow coral reef you can walk into straight from the sand, Tomori Beach is Amami's easiest introduction to subtropical diving. Calm water, healthy coral, and zero boat logistics make it a favorite for first dives and refresher skills.",
@@ -1630,7 +1630,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/aso_kusasenri_camp.jpg",
-      "youtube_id": "",
+      "youtube_id": "7yal0nvBu7U",
       "address": "Aso, Kumamoto, Japan",
       "published": "2026-10-11",
       "summary": "아소산 칼데라 안에 펼쳐진 광활한 초원 지대, 쿠사센리에서 차를 세우고 그대로 캠핑을 즐길 수 있는 구마모토 대표 카캠핑지입니다.",
@@ -1819,7 +1819,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/izu_daruma_mountain_camp.jpg",
-      "youtube_id": "",
+      "youtube_id": "n_PxJ2PyecI",
       "address": "Izu, Shizuoka, Japan",
       "published": "2026-10-11",
       "summary": "Izu Daruma Mountain Camp pairs easy car camping with cool mountain air just minutes from the coast. It's the low-stress weekend reset that Tokyo campers keep coming back to.",
@@ -1840,7 +1840,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/irago_beach.jpg",
-      "youtube_id": "",
+      "youtube_id": "voQzP3tufek",
       "address": "Aichi, Japan",
       "published": "2026-10-11",
       "summary": "아이치현 이라고곶 끝자락, 태평양과 정면으로 만나는 비치브레이크 이라고 비치를 서핑 관점에서 꼼꼼히 정리했습니다. 접근 방법부터 시즌별 스웰, 현지에서 챙겨야 할 매너까지 한 번에 확인하세요.",
@@ -1987,7 +1987,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/ishigaki_kabira_ishizaki.jpg",
-      "youtube_id": "",
+      "youtube_id": "VCbMRe4d7R0",
       "address": "Ishigaki, Okinawa, Japan",
       "published": "2026-10-11",
       "summary": "Kabira Ishizaki is Ishigaki's premier manta cleaning station, reached by boat and best suited to divers comfortable with current and depth.",
@@ -2134,7 +2134,7 @@
         "Surf"
       ],
       "thumbnail": "/static/images/irago_beach.jpg",
-      "youtube_id": "",
+      "youtube_id": "voQzP3tufek",
       "address": "Aichi, Japan",
       "published": "2026-10-11",
       "summary": "A wide-open Pacific beach break at the tip of the Atsumi Peninsula that catches swell nearly year-round. Irago rewards surfers who know how to read a shifting sandbar more than those chasing a postcard wave.",
@@ -2155,7 +2155,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/izu_daruma_mountain_camp.jpg",
-      "youtube_id": "",
+      "youtube_id": "n_PxJ2PyecI",
       "address": "Izu, Shizuoka, Japan",
       "published": "2026-10-11",
       "summary": "이즈 반도 능선 위, 차로 바로 올라가는 산악 캠프에서 후지산과 스루가만 야경을 동시에 즐긴다.",
@@ -2365,7 +2365,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/ishigaki_kabira_ishizaki.jpg",
-      "youtube_id": "",
+      "youtube_id": "VCbMRe4d7R0",
       "address": "Ishigaki, Okinawa, Japan",
       "published": "2026-10-11",
       "summary": "이시가키 북서단 이시자키(石崎)는 만타 클리닝 스테이션을 품은 보트 다이빙 명소로, 겨울~봄 시즌 조류를 타는 어드밴스드 다이버에게 최고의 선택지다. 카비라만에서 보트로 20분이면 닿는 접근성과 높은 만타 조우율이 매력이다.",
@@ -2701,7 +2701,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/aso_kusasenri_camp.jpg",
-      "youtube_id": "",
+      "youtube_id": "7yal0nvBu7U",
       "address": "Aso, Kumamoto, Japan",
       "published": "2026-10-11",
       "summary": "Pitch a tent inside one of the world's largest calderas and wake up to rolling grassland and grazing horses. Aso Kusasenri Camp pairs car-camp convenience with genuinely wild scenery.",
@@ -2785,7 +2785,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/amami_tomori_beach_reef.jpg",
-      "youtube_id": "",
+      "youtube_id": "jmQowC-dm5Q",
       "address": "Amami, Kagoshima, Japan",
       "published": "2026-10-11",
       "summary": "Amami Tomori Beach Reef는 해안에서 바로 입수해 산호 군락을 만나는 초보자 친화형 쇼어 다이빙 포인트다. 장비 대여부터 숙소, 성수기까지 실전 정보를 정리했다.",
@@ -3226,7 +3226,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/atsumi_peninsula_camp.jpg",
-      "youtube_id": "",
+      "youtube_id": "O2PSih2c7Ao",
       "address": "Aichi, Japan",
       "published": "2026-10-06",
       "summary": "아이치현 아쓰미 반도에서 차를 세운 자리가 곧 캠프사이트가 되는 해안 차박 캠핑 명소. 해변 접근성과 온화한 기후로 사계절 캠핑이 가능하다.",
@@ -3604,7 +3604,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/hiba_mountain_glamping.jpg",
-      "youtube_id": "",
+      "youtube_id": "e6Dm-d0wvkw",
       "address": "Hiroshima, Japan",
       "published": "2026-10-06",
       "summary": "히로시마 쇼바라시 히바 산 자락에서 즐기는 산악 글램핑, 울창한 숲과 고요한 밤하늘 아래 머무는 특별한 하룻밤.",
@@ -3940,7 +3940,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/hiba_mountain_glamping.jpg",
-      "youtube_id": "",
+      "youtube_id": "e6Dm-d0wvkw",
       "address": "Hiroshima, Japan",
       "published": "2026-10-06",
       "summary": "Hiba Mountain Glamping pairs deep forest quiet with real comfort, making it Hiroshima's go-to spot for beginners and veteran campers alike. Cool highland air, tall cedar stands, and easy car access turn a weekend here into an unexpectedly restorative trip.",
@@ -4822,7 +4822,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/atsumi_peninsula_camp.jpg",
-      "youtube_id": "",
+      "youtube_id": "O2PSih2c7Ao",
       "address": "Aichi, Japan",
       "published": "2026-10-06",
       "summary": "Pitch your tent steps from the Pacific on the Atsumi Peninsula, where car camping meets beach access without the crowds of Japan's bigger coastal resorts.",
@@ -5242,7 +5242,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/okinawa_chatan_reef.jpg",
-      "youtube_id": "",
+      "youtube_id": "ymVcY2JGvbQ",
       "address": "Okinawa, Japan",
       "published": "2026-09-28",
       "summary": "나하 시내에서 차로 30분, 초보자도 부담 없이 들어갈 수 있는 차탄 해안의 얕은 산호초 다이빙 스팟을 소개합니다. 열대어와 테이블 산호가 가득한 정원 같은 수중 풍경을 만나보세요.",
@@ -5620,7 +5620,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/okinawa_chatan_reef.jpg",
-      "youtube_id": "",
+      "youtube_id": "ymVcY2JGvbQ",
       "address": "Okinawa, Japan",
       "published": "2026-09-28",
       "summary": "A gentle, reef-fringed shoreline in central Okinawa where first-timers and certified divers alike can drift over coral gardens minutes from the car park. Warm water, easy entries, and reliable visibility make it one of the island's most forgiving dive spots.",
@@ -7132,7 +7132,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/akakura_kanko.jpg",
-      "youtube_id": "",
+      "youtube_id": "tB28M_-Cx_U",
       "address": "Iwate, Japan",
       "published": "2026-09-26",
       "summary": "이와테현 깊은 산중에 자리한 아카쿠라 칸코는 질 좋은 파우더 스노우와 로프웨이 접근성을 갖춘 전통 있는 스키 리조트다.",
@@ -7258,7 +7258,7 @@
         "Ski"
       ],
       "thumbnail": "/static/images/akakura_kanko.jpg",
-      "youtube_id": "",
+      "youtube_id": "tB28M_-Cx_U",
       "address": "Iwate, Japan",
       "published": "2026-09-26",
       "summary": "Akakura Kanko pairs deep, dry Tohoku powder with a classic ropeway-served layout built for intermediate skiers who want mileage, not crowds.",
@@ -8077,7 +8077,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/dive_pending_07.jpg",
-      "youtube_id": "",
+      "youtube_id": "utObEuQqViI",
       "address": "Atami Dive Point, Japan",
       "published": "2026-09-20",
       "summary": "도쿄에서 가장 가까운 다이빙 성지 아타미, 초보자부터 베테랑까지 만족시키는 다채로운 수중 지형이 매력입니다.",
@@ -8329,7 +8329,7 @@
         "Dive"
       ],
       "thumbnail": "/static/images/dive_pending_07.jpg",
-      "youtube_id": "",
+      "youtube_id": "utObEuQqViI",
       "address": "Atami Dive Point, Japan",
       "published": "2026-09-20",
       "summary": "Atami Dive Point pairs sheltered bay diving with hot-spring comfort, making it one of the easiest year-round dive bases near Tokyo. Here's who it suits, what the sites are like, and how to plan a trip that actually works.",
@@ -8707,7 +8707,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/camp_pending_04.jpg",
-      "youtube_id": "",
+      "youtube_id": "Ou0rHdvPl4M",
       "address": "Manza Campground, Japan",
       "published": "2026-09-15",
       "summary": "해발 1,800m 고원에 자리한 만자 캠핑장에서 서늘한 여름밤과 온천을 동시에 즐겨보세요. 도쿄에서 당일 이동도 가능한 간토 지역 대표 고지대 캠핑지입니다.",
@@ -9127,7 +9127,7 @@
         "Camp"
       ],
       "thumbnail": "/static/images/camp_pending_04.jpg",
-      "youtube_id": "",
+      "youtube_id": "Ou0rHdvPl4M",
       "address": "Manza Campground, Japan",
       "published": "2026-09-15",
       "summary": "Manza Campground pairs high-elevation forest sites with easy Kanto access, making it a solid pick for campers who want quiet nights without a long drive.",
@@ -10295,7 +10295,7 @@
     {
       "id": "niseko_hanazono_en",
       "lang": "en",
-      "title": "Niseko Hanazono Ski Resort: Family Slopes, Burton Park & Quieter than Hirafu",
+      "title": "Niseko Hanazono Ski Resort: Family Slopes, Burton Park & Quieter Base (vs Hirafu)",
       "lat": 42.897,
       "lng": 140.715,
       "activity": "ski",
@@ -10306,7 +10306,7 @@
       "youtube_id": "WmdZFk933Io",
       "address": "Hanazono, Kutchan, Hokkaido, Japan",
       "published": "2026-08-15",
-      "summary": "Hanazono delivers family terrain and Burton park on slopes quieter than central Hirafu, with full Niseko United lift access.",
+      "summary": "Added direct Hirafu comparison to title for search intent clarity. Included new Hanazono vs Hirafu section to help mixed-ability groups choose terrain and logistics.",
       "website": "https://www.niseko.ne.jp/",
       "tel": "",
       "region": "hokkaido",
@@ -10568,7 +10568,7 @@
     {
       "id": "naeba_en",
       "lang": "en",
-      "title": "Naeba Ski Resort Yuzawa: Best Family Powder 2h Tokyo, Prince Hotel + Onsen",
+      "title": "Naeba Ski Resort & Yuzawa Guide: Family Slopes, Prince Hotel, 2 Hours from Tokyo",
       "lat": 36.871,
       "lng": 138.755,
       "activity": "ski",
@@ -10579,7 +10579,7 @@
       "youtube_id": "lRZRiC52JJQ",
       "address": "Yuzawa, Niigata, Japan",
       "published": "2026-08-15",
-      "summary": "Naeba anchors Yuzawa — a family-focused powder resort 2h from Tokyo with Prince Hotel base, groomed runs, and onsen access.",
+      "summary": "Yuzawa's Naeba resort is the fastest family ski escape from Tokyo—train access, Prince Hotel base, kids' programs, and onsen recovery.",
       "website": "https://www.princehotels.co.jp/ski/naeba/",
       "tel": "",
       "region": "niigata",
